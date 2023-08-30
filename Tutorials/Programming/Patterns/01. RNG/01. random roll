@@ -1,0 +1,33 @@
+
+
+
+
+
+
+//Good Example
+
+#define RNG_MAX 0xFFFFFFFFLU
+
+Unsigned long random_roll(unsigned long sides,int addon=1)
+{
+  unsigned long roll, full_ranges, max_roll;
+  full_ranges = RNG_MAX / sides; //integer divide, fraction gets truncated here
+  max_roll = sides *full_ranges;
+  
+  do{
+    roll = next_random_number % sides;
+  }
+  while{
+    roll > max_roll;
+  }
+  return (roll%sides)+ addon;
+}
+
+
+
+//Bad Example
+
+unsigned long random_roll(unsigned long sides,int addon=1)
+{
+  return ((next_random_number() % sides) + addon );
+}

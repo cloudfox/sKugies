@@ -1,0 +1,44 @@
+{
+  "collapse-filter": false,
+  "search": "",
+  "showTags": false,
+  "showAttachments": false,
+  "hideUnresolved": false,
+  "showOrphans": true,
+  "collapse-color-groups": true,
+  "colorGroups": [
+    {
+      "query": "homepage",
+      "color": {
+        "a": 1,
+        "rgb": 16711680
+      }
+    },
+    {
+      "query": "tutorial",
+      "color": {
+        "a": 1,
+        "rgb": 5897984
+      }
+    },
+    {
+      "query": "project",
+      "color": {
+        "a": 1,
+        "rgb": 2818303
+      }
+    }
+  ],
+  "collapse-display": true,
+  "showArrow": true,
+  "textFadeMultiplier": -3,
+  "nodeSizeMultiplier": 1.26375,
+  "lineSizeMultiplier": 5,
+  "collapse-forces": false,
+  "centerStrength": 0.679166666666667,
+  "repelStrength": 13.5833333333333,
+  "linkStrength": 1,
+  "linkDistance": 79,
+  "scale": 1.0000000000000018,
+  "close": false
+}

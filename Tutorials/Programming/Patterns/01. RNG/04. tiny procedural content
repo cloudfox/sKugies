@@ -1,0 +1,29 @@
+
+https://youtu.be/RqO-VhNIBVo?t=1271
+
+//used for patches of grass and trees
+//old code from speakers old game that can be improved a bit
+
+int randomZort(int x, int y, int range){
+  
+  srand(y+(x<<4)+(x<<1)+(y>>2));
+  return(rand()&(range-1));
+}
+
+
+
+void draw_floor(int x, int y){
+  
+  int floor_shape = floor_map[x][y];
+  if( floor_is_remapping(floor_shape))
+    floor_shape += randomzort(x,y,8);
+  draw_base_shape(x,y, floor_shape, FLOORS);
+}
+
+void draw_object(int x, int y){
+  
+  int obj_shape = obj_map[x][y];
+  if( obj_is_remapping(obj_shape)
+    obj_shape += randomzort(x,y,16);
+  draw_base_shape(x,y,obj_shape, OBJECTS);
+}

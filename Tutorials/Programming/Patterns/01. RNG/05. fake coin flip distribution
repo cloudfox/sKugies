@@ -1,0 +1,42 @@
+
+https://www.gdcvault.com/play/1023562/Math-for-Game-Programmers-Random  28:00
+//creates a fake distribution for coin flips that players find more enjoyable
+//controls how often there are multiple same flips in a row
+
+#define BATCH_SIZE 1000
+#define POOLSIZE
+
+//long chances[POOLSIZE] = {40, 20, 10, 5};//bad data too realistic
+
+long chances[POOLSIZE] = {60,20,10,1};
+long values[POOLSIZE] = {1,2,3,4};
+
+long results[BATCH_SIZE];
+long current_result = 0;
+
+void flip_many_coins_v2(){
+
+  int i = 0;
+  if(current_result == 0)
+    current_result = random_roll(2); //flip the first coin
+    
+  do{
+    int run_size = pool_picker()
+    
+    for(int j = 0; j < run_size; j++)
+    {
+      if(j < BATCH_SIZE)
+        results[i++] = current_result;
+    
+    current_result = 3 - current_result;//toggle next coin state.
+    }
+
+  }
+  while(i < BATCH_SIZE);
+  
+  
+}
+
+
+
+

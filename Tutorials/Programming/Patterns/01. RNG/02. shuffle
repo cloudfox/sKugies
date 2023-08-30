@@ -1,0 +1,22 @@
+#define DECK_SIZE 60
+
+Card my_deck[DECK_SIZE];
+
+void shuffle(){
+  
+  Card scratch;
+  for(int i=0; i < DECK_SIZE ; i++){
+      
+      int j = random_roll(DECK_SIZE - i, 0);
+      scratch = my_deck[i];
+      my_deck[i] = my_deck[i+j]
+      my_deck[i+j] = card;
+  }
+  
+}
+
+
+//https://www.youtube.com/watch?v=RqO-VhNIBVo&feature=emb_title
+
+//wikipedia -fisher yates shuffle
+//rossetacode.org/wiki/knuth_shuffle

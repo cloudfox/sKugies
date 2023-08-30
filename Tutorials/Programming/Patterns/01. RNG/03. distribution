@@ -1,0 +1,41 @@
+#define POOLSIZE 6
+
+long chances[POOLSIZE] = {20,20,20,10,5,3,2};
+long values[POOLSIZE] = {1,2,3,5,10,20};
+
+long poolPicker(){
+
+  long totalRandom = 0;
+  for(int i = 0; i < POOLSIZE; i++)
+    totalRandom += chances[i];
+  unsigned long randValue = random_roll(totalRandom);  
+  longAccumulated = 0;
+  for(int i = 0; i < POOLSIZE; i++)
+  {
+    accumulated += chances[i];
+    if(accumulated >= randValue)
+      return values[i];
+  }
+   LogError("poolPickerL generated invalid index.");
+   return -1;
+    
+}
+
+
+
+//this is sampling with replacement
+//it gives an even distribution
+
+//opposite example scrable
+//picking tiles is samping without replacement
+//picked tiles change the distribution for possible future picking
+//drawing a card from a deck is the same as scrabble
+
+
+
+
+
+
+
+
+https://youtu.be/RqO-VhNIBVo?t=720
