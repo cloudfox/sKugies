@@ -63,7 +63,6 @@ for( int i = 0 ; i < 10 ; ++i )
 ```
 
 
-
 ---
 
 range based
@@ -88,4 +87,7 @@ for(int& i : vec)
 
 ----
 #### Nested Loops
+
+
+1.
 
