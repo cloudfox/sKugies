@@ -1,3 +1,15 @@
+[[Learn programming (C++)]]  previous: [[]]   #tutorial
+
+---
+
+
+
+
+
+
+
+
+
 
 Back down to the ground with memory.
 
@@ -10,3 +22,4 @@ new
 delete
 
 
+next: [[]] 

@@ -57,9 +57,10 @@ simple input output
 
 ## Section 2: Intermediate
  [[Memory]] 
- Pointers
+ [[pointers and references]]
+ [[Arrays]] 
  [[Strings]]
- 2d Arrays
+ [[2d Array]] 
  [[File IO]] 
  [[Random Numbers]]
  [[Structs]]
