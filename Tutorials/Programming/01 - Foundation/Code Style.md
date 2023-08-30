@@ -17,8 +17,9 @@ Variable names:
 	-take the context in account
 	-variables should generally describe what they are
 
-Loops often use single letter variables but that is generally fairly clear. Again use the context to decide if a more specific name is needed for better clarity.
+Document your code while you are writing it.
 
+Code is often much easier to understand while you are writing it. Be kind to your future self and add comments and clear variable names.
 
 
 Links to various style guides

@@ -1,5 +1,10 @@
 #tutorial
 
+
+\*This is very much a work in progress
+
+
+
 I'm writing this series with the assumption that you know little if anything about programming. The series will focus on C++ but many of the concepts do carry over to other languages.
 
 I endeavor to give a more broad overview of things before building upon specific topics.
@@ -28,10 +33,6 @@ For simplicity you could alternatively use an IDE like: [vsCode](https://code.vi
 
 To quickly get started https://www.onlinegdb.com/ works just as well.
 
-
-\*This is very much a work in progress
-
-# **Contents**
 ## Section 1: Foundation
 01 [[Hello World|Hello World]] 
 02 [[Variables part 1]] 
@@ -45,8 +46,6 @@ To quickly get started https://www.onlinegdb.com/ works just as well.
 09 [[Code Style]]
 10 [[Documentation]]
 11 [[Programming Paradigms]]
-
-
 
 **Exercises** 
 expressions
@@ -77,10 +76,40 @@ Output to file
 
 
 ## Section 4: Algorithms
-Big O
+Algorithm Analysis
+-time complexity(best, worst, average)
+iterative vs recursive
+sorting
+Turing
+P vs NP problems
+
+strategies
+-brute force
+-divide and conquer
+-back tracking
+-dynamic programming
+-greedy algorithms
+-hybrid algorithms - heuristics
+
+**various problems**
+permutations
+subsets
+combinations
+sorting
+statistics - max, min, etc..
+closest pair
+convex hull
+knapsack
+shortest path
+all pairs shortest path
+min spanning tree
+bidirectional graph
+directional graph
+
+Djisktra
 
 
 
 
 
-
+Other Resources in [[Programming Resources]]
