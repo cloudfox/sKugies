@@ -40,12 +40,13 @@ To quickly get started https://www.onlinegdb.com/ works just as well.
 05 [[Functions]]
 06 [[Scope Lifetime]] 
 07 [[Iteration - Loops]] 
-08 Input Output
+08 [[Simple Input Output]]
 
-09 Variable Names
-[[10 Programming Paradigms]]
-[[11 code style]]
-[[12 Documentation]]
+09 [[Code Style]]
+10 [[Documentation]]
+11 [[Programming Paradigms]]
+
+
 
 **Exercises** 
 expressions

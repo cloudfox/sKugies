@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
+                "file": "Tutorials/Programming/01 - Foundation/Code Style.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
+                "file": "Tutorials/Programming/01 - Foundation/Code Style.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
+                "file": "Tutorials/Programming/01 - Foundation/Code Style.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Iteration - Loops.md"
+                "file": "Tutorials/Programming/01 - Foundation/Code Style.md"
               }
             }
           },
@@ -179,17 +179,22 @@
   },
   "active": "ab16a07511069580",
   "lastOpenFiles": [
-    "general/About.md",
-    "Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
-    "general/Home.md",
-    "general/Resume.md",
+    "Tutorials/Programming/01 - Foundation/Simple Input Output.md",
     "Tutorials/Programming/Learn programming (C++).md",
-    "Tutorials/Programming/old/Overview.canvas",
-    "Tutorials/Programming/01 - Foundation/Hello World.md",
+    "Tutorials/Programming/01 - Foundation/Documentation.md",
+    "Tutorials/Programming/01 - Foundation/Programming Paradigms.md",
+    "Tutorials/Programming/01 - Foundation/Code Style.md",
+    "Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
+    "Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
     "Tutorials/Programming/01 - Foundation/Variables part 1.md",
     "Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
     "Tutorials/Programming/01 - Foundation/Conditions.md",
-    "Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
+    "Untitled 1.md",
+    "general/About.md",
+    "general/Home.md",
+    "general/Resume.md",
+    "Tutorials/Programming/old/Overview.canvas",
+    "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Tutorials/Programming/01 - Foundation/Functions.md",
     "Tutorials/other/ECS.md",
     "Tutorials/other/marching cubes.md",
@@ -203,11 +208,6 @@
     "Tutorials/Programming/02 - Intermediate/Random Numbers.md",
     "Tutorials/Programming/02 - Intermediate/Memory.md",
     "Blog/2023",
-    "Tutorials/Programming/02 - Intermediate/Bitwise.md",
-    "general/Contact.md",
-    "!(.md",
-    "Projects/Projects.md",
-    "Projects/Student/Pogglewash.md",
     "Tutorials/Programming/01 - Foundation/Exercises/E2.2",
     "Tutorials/Programming/01 - Foundation/Exercises/E1.1",
     "Tutorials/Programming/Exercises/section 2",
