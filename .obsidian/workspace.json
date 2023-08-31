@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Documentation.md",
+                "file": "Tutorials/Programming/01 - Foundation/Simple Input Output.md",
                 "mode": "source",
                 "source": false
               }
@@ -26,14 +26,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "general/About.md",
+                "file": "general/Blog.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "0c1981f058ba31ae",
@@ -134,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "general/About.md",
+                "file": "Tutorials/Programming/01 - Foundation/Simple Input Output.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "general/About.md",
+                "file": "Tutorials/Programming/01 - Foundation/Simple Input Output.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -182,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "general/About.md"
+                "file": "Tutorials/Programming/01 - Foundation/Simple Input Output.md"
               }
             }
           }
@@ -207,18 +206,21 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "abd8e9340c8a1624",
+  "active": "46414157bd8b2e22",
   "lastOpenFiles": [
+    "Stuff/Recipes",
     "Tutorials/Programming/Learn programming (C++).md",
-    "Tutorials/Programming/Overview.canvas",
     "Tutorials/Programming/01 - Foundation/Documentation.md",
+    "Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
+    "general/Blog.md",
+    "general/About.md",
+    "Tutorials/Programming/Overview.canvas",
     "Tutorials/Programming/03 - Data Structures/types/Data Structures.md",
     "Stuff/Games/Games.md",
     "Stuff/Books",
     "Stuff/Games",
     "Untitled.md",
     "Stuff",
-    "general/About.md",
     "general/Resume.md",
     "Tutorials/Programming/01 - Foundation/Code Style.md",
     "Resources/Programming Resources.md",
@@ -231,7 +233,6 @@
     "Tutorials/Programming/05 - Other Topics/Procedural Generation/Simple.md",
     "Tutorials/Programming/02 - Intermediate/02 the compiler.md",
     "Tutorials/Programming/old/01 - fundamentals/01 the program.md",
-    "general/Blog.md",
     "Tutorials/Programming/05 - Other Topics/Procedural Generation",
     "Tutorials/Programming/02 - Intermediate/Structs.md",
     "Tutorials/Programming/02 - Intermediate/Arrays.md",
@@ -239,7 +240,6 @@
     "Tutorials/Programming/02 - Intermediate/Big O.md",
     "Tutorials/Programming/02 - Intermediate/Strings.md",
     "Tutorials/Programming/02 - Intermediate/Random Numbers.md",
-    "Tutorials/Programming/02 - Intermediate/pointers and references.md",
     "Tutorials/Programming/05 - Other Topics",
     "Blog Posts/2023",
     "Tutorials/Programming/01 - Foundation/Exercises/E2.2",
