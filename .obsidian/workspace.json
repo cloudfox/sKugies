@@ -167,6 +167,24 @@
                 "useHierarchy": false
               }
             }
+          },
+          {
+            "id": "ac1271fde3d5259d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "b5669a554b91a37f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "general/About.md"
+              }
+            }
           }
         ],
         "currentTab": 1
