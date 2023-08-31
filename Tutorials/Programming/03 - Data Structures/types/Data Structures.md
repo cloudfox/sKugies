@@ -1,3 +1,6 @@
+
+memory vs speed
+
 Linear:
 [[01 Array]] 
 [[02 Linked List]] 

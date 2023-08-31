@@ -60,10 +60,11 @@ simple input output
  [[Arrays]] 
  [[Strings]]
  [[2d Array]] 
+ variadic functions
  [[File IO]] 
  [[Random Numbers]]
  [[Structs]]
-
+ lambda
 
 **Exercises** 
 Memory allocation
@@ -73,6 +74,28 @@ Output to file
 
 ## Section 3: Data Structures
 [[Data Structures]] 
+Arrays
+Linked Lists
+Stack
+Queue
+Maps
+
+Heaps
+Graph
+intro to trees
+Skiplist
+Interval tree
+BST
+AVL trees
+Red-black tree
+B-tree
+splay tree
+
+disjointed set
+Hashing
+
+
+
 
 
 ## Section 4: Algorithms
@@ -80,6 +103,7 @@ Algorithm Analysis
 -time complexity(best, worst, average)
 iterative vs recursive
 sorting
+searching
 Turing
 P vs NP problems
 
