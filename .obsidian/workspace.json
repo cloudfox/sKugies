@@ -32,7 +32,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "0c1981f058ba31ae",
@@ -133,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Simple Input Output.md",
+                "file": "general/Blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Simple Input Output.md",
+                "file": "general/Blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +182,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Simple Input Output.md"
+                "file": "general/Blog.md"
               }
             }
           }
@@ -206,7 +207,7 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "46414157bd8b2e22",
+  "active": "abd8e9340c8a1624",
   "lastOpenFiles": [
     "Stuff/Recipes",
     "Tutorials/Programming/Learn programming (C++).md",
