@@ -1,10 +1,10 @@
 [[Learn programming (C++)]]  previous: [[Conditions]]  #tutorial 
 
 ---
-
+## What are Functions
 All programs are made up of collections of functions. You could possibly do everything in main but why make things harder for no reason.
 
-Again here is the basic format
+#### Function Format
 ```c++
 return_type function_name( parameters ); //declaration/prototype
 
@@ -35,7 +35,7 @@ int sum (int a, int b) //implementation
 }
 ```
 
-##### Default Arguments
+#### Default Arguments
 
 When calling a function you must fill out all parameters.
 ```c++

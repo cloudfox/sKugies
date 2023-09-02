@@ -2,7 +2,9 @@
 
 ---
 
-Here is a general structure of a main file
+### General Format
+
+Here is a general format of a main file
 
 ```
 file header - technically optional but good practice
@@ -20,6 +22,10 @@ main function
 other functions
 ```
 
+> [!example]- 
+>![[SimpleMain Example]]
+
+
 For the moment we are only going to focus on includes and the main function.
 The main function being the only absolutely required parameters 
 
@@ -30,6 +36,8 @@ int main(int argc, char *argv[])
 	return 0;
 }
 ```
+
+#### Function Format
 
 main being a function can be broken down like things 
 ```c++
@@ -51,6 +59,7 @@ argc -argument count -  tells us how many variables we are passing in
 *argv[]- argument variable - where the arguments are stored 
 
 ---
+### First Program
 
 On to our first functional program.
 main.h
@@ -68,6 +77,7 @@ If we run our program we get the output:
 Hello World!
 ```
 
+#### Includes
 Looking at our first line we have
 ``` c++
 #include <iostream>  //std::cout, std::endl
@@ -86,9 +96,10 @@ To the right of \#include \<iostream\>  you will see a comment
 Comments are there to help explain or add context to a program. They are optional but good practice. Comments next to includes are typically there to tell you what parts of the file are being used. 
 
 
-The file [iostream](https://en.cppreference.com/w/cpp/header/iostream)  stands for input output stream. A stream being a sequence of data. It is used for reading or writing to various streams.  The two parts we are using being cout and endl.
+The file [iostream](https://en.cppreference.com/w/cpp/header/iostream)  stands for input output stream. A stream being a sequence of data. It is used for reading or writing to various streams. 
 
-cout - character output or sometimes called console out
+The two parts we are using from iostream being cout and endl.
+cout - character output stream or sometimes called console out
 endl - end line
 
 Looking inside the body of out main function:
@@ -127,7 +138,6 @@ Output:
 456
 789
 ```
-
 
 ---
 next: [[Variables part 1]] 

@@ -1,7 +1,7 @@
 [[Learn programming (C++)]]  previous: [[Hello World|Hello World]]   #tutorial
 
 ---
-**What is a variable?**
+### **What is a variable?**
 A variable is an abstract storage location for some sort of data. 
 This data will most often be inside the computers RAM and when needed sent to the CPU[^1].
 The data is stored in binary format 1s and 0s.  
@@ -33,7 +33,7 @@ e = 1;
 
 
 ____
-**What are the types?**
+### **What are the types?**
 There are many different types varying from built in types to ones you can define yourself.
 
 Primitives are your most common types as they are built in.
@@ -67,7 +67,7 @@ const float y; //ERROR const must be initialized
 
 ---
 
-**Integrals**
+#### **Integrals**
 These are your whole numbers. They can be positive / negative and have different possible ranges of values. 
 Depending on the size of the specific integral type determines what range of values they can store. You can also use these numbers to represent letters and other characters like with ASCII
 
@@ -97,7 +97,7 @@ Depending on the size of the specific integral type determines what range of val
 >  When you hit the max or min value it will wrap around. If you add 1 to a max value u-char then all of a sudden it is back to 0; This can be hard to troubleshoot when operating with larger numbers.
 
 ---------------------
-**Floating points**
+#### **Floating points**
 Floating points are our fractional or decimal values. These values are not always completely accurate due to the conversion from binary. You can use the larger types to increase precision but it will never be perfect unless you are dealing with values that cleanly divide by 2, i.e. 0.5, 0.25, 0.125, 0.375(0.25 + 0.125), etc..  Even then you will eventually run into problems with smaller and smaller values.
 
 > [!note]
@@ -115,7 +115,7 @@ Floating points are our fractional or decimal values. These values are not alway
 > [!info]  floating points are signed only
 
 ________________________ 
-**Logical** 
+#### **Logical** 
 Booleans are all about true or false expressions.
 
 | type | Size | Range |
@@ -140,7 +140,7 @@ You only need a bit to hold a true/false value but memory is aligned to 1 byte b
 >  There are ways to store more in a byte through methods like bitsets and struct packing
 
 ________________________ 
-**literal constants**
+#### **literal constants**
 
 These are more values you hardcode that go into a variable or other expression. 
 ``` c++
@@ -164,7 +164,7 @@ Hex literals are written with a leading 0x
 >[!info] octal and hex are unsigned only
 
 ----
-**Typedef**  
+#### **Typedef**  
 typedef if a way to create an alias for another type. This can be done to add extra clarity to a variable or make the name simpler. It can also help keep you from accidentally mixing values of the same type but different purposes together.
 
 ``` c++
@@ -180,7 +180,7 @@ color blue; // creates a variable of type color(int)
 ```
 
 ---
-**#Define**
+#### **\#Define**
 
 Not technically a variable but can be used in a similar way.
 \#define is a macro that replaces the text with whatever follows it during compilation(prepocessor phase) of the program.
@@ -222,6 +222,7 @@ Magic numbers are often seemingly random literal values sprinkled throughout you
 Even in the above example the 2.0f would technicaly be a magic number but for such a simple well known formula it's not as big of a deal. But as programs get more complex these things add up only making it more difficult to manage.
  
 ---
+### Practice
 > [!Example ] Practice 1
 >  Create multiple defines then add them together in an new variable.
 

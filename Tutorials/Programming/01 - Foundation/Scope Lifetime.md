@@ -1,5 +1,6 @@
 [[Learn programming (C++)]]  previous: [[Functions]]  #tutorial 
-
+---
+## What is Scope?
 Not everything remains through the lifetime of a program. Scope determines what parts of the program are currently accessible or exist.
 
 ```c++

@@ -1,9 +1,5 @@
-#tutorial
-
-
-\*This is very much a work in progress
-
-
+> [!warning] This is very much a work in progress 
+### Introduction
 
 I'm writing this series with the assumption that you know little if anything about programming. The series will focus on C++ but many of the concepts do carry over to other languages.
 
@@ -24,7 +20,7 @@ I will try to include programming exercises with drivers and
 output files to compare to.
 
 
-***Getting Started***
+### ***Getting Started***
 If you are completely new to programming then you will need something to program and later compile your code.
 
 You could use notepad if you like pain and suffering but I'd at least use [notepad++](https://notepad-plus-plus.org/). You'd then need to separately compile the code.

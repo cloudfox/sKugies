@@ -1,9 +1,11 @@
 [[Learn programming (C++)]]  previous: [[Expressions and Operators]]  #tutorial 
 
 ---
+## What are Conditions?
 When you need to pick and choose what code to run you have the if statement.
 If statements are fairly straightforward by themselves but can get more complex with nesting and chaining statements.
 
+#### If Statement
 Simplest form
 ```c++
 if( expression )
@@ -22,6 +24,7 @@ if( expression )
 }
 ```
 
+#### If Else Statement
 When you need to run different code depending on if it is true or false. (again you can add curly brackets when you need multiple statements in any section.)
 ```c++
 if( expression )
@@ -30,6 +33,7 @@ else
 	statement2; //runs when false
 ```
 
+##### Else If Statement
 If you have a bunch of exclusive conditions then 'else if' might be what you are looking for. 
 ```c++
 if( expression1 )
@@ -43,7 +47,7 @@ else
 ```
 
 
-nesting statements
+### Nesting Statements
 ```c++
 if( expression )
 {
@@ -73,6 +77,7 @@ if( expression1 && expresion2 && expression3 && expresion4 )
 	statement;
 ```
 
+### Switch Statement
 An alternative to using a chain of else if is the switch statement. 
 ```c++
 switch ( expression )

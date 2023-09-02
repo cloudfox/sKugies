@@ -1,7 +1,7 @@
 [[Learn programming (C++)]]  previous: [[Variables part 1]]  #tutorial 
 
 ---
-##### What are Expressions?
+#### What are Expressions?
 The simplest expressions are our literal constants and variables. 
 They can also be formulas or the combined results from several functions.
 examples:
@@ -160,7 +160,7 @@ Most of these should be fairly apparent. If the condition is met returns true el
 > [!tip]
 > Avoid directly comparing floats due to issues with precision. If you want to know more this is a great blog post covering it https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/
 
-###### Member Access
+##### Member Access
 
 | operators | type              |
 | --------- | ----------------- |
@@ -239,7 +239,7 @@ It is not strictly necessary to know the exact precedence of everything but you 
 
 Things can still get confusing when you have a lot more operations in a single line. In those cases I recommend using a few well place parentheses or in the worst cases split it into multiple lines.
 
-
+###
 ---
 next: [[Conditions]]
 

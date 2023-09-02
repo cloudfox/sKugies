@@ -183,4 +183,4 @@ for(int& i : vec)
 
 
 
-next: [[Input]] 
+next: [[Simple Input Output]] 
