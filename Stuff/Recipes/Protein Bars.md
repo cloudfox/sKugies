@@ -1,4 +1,6 @@
 
+
+
 ### Ingredients
 
 ##### Base:
@@ -16,7 +18,7 @@ You could possibly make a protein bar without a nut butter but it helps keep eve
 
 **Honey** -  for sweetness, helps with texture 
 
-**Coconut Oil** - helps make a more solid bar so long as it is cooled, adds flavor )
+**Coconut Oil** - adds moisture
 
 **Rolled Oats**  - nutrition/fiber, bake them at a low temp separately to make them crispier)
 
@@ -28,6 +30,13 @@ You could possibly make a protein bar without a nut butter but it helps keep eve
 
 **chocolate** - taste, can be melted and mixed in for more of a fudge like taste or mixed in as is
 
+**Cinnamon** - flavor
+
+**Oat/Almond Flour** - Most other flours cannot be eaten raw like these two.
+
+**banana/pumpkin** -
+
+
 ### Directions
 Most varieties of this recipe are no bake.
 Simply mix everything together and cool until it solid.
@@ -36,31 +45,54 @@ Start with mixing your wet ingredients(nut butters, oils, etc.) then mix in your
 
 You can heat your wet ingredients to make them easier to mix.
 
+Spread in pan or roll into balls before chilling
+
 ##### Tips
+mixed ingredients should have a consistency similar to cookie dough
+
 Too much protein powder gives a more gritty texture
 
+Coconut Oil makes a more moist bar but has the issue of the bar melting more easily
 
 ### Variations
+There are a ton of variations so I'm slowly testing things out. I'll update this as I find things I like as well as more exact ingredient ratios.
 
-##### 1: simple
+roughly though
+1 cup(~0.5lbs or ~200grams) nut butter 
+1-1.5 cups oats
+0.5 cups honey
+0.5 cups(60 grams) protein powder
+
+##### simple
 Nut Butter 
 protein powder
 Salt
-Vanilla
 Honey
 (optional) dried fruit
-##### 2: simple chocolate
+#####  simple chocolate
 Nut Butter 
 protein powder
 Salt
 Chocolate
-##### 3: no nut butter 
+##### Oatmeal bars
+Nut Butter 
+protein powder 
+Oats
+Honey
+(Optional) Chocolate/Dried Fruit
+
+#### **UNTESTED**
+#####  no nut butter 
 protein powder
 honey/maple syrup
 oats
 
-I haven't tested this yet.
 Might need to be baked at a low temp to form a solid bar.
 
-
-
+##### Cinnamon Role
+nut butter 
+protein
+vanilla
+cinnamon 
+honey
+coconut oil
