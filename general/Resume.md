@@ -1,8 +1,15 @@
-### Education
+---
+
+---
+
+
+---
+#### Education
 Digipen Institute of Technology 2019-2024 
 BSCS in Realtime Interactive Simulation 
 
-### Experience
+---
+#### Experience
 United States Air Force
 February 2014 - February 2018
 Enterprise Service Desk, Server, and Vulnerability Technician 
@@ -10,35 +17,37 @@ Enterprise Service Desk, Server, and Vulnerability Technician
 Dana Middle School - Robotics Club Volunteer
 Mar 2018 - April 2019
 
-### Skills
+---
+#### Skills
 Unreal, Unity, and Custom Engine
 OpenGL, and GLSL
 Artificial Intelligence (AI)
 Nintendo Switch Native Development
 
-
-### Projects
-Game Name: Pogglewash                                                                 September 2021-December 2022
+---
+#### [[Projects]]
+**Pogglewash** (September 2021-December 2022)
 Team Size: 22 people (5 programmers, 4 designers, 10 artists, 3 audio)
 Role: AI programmer
 Misc: 3d platformer. Primarily focused on designing and implementing the behaviors of the friendly creature. Created and managed bug tracking form and spreadsheet.
 
-Game Name: VECT                                                                                                        Spring 2020
+**VECT** (Spring 2020)
 Team Size: 5 people
 Role: Particle and physics programmer
 Misc: 2d top down dungeon crawler.
 
-Game Name: Escape From Outerworld                                                         Fall 2020-Spring 2021
+**Escape From Outerworld** (Fall 2020-Spring 2021)
 Team Size: 11 people (5 programmers, 3 designers, 3 artists)
 Role: Engine, Physics, and Tools Programmer
 Misc: 2d physics based puzzle platformer. Multidisciplinary project. Researched and designed the core engine functionality as an ECS. Made simple tools using IMGUI for level creation and debugging.
 
-Game Name: Solaris                                                                                                          Fall 2019
+**Solaris** Fall 2019
 Team Size: 3 people
 Role: AI Programmer, Level Designer
 Misc: SCHMUP based in space. Made a simple level design tool in excel. A dozen simple enemy behaviors including BOIDS
 
-Research Projects: 
-Hierarchical Task Network for squad based AI                                                               Spring 2021
-Nintendo Switch Nx Development and Unity projects                                                        Fall 2022
+**Research Projects:**
+Hierarchical Task Network for squad based AI                   (Spring 2021)
+Nintendo Switch Nx Development and Unity projects  (Fall 2022)
 
+---

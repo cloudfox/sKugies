@@ -5,7 +5,7 @@
 The simplest expressions are our literal constants and variables. 
 They can also be formulas or the combined results from several functions.
 examples:
-```
+```cpp
 x
 y
 pi
@@ -43,7 +43,7 @@ The most common operator. Modifies the value of the operand.
 
 **simple assignment**
 assignment followed by an expression.
-```c++
+```cpp
 int x = 1;  //x is 1
 x = 2;  //x is now 2
 x = 100; // x is now 100
@@ -63,7 +63,7 @@ Assignments take R values and assign them to L values. Simply L values are your 
 **compound assignment**
 Modify a value relative to itself.
 
-```
+```cpp
 x += 10; //compound version of x = x + 10
 y \*= 5; //compound version of y = y * 5
 ```
@@ -79,7 +79,7 @@ there are also the increment/decrement  ++ and --
 | a--          | post decrement subtracts 1     |
 
 The pre/post versions determines when the operation completes
-```
+```cpp
 int x = 5;
 int y = 5;
 std::cout << ++x << std::endl;

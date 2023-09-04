@@ -5,7 +5,7 @@
 All programs are made up of collections of functions. You could possibly do everything in main but why make things harder for no reason.
 
 #### Function Format
-```c++
+```cpp
 return_type function_name( parameters ); //declaration/prototype
 
 return_type function_name( parameters )  //implementation
@@ -20,7 +20,7 @@ Most of the time you will be declaring and defining functions in separate places
 You can skip using a declaration but then only functions declared after it will be able to call it.
 
 using a simple function
-```c++
+```cpp
 int sum(int a, int b);  //declaration/prototype
 
 int main()
@@ -38,12 +38,12 @@ int sum (int a, int b) //implementation
 #### Default Arguments
 
 When calling a function you must fill out all parameters.
-```c++
+```cpp
 int x = sum(5);  //error
 ```
 
 You can however define default arguments. The only rule to that being the default parameters go last.
-```c++
+```cpp
 //this is fine
 int sum(int a, int b = 0)
 {  return a + b;  }
@@ -55,7 +55,7 @@ int sum(int a = 0, int b)
 
 #### Passing Arguments 
 When you call a function and pass in the parameters it makes a copy of those values to use. This is called pass by value.
-```c++
+```cpp
 void foo(int x)  //declaring and implementing in place
 {
   x += 1;
@@ -69,7 +69,7 @@ int main
 ```
 
 Instead if we want our function to change our value we can use pass by reference. To do this we change the parameter to take a reference to an int.
-```c++
+```cpp
 void foo(int& x)  //& means a reference 
 {
   x += 1;
@@ -89,7 +89,7 @@ int main
 
 ##### Return 
 void is used when a function does not return anything.
-```c++
+```cpp
 void foo()
 {
 	statements;
@@ -98,7 +98,7 @@ void foo()
 ```
 
 A function can have multiple return statements so long as all paths return. 
-```c++
+```cpp
 int foo(int x){
 	if (x < 10)
 		return 1;
@@ -110,7 +110,7 @@ int foo(int x){
 ```
 
 You also need to return the correct type. Sometimes the type can be converted but this is not something you should rely on.
-```c++
+```cpp
 float foo()
 {
 	return; // warning/error
@@ -132,7 +132,7 @@ void bar()
 Functions help divide work into more manageable bites. It also allows you to easily reuse code.
 
 Lets say we want to check for the collision of 2 moving spheres. We will want a function to update the position over time and a function to check for collision.
-```c++
+```cpp
 //pseudocode
 struct Sphere
 {

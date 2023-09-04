@@ -3,7 +3,7 @@
 ## What is Scope?
 Not everything remains through the lifetime of a program. Scope determines what parts of the program are currently accessible or exist.
 
-```c++
+```cpp
 int main()
 {
 	int x = 10; //x's scope starts here
@@ -31,7 +31,7 @@ Functions cannot see out of their scope with a except for a special case when de
 
 In different scopes you can define new variables with the same name.
 
-```c++
+```cpp
 void foo(int x)
 {...}
 

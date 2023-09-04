@@ -5,7 +5,7 @@
 They go by a few different names but when you need to do something multiple times loops/Iterators are your friend.
 
 The most basic being the **while loop**
-```
+```cpp
 while( expression )
 {
 	statements
@@ -14,7 +14,7 @@ while( expression )
 It will continue repeating so long as the expression remains true.
 
 Slightly more complicated is the **do-while loop**
-```
+```cpp
 do 
 {
 	statements
@@ -28,7 +28,7 @@ Do-while loops are the reverse. The statements are run first then the expression
 ---
 
 **For Loops**
-```
+```cpp
 for( expression1 ; expression2 ; expression3 )
 {
 	statements
@@ -42,7 +42,7 @@ expresion2 - the expression used to evaluate if the loop should continue running
 expression3 - generally used to modify the expression that is tested
 
 an example should make things more clear
-```
+```cpp
 for( int i = 0 ; i < 10 ; ++i )
 {
 	statements
@@ -54,7 +54,7 @@ The 3rd expression increments i by 1
 In this example the statements will be run 10 times.
 
 Breakdown of steps
-```
+```cpp
 1. expresion1 is evaluate 
 	 int i = 0;
 2. expresion2 is evaluted
@@ -76,7 +76,7 @@ Breakdown of steps
 You can also modify i in the body statements.
 
 Any of the 3 expressions can also be omitted
-```
+```cpp
 for(;;)
 { statements; }
 ```
@@ -90,7 +90,7 @@ Sometimes you want to skip certain iterations of a loop or even end the loop ent
 continue - go to next iteration
 break - exits the loop (also used in switch statements)
 
-```
+```cpp
 for(int n = 0; n < 5; ++n)
 {
 	if(n == 1)
@@ -116,7 +116,7 @@ You can use continue/break in any kind of loop.
 
 Sometimes you want loops in your loops 
 
-```
+```cpp
 while( expression1 )
 {
 	for( ... )
@@ -133,7 +133,7 @@ This is generally true for any nesting be it loops, if statements or whatever. T
 ##### Other
 Like if statements you can also skip the braces for singular statements 
 
-```
+```cpp
 for( ... )
 	statement;
 
@@ -148,7 +148,7 @@ while( expression );
 
 You can also define multiple variables in for loops
 
-```
+```cpp
 for(int x = 0, y = 0; x < 10 && y < 10; x+=1, y+=2) 
 {
 	statements;
@@ -166,14 +166,14 @@ for(int x = 0, y = 0; x < 10 && y < 10; x+=1, y+=2)
 %%note move to iteration part 2%%
 ### Range based Loops
 
-```
+```cpp
 for ( range_declaration : range_expression )** 
 {
 	statements   
 }
 ```
 
-```
+```cpp
 std::vector<int> vec;
 for(int& i : vec)
 {

@@ -7,7 +7,7 @@ If statements are fairly straightforward by themselves but can get more complex 
 
 #### If Statement
 Simplest form
-```c++
+```cpp
 if( expression )
 	statement;
 
@@ -15,7 +15,7 @@ if( expression ) statement;  //functionally the same
 ```
 
 If statements only run one statement unless you add curly brackets
-```c++
+```cpp
 if( expression )
 {
 	statement1;
@@ -26,7 +26,7 @@ if( expression )
 
 #### If Else Statement
 When you need to run different code depending on if it is true or false. (again you can add curly brackets when you need multiple statements in any section.)
-```c++
+```cpp
 if( expression )
 		statement1; //runs when true
 else
@@ -35,7 +35,7 @@ else
 
 ##### Else If Statement
 If you have a bunch of exclusive conditions then 'else if' might be what you are looking for. 
-```c++
+```cpp
 if( expression1 )
 	statement1;  //runs when true
 else if( expression2 )
@@ -48,7 +48,7 @@ else
 
 
 ### Nesting Statements
-```c++
+```cpp
 if( expression )
 {
 	statement; //runs when expresion1 is true
@@ -62,7 +62,7 @@ if( expression )
 When possible try to avoid going nesting more than 3 times if you can. After a point it becomes more difficult to read.
 
 This isn't too awful with only a single statement but it could still be better.
-```c++
+```cpp
 if( expression )
   if( expression )
 	if( expression )
@@ -71,7 +71,7 @@ if( expression )
 ```
 
 One option is to combine if statements when possible using logical operators.
-```c++
+```cpp
 //&& being the logical AND operator
 if( expression1 && expresion2 && expression3 && expresion4 )
 	statement;
@@ -79,7 +79,7 @@ if( expression1 && expresion2 && expression3 && expresion4 )
 
 ### Switch Statement
 An alternative to using a chain of else if is the switch statement. 
-```c++
+```cpp
 switch ( expression )
 case constant_value1:
 	statement

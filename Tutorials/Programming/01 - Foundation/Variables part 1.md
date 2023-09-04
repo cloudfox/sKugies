@@ -10,7 +10,7 @@ When you create a variable you are effectively asking the processor for enough m
 
 With C++ being a [strongly typed](https://en.wikipedia.org/wiki/Strong_and_weak_typing) language we have to declare what kind of data the variable holds before we can use it. There are ways to change a variables type through casting and conversion but we will worry about those later.
 
-``` c++
+``` cpp
 //int and float are our types 
 //a and b are the names
 int a;
@@ -18,7 +18,7 @@ float b;
 ```
 
 Currently our variables above don't have any set value. We would call them uninitialized. 
-```c++
+```cpp
 //a few ways to initialize variables
 int a{0};
 int b(1);
@@ -48,7 +48,7 @@ Some types can be modified with various keywords.
 **Keywords to modify types:**  signed, unsigned, const, static, etc...
 
 **signed/unsigned**: most primitive types are signed by default; meaning they can have both positive and negative numbers. If you only have positive numbers or need a greater ranger of positive values then you can mark a variable as unsigned.
-```c++
+```cpp
 unsigned int a = 0;
 a -= 1; // possibly wraps around to largest int 
 
@@ -56,7 +56,7 @@ unsigned int b = -1; //ERROR
 ```
 
 **const**: used to make it so you can't change a variable. There are ways around this but it's kinda hacky and not a good idea. 
-```c++
+```cpp
 const float x = 3.14159f;
 x = 3.0f; //ERROR
 
@@ -126,7 +126,7 @@ Booleans are all about true or false expressions.
 
 You can use other types to represent a bool. In those cases 0 is false and any other number is true(including negative numbers). 
 
-```c++
+```cpp
 bool hungry = true;
 if(hungry) 
 	printf("I'm hungry!");
@@ -143,7 +143,7 @@ ________________________
 #### **literal constants**
 
 These are more values you hardcode that go into a variable or other expression. 
-``` c++
+``` cpp
 "hello world"; //string literal
 'a'; //char literal 
 42;  //literal for the int 42
@@ -167,7 +167,7 @@ Hex literals are written with a leading 0x
 #### **Typedef**  
 typedef if a way to create an alias for another type. This can be done to add extra clarity to a variable or make the name simpler. It can also help keep you from accidentally mixing values of the same type but different purposes together.
 
-``` c++
+``` cpp
 typedef int potatoes; //created alias for int called potatoes
 typedef float fluff; //created alias for float called fluff
 typedef int a; //created alias for int called a
@@ -187,7 +187,7 @@ Not technically a variable but can be used in a similar way.
 
 	scope of the define is every function after the #define
 
-``` c++
+``` cpp
 #define PI 3.14159f
 
 float CircleCircumference(float radius){
@@ -195,7 +195,7 @@ float CircleCircumference(float radius){
 }
 ```
 the above  code after the preprocessor step in compilation will look more like 
-``` c++
+``` cpp
 float CircleCircumference(float radius){
 	return 2.0f * 3.14159f * radius;
 }
@@ -203,12 +203,12 @@ float CircleCircumference(float radius){
 
 You can also go a bit crazier and have functions in defines. 
 
-```c++
+```cpp
 #define SUM(a,b) (a+b)
 std::cout << SUM(5,4);
 ```
 becomes
-```c++
+```cpp
 std::cout << (5+4)
 ```
 
