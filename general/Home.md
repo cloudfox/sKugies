@@ -10,6 +10,3 @@ I'm currently finishing up my final year at Digipen Institute of Technology. Mak
 [[What I'm Playing]]
 
 
-
-https://github.com/users/cloudfox/contributions
-
