@@ -6,7 +6,7 @@
       {
         "id": "fe4666f21bca965f",
         "type": "tabs",
-        "dimension": 51.79233621755254,
+        "dimension": 35.51859099804305,
         "children": [
           {
             "id": "94fc66b7b2ef320e",
@@ -25,7 +25,7 @@
       {
         "id": "0c1981f058ba31ae",
         "type": "tabs",
-        "dimension": 48.20766378244747,
+        "dimension": 64.48140900195695,
         "children": [
           {
             "id": "ab16a07511069580",
@@ -60,7 +60,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Documentation.md",
+                "file": "Stuff/Recipes/Protein Bars.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Documentation.md",
+                "file": "Stuff/Recipes/Protein Bars.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Documentation.md",
+                "file": "Stuff/Recipes/Protein Bars.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Documentation.md"
+                "file": "Stuff/Recipes/Protein Bars.md"
               }
             }
           }
@@ -190,8 +190,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5,
-    "collapsed": true
+    "width": 320.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,6 +207,8 @@
   },
   "active": "9dccb353c13ccb17",
   "lastOpenFiles": [
+    "Tutorials/Programming/01 - Foundation/Documentation.md",
+    "Stuff/Recipes/Protein Bars.md",
     "Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
     "Tutorials/Programming/01 - Foundation/Functions.md",
     "Tutorials/Programming/01 - Foundation/Conditions.md",
@@ -217,7 +218,6 @@
     "Tutorials/Programming/01 - Foundation/Examples/SimpleMain Example.md",
     "general/Blog.md",
     "Tutorials/Programming/Learn programming (C++).md",
-    "Tutorials/Programming/01 - Foundation/Documentation.md",
     "Tutorials/Programming/01 - Foundation/Examples",
     "Tutorials/Tutorials.md",
     "Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
@@ -240,7 +240,6 @@
     "Resources/Programming Resources.md",
     "general/Home.md",
     "Resources",
-    "Tutorials/Programming/05 - Other Topics/Procedural Generation/Procedural Generation.md",
     "Tutorials/Programming/05 - Other Topics/Procedural Generation",
     "Tutorials/Programming/05 - Other Topics",
     "Blog Posts/2023",
