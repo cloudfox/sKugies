@@ -19,18 +19,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "abd8e9340c8a1624",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "general/Blog.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       },
@@ -145,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
+                "file": "Tutorials/Programming/01 - Foundation/Documentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
+                "file": "Tutorials/Programming/01 - Foundation/Documentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -193,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Scope Lifetime.md"
+                "file": "Tutorials/Programming/01 - Foundation/Documentation.md"
               }
             }
           }
@@ -202,7 +190,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 320.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -217,8 +206,9 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "94fc66b7b2ef320e",
+  "active": "9dccb353c13ccb17",
   "lastOpenFiles": [
+    "Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
     "Tutorials/Programming/01 - Foundation/Functions.md",
     "Tutorials/Programming/01 - Foundation/Conditions.md",
     "Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
@@ -251,7 +241,6 @@
     "general/Home.md",
     "Resources",
     "Tutorials/Programming/05 - Other Topics/Procedural Generation/Procedural Generation.md",
-    "Blog Posts/2023/Test Post 1.md",
     "Tutorials/Programming/05 - Other Topics/Procedural Generation",
     "Tutorials/Programming/05 - Other Topics",
     "Blog Posts/2023",
