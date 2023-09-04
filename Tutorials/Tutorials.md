@@ -1,10 +1,11 @@
 Largely writing these as a way to improve my own understanding.
 
-
+\[In Progress\]
 [[Learn programming (C++)]] 
 
-Graphics/Shading
 
+\[To Do\]
+Graphics/Shading
 AI
 pathfinding
 procedural generation
