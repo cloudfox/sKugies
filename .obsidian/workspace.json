@@ -6,7 +6,7 @@
       {
         "id": "fe4666f21bca965f",
         "type": "tabs",
-        "dimension": 35.51859099804305,
+        "dimension": 47.65957446808511,
         "children": [
           {
             "id": "94fc66b7b2ef320e",
@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
+                "file": "Stuff/Games/What I'm Playing.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,23 +25,8 @@
       {
         "id": "0c1981f058ba31ae",
         "type": "tabs",
-        "dimension": 64.48140900195695,
+        "dimension": 52.34042553191489,
         "children": [
-          {
-            "id": "ab16a07511069580",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Tutorials/Programming/Overview.canvas",
-                "viewState": {
-                  "x": -172.93912633946493,
-                  "y": -357.52885600032516,
-                  "zoom": -0.7776811817981952
-                }
-              }
-            }
-          },
           {
             "id": "344eae28c827a09d",
             "type": "leaf",
@@ -60,14 +45,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Stuff/Recipes/Protein Bars.md",
+                "file": "general/Home.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -96,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#project",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -133,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Stuff/Recipes/Protein Bars.md",
+                "file": "general/Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Stuff/Recipes/Protein Bars.md",
+                "file": "general/Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,16 +166,37 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Stuff/Recipes/Protein Bars.md"
+                "file": "general/Home.md"
+              }
+            }
+          },
+          {
+            "id": "e400a018dfbae44d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
+            }
+          },
+          {
+            "id": "7e74689298eef9bd",
+            "type": "leaf",
+            "state": {
+              "type": "file-properties",
+              "state": {
+                "file": "general/Home.md"
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 320.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,19 +213,25 @@
   },
   "active": "9dccb353c13ccb17",
   "lastOpenFiles": [
-    "Tutorials/Programming/01 - Foundation/Documentation.md",
-    "Stuff/Recipes/Protein Bars.md",
+    "Tutorials/Tutorials.md",
+    "Stuff/Games/What I'm Playing.md",
+    "general/About.md",
+    "general/Home.md",
+    "Tutorials/Programming/Learn programming (C++).md",
+    "Tutorials/Programming/01 - Foundation/Hello World.md",
+    "Stuff/Games/Favorite Games.md",
+    "general/Blog.md",
+    "Blog Posts/other",
     "Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
+    "Tutorials/Programming/Overview.canvas",
+    "Stuff/Recipes/Protein Bars.md",
+    "Tutorials/Programming/01 - Foundation/Documentation.md",
     "Tutorials/Programming/01 - Foundation/Functions.md",
     "Tutorials/Programming/01 - Foundation/Conditions.md",
     "Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
     "Tutorials/Programming/01 - Foundation/Variables part 1.md",
-    "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Tutorials/Programming/01 - Foundation/Examples/SimpleMain Example.md",
-    "general/Blog.md",
-    "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/Programming/01 - Foundation/Examples",
-    "Tutorials/Tutorials.md",
     "Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
     "Tutorials/Programming/01 - Foundation/Simple Input Output.md",
     "Tutorials/Programming/01 - Foundation/Code Style.md",
@@ -228,21 +240,15 @@
     "Stuff/Books/Fiction.md",
     "Stuff/Recipes/Cookies.md",
     "Stuff/Recipes",
-    "general/About.md",
-    "Tutorials/Programming/Overview.canvas",
     "Tutorials/Programming/03 - Data Structures/types/Data Structures.md",
-    "Stuff/Games/Games.md",
     "Stuff/Books",
     "Stuff/Games",
     "Untitled.md",
     "Stuff",
     "general/Resume.md",
-    "Resources/Programming Resources.md",
-    "general/Home.md",
     "Resources",
     "Tutorials/Programming/05 - Other Topics/Procedural Generation",
     "Tutorials/Programming/05 - Other Topics",
-    "Blog Posts/2023",
-    "Tutorials/Programming/01 - Foundation/Exercises/E2.2"
+    "Blog Posts/2023"
   ]
 }
