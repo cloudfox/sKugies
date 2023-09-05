@@ -1,19 +1,19 @@
 {
   "statusBar": [
     {
-      "prefix": "",
-      "suffix": " words",
+      "prefix": " words: ",
+      "suffix": ", ",
       "metric": {
         "type": 0,
         "counter": 0
       }
     },
     {
-      "prefix": " ",
-      "suffix": " characters",
+      "prefix": " VaultWords: ",
+      "suffix": ",",
       "metric": {
-        "type": 0,
-        "counter": 1
+        "type": 2,
+        "counter": 0
       }
     }
   ],
@@ -24,6 +24,14 @@
       "metric": {
         "type": 2,
         "counter": 6
+      }
+    },
+    {
+      "prefix": "",
+      "suffix": "",
+      "metric": {
+        "type": 2,
+        "counter": 0
       }
     }
   ],

@@ -3,6 +3,7 @@
   "cedictPath": "./cedict_ts.u8",
   "matchStrategy": "prefix",
   "fuzzyMatch": true,
+  "minFuzzyMatchScore": 0.5,
   "matchingWithoutEmoji": true,
   "treatAccentDiacriticsAsAlphabeticCharacters": false,
   "maxNumberOfSuggestions": 5,
@@ -19,6 +20,7 @@
     "^~~~.*",
     "^```.*"
   ],
+  "noAutoFocusUntilCycle": false,
   "showMatchStrategy": true,
   "showComplementAutomatically": true,
   "showIndexingStatus": true,
@@ -53,247 +55,16 @@
     "beforeRegExp": "",
     "after": ""
   },
+  "frontMatterKeyForExclusionInternalLink": "",
   "enableFrontMatterComplement": true,
   "frontMatterComplementMatchStrategy": "inherit",
   "insertCommaAfterFrontMatterCompletion": false,
   "intelligentSuggestionPrioritization": {
+    "historyFilePath": "",
     "maxDaysToKeepHistory": 30,
     "maxNumberOfHistoryToKeep": 0
   },
   "disableOnMobile": false,
   "showLogAboutPerformanceInConsole": false,
-  "selectionHistoryTree": {
-    "01 Hello World": {
-      "01 Hello World": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1690311590739
-        }
-      }
-    },
-    "02 Variables": {
-      "02 Variables": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690308846348
-        }
-      }
-    },
-    "Tutorials": {
-      "Tutorials": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690310554548
-        }
-      }
-    },
-    "Learn programming": {
-      "Learn programming": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1690311778585
-        }
-      }
-    },
-    "01 Array": {
-      "01 Array": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690310682677
-        }
-      }
-    },
-    "02 Linked List": {
-      "02 Linked List": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690310685965
-        }
-      }
-    },
-    "Stack": {
-      "Stack": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690310689269
-        }
-      }
-    },
-    "03 Queue": {
-      "03 Queue": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690310727173
-        }
-      }
-    },
-    "04 Stack": {
-      "04 Stack": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690310731950
-        }
-      }
-    },
-    "05 Hash Table": {
-      "05 Hash Table": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690310734926
-        }
-      }
-    },
-    "Graph": {
-      "Graph": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690310742942
-        }
-      }
-    },
-    "Heap": {
-      "Heap": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690310745253
-        }
-      }
-    },
-    "Trees": {
-      "Trees": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690310747510
-        }
-      }
-    },
-    "Free List": {
-      "Free List": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690310754630
-        }
-      }
-    },
-    "Pool": {
-      "Pool": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690310756518
-        }
-      }
-    },
-    "Data Structures": {
-      "Data Structures": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690310764437
-        }
-      }
-    },
-    "EFO": {
-      "EFO": {
-        "internalLink": {
-          "count": 4,
-          "lastUpdated": 1690331096743
-        }
-      }
-    },
-    "Pogglewash": {
-      "Pogglewash": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690310793444
-        }
-      }
-    },
-    "Projects": {
-      "Projects": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1690313186198
-        }
-      }
-    },
-    "02 Variables part 1": {
-      "02 Variables part 1": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1690311568586
-        }
-      }
-    },
-    "03 Operations and Expressions": {
-      "03 Operations and Expressions": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1690311463564
-        }
-      }
-    },
-    "04 Conditions": {
-      "04 Conditions": {
-        "internalLink": {
-          "count": 3,
-          "lastUpdated": 1690311544643
-        }
-      }
-    },
-    "03 Expressions and Operators": {
-      "03 Expressions and Operators": {
-        "internalLink": {
-          "count": 2,
-          "lastUpdated": 1690311535939
-        }
-      }
-    },
-    "Variables part 1": {
-      "Variables part 1": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690312304344
-        }
-      }
-    },
-    "Scope Lifetime": {
-      "Scope Lifetime": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690312358001
-        }
-      }
-    },
-    "Iterators": {
-      "Iterators": {
-        "internalLink": {
-          "count": 1,
-          "lastUpdated": 1690312362344
-        }
-      }
-    },
-    "Non-linear": {
-      "Non-linear": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1690314550498
-        }
-      }
-    },
-    "language": {
-      "language": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1690316709675
-        }
-      }
-    },
-    "preprocessor": {
-      "preprocessor": {
-        "currentFile": {
-          "count": 1,
-          "lastUpdated": 1690317432594
-        }
-      }
-    }
-  }
+  "selectionHistoryTree": {}
 }
