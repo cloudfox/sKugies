@@ -82,12 +82,6 @@ Honey
 (Optional) Chocolate/Dried Fruit
 
 #### **UNTESTED**
-#####  no nut butter 
-protein powder
-honey/maple syrup
-oats
-
-Might need to be baked at a low temp to form a solid bar.
 
 ##### Cinnamon Role
 nut butter 
@@ -96,3 +90,19 @@ vanilla
 cinnamon 
 honey
 coconut oil
+
+#### Crispy Oats
+2 eggs
+1/2 cup brown sugar
+vege oil
+3 cups oats
+1 tbspn baking powder 
+1 teaspoon cinnamon
+1/2 teaspoon salt
+Bake at 350 for 20-25 min
+
+#####  Simple Crispy Oats
+protein powder
+honey/maple syrup
+oats
+Might still need to be baked at a low temp to form a solid bar.

@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "general/Blog.md",
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,6 +37,14 @@
                 "mode": "source",
                 "source": false
               }
+            }
+          },
+          {
+            "id": "c59a670cb2ddbe73",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -187,7 +195,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-advanced-slides:Show Slide Preview": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
@@ -200,12 +207,16 @@
   },
   "active": "344eae28c827a09d",
   "lastOpenFiles": [
+    "Tutorials/Programming/01 - Foundation/Hello World.md",
+    "Tutorials/Programming/Learn programming (C++).md",
+    "general/Home.md",
+    "Tutorials/Programming/01 - Foundation/Input Output.md",
+    "Tutorials/Programming/02 - Intermediate/Structs and Classes.md",
+    "Stuff/Recipes/Protein Bars.md",
+    "Stuff/Recipes/Cookies.md",
+    "Blog Posts/2023/Test Post 1.md",
     "general/Blog.md",
     "Blog Posts/2023/Test Post 2.md",
-    "Blog Posts/2023/Test Post 1.md",
-    "general/Home.md",
-    "Tutorials/Programming/Learn programming (C++).md",
-    "Tutorials/Programming/01 - Foundation/Simple Input Output.md",
     "Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
     "general/Resume.md",
     "Projects/Projects.md",
@@ -219,15 +230,11 @@
     "Tutorials/Programming/01 - Foundation/Conditions.md",
     "Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
     "Tutorials/Programming/01 - Foundation/Variables part 1.md",
-    "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Blog Posts/2023/card test.md",
     "theme.css",
     "publish.css",
     "Stuff/Games/What I'm Playing.md",
     "Tutorials/Tutorials.md",
-    "Tutorials/Programming/01 - Foundation/Examples/SimpleMain Example.md",
-    "Resources/Programming Resources.md",
-    "Stuff/Games/Favorite Games.md",
     "Blog Posts/other",
     "Tutorials/Programming/Overview.canvas",
     "Tutorials/Programming/01 - Foundation/Examples",

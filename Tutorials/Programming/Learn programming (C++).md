@@ -1,9 +1,10 @@
 > [!warning] This is very much a work in progress 
 ### Introduction
 
-I'm writing this series with the assumption that you know little if anything about programming. The series will focus on C++ but many of the concepts do carry over to other languages.
+I'm writing this series with the assumption that you know little if anything about programming. 
 
-I endeavor to give a more broad overview of things before building upon specific topics.
+I try to go more in depth with good practices and things to watch out for.
+I won't be covering absolutely everything but enough that this series can serve as a good reference.
 
 example code will be labeled as such
 ``` c++
@@ -37,7 +38,7 @@ To quickly get started https://www.onlinegdb.com/ works just as well.
 05 [[Functions]]
 06 [[Scope Lifetime]] 
 07 [[Iteration - Loops]] 
-08 [[Simple Input Output]]
+08 [[Input Output]]
 
 09 [[Code Style]]
 10 [[Documentation]]
@@ -51,24 +52,37 @@ loops
 simple input output
 
 ## Section 2: Intermediate
- [[Memory]] 
+ Command Line Arguments
+ Variables: Casting and Conversion
+ [[Structs and Classes]]
  [[pointers and references]]
  [[Arrays]] 
- [[Strings]]
  [[2d Array]] 
- variadic functions
+ [[Strings]]
+ [[Memory]] 
  [[File IO]] 
  [[Random Numbers]]
- [[Structs]]
- lambda
 
 **Exercises** 
-Memory allocation
-Read from files 
-Output to file
+Arrays 
+Strings
+Memory Manager
+File IO
 
 
-## Section 3: Data Structures
+## Section 3: Advanced
+Pointers and Iteration
+Inheritance
+variadic functions
+function pointers
+function templates
+class templates
+operator overloading
+lambda
+Recursion
+Exceptions
+
+## Section 4: Data Structures
 [[Data Structures]] 
 Arrays
 Linked Lists
@@ -91,10 +105,7 @@ disjointed set
 Hashing
 
 
-
-
-
-## Section 4: Algorithms
+## Section 5: Algorithms
 Algorithm Analysis
 -time complexity(best, worst, average)
 iterative vs recursive
