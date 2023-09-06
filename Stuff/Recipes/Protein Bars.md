@@ -106,3 +106,13 @@ protein powder
 honey/maple syrup
 oats
 Might still need to be baked at a low temp to form a solid bar.
+
+
+
+sun butter 
+protein
+rolled oats
+choco chip
+maple 
+crispy rice
+sea salt
