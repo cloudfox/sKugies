@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Input Output.md",
+                "file": "Stuff/Recipes/Cookies.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Input Output.md",
+                "file": "Stuff/Recipes/Cookies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Input Output.md",
+                "file": "Stuff/Recipes/Cookies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Input Output.md"
+                "file": "Stuff/Recipes/Cookies.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Input Output.md"
+                "file": "Stuff/Recipes/Cookies.md"
               }
             }
           }
@@ -200,15 +200,15 @@
   "active": "1123822bd3151e34",
   "lastOpenFiles": [
     "Tutorials/Programming/Learn programming (C++).md",
-    "Tutorials/Programming/01 - Foundation/Input Output.md",
+    "Stuff/Recipes/Cookies.md",
     "Stuff/Recipes/Protein Bars.md",
+    "Tutorials/Programming/01 - Foundation/Input Output.md",
     "Stuff/Games/Favorite Games.md",
     "general/Home.md",
     "general/Blog.md",
     "Tutorials/Programming/01 - Foundation/Variables part 1.md",
     "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Tutorials/Programming/02 - Intermediate/Structs and Classes.md",
-    "Stuff/Recipes/Cookies.md",
     "Blog Posts/2023/Test Post 1.md",
     "Blog Posts/2023/Test Post 2.md",
     "Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
