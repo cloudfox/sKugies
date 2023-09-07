@@ -19,8 +19,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0e5546a17ebef68e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stuff/Games/Favorite Games.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "0c1981f058ba31ae",
@@ -105,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Input Output.md",
+                "file": "Stuff/Games/Favorite Games.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Input Output.md",
+                "file": "Stuff/Games/Favorite Games.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Input Output.md"
+                "file": "Stuff/Games/Favorite Games.md"
               }
             }
           },
@@ -173,7 +186,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Input Output.md"
+                "file": "Stuff/Games/Favorite Games.md"
               }
             }
           }
@@ -197,15 +210,15 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "1123822bd3151e34",
+  "active": "0e5546a17ebef68e",
   "lastOpenFiles": [
-    "Stuff/Recipes/Protein Bars.md",
+    "general/Home.md",
+    "general/Blog.md",
     "Tutorials/Programming/01 - Foundation/Input Output.md",
+    "Stuff/Recipes/Protein Bars.md",
     "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/Programming/01 - Foundation/Variables part 1.md",
     "Tutorials/Programming/01 - Foundation/Hello World.md",
-    "general/Blog.md",
-    "general/Home.md",
     "Tutorials/Programming/02 - Intermediate/Structs and Classes.md",
     "Stuff/Recipes/Cookies.md",
     "Blog Posts/2023/Test Post 1.md",
