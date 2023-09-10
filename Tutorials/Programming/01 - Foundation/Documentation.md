@@ -8,7 +8,7 @@ Larger companies and studio might use something like doxygen which generates doc
 
 ##### Header Comment Example
 ```cpp
-/*!*****************************************************************************
+/*!****************************************************
  \file   filename.cpp
  \author Billy Bob Smith
  \par    email: BillBob@SeriousBussiness.com 
@@ -17,7 +17,7 @@ Larger companies and studio might use something like doxygen which generates doc
  \brief 
    Description of what the file does
  
-*******************************************************************************/
+******************************************************/
 
 ..the rest of the file..
 ```
@@ -26,7 +26,7 @@ It will sometimes include a list of all functions in the file.
 
 ##### Function Comment Example
 ```cpp
-/*!****************************************************************************
+/*!*****************************************************
 \brief
     program entry point
 \param argc
@@ -35,29 +35,22 @@ It will sometimes include a list of all functions in the file.
     the arguments 
 \return
     returns 0 for success
-******************************************************************************/
+******************************************************/
 int main(int argc, char **argv){ ... }
 ```
 Function comments are straightforward. A brief description of the function, a list and description of each parameter, and a description of what it returns if it has a return type.
 
 Alternatively if you aren't using doxygen you could go for something simpler like
 ```cpp
-/*****************************************************************************
+/*****************************************************
 Description of the function
-******************************************************************************/
+******************************************************/
 ```
 
 #### Commenting your code
 
 
 
-
-
-
-
-
-
-
-
-
-next: [[Programming Paradigms]] 
+# 
+----
+next: [[Section 1 Exercises]] 

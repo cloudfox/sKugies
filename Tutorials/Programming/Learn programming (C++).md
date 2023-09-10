@@ -39,36 +39,21 @@ To quickly get started https://www.onlinegdb.com/ works just as well.
 06 [[Scope Lifetime]] 
 07 [[Iteration - Loops]] 
 08 [[Input Output]]
-
 09 [[Code Style]]
 10 [[Documentation]]
-11 [[Programming Paradigms]]
-
-**Exercises** 
-expressions
-conditions
-functions
-loops
-simple input output
-
+ **[[Section 1 Exercises]]** 
 ## Section 2: Intermediate
- Command Line Arguments
- Variables: Casting and Conversion
- [[Structs and Classes]]
- [[pointers and references]]
- [[Arrays]] 
- [[2d Array]] 
- [[Strings]]
- [[Memory]] 
- [[File IO]] 
- [[Random Numbers]]
-
-**Exercises** 
-Arrays 
-Strings
-Memory Manager
-File IO
-
+ 01 [[Command Line Arguments]]
+ 02 [[Variables Casting and Conversion]]
+ 03 [[Structs and Classes]]
+ 04 [[pointers and references]]
+ 05 [[Arrays]] 
+ 06 [[2d Array]] 
+ 07 [[Strings]]
+ 08 [[Memory]] 
+ 09 [[File IO]] 
+ 10 [[Random Numbers]]
+[[Section 2 Exercises]]
 
 ## Section 3: Advanced
 Pointers and Iteration
