@@ -6,6 +6,8 @@ I'm writing this series with the assumption that you know little if anything abo
 I try to go more in depth with good practices and things to watch out for.
 I won't be covering absolutely everything but enough that this series can serve as a good reference.
 
+If you notice any mistakes feel free to [contact me](Contact) 
+
 example code will be labeled as such
 ``` c++
 int someFunction(){
@@ -30,9 +32,10 @@ For simplicity you could alternatively use an IDE like: [vsCode](https://code.vi
 
 To quickly get started https://www.onlinegdb.com/ works just as well.
 
-## Section 1: Foundation
+## Section 1: Foundation 
+(~80% done)
 01 [[Hello World|Hello World]] 
-02 [[Variables part 1]] 
+02 [[Variables]] 
 03 [[Expressions and Operators]] 
 04 [[Conditions]] 
 05 [[Functions]]
@@ -41,21 +44,23 @@ To quickly get started https://www.onlinegdb.com/ works just as well.
 08 [[Input Output]]
 09 [[Code Style]]
 10 [[Documentation]]
- **[[Section 1 Exercises]]** 
+ **[[Section 1 Exercises]]** (10%)
 ## Section 2: Intermediate
- 01 [[Command Line Arguments]]
- 02 [[Variables Casting and Conversion]]
- 03 [[Structs and Classes]]
- 04 [[pointers and references]]
- 05 [[Arrays]] 
+(~7% done)
+ 01 [[Structs and Classes]]
+ 02 [[pointers and references]]
+ 03 [[Variables Casting and Conversion]]
+ 04 [[Arrays]] 
+ 05 [[Command Line Arguments]]
  06 [[2d Array]] 
  07 [[Strings]]
  08 [[Memory]] 
  09 [[File IO]] 
  10 [[Random Numbers]]
-[[Section 2 Exercises]]
+[[Section 2 Exercises]] (2%)
 
 ## Section 3: Advanced
+(2% planning)
 Pointers and Iteration
 Inheritance
 variadic functions
@@ -66,6 +71,7 @@ operator overloading
 lambda
 Recursion
 Exceptions
+constructors
 
 ## Section 4: Data Structures
 [[Data Structures]] 

@@ -1,12 +1,30 @@
-[[Learn programming (C++)]]  previous: [[]]   #tutorial
+[[Learn programming (C++)]]  previous: [[Section 1 Exercises]]   
 
 ---
 
+## Structs
+
+```cpp
+struct name
+{
+
+}
+```
+
+
+## Classes
+Classes largely work exactly the same as structs. 
+
+- The biggest difference is that the contents of classes are private by default where structs are public. 
 
 
 
+```cpp
+class name
+{
+}
+```
 
-
-
-
-next: [[]] 
+#
+---
+next: [[pointers and references]] 

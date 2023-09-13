@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[]]   #tutorial
+[[Learn programming (C++)]]  previous: [[2d Array]]   #tutorial
 
 ---
 
@@ -9,4 +9,4 @@
 
 
 
-next: [[]] 
+next: [[Memory]] 

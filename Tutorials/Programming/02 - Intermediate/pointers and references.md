@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[]]   #tutorial
+[[Learn programming (C++)]]  previous: [[Structs - Classes]]   
 
 ---
 
@@ -8,5 +8,6 @@
 
 
 
-
-next: [[]] 
+#
+---
+next: [[Variables Casting and Conversion]] 

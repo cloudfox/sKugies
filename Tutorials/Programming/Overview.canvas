@@ -37,7 +37,7 @@
 		{"type":"text","text":"struct packing","id":"a1c46e358872d7e3","x":-580,"y":-860,"width":250,"height":50},
 		{"type":"text","text":"Inheretence","id":"5dab400d2d6dc33a","x":-580,"y":-959,"width":250,"height":50},
 		{"type":"text","text":"[[Hello World|Hello World]] ","id":"4ffa889b43466016","x":-1480,"y":-1037,"width":250,"height":50,"color":"4"},
-		{"type":"text","text":"[[Variables part 1]] ","id":"53668cbab7a26482","x":-1480,"y":-985,"width":250,"height":50,"color":"4"},
+		{"type":"text","text":"[[Variables]] ","id":"53668cbab7a26482","x":-1480,"y":-985,"width":250,"height":50,"color":"4"},
 		{"type":"text","text":"Stack","id":"d5530da31d9242dc","x":160,"y":-840,"width":250,"height":50},
 		{"type":"text","text":"[[Queue]] ","id":"02c48db752e8328a","x":160,"y":-790,"width":250,"height":50},
 		{"type":"text","text":"Trees","id":"d24521c3666d9528","x":160,"y":-230,"width":250,"height":50},

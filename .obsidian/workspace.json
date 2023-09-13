@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Documentation.md",
+                "file": "Tutorials/Programming/02 - Intermediate/Structs and Classes.md",
                 "mode": "source",
                 "source": false
               }
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Documentation.md",
+                "file": "Tutorials/Programming/02 - Intermediate/Structs and Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Documentation.md",
+                "file": "Tutorials/Programming/02 - Intermediate/Structs and Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Documentation.md"
+                "file": "Tutorials/Programming/02 - Intermediate/Structs and Classes.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Documentation.md"
+                "file": "Tutorials/Programming/02 - Intermediate/Structs and Classes.md"
               }
             }
           }
@@ -200,31 +200,31 @@
   "active": "dc47fe5255129eea",
   "lastOpenFiles": [
     "Tutorials/Programming/Learn programming (C++).md",
+    "Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
+    "Tutorials/Programming/02 - Intermediate/Structs and Classes.md",
+    "Tutorials/Programming/02 - Intermediate/pointers and references.md",
     "Tutorials/Programming/02 - Intermediate/Variables Casting and Conversion.md",
-    "Tutorials/Programming/02 - Intermediate/Command Line Arguments.md",
+    "Tutorials/Programming/02 - Intermediate/Random Numbers.md",
+    "general/Contact.md",
+    "Tutorials/Programming/01 - Foundation/Variables.md",
     "Tutorials/Programming/02 - Intermediate/Section 2 Exercises.md",
+    "Stuff/Games/What I'm Playing.md",
+    "general/Home.md",
+    "Tutorials/Programming/01 - Foundation/File IO.md",
+    "Tutorials/Programming/02 - Intermediate/Memory.md",
+    "Tutorials/Programming/02 - Intermediate/Strings.md",
+    "Tutorials/Programming/02 - Intermediate/2d Array.md",
+    "Tutorials/Programming/02 - Intermediate/Command Line Arguments.md",
+    "Tutorials/Programming/01 - Foundation/Exercises/E1.1/Exercise 1.1.md",
+    "Tutorials/Programming/03 - Data Structures/types/Data Structures.md",
+    "Tutorials/Programming/02 - Intermediate/Arrays.md",
     "Tutorials/Programming/01 - Foundation/Documentation.md",
     "Tutorials/Programming/01 - Foundation/Programming Paradigms.md",
-    "Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
     "Tutorials/Programming/01 - Foundation/Code Style.md",
     "Tutorials/Programming/01 - Foundation/Input Output.md",
     "Stuff/Recipes/Cookies.md",
     "Stuff/Recipes/Protein Bars.md",
     "Stuff/Games/Favorite Games.md",
-    "general/Home.md",
-    "general/Blog.md",
-    "Tutorials/Programming/01 - Foundation/Variables part 1.md",
-    "Tutorials/Programming/01 - Foundation/Hello World.md",
-    "Tutorials/Programming/02 - Intermediate/Structs and Classes.md",
-    "Blog Posts/2023/Test Post 1.md",
-    "Blog Posts/2023/Test Post 2.md",
-    "Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
-    "general/Resume.md",
-    "Projects/Projects.md",
-    "Projects/Student/EFO.md",
-    "Projects/Student/Pogglewash.md",
-    "Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
-    "Tutorials/Programming/01 - Foundation/Functions.md",
     "theme.css",
     "publish.css",
     "Blog Posts/other",

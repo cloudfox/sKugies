@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[]]   #tutorial
+[[Learn programming (C++)]]  previous: [[Command Line Arguments]]   #tutorial
 
 ---
 
@@ -9,4 +9,4 @@
 
 
 
-next: [[]] 
+next: [[Strings]] 

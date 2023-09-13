@@ -67,7 +67,7 @@ const float y; //ERROR const must be initialized
 
 ---
 
-#### **Integrals**
+#### Integrals
 These are your whole numbers. They can be positive / negative and have different possible ranges of values. 
 Depending on the size of the specific integral type determines what range of values they can store. You can also use these numbers to represent letters and other characters like with ASCII
 

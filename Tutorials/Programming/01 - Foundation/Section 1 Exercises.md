@@ -8,4 +8,4 @@ loops
 simple input output
 # 
 ----
-next: [[Section 1 Exercises]] 
+next: [[Structs and Classes]] 

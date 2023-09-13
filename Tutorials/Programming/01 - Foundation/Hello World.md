@@ -140,4 +140,4 @@ Output:
 ```
 
 ---
-next: [[Variables part 1]] 
+next: [[Variables]] 

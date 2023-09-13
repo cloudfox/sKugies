@@ -1,4 +1,6 @@
+[[Learn programming (C++)]]  previous: [[]]   
 
+---
 memory vs speed
 
 Linear:
@@ -16,3 +18,6 @@ Non-linear
 Advanced:
 [[Free List]] 
 [[Pool]] 
+# 
+----
+next: [[]] 

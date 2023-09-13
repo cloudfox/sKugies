@@ -2,6 +2,7 @@
 **Currently**
 Starfield
 Baldur's Gate 3
+Dark and Darker
 
 
 **Previously**

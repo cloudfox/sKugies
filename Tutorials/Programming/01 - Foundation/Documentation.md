@@ -45,10 +45,22 @@ Alternatively if you aren't using doxygen you could go for something simpler lik
 /*****************************************************
 Description of the function
 ******************************************************/
+void function( ... ) { ... }
 ```
 
 #### Commenting your code
+Comments are there to help!
 
+- Good comments are clear and concise. You don't need to comment on everything.
+	- Properly named variables/functions reduce how many comments you need(but doesn't replace them).
+	- For simple functions a simple description might be all that is really needed. For others breaking it down into steps can help.
+
+- Write your comments as you are writing your code. It's a pain in the butt to go back afterwards.
+	- Writing the comments first also works very well. And writing each step as a separate comment can act as a guide for the code you need to write.
+
+- There are some comment tags you can use like TODO or FIXME. Some IDEs will color code or create a list of these comments to jump to.
+
+- It can be good to include a links to references or source that the code came from.
 
 
 # 

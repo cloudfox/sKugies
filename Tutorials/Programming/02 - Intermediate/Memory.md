@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[]]   #tutorial
+[[Learn programming (C++)]]  previous: [[Strings]]   #tutorial
 
 ---
 
@@ -21,5 +21,6 @@ free
 new
 delete
 
-
-next: [[]] 
+#
+---
+next: [[File IO]] 
