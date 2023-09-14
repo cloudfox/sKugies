@@ -113,5 +113,5 @@ stringstream(aString) >> potatoes; //inputs from string as an integer into potat
 
 #### 
 ---
-next: [[Code Style]] 
+next: [[Arrays]] 
 Related: [[File IO]]

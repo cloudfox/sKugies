@@ -42,21 +42,22 @@ To quickly get started https://www.onlinegdb.com/ works just as well.
 06 [[Scope Lifetime]] 
 07 [[Iteration - Loops]] 
 08 [[Input Output]]
-09 [[Code Style]]
-10 [[Documentation]]
+09 [[Arrays]] 
+10 [[Code Style]]
+11 [[Documentation]]
  **[[Section 1 Exercises]]** (10%)
 ## Section 2: Intermediate
 (~7% done)
  01 [[Structs and Classes]]
  02 [[pointers and references]]
  03 [[Variables Casting and Conversion]]
- 04 [[Arrays]] 
- 05 [[Command Line Arguments]]
- 06 [[2d Array]] 
- 07 [[Strings]]
- 08 [[Memory]] 
- 09 [[File IO]] 
- 10 [[Random Numbers]]
+ 04 [[Command Line Arguments]]
+ 05 [[2d Array]] 
+ 06 [[Strings]]
+ 07 [[Memory]] 
+ 08 [[File IO]] 
+ 09 [[Random Numbers]]
+ 10 [[The Compiler]]
 [[Section 2 Exercises]] (2%)
 
 ## Section 3: Advanced

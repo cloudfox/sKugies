@@ -1,7 +1,9 @@
+---
+publish: true
+---
 [[Learn programming (C++)]]  previous: [[Section 1 Exercises]]   
 
 ---
-
 ## Structs
 
 ```cpp
