@@ -10,7 +10,9 @@ Quadratic Bézier
 
 n-Degree Bézier
 
-slerp - spline
+slerp 
+
+spline
 
 Related
 ease in/out
