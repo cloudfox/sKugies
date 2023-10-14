@@ -1,62 +1,110 @@
----
-publish:
----
 
-## C++ Questions
 
-- When should you use virtual destructors?(interviewers absolutely love this question!)
-- What is the difference between allocating memory on the heap versus the stack?
-- What C++11 and C++14 features are you using?
-- What are templates used for?
+## Programming
+#### C++
+When should you use virtual destructors?(interviewers absolutely love this question!)
+	Used when you might delete an instance of a derived class through a pointer to the base class. Without the virtual destructor in derived only the base classes destructor is called possibly leaking data.
+```cpp
+class Base 
+{    /** some virtual methods  */   };
+
+class Derived : public Base
+{
+  ~Derived() {/*Cleanup*/}  //this should be virtual
+};
+```
+
+```
+Base *b = new Derived();
+delete b; // Here's the problem!
+```
+
+---  
+ What is the difference between allocating memory on the heap versus the stack?
+ 
+The stack is a linear block of memory with limited space
+Specifically range of memory that is accessible via the stack register of the CPU
+- memory is allocated/deallocated automatically with the 
+- temporary variables (including those passed to functions)
+- Last in - First Out
+
+The heap is memory allocated at runtime.
+- the reference to where the heap is located is stored on the stack(pointers/references/etc..)
+- manual creation/deletion
+
+
+---
+What C++11 and C++14 features are you using?
+**11**
+- Lambda expressions  
+https://www.geeksforgeeks.org/lambda-expression-in-c/
+```
+[capture](parameters)->return-type {body}
+
+//example-  lambda expression to print vector
+    
+    for_each(v.begin(), v.end(), [](int i)
+    { std::cout %3C< i << " "; });
+    
+```
+- Deleted and default functions
+```
+A()=default; //C++11
+virtual ~A()=default; //C++11
+
+NoCopy ( const NoCopy & ) = delete;  //useful for preventing copy constructors
+```
+- nullptr
+keyword that designates a null pointer constant, strongly typed
+-  Delegating Constructors
+constructor that can call another constructor of the same class
+- Threading Library
+- smart pointer class 
+
+**14**
+- Binary Literals
+- Generic Lambda Expressions - Polymorphic Lambdas
+- Lambda Capture initializers
+- variable templates 
+- depreceated attribute
+- make_unique
+17
+- constexpr lambda 
+- inline Variables
+- nested namespaces
+- constexpr if
+---
+What are templates used for?
+blueprint or formula for creating a generic class or a function.
+used for algorithms that work for a variety of data types
+
+
+
+
+---
 - Explain the `inline` keyword
+
+---
 - What is little and big endian?
+
+---
 - Explain what const-correctness is?
+
+---
 - What overhead is associated with calling a virtual function?
+
+---
 - There will probably be some question where you are asked to perform some bit twiddling tricks, using operators such as `&` and `|` and friends
+
+---
 - There will probably be one question where you are asked to do something with a linked list, or some other pointer-based data structured like a tree. For instance, reversing a linked list.
+
+---
 - What is the size of a pointer in C++?(that is, the result of `sizeof` for a pointer)
-As a general rule, none of the questions were about advanced language features. I was for instance never asked to do any template metaprogramming, which was a relief.
-## Optimization Questions
- How can we use a Bounding Volume Hierarchy(or an octree, or something similar) to speed up a raytracer?
-- Explain about Cache Memory(L1 and L2 caches, and so on)
-- What is [Data Oriented Design?](https://en.wikipedia.org/wiki/Data-oriented_design)
-- Explain how view frustum culling can be optimized using multithreading and SIMD(see e.g. the blog post by [Andreas Asplund](http://bitsquid.blogspot.se/2016/10/the-implementation-of-frustum-culling.html))
-- Do you have experience with using performance profiling tools for the GPU?
-Game companies seem to expect you to have experience with profiling and optimizing your code using tools such as NVIDIA Nsight, so do get familiar with them. Also, [this](http://pages.tacc.utexas.edu/~eijkhout/Articles/EijkhoutIntroToHPC.pdf) is a good book for brushing up on computer architecture topics such as cache memory.
-## Math Questions 
-- What is a dot product?
-- What is a cross product?
-- What do they represent?
-- Why should you use quaternions over euler angles?
-- How do you use matrices to apply transformations to an object? For instance, how do you scale, translate and rotate an object with matrices?
-- How do you calculate the intersection between a ray and a plane/sphere/triangle?
-- Explain concepts like world space, object space and camera space.
-- ray/sphere intersection
-- reflecting vectors against walls
--  what the magnitude of both the dot and cross product mean
-- now when you need to normalize a vector and when you don't
--  how to calculate a normal
-- how to calculate the distance between two vectors
-- what each value in a 4x4 matrix 
-- how would you find the angle between two vectors, distance between two lines ethic 
-## Computer Graphics Questions
 
-- What anti-aliasing techniques do you know about?(some possible techniques are MSAA, MLAA, FXAA and TXAA)
-- What are the most common elements of a rendering engine?(common elements will be things like a system for handling culling, rendering of shadows, handling of light sources with something like deferred/forward shading, how materials are handled in the engine, and so on)
-- What shadow rendering techniques do you know about?(there are TONS of shadow rendering techniques out there. Some examples are variance shadow mapping and exponential shadow mapping, and the newer [moment shadow mapping](http://cg.cs.uni-bonn.de/aigaion2root/attachments/MomentShadowMapping.pdf))
-- What are the pros and cons of a deferred renderer?
-- Explain to me physically based rendering?
-- Can you give an explanation of how the [Rendering Equation](https://en.wikipedia.org/wiki/Rendering_equation) works?
-- What is a BRDF? What does it mean to say that a BRDF is "energy conserving"?
-- What are the performance implications of branching in a shader?(hint: read up on the concept of a warp in GPU architecture)
-- What advantages does newer API:s like Vulkan and DirectX 12 offer over old API:s like OpenGL and DirectX 11?(hint: primary reason is lower driver-overhead)
-- What is the last graphics paper you read, and can you explain it to me?(this was a pretty common question)
-- Describe to me the entire [graphics pipeline?](https://en.wikipedia.org/wiki/Graphics_pipeline)(your answer will probably be pretty long. You will explain about the vertex shader and the fragment shader, about perspective correct interpolation, about the z-buffer, about double buffering the framebuffer, about alpha blending, about transformation matrices, about homogeneous coordinates, about reflection models in the fragment shader and so on.)
-- how you convert coordinates from world space to the screen.
 
-## General Programming knowledge 
 
- - The big O runtime of ALL containers, including map, unordered map/hashmap, set, array, list, vector, and any others. 
+The big O runtime of ALL containers, including map, unordered map/hashmap, set, array, list, vector, and any others. 
  - runtime of common algorithms such as binary searching an array
  - when to use each container
  >[!tip] Ask what the data is being used for and how it's being given to you, see if it can be sorted and if that helps, check if you can cache results somehow, consider the case of 1 lookup vs 1000
@@ -76,10 +124,20 @@ Game companies seem to expect you to have experience with profiling and optimizi
 - Multithreading, its pros and cons (how I would implement a thread-safe singleton)
 - Memory corruption, multiplayer lag compensation in a shooter game (go watch that famous Overwatch GDC video again).
 - Optimization questions like “in a big map full of items, how would you find the items that the player can interact with” (the answer included quadtrees)
-- 
+
+#### Optimization Questions
+ How can we use a Bounding Volume Hierarchy(or an octree, or something similar) to speed up a raytracer?
+- Explain about Cache Memory(L1 and L2 caches, and so on)
+- What is [Data Oriented Design?](https://en.wikipedia.org/wiki/Data-oriented_design)
+- Explain how view frustum culling can be optimized using multithreading and SIMD(see e.g. the blog post by [Andreas Asplund](http://bitsquid.blogspot.se/2016/10/the-implementation-of-frustum-culling.html))
+- Do you have experience with using performance profiling tools for the GPU?
+Game companies seem to expect you to have experience with profiling and optimizing your code using tools such as NVIDIA Nsight, so do get familiar with them. Also, [this](http://pages.tacc.utexas.edu/~eijkhout/Articles/EijkhoutIntroToHPC.pdf) is a good book for brushing up on computer architecture topics such as cache memory.
 
 
-## Debugging and optimization 
+
+
+
+#### Debugging and optimization 
 You'll be given strange scenarios and have to come up with all the possible things that could be wrong and how you might fix it. 
 
 Think about things like how to reproduce the issue, whether it only happens on certain computers, how you can debug it if you can't reproduce it on your computer, what tools are available in a debugger (line break points, memory break points, stack traces, core dumps, etc). 
@@ -91,12 +149,74 @@ When optimizing, make sure you ask for as much relevant information about your h
 Consider the differences between optimizing for speed vs memory. You will most likely be asked about how to allocate memory in order to take advantage of the CPU cache size. Be familiar with static and runtime analysis tools like VTune. Experience with libraries like TBB is a plus.
 
 
+---
+## Math Questions 
+
+ - What is a dot product?
+
+- What is a cross product?
+
+- What do they represent?
+
+---
+- Why should you use quaternions over euler angles?
+- How do you use matrices to apply transformations to an object? For instance, how do you scale, translate and rotate an object with matrices?
+- How do you calculate the intersection between a ray and a plane/sphere/triangle?
+- Explain concepts like world space, object space and camera space.
+- ray/sphere intersection
+- reflecting vectors against walls
+-  what the magnitude of both the dot and cross product mean
+- now when you need to normalize a vector and when you don't
+-  how to calculate a normal
+- how to calculate the distance between two vectors
+- what each value in a 4x4 matrix 
+- how would you find the angle between two vectors, distance between two lines ethic 
+
+
+
+
+
+
+## Computer Graphics Questions
+
+- What anti-aliasing techniques do you know about?(some possible techniques are MSAA, MLAA, FXAA and TXAA)
+- What are the most common elements of a rendering engine?(common elements will be things like a system for handling culling, rendering of shadows, handling of light sources with something like deferred/forward shading, how materials are handled in the engine, and so on)
+- What shadow rendering techniques do you know about?(there are TONS of shadow rendering techniques out there. Some examples are variance shadow mapping and exponential shadow mapping, and the newer [moment shadow mapping](http://cg.cs.uni-bonn.de/aigaion2root/attachments/MomentShadowMapping.pdf))
+- What are the pros and cons of a deferred renderer?
+- Explain to me physically based rendering?
+- Can you give an explanation of how the [Rendering Equation](https://en.wikipedia.org/wiki/Rendering_equation) works?
+- What is a BRDF? What does it mean to say that a BRDF is "energy conserving"?
+- What are the performance implications of branching in a shader?(hint: read up on the concept of a warp in GPU architecture)
+- What advantages does newer API:s like Vulkan and DirectX 12 offer over old API:s like OpenGL and DirectX 11?(hint: primary reason is lower driver-overhead)
+- What is the last graphics paper you read, and can you explain it to me?(this was a pretty common question)
+- Describe to me the entire [graphics pipeline?](https://en.wikipedia.org/wiki/Graphics_pipeline)(your answer will probably be pretty long. You will explain about the vertex shader and the fragment shader, about perspective correct interpolation, about the z-buffer, about double buffering the framebuffer, about alpha blending, about transformation matrices, about homogeneous coordinates, about reflection models in the fragment shader and so on.)
+- how you convert coordinates from world space to the screen.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---
+
+
+
+
 ## The Structure of an Interview
 Nearly all interviews with game companies follow the same pattern: 
 1. phone screen
 2. take-home programming test
 3. on-site interview.
-
 #### Phone Interviews
  Generally two types:
   1. interviewer asks rapid-fire low-level programming questions
@@ -113,7 +233,6 @@ Nearly all interviews will be conducted assuming you have advanced knowledge of 
 - leave comments as to why you used certain decisions
 - There might be follow-up interviews about this step where you are asked to go through the code and add new features or extend the existing ones.
 - slightly modified version of game-of-life
-
 ##### Example Questions
 “what’s the output of this program”
 “implement the concrete class of this interface with blah functionality”
@@ -130,11 +249,7 @@ leet [[Code Style]]
 - maybe one medium
 -  solved one with two-pointers approach and 1-D dynamic programming
  - focus more on just getting solid & efficient implementations for easy/medium problems in C++
-
 read Scott Meyer’s books, starting from “Effective C++”
-
-Know basics of the STL: vector, list, map and unordered map, and have a high-level understanding of how they are implemented under the hood
-(a good exercise is to implement a hash table if you haven’t done before)
 
 
 ####  Whiteboard questions:
@@ -156,6 +271,12 @@ One example is: “Given an array of numbers, replace each number with the produ
 - If you think you’re not in the right direction (or you feel lost, which was my case a couple of times) just ask for hints. It’s true that they don’t expect you to be a mind-reader, but they’re evaluating your capability of extracting the design out of their minds. While falling into this situation will eventually reflect as negative on your score, you should ask for a clue _before_ they’re forced to give you one (which would be even worse for you).
 
 
+#### Review
+1. Review C++ faq https://isocpp.org/faq  This helps avoid getting tripped up on C++ trivia.
+2. Review my resume & experience and think about points I'd like to chat about, that are especially relevant to this job.
+3.  Review the company's games - Think about what I like & dislike about them, so I can talk about them intelligently.
+4.  Review some basic vector/matrix math: Dot product, cross product, how to project a point onto a line, how to use matrices for rotations, etc. It doesn't always come up but I like to be prepared just in case.
+5. Leetcode problems as time permits. At least a couple easy problems the night before to make sure I'm "warmed up".
 
 ## Soft skills questions 
 - What’s the project from your CV that you’re proud of the most?
@@ -175,7 +296,6 @@ One example is: “Given an array of numbers, replace each number with the produ
 - What would your mindset be when you’re just starting implementing a new feature? What would be the important things for you? (part 2) How would that mindset change when you’re working on a legacy codebase?
 - Let’s say you have another member joining you in the feature. How would you onboard them?
 - What do you think of TDD’s?
-
 
 ## Questions to ask 
 If time permits, they leave a ~5 minute window at the end of each round for you to ask questions. It doesn’t seem like that at first, but this interval is pretty important: you’re able to get as much insight as possible regarding the team structure, ways of working, expectations from the role, future of the role etc. [This (gamedev focused)](https://lindenreidblog.com/2020/05/21/questions-to-ask-game-studios-youre-interviewing-with/) and [this (more general tech oriented)](https://github.com/viraptor/reverse-interview) list of questions are pretty comprehensive.
@@ -201,12 +321,6 @@ If time permits, they leave a ~5 minute window at the end of each round for you 
     - What are your remote tools / procedures?
     - Is my particular experience going to be OK?
 
-## Review
-1. Review C++ faq https://isocpp.org/faq  This helps avoid getting tripped up on C++ trivia.
-2. Review my resume & experience and think about points I'd like to chat about, that are especially relevant to this job.
-3.  Review the company's games - Think about what I like & dislike about them, so I can talk about them intelligently.
-4.  Review some basic vector/matrix math: Dot product, cross product, how to project a point onto a line, how to use matrices for rotations, etc. It doesn't always come up but I like to be prepared just in case.
-5. Leetcode problems as time permits. At least a couple easy problems the night before to make sure I'm "warmed up".
 
 
 # Compensation
@@ -228,43 +342,25 @@ If time permits, they leave a ~5 minute window at the end of each round for you 
 - I already had a couple offers by the time I did my all-day virtual "onsite" with Bungie.
 - I gave them a deadline to respond within the week.
 - So I think they felt like they needed to give a strong offer up-front, since they wouldn't have time for any back-and-forth.
-
-
-
-
-
-- High-level overview of the scope of gameplay-engineering interviews
-[https://www.reddit.com/r/gamedev/comments/9n847g/18_months_of_game_programming_interviews/](https://www.reddit.com/r/gamedev/comments/9n847g/18_months_of_game_programming_interviews/)
-
-- Game-math refresher:
-
-- [https://gamemath.com/book/](https://gamemath.com/book/)
-
-- C++ refresher:
-
-- [https://learnxinyminutes.com/docs/c++/](https://learnxinyminutes.com/docs/c++/)
-
 - [Glassdoor's numbers](https://www.glassdoor.com/Salary/Bungie-Senior-Gameplay-Programmer-Washington-State-Salaries-EJI_IE284423.0,6_KO7,33_IL.34,50_IS3020.htm) seem somewhat accurate for base salary.
 
+
+
+Resources
+- High-level overview of the scope of gameplay-engineering interviewers [https://www.reddit.com/r/gamedev/comments/9n847g/18_months_of_game_programming_interviews/](https://www.reddit.com/r/gamedev/comments/9n847g/18_months_of_game_programming_interviews/)
+- Game-math refresher:
+[https://gamemath.com/book/](https://gamemath.com/book/)
+- C++ refresher:
+[https://learnxinyminutes.com/docs/c++/](https://learnxinyminutes.com/docs/c++/)
+Other:
 https://old.reddit.com/r/gamedev/comments/vnjivd/getting_that_gamedev_job_from_frontend_software/
-
 https://github.com/viraptor/reverse-interview
-
 https://lindenreidblog.com/2020/05/21/questions-to-ask-game-studios-youre-interviewing-with/
-
 https://old.reddit.com/r/cscareerquestionsEU/comments/smbkmt/how_do_you_stay_motivated_at_your_job_knowing/hvw7756/?context=3
-
 https://old.reddit.com/r/cscareerquestions/comments/ujjhpi/not_all_can_make_top_5_salaries_by_definition_but/
-
 https://www.kalzumeus.com/2012/01/23/salary-negotiation/
-
 https://learnxinyminutes.com/docs/c++/
-
 https://www.gamelogicrecruitment.com/post/game-developer-interview-questions
-
 https://career.guru99.com/top-25-interview-questions-for-game-developer/
-
 https://www.talentlyft.com/en/resources/game-developer-interview-question
-
 create a showreel ([levi.dev/showreel](https://levi.dev/showreel)).
-
