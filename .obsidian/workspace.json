@@ -29,7 +29,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/Interview Prep.md",
+                "file": "Blog Posts/Oct22 - Spinning Things.md",
                 "mode": "source",
                 "source": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Interview Prep.md",
+                "file": "Blog Posts/Oct22 - Spinning Things.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/Interview Prep.md",
+                "file": "Blog Posts/Oct22 - Spinning Things.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +181,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Interview Prep.md"
+                "file": "Blog Posts/Oct22 - Spinning Things.md"
               }
             }
           },
@@ -201,7 +201,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Resources/Interview Prep.md"
+                "file": "Blog Posts/Oct22 - Spinning Things.md"
               }
             }
           }
@@ -228,6 +228,11 @@
   "active": "4b9e33e8db2674e6",
   "lastOpenFiles": [
     "Resources/Interview Prop.md",
+    "Blog Posts/Oct22 - Spinning Things.md",
+    "Blog Posts/2023/Test Post 1.md",
+    "Projects/Projects.md",
+    "Projects/Personal/Untitled.md",
+    "Projects/Personal",
     "Resources/Interview Prep.md",
     "Tutorials/Programming/02 - Intermediate/Structs and Classes.md",
     "Tutorials/Programming/Overview.canvas",
@@ -250,10 +255,6 @@
     "Tutorials/other/ECS.md",
     "Tutorials/other/Interpolation.md",
     "Tutorials/other/Splines.md",
-    "Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
-    "Tutorials/Programming/02 - Intermediate/pointers and references.md",
-    "general/Contact.md",
-    "Tutorials/Programming/01 - Foundation/Variables.md",
     "theme.css",
     "publish.css",
     "Blog Posts/other",
@@ -262,7 +263,6 @@
     "Stuff/Books",
     "Stuff/Games",
     "Stuff",
-    "Resources",
-    "Tutorials/Programming/05 - Other Topics/Procedural Generation"
+    "Resources"
   ]
 }
