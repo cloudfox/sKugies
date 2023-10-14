@@ -2,7 +2,7 @@
 
 ## Programming
 #### C++
-When should you use virtual destructors?(interviewers absolutely love this question!)
+**When should you use virtual destructors?(interviewers absolutely love this question!)**
 	Used when you might delete an instance of a derived class through a pointer to the base class. Without the virtual destructor in derived only the base classes destructor is called possibly leaking data.
 ```cpp
 class Base 
@@ -20,7 +20,7 @@ delete b; // Here's the problem!
 ```
 
 ---  
- What is the difference between allocating memory on the heap versus the stack?
+ **What is the difference between allocating memory on the heap versus the stack?**
  
 The stack is a linear block of memory with limited space
 Specifically range of memory that is accessible via the stack register of the CPU
@@ -34,8 +34,9 @@ The heap is memory allocated at runtime.
 
 
 ---
-What C++11 and C++14 features are you using?
+**What C++11 and C++14 features are you using?**
 **11**
+https://github.com/AnthonyCalandra/modern-cpp-features
 - Lambda expressions  
 https://www.geeksforgeeks.org/lambda-expression-in-c/
 ```
@@ -74,57 +75,218 @@ constructor that can call another constructor of the same class
 - nested namespaces
 - constexpr if
 ---
-What are templates used for?
+**What are templates used for?**
 blueprint or formula for creating a generic class or a function.
 used for algorithms that work for a variety of data types
-
-
-
+ex: sorting, counting, object pools,  containers etc..
 
 ---
-- Explain the `inline` keyword
+**Explain the `inline` keyword**
+An inline function is expanded in line when called.
+The whole code is inserted at that location.
+- reduces function call overhead
+- insertion/substitution happens at compile time
+- is a request to the compiler, can be ignored
+>[!tip] The compiler may ignore inline when:
+	1. function contains a loop. 
+	2. function contains static variables.
+	3. function is recursive. 
+	4. return type is not void, and the return statement isn't in the function body. 
+	5. function contains a switch or goto statement.
+
+- still uses registers for added variables
+- increases binary exe size
+- can reduce cache hit rate
+- can increase compile time
+---
+**What is little and big endian?**
+Ways of storing multibyte data
+
+little endian - reverse order last byte to first byte
+big endian - first byte to last byte
 
 ---
-- What is little and big endian?
+**Explain what const-correctness is?**
+const is a for a variable that cannot change after initialization
+const correctness is preventing a const object from being mutated.
+-  prevents you from _inadvertently_ modifying something you didn’t expect would be modified
+https://isocpp.org/wiki/faq/const-correctness
+---
+**What overhead is associated with calling a virtual function?**
+
+virtual methods implemented through virtual method tables(table of function pointers). Small part of cost is additional time to call function through table instead of directly.
+
+Greater cost is in the compiler usually not being able to do any branch prediction optimization
 
 ---
-- Explain what const-correctness is?
-
----
-- What overhead is associated with calling a virtual function?
-
----
-- There will probably be some question where you are asked to perform some bit twiddling tricks, using operators such as `&` and `|` and friends
-
+**bit twiddling tricks**
+https://github.com/virtyaluk/Bit-Twiddling-Hacks
 ---
 - There will probably be one question where you are asked to do something with a linked list, or some other pointer-based data structured like a tree. For instance, reversing a linked list.
 
 ---
-- What is the size of a pointer in C++?(that is, the result of `sizeof` for a pointer)
+**What is the size of a pointer in C++?(that is, the result of `sizeof` for a pointer)** 
+depends on architecture 32bit or 64bit  i.e. 4bytes or 8 bytes
+
+---
+**The big O runtime of ALL containers**,
+![[Resources/Interview Prep/BIGO.png]]
+![[big-o-cheat-sheet-poster.png]]
+
+https://www.bigocheatsheet.com/
+|Data Structure|Time Complexity|   |   |   |   |   |   |   |Space Complexity|
+|---|---|---|---|---|---|---|---|---|---|
+||Average|   |   |   |Worst|   |   |   |Worst|
+||Access|Search|Insertion|Deletion|Access|Search|Insertion|Deletion||
+|[Array](http://en.wikipedia.org/wiki/Array_data_structure)|`Θ(1)`|`Θ(n)`|`Θ(n)`|`Θ(n)`|`O(1)`|`O(n)`|`O(n)`|`O(n)`|`O(n)`|
+|[Stack](http://en.wikipedia.org/wiki/Stack_(abstract_data_type))|`Θ(n)`|`Θ(n)`|`Θ(1)`|`Θ(1)`|`O(n)`|`O(n)`|`O(1)`|`O(1)`|`O(n)`|
+|[Queue](http://en.wikipedia.org/wiki/Queue_(abstract_data_type))|`Θ(n)`|`Θ(n)`|`Θ(1)`|`Θ(1)`|`O(n)`|`O(n)`|`O(1)`|`O(1)`|`O(n)`|
+|[Singly-Linked List](http://en.wikipedia.org/wiki/Singly_linked_list#Singly_linked_lists)|`Θ(n)`|`Θ(n)`|`Θ(1)`|`Θ(1)`|`O(n)`|`O(n)`|`O(1)`|`O(1)`|`O(n)`|
+|[Doubly-Linked List](http://en.wikipedia.org/wiki/Doubly_linked_list)|`Θ(n)`|`Θ(n)`|`Θ(1)`|`Θ(1)`|`O(n)`|`O(n)`|`O(1)`|`O(1)`|`O(n)`|
+|[Skip List](http://en.wikipedia.org/wiki/Skip_list)|`Θ(log(n))`|`Θ(log(n))`|`Θ(log(n))`|`Θ(log(n))`|`O(n)`|`O(n)`|`O(n)`|`O(n)`|`O(n log(n))`|
+|[Hash Table](http://en.wikipedia.org/wiki/Hash_table)|`N/A`|`Θ(1)`|`Θ(1)`|`Θ(1)`|`N/A`|`O(n)`|`O(n)`|`O(n)`|`O(n)`|
+|[Binary Search Tree](http://en.wikipedia.org/wiki/Binary_search_tree)|`Θ(log(n))`|`Θ(log(n))`|`Θ(log(n))`|`Θ(log(n))`|`O(n)`|`O(n)`|`O(n)`|`O(n)`|`O(n)`|
+|[Cartesian Tree](https://en.wikipedia.org/wiki/Cartesian_tree)|`N/A`|`Θ(log(n))`|`Θ(log(n))`|`Θ(log(n))`|`N/A`|`O(n)`|`O(n)`|`O(n)`|`O(n)`|
+|[B-Tree](http://en.wikipedia.org/wiki/B_tree)|`Θ(log(n))`|`Θ(log(n))`|`Θ(log(n))`|`Θ(log(n))`|`O(log(n))`|`O(log(n))`|`O(log(n))`|`O(log(n))`|`O(n)`|
+|[Red-Black Tree](http://en.wikipedia.org/wiki/Red-black_tree)|`Θ(log(n))`|`Θ(log(n))`|`Θ(log(n))`|`Θ(log(n))`|`O(log(n))`|`O(log(n))`|`O(log(n))`|`O(log(n))`|`O(n)`|
+|[Splay Tree](https://en.wikipedia.org/wiki/Splay_tree)|`N/A`|`Θ(log(n))`|`Θ(log(n))`|`Θ(log(n))`|`N/A`|`O(log(n))`|`O(log(n))`|`O(log(n))`|`O(n)`|
+|[AVL Tree](http://en.wikipedia.org/wiki/AVL_tree)|`Θ(log(n))`|`Θ(log(n))`|`Θ(log(n))`|`Θ(log(n))`|`O(log(n))`|`O(log(n))`|`O(log(n))`|`O(log(n))`|`O(n)`|
+|[KD Tree](http://en.wikipedia.org/wiki/K-d_tree)|`Θ(log(n))`|`Θ(log(n))`|`Θ(log(n))`|`Θ(log(n))`|`O(n)`|`O(n)`|`O(n)`|`O(n)`|`O(n)`|
+
+---
+Runtime of common algorithms such as binary searching an array
 
 
+| Algorithm                                                                                                        | Time Complexity |                  |                  | Space Complexity |
+| ---------------------------------------------------------------------------------------------------------------- | --------------- | ---------------- | ---------------- | ---------------- |
+|                                                                                                                  | Best            | Average          | Worst            | Worst            |
+| [Quicksort](http://en.wikipedia.org/wiki/Quicksort)                                                              | `Ω(n log(n))`   | `Θ(n log(n))`    | `O(n^2)`         | `O(log(n))`      |
+| [Mergesort](http://en.wikipedia.org/wiki/Merge_sort)                                                             | `Ω(n log(n))`   | `Θ(n log(n))`    | `O(n log(n))`    | `O(n)`           |
+| [Timsort](http://en.wikipedia.org/wiki/Timsort)                                                                  | `Ω(n)`          | `Θ(n log(n))`    | `O(n log(n))`    | `O(n)`           |
+| [Heapsort](http://en.wikipedia.org/wiki/Heapsort)                                                                | `Ω(n log(n))`   | `Θ(n log(n))`    | `O(n log(n))`    | `O(1)`           |
+| [Bubble Sort](http://en.wikipedia.org/wiki/Bubble_sort)                                                          | `Ω(n)`          | `Θ(n^2)`         | `O(n^2)`         | `O(1)`           |
+| [Insertion Sort](http://en.wikipedia.org/wiki/Insertion_sort)                                                    | `Ω(n)`          | `Θ(n^2)`         | `O(n^2)`         | `O(1)`           |
+| [Selection Sort](http://en.wikipedia.org/wiki/Selection_sort)                                                    | `Ω(n^2)`        | `Θ(n^2)`         | `O(n^2)`         | `O(1)`           |
+| [Tree Sort](https://en.wikipedia.org/wiki/Tree_sort)                                                             | `Ω(n log(n))`   | `Θ(n log(n))`    | `O(n^2)`         | `O(n)`           |
+| [Shell Sort](http://en.wikipedia.org/wiki/Shellsort)                                                             | `Ω(n log(n))`   | `Θ(n(log(n))^2)` | `O(n(log(n))^2)` | `O(1)`           |
+| [Bucket Sort](http://en.wikipedia.org/wiki/Bucket_sort "Only for integers. k is a number of buckets")            | `Ω(n+k)`        | `Θ(n+k)`         | `O(n^2)`         | `O(n)`           |
+| [Radix Sort](http://en.wikipedia.org/wiki/Radix_sort "Constant number of digits 'k'")                            | `Ω(nk)`         | `Θ(nk)`          | `O(nk)`          | `O(n+k)`         |
+| [Counting Sort](https://en.wikipedia.org/wiki/Counting_sort "Difference between maximum and minimum number 'k'") | `Ω(n+k)`        | `Θ(n+k)`         | `O(n+k)`         | `O(k)`           |
+| [Cubesort](https://en.wikipedia.org/wiki/Cubesort)                                                               | `Ω(n)`          | `Θ(n log(n))`    | `O(n log(n))`    | `O(n)`           |
 
-The big O runtime of ALL containers, including map, unordered map/hashmap, set, array, list, vector, and any others. 
- - runtime of common algorithms such as binary searching an array
- - when to use each container
+---
+ When to use each container
  >[!tip] Ask what the data is being used for and how it's being given to you, see if it can be sorted and if that helps, check if you can cache results somehow, consider the case of 1 lookup vs 1000
-- what a "balanced tree" is and what the pros/cons are compared to an unbalanced one
-- how a hashmap works under the hood
--  how to implement depth-first and breadth-first searches (using a stack/queue instead of recursive function calling), and how to do a binary search.
-- struct packing
-- diamond inheritance problem
-- hared/weak/unique pointers, 
-- std::move, 
-- how the vtable and dynamic_cast work,
-- when to a use a mutex vs atomic
-- what kind of mutexes exist, bit shifting,
-- object pooling,
-- placement new, 
-- reflection.
-- Multithreading, its pros and cons (how I would implement a thread-safe singleton)
-- Memory corruption, multiplayer lag compensation in a shooter game (go watch that famous Overwatch GDC video again).
-- Optimization questions like “in a big map full of items, how would you find the items that the player can interact with” (the answer included quadtrees)
 
+![[Container Flowchart.png]]
+
+---
+What a "balanced tree" is and what the pros/cons are compared to an unbalanced one?
+	A binary tree in which the height of the left and right subtree of any node differ by no more than 1
+
+-  better search times O(log(n)) vs. O(n).
+-  improve worst-case lookup time
+- work better when the request frequencies across the data set are more evenly spread,
+- can use more memory
+- insert - remove times are generally slower 
+- more complex
+
+---
+How does a hashmap works under the hood
+- key-value pair stored in a table
+- array is indexed with a hash function to convert a key into an index into the array
+- if a key is already stored at that index use a collision resolution strategy
+	strategies: 
+	- chaining - linked list
+	- open addressing - find an empty spot using probing
+	- robin hood hashing - find closest empty spot
+	- cuckoo hashing - use two or more hash functions to map each item
+
+hash - mathematical function to generate fixed size unique value
+used as a secure and ifficeient way to store and transmit data
+
+---
+ How to implement depth-first and breadth-first searches (using a stack/queue instead of recursive function calling), and how to do a binary search.
+
+BFS: 
+nodes to visit in a queue
+put children of current node in queue
+
+DFS: 
+nodes to visit in a stack
+put children of current node in stack
+
+
+
+---
+**struct packing**
+Align data to boundaries
+```cpp
+struct
+{
+char* p; //8 bytes
+int i;   //4 bytes
+short s; //2 bytes
+char c   //1 byte
+//1 byte of padding
+}
+```
+
+```cpp
+#pragma pack(push, 1)
+struct { short a; int b; }
+#pragma pack(pop)
+```
+
+---
+**Diamond inheritance problem**
+
+Classes A and B having the same Base class
+A fourth class that derives from A and B
+the fourth class now inherits duplicate copies of the original base class
+
+solved using virtual keyword in A and B on the Base Class
+
+---
+**Shared/weak/unique pointers** 
+
+
+
+
+
+ --------------- 
+ **std::move**
+ 
+----
+**how the vtable and dynamic_cast work**
+
+
+---
+ when to a use a mutex vs atomic
+
+---
+ what kind of mutexes exist, bit shifting,
+
+---
+ object pooling,
+
+---
+ placement new, 
+
+---
+ reflection.
+
+---
+ Multithreading, its pros and cons (how I would implement a thread-safe singleton)
+
+---
+Memory corruption, multiplayer lag compensation in a shooter game (go watch that famous Overwatch GDC video again).
+
+---
+Optimization questions like “in a big map full of items, how would you find the items that the player can interact with” (the answer included quadtrees)
+
+
+---
 #### Optimization Questions
  How can we use a Bounding Volume Hierarchy(or an octree, or something similar) to speed up a raytracer?
 - Explain about Cache Memory(L1 and L2 caches, and so on)

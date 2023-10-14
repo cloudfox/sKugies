@@ -6,7 +6,6 @@
       {
         "id": "fe4666f21bca965f",
         "type": "tabs",
-        "dimension": 61.689189189189186,
         "children": [
           {
             "id": "4b9e33e8db2674e6",
@@ -15,25 +14,6 @@
               "type": "markdown",
               "state": {
                 "file": "Resources/Interview Prep/Interview Prep Answers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "0c1981f058ba31ae",
-        "type": "tabs",
-        "dimension": 38.31081081081081,
-        "children": [
-          {
-            "id": "344eae28c827a09d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tutorials/Programming/Learn programming (C++).md",
                 "mode": "source",
                 "source": false
               }
@@ -199,9 +179,17 @@
   },
   "active": "4b9e33e8db2674e6",
   "lastOpenFiles": [
+    "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Tutorials/Programming/Learn programming (C++).md",
-    "Resources/Interview Prep/Interview Prep.md",
+    "Tutorials/Tutorials.md",
+    "general/Home.md",
+    "general/Blog.md",
     "Resources/Interview Prep/Interview Prep Answers.md",
+    "Resources/Interview Prep/Container Flowchart.png",
+    "Resources/Interview Prep/big-o-cheat-sheet-poster.png",
+    "BIGO.png",
+    "Resources/Interview Prep/BIGO.png",
+    "Resources/Interview Prep/Interview Prep.md",
     "Resources/Interview Prep/Interview Prep C++.md",
     "Resources/Interview Prep/Interview Prep Math.md",
     "Resources/Interview Prep/Interview Prep Computer Graphics.md",
@@ -217,7 +205,6 @@
     "Projects/Personal/Untitled.md",
     "Projects/Personal",
     "Tutorials/Programming/02 - Intermediate/Structs and Classes.md",
-    "Tutorials/Tutorials.md",
     "Tutorials/Programming/02 - Intermediate/Random Numbers.md",
     "Tutorials/Programming/02 - Intermediate/The Compiler.md",
     "Tutorials/Programming/02 - Intermediate/Strings.md",
@@ -225,9 +212,6 @@
     "Tutorials/Programming/02 - Intermediate/Variables Casting and Conversion.md",
     "Tutorials/Programming/02 - Intermediate/Big O.md",
     "Tutorials/Programming/02 - Intermediate/03 assembly.md",
-    "Tutorials/Programming/01 - Foundation/Input Output.md",
-    "Tutorials/Programming/01 - Foundation/Arrays.md",
-    "Tutorials/Programming/03 - Data Structures/Data Types/02 - Composite Types/Array.md",
     "theme.css",
     "publish.css",
     "Blog Posts/other",
