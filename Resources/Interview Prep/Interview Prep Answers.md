@@ -178,7 +178,8 @@ Runtime of common algorithms such as binary searching an array
  When to use each container
  >[!tip] Ask what the data is being used for and how it's being given to you, see if it can be sorted and if that helps, check if you can cache results somehow, consider the case of 1 lookup vs 1000
 
-![[Container Flowchart.png]]
+![[Container Flowchart.png|{width=150%}]]
+
 
 ---
 What a "balanced tree" is and what the pros/cons are compared to an unbalanced one?
@@ -237,6 +238,25 @@ char c   //1 byte
 struct { short a; int b; }
 #pragma pack(pop)
 ```
+
+---
+Bit fields
+```cpp
+struct somebits {
+   unsigned int x; //4 bytes
+   unsigned int y; //4 bytes
+   unsigned int z; //4 bytes
+   unsigned int w; //4 bytes
+}; //16 bytes 
+
+struct somebits {
+   unsigned int x : 4; //4 bits
+   unsigned int y : 4; //4 bits 
+   unsigned int z : 4; //4 bits
+   unsigned int w : 4; //4 bits
+}; //16 bits but will take up 4 bytes due to padding to boundary
+```
+
 
 ---
 **Diamond inheritance problem**

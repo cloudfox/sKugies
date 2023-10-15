@@ -3,9 +3,11 @@
   "cssTheme": "",
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "MCL Gallery Cards",
+    "MCL Wide Views",
     "MCL Multi Column",
-    "MCL Wide Views"
+    "MCL Gallery Cards",
+    "Iterative Rainbow Folder Titles"
   ],
-  "baseFontSize": 19
+  "baseFontSize": 16,
+  "translucency": false
 }
