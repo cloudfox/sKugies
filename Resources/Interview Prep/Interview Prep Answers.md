@@ -291,18 +291,66 @@ is just a request to move and if the type of the object does not have a move con
 ----
 **how the vtable and dynamic_cast work**
 
+vtable
+ - table of function pointers to all the virtual methods
+ - A pointer to this table (called the virtual table) exists as a data member in all the objects
+- When one calls a virtual method, we lookup the object's v-table and call the appropriate derived class method. 
+
+dynamic_cast
+- applied to polymporphic type
+- polymorphic types are any class with at least one virtual method , destructor, or virtual base class.
+- dynamic cast checks the type of the actual object the pointer points to
+-  mainly used for safe downcasting at run time
+- returns null if cast fails
+- has runtime overhead 
+- implementation is compiler dependent
+- one entry in the v-table is not used as a function-  
+pointer, but as a pointer to the RTTI(“[Run-Time Type Information](https://www.geeksforgeeks.org/g-fact-33/)“.) information of the class.
 
 ---
- when to a use a mutex vs atomic
+ **When to a use a mutex vs atomic**
+
+Both are used when sharing data between threads i.e. when multiple threads want to write to the same memory.
+
+**atomic**
+- used when there is a lock free requirement
+- has the problem of dealing with race conditions
+- uses hardware locking mechanisms for fundamental operations
+- should be avoided for more complex types
+
+**Mutex**
+- can suspend a thread when it hits a lock fpossibly freeing up resources
+- needs at least on atomic operation to lock a mutex and one to unlock
+- insures only a single thread enters a critical section at a time
 
 ---
- what kind of mutexes exist, bit shifting,
+ **What kind of mutexes exist?** 
+Recursive: allows the same thread to acquire multiple levels of ownership over the _mutex object_
+Timed: additionally supporting _timed try-lock_ requests
+Recursive-timed : combination of the above
+
+ ---
+Bit shifting
+a << b; increases size of a
+a >> b; decreases size of a
+
+- shifting by negative numbers is undefined
+- shifted more than the size of the integer is undefined
+---
+**object pooling**
+pre-allocate objects
+free list is awesome
 
 ---
- object pooling,
+**placement new** 
+```cpp
+char buffer[10 * sizeof(int)]; // enough space for 10 ints
+int * test1 = new (buffer) int [10]; //placement new
+```
 
----
- placement new, 
+- object construction can be done at a known address
+- uses existing memory
+- you need to provide the memory
 
 ---
  reflection.

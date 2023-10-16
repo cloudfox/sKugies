@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Tutorials.md",
+                "file": "Resources/Interview Prep/Interview Prep Answers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Tutorials.md",
+                "file": "Resources/Interview Prep/Interview Prep Answers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Tutorials.md"
+                "file": "Resources/Interview Prep/Interview Prep Answers.md"
               }
             }
           },
@@ -178,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Tutorials/Tutorials.md"
+                "file": "Resources/Interview Prep/Interview Prep Answers.md"
               }
             }
           }
@@ -202,14 +201,16 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "46414157bd8b2e22",
+  "active": "871e359d3ff21461",
   "lastOpenFiles": [
+    "Untitled.md",
+    "Resources/Interview Prep/Interview Prep Answers.md",
+    "Tutorials/Tutorials.md",
     "General/Contact.md",
     "Home.md",
     "General/TitleBar.md",
     "General/Blog.md",
     "General/Resume.md",
-    "Resources/Interview Prep/Interview Prep Answers.md",
     "Resources/Programming Resources.md",
     "Projects/Projects.md",
     "Projects/Student/Pogglewash.md",
@@ -217,7 +218,6 @@
     "Images/PoggleLogo.png",
     "Images",
     "Images.md",
-    "Tutorials/Tutorials.md",
     "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/Programming/01 - Foundation/Variables.md",
     "Tutorials/Programming/01 - Foundation/Hello World.md",
@@ -242,7 +242,6 @@
     "Resources/Interview Prep/Interview Prep C++.md",
     "Resources/Interview Prep/Interview Prep Math.md",
     "Resources/Interview Prep/Interview Prep Computer Graphics.md",
-    "Resources/Interview Prep/Interview Prep General Programming Knowledge.md",
     "Resources/Interview Prep",
     "Tutorials/Programming/Overview.canvas",
     "Projects/Personal",
