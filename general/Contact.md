@@ -1,3 +1,7 @@
+---
+cssclasses:
+  - clean-embeds
+---
 ![[TitleBar]] 
 
 contact@stevenkugies.com

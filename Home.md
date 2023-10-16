@@ -1,4 +1,8 @@
-[[Blog]] -   [[Tutorials]]  -  [[Projects]]  -  [[Resume]]    - [[Contact]]
+---
+cssclasses: []
+---
+[[Blog]]  - [[Tutorials]]  -  [[Projects]]  -  [[Resume]]    - [[Contact]]
+
 
 Hello there, I'm Steven Kugies. 
 I'm a Game Developer based in the Greater Seattle area. 

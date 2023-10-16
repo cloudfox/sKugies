@@ -1,7 +1,8 @@
 ---
-
+cssclasses:
+  - clean-embeds
 ---
-
+![[TitleBar]] 
 
 ---
 #### Education

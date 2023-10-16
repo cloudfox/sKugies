@@ -4,7 +4,10 @@ cssclasses:
   - list-cards
   - cards-align-bottom
   - "#mcl"
+  - clean-embeds
 ---
+![[TitleBar]] 
+
 <br>
 <br><br>
 
