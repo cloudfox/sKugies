@@ -6,7 +6,7 @@ I'm writing this series with the assumption that you know little if anything abo
 I try to go more in depth with good practices and things to watch out for.
 I won't be covering absolutely everything but enough that this series can serve as a good reference.
 
-If you notice any mistakes feel free to [contact me](Contact) 
+If you notice any mistakes feel free to [contact me](Contact.md) 
 
 example code will be labeled as such
 ``` c++

@@ -1,12 +1,10 @@
 {
   "accentColor": "",
-  "cssTheme": "",
+  "cssTheme": "Red Graphite",
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "MCL Wide Views",
     "MCL Multi Column",
-    "MCL Gallery Cards",
-    "Iterative Rainbow Folder Titles"
+    "Clean Embed"
   ],
   "baseFontSize": 16,
   "translucency": false

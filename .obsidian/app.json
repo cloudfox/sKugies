@@ -1,5 +1,6 @@
 {
   "alwaysUpdateLinks": true,
   "tabSize": 2,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "readableLineLength": false
 }

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "fe4666f21bca965f",
+        "id": "65ef89e91967c842",
         "type": "tabs",
         "children": [
           {
-            "id": "4b9e33e8db2674e6",
+            "id": "871e359d3ff21461",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "c5057e955ae8a7ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General/Blog.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "85ba3b1d682f471b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General/Contact.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md",
+                "file": "General/Contact.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md",
+                "file": "General/Contact.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md"
+                "file": "General/Contact.md"
               }
             }
           },
@@ -153,7 +178,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md"
+                "file": "General/Contact.md"
               }
             }
           }
@@ -177,28 +202,34 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "4b9e33e8db2674e6",
+  "active": "85ba3b1d682f471b",
   "lastOpenFiles": [
+    "General/Home.md",
+    "General/Contact.md",
+    "TitleBar.md",
+    "General/Blog.md",
+    "Resources/Interview Prep/Interview Prep Answers.md",
+    "Resources/Programming Resources.md",
+    "Projects/Projects.md",
+    "Projects/Student/Pogglewash.md",
+    "[Imagename.png](UI_Menu_Logo_PoggleWash_Final_AR_v002.png).md",
+    "Images/PoggleLogo.png",
+    "Images",
+    "Images.md",
+    "Tutorials/Tutorials.md",
+    "Tutorials/Programming/Learn programming (C++).md",
+    "Tutorials/Programming/01 - Foundation/Variables.md",
+    "Tutorials/Programming/01 - Foundation/Hello World.md",
+    "General/Resume.md",
+    "Stuff/Games/What I'm Playing.md",
+    "Stuff/Games/Favorite Games.md",
+    "Stuff/Pictures/Animals/Pets.md",
     "Blog Posts/2023/Test Post 1.md",
     "Blog Posts/Oct22 - Spinning Things.md",
     "Blog Posts/2023/Test Post 2.md",
-    "Tutorials/Programming/Learn programming (C++).md",
-    "Tutorials/Programming/01 - Foundation/Hello World.md",
-    "Tutorials/Tutorials.md",
-    "Resources/Interview Prep/Interview Prep Answers.md",
     "Resources/Interview Prep/Interview Prep.md",
-    "general/Home.md",
-    "general/Resume.md",
-    "Tutorials/Programming/01 - Foundation/Variables.md",
     "Resources/Interview Prep/BIGO.png",
     "Resources/Interview Prep/big-o-cheat-sheet-poster.png",
-    "Resources/Programming Resources.md",
-    "Stuff/Pictures/Animals/Pets.md",
-    "general/Blog.md",
-    "Stuff/Games/Favorite Games.md",
-    "Stuff/Games/What I'm Playing.md",
-    "Projects/Projects.md",
-    "general/Contact.md",
     "Stuff/Pictures/Animals/Duke02.jpg",
     "Stuff/Pictures/Animals/Duke01.jpg",
     "Stuff/Pictures/Animals/bunbun03.jpg",
@@ -213,17 +244,12 @@
     "Resources/Interview Prep/Interview Prep Computer Graphics.md",
     "Resources/Interview Prep/Interview Prep General Programming Knowledge.md",
     "Resources/Interview Prep",
-    "[!Interview Prep Answers.md",
-    "Resources/Interview Prop.md",
     "Tutorials/Programming/Overview.canvas",
-    "Projects/Personal/Untitled.md",
     "Projects/Personal",
-    "Tutorials/Programming/02 - Intermediate/Structs and Classes.md",
     "theme.css",
     "publish.css",
     "Blog Posts/other",
     "Tutorials/Programming/01 - Foundation/Examples",
-    "Stuff/Recipes",
-    "Stuff/Books"
+    "Stuff/Recipes"
   ]
 }

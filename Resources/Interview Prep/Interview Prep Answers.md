@@ -134,6 +134,7 @@ depends on architecture 32bit or 64bit  i.e. 4bytes or 8 bytes
 ![[big-o-cheat-sheet-poster.png]]
 
 https://www.bigocheatsheet.com/
+
 |Data Structure|Time Complexity|   |   |   |   |   |   |   |Space Complexity|
 |---|---|---|---|---|---|---|---|---|---|
 ||Average|   |   |   |Worst|   |   |   |Worst|
@@ -270,13 +271,23 @@ solved using virtual keyword in A and B on the Base Class
 ---
 **Shared/weak/unique pointers** 
 
+Shared pointer:  keeps track of how many pointers to the object exist, used for sharing ownership of a resource, when all shared pointers go out of scope resource is destroyed
 
+weak pointer: copy of a shared pointer, is not considered for the counting of the shared pointer, can be used to avoid cyclical dependency problem
 
-
+unique pointer:   container for raw pointers, prevents copying of its contained pointer
+a replacement for auto_ptr, prevents fake copy assignment, can be std:move d
 
  --------------- 
- **std::move**
- 
+**std::move**
+kind of a function,  efficiently transfers resources to another object
+Doesn't actually move anything, turns lvalue into an xvalue
+tells the compiler the value is going to be destroyed so do whatever it can use the resource however it wants.
+
+one good use case is in swapping values to avoid copying needlessly.
+
+is just a request to move and if the type of the object does not have a move constructor/assign-operator defined
+
 ----
 **how the vtable and dynamic_cast work**
 
