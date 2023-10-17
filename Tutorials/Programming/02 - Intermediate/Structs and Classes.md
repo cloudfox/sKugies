@@ -1,7 +1,7 @@
 ---
 publish: true
 ---
-[[Learn programming (C++)]]  previous: [[Section 1 Exercises]]   
+[[Learn programming (C++)#Section 2 Intermediate]]  previous: [[Section 1 Exercises]]   
 
 ---
 ## Structs

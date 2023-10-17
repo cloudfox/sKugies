@@ -13,32 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c5057e955ae8a7ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "General/Blog.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "85ba3b1d682f471b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tutorials/Tutorials.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -109,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md",
+                "file": "General/Blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md",
+                "file": "General/Blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md"
+                "file": "General/Blog.md"
               }
             }
           },
@@ -177,7 +153,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md"
+                "file": "General/Blog.md"
               }
             }
           }
@@ -203,31 +179,34 @@
   },
   "active": "871e359d3ff21461",
   "lastOpenFiles": [
-    "Untitled.md",
-    "Resources/Interview Prep/Interview Prep Answers.md",
-    "Tutorials/Tutorials.md",
-    "General/Contact.md",
-    "Home.md",
-    "General/TitleBar.md",
+    "Blog Posts/2023/Test Post 1.md",
     "General/Blog.md",
-    "General/Resume.md",
-    "Resources/Programming Resources.md",
-    "Projects/Projects.md",
-    "Projects/Student/Pogglewash.md",
-    "[Imagename.png](UI_Menu_Logo_PoggleWash_Final_AR_v002.png).md",
+    "Blog Posts/2023/Oct22 - Spinning Things.md",
+    "Blog Posts/2023/Test Post 2.md",
+    "Resources/Interview Prep/Interview Prep Answers.md",
+    "Tutorials/Programming/Learn programming (C++).md",
+    "Tutorials/Programming/01 - Foundation/Arrays.md",
+    "Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
+    "Tutorials/Programming/02 - Intermediate/Section 2 Exercises.md",
+    "Tutorials/Programming/02 - Intermediate/The Compiler.md",
+    "Tutorials/Programming/02 - Intermediate/Random Numbers.md",
+    "Tutorials/Programming/01 - Foundation/File IO.md",
+    "Tutorials/Programming/02 - Intermediate/Memory.md",
+    "Tutorials/Programming/02 - Intermediate/Strings.md",
+    "Tutorials/Programming/02 - Intermediate/2d Array.md",
+    "Tutorials/Programming/02 - Intermediate/Command Line Arguments.md",
+    "Tutorials/Programming/02 - Intermediate/Variables Casting and Conversion.md",
+    "Tutorials/Programming/01 - Foundation/Code Style.md",
+    "Tutorials/Programming/02 - Intermediate/pointers and references.md",
+    "Tutorials/Programming/02 - Intermediate/Structs and Classes.md",
+    "Tutorials/Programming/01 - Foundation/Documentation.md",
+    "Tutorials/Programming/01 - Foundation/Input Output.md",
+    "Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
+    "Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
+    "Tutorials/Programming/01 - Foundation/Functions.md",
+    "Tutorials/Programming/01 - Foundation/Conditions.md",
     "Images/PoggleLogo.png",
     "Images",
-    "Images.md",
-    "Tutorials/Programming/Learn programming (C++).md",
-    "Tutorials/Programming/01 - Foundation/Variables.md",
-    "Tutorials/Programming/01 - Foundation/Hello World.md",
-    "Stuff/Games/What I'm Playing.md",
-    "Stuff/Games/Favorite Games.md",
-    "Stuff/Pictures/Animals/Pets.md",
-    "Blog Posts/2023/Test Post 1.md",
-    "Blog Posts/Oct22 - Spinning Things.md",
-    "Blog Posts/2023/Test Post 2.md",
-    "Resources/Interview Prep/Interview Prep.md",
     "Resources/Interview Prep/BIGO.png",
     "Resources/Interview Prep/big-o-cheat-sheet-poster.png",
     "Stuff/Pictures/Animals/Duke02.jpg",
@@ -239,9 +218,6 @@
     "Stuff/Pictures",
     "BIGO.png",
     "Resources/Interview Prep/Container Flowchart.png",
-    "Resources/Interview Prep/Interview Prep C++.md",
-    "Resources/Interview Prep/Interview Prep Math.md",
-    "Resources/Interview Prep/Interview Prep Computer Graphics.md",
     "Resources/Interview Prep",
     "Tutorials/Programming/Overview.canvas",
     "Projects/Personal",

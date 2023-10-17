@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[Strings]]   #tutorial
+[[Learn programming (C++)#Section 2 Intermediate]]]]  previous: [[Strings]]   #tutorial
 
 ---
 

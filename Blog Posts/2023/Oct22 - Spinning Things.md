@@ -1,5 +1,11 @@
 
-My goal for this little project was to have various objects spin around a center point or object. I would like to have various objects that can fit together somehow. General inspiration is something like the solar core in Starcraft 2. I also want to try smaller shapes like triangles that form a sphere. 
+### Spinning Things
+<br>
+Making a collection of object rotate around something.
+
+## Just some random thoughts
+
+My goal for a little project is to have various objects spin around a center point or object. I would like to have various objects that can fit together somehow. General inspiration is something like the solar core in Starcraft 2. I also want to try smaller shapes like triangles that form a sphere. 
 
 First thought was to try and figure out a path for the objects to take around the center. Something basically predetermined.
 

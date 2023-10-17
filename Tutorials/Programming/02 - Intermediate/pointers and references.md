@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[Structs - Classes]]   
+[[Learn programming (C++)#Section 2 Intermediate]]]]  previous: [[Structs - Classes]]   
 
 ---
 

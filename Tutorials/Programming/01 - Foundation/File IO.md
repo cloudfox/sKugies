@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[Memory]]   
+[[Learn programming (C++)#Section 2 Intermediate]]]]  previous: [[Memory]]   
 
 ---
 

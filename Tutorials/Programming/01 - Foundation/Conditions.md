@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[Expressions and Operators]]  #tutorial 
+[[Learn programming (C++)#Section 1 Foundation]]  previous: [[Expressions and Operators]]  #tutorial 
 
 ---
 ## What are Conditions?

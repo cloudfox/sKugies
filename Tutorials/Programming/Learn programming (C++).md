@@ -42,7 +42,7 @@ To quickly get started https://www.onlinegdb.com/ works just as well.
 06 [[Scope Lifetime]] 
 07 [[Iteration - Loops]] 
 08 [[Input Output]]
-09 [[Arrays]] 
+09 [[Arrays]]  (0%)
 10 [[Code Style]]
 11 [[Documentation]]
  **[[Section 1 Exercises]]** (10%)

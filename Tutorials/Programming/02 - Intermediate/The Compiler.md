@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[Random Numbers]] 
+[[Learn programming (C++)#Section 2 Intermediate]]]]  previous: [[Random Numbers]] 
 
 ---
 

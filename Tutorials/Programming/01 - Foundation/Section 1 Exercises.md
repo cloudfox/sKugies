@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[Programming Paradigms]]   #tutorial
+[[Learn programming (C++)#Section 1 Foundation]]  previous: [[Programming Paradigms]]   #tutorial
 
 ---
 expressions

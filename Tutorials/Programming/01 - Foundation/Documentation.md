@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[Code Style]]   #tutorial
+[[Learn programming (C++)#Section 1 Foundation]]  previous: [[Code Style]]   #tutorial
 
 ---
 

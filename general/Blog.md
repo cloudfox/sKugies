@@ -7,9 +7,9 @@ cssclasses:
   - clean-embeds
 ---
 ![[TitleBar]] 
-
-<br>
-<br><br>
+ 
+Mostly stream of thought stuff here. So expect a somewhat chaotic mess.
+This area is largely a low priority until I finish making my programming tutorial thing.
 
 ## Featured:
 Nothing here yet.
@@ -20,12 +20,10 @@ Nothing here yet.
 
 ## Posts:
 
-
-
 > [!multi-column]
 >
->> [!note] 8
->> ![[Test Post 1#Test Post 1]]
+>> [!note] 16Oct22
+>> ![[Oct22 - Spinning Things#Spinning Things]]
 >
 >> [!note] 7
 >> ![[Test Post 2#Test Post 2]]
@@ -45,7 +43,7 @@ Nothing here yet.
 >> [!note] 2
 >> ![[Test Post 1#Test Post 1]]
 >
->> [!note] 1
+>> [!note] 8
 >> ![[Test Post 2#Test Post 2]]
 >
 

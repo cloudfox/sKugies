@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[pointers and references]]   
+[[Learn programming (C++)#Section 2 Intermediate]]]]  previous: [[pointers and references]]   
 
 ---
 Sometimes you need to change the type of variable.
@@ -72,4 +72,4 @@ You can also define these yourself but more on that in the next section.
 
 # 
 ----
-next: [[Arrays]] 
+next: [[Command Line Arguments]] 

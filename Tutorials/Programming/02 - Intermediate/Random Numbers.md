@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[File IO]]   #tutorial
+[[Learn programming (C++)#Section 2 Intermediate]]]]  previous: [[File IO]]   #tutorial
 
 ---
 

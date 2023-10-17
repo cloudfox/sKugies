@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[Scope Lifetime]]   #tutorial
+[[Learn programming (C++)#Section 1 Foundation]]  previous: [[Scope Lifetime]]   #tutorial
 
 ---
 

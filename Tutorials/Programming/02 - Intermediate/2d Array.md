@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[Command Line Arguments]]   #tutorial
+[[Learn programming (C++)#Section 2 Intermediate]]]]  previous: [[Command Line Arguments]]   #tutorial
 
 ---
 

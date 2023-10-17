@@ -5,7 +5,7 @@ tags:
 previous: "[[Iteration - Loops]]"
 next: "[[Code Style]]"
 ---
-[[Learn programming (C++)]]  previous: [[Iteration - Loops]]   #tutorial
+[[Learn programming (C++)#Section 1 Foundation]]  previous: [[Iteration - Loops]]   #tutorial
 
 ---
 #### Writing to Console

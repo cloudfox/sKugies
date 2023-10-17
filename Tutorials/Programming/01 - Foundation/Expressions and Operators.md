@@ -1,4 +1,4 @@
-[[Learn programming (C++)]]  previous: [[Variables]]  #tutorial 
+[[Learn programming (C++)#Section 1 Foundation]]  previous: [[Variables]]  #tutorial 
 
 ---
 #### What are Expressions?
