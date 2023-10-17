@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General/Blog.md",
+                "file": "Resources/Interview Prep/Interview Prep Answers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "a1ae3a97e85ec4e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Stuff/Recipes/Cookies.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General/Blog.md",
+                "file": "Stuff/Recipes/Cookies.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General/Blog.md",
+                "file": "Stuff/Recipes/Cookies.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General/Blog.md"
+                "file": "Stuff/Recipes/Cookies.md"
               }
             }
           },
@@ -153,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "General/Blog.md"
+                "file": "Stuff/Recipes/Cookies.md"
               }
             }
           }
@@ -177,14 +190,20 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "871e359d3ff21461",
+  "active": "a1ae3a97e85ec4e0",
   "lastOpenFiles": [
-    "Blog Posts/2023/Test Post 1.md",
-    "General/Blog.md",
-    "Blog Posts/2023/Oct22 - Spinning Things.md",
-    "Blog Posts/2023/Test Post 2.md",
     "Resources/Interview Prep/Interview Prep Answers.md",
+    "Tutorials/Programming/01 - Foundation/Hello World.md",
+    "Tutorials/Programming/01 - Foundation/Variables.md",
     "Tutorials/Programming/Learn programming (C++).md",
+    "Tutorials/Tutorials.md",
+    "Home.md",
+    "General/Blog.md",
+    "Untitled.md",
+    "Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
+    "Blog Posts/2023/Oct22 - Spinning Things.md",
+    "Blog Posts/2023/Test Post 1.md",
+    "Blog Posts/2023/Test Post 2.md",
     "Tutorials/Programming/01 - Foundation/Arrays.md",
     "Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
     "Tutorials/Programming/02 - Intermediate/Section 2 Exercises.md",
@@ -199,12 +218,6 @@
     "Tutorials/Programming/01 - Foundation/Code Style.md",
     "Tutorials/Programming/02 - Intermediate/pointers and references.md",
     "Tutorials/Programming/02 - Intermediate/Structs and Classes.md",
-    "Tutorials/Programming/01 - Foundation/Documentation.md",
-    "Tutorials/Programming/01 - Foundation/Input Output.md",
-    "Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
-    "Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
-    "Tutorials/Programming/01 - Foundation/Functions.md",
-    "Tutorials/Programming/01 - Foundation/Conditions.md",
     "Images/PoggleLogo.png",
     "Images",
     "Resources/Interview Prep/BIGO.png",

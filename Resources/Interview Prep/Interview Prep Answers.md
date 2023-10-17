@@ -358,6 +358,9 @@ int * test1 = new (buffer) int [10]; //placement new
 ---
  Multithreading, its pros and cons (how I would implement a thread-safe singleton)
 
+
+
+
 ---
 Memory corruption, multiplayer lag compensation in a shooter game (go watch that famous Overwatch GDC video again).
 

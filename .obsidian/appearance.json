@@ -4,7 +4,8 @@
   "theme": "obsidian",
   "enabledCssSnippets": [
     "MCL Multi Column",
-    "Clean Embed"
+    "Clean Embed",
+    "coloredHeaders"
   ],
   "baseFontSize": 16,
   "translucency": false
