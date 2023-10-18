@@ -18,30 +18,6 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b61bc502f61cad51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Hello World.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f90b59022b06c900",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Tutorials/Programming/Learn programming (C++).md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -186,7 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 320.5
+    "width": 373.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -202,15 +178,16 @@
   },
   "active": "871e359d3ff21461",
   "lastOpenFiles": [
+    "Resources/Interview Prep/Interview Prep.md",
+    "Resources/Interview Prep/Interview Prep Answers.md",
+    "Resources/Programming Resources.md",
+    "Home.md",
+    "Projects/Student/Pogglewash.md",
     "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/Tutorials.md",
-    "Home.md",
-    "Resources/Programming Resources.md",
-    "Resources/Interview Prep/Interview Prep Answers.md",
     "publish.js",
     "Projects/Student/EFO.md",
-    "Projects/Student/Pogglewash.md",
     "Tutorials/Programming/02 - Intermediate/Section 2 Exercises.md",
     "General/Blog.md",
     "Tutorials/Programming/02 - Intermediate/The Compiler.md",
@@ -228,7 +205,6 @@
     "Tutorials/Programming/01 - Foundation/Code Style.md",
     "Tutorials/Programming/01 - Foundation/Arrays.md",
     "Tutorials/Programming/01 - Foundation/Input Output.md",
-    "Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
     "Resources/Interview Prep/big-o-cheat-sheet-poster.png",
     "Images/PoggleLogo.png",
     "Images",

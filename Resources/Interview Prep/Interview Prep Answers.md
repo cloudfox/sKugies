@@ -1,6 +1,10 @@
 ---
 publish: false
+cssclasses: []
 ---
+
+
+<div class="separator">Next section</div>
 
 
 ## Programming
@@ -38,7 +42,7 @@ The heap is memory allocated at runtime.
 
 ---
 **What C++11 and C++14 features are you using?**
-**11**
+**C++11**
 https://github.com/AnthonyCalandra/modern-cpp-features
 - Lambda expressions  
 https://www.geeksforgeeks.org/lambda-expression-in-c/
@@ -65,14 +69,14 @@ constructor that can call another constructor of the same class
 - Threading Library
 - smart pointer class 
 
-**14**
+**C++14**
 - Binary Literals
 - Generic Lambda Expressions - Polymorphic Lambdas
 - Lambda Capture initializers
 - variable templates 
-- depreceated attribute
+- depreciated attribute
 - make_unique
-17
+**C++17**
 - constexpr lambda 
 - inline Variables
 - nested namespaces
@@ -356,19 +360,120 @@ int * test1 = new (buffer) int [10]; //placement new
 - you need to provide the memory
 
 ---
- reflection.
+**Reflection**
+Allows data types to be inspected at runtime, 
+- allows the enumeration of data types, the members of a given class or value type 
+- most common way is through the gettype method
+- name provided is the strong name
 
 ---
- Multithreading, its pros and cons (how I would implement a thread-safe singleton)
+ **Multithreading,** its pros and cons (how I would implement a thread-safe singleton)
+
+**Pro:**
+performance, parallelization
+responsiveness: single tasks don't block others from running
+
+**Con:**
+complexity
+synchronization overhead: shared resources
+context switching: switching between threads can be expensive if not done efficiently
+harder to predict and debug
+hardware limitations
+
+**Thread-safe Singleton**
+```cpp
+class FileSystem
+{
+public:
+  static FileSystem& instance()
+  {
+    static FileSystem *instance = new FileSystem();
+    return *instance;
+  }
+
+private:
+  FileSystem() {}
+};
+```
+
+```cpp
+#pragma once
+#include <memory>
+#include <mutex>
+
+namespace utils
+{
+template<typename T>
+class Singleton
+{
+private:
+    Singleton<T>(const Singleton<T>&) = delete;
+    Singleton<T>& operator = (const Singleton<T>&) = delete;
+
+    Singleton<T>() = default;
+
+    static std::unique_ptr<T> m_instance;
+    static std::once_flag m_once;
+
+public:
+    virtual ~Singleton<T>() = default;
+
+    static T* getInstance()
+    {
+        std::call_once(m_once, []() { m_instance.reset(new T); });
+        return m_instance.get();
+    }
+
+    template<typename... Args>
+    static T* getInstance2nd(Args&& ...args)
+    {
+        std::call_once(m_once, [&]() {
+            m_instance.reset(new T(std::forward<Args>(args)...));
+        });
+        return m_instance.get();
+    }
+};
+
+template<typename T> std::unique_ptr<T> Singleton<T>::m_instance;
+template<typename T> std::once_flag Singleton<T>::m_once;
+}
+```
+
+```
+MySingleton * GetInstance()
+{
+      if (m_pOnlyOneInstance == NULL)
+      {
+            EnterCriticalSection();
+            if (m_pOnlyOneInstance == NULL)
+            // Solution 1 and 2 gaps addressed by moving
+            // critical section block and by re-doing this check!
+            {
+                  m_pOnlyOneInstance = new MySingleton();
+            }
+            LeaveCriticalSection();
+      }
+      return m_pOnlyOneInstance;
+}
+```
+
+
+---
+Memory corruption, 
 
 
 
 
 ---
-Memory corruption, multiplayer lag compensation in a shooter game (go watch that famous Overwatch GDC video again).
+multiplayer lag compensation in a shooter game (go watch that famous Overwatch GDC video again).
+
+
+
 
 ---
 Optimization questions like “in a big map full of items, how would you find the items that the player can interact with” (the answer included quadtrees)
+
+
 
 
 ---
