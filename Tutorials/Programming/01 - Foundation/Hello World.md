@@ -1,4 +1,9 @@
-[[Learn programming (C++)#Section 1 Foundation]]   #tutorial
+---
+tags:
+  - tutorial
+---
+# Hello World
+[[Learn programming (C++)#Section 1 Foundation|Learn Programming Section 1]]  
 
 ---
 

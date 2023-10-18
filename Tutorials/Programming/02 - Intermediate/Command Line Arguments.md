@@ -1,4 +1,4 @@
-[[Learn programming (C++)#Section 2 Intermediate]]]]  previous: [[Array]]   
+[[Learn programming (C++)#Section 2 Intermediate|Learn Programming Section 2]]  previous: [[Array]]   
 
 ---
 

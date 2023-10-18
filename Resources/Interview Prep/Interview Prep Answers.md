@@ -1,3 +1,6 @@
+---
+publish: false
+---
 
 
 ## Programming
@@ -19,6 +22,7 @@ Base *b = new Derived();
 delete b; // Here's the problem!
 ```
 
+
 ---  
  **What is the difference between allocating memory on the heap versus the stack?**
  
@@ -31,7 +35,6 @@ Specifically range of memory that is accessible via the stack register of the CP
 The heap is memory allocated at runtime.
 - the reference to where the heap is located is stored on the stack(pointers/references/etc..)
 - manual creation/deletion
-
 
 ---
 **What C++11 and C++14 features are you using?**
@@ -241,7 +244,7 @@ struct { short a; int b; }
 ```
 
 ---
-Bit fields
+**Bit fields**
 ```cpp
 struct somebits {
    unsigned int x; //4 bytes

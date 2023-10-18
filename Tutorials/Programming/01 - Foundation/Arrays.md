@@ -1,4 +1,4 @@
-[[Learn programming (C++)#Section 1 Foundation]]  previous: [[Input Output]]   
+[[Learn programming (C++)#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Input Output]]   
 
 ---
 

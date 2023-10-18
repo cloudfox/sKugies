@@ -1,4 +1,4 @@
-[[Learn programming (C++)#Section 1 Foundation]]  previous: [[Hello World|Hello World]]   #tutorial
+[[Learn programming (C++)#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Hello World|Hello World]]   #tutorial
 
 ---
 ### **What is a variable?**

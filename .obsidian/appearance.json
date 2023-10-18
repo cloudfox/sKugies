@@ -1,12 +1,15 @@
 {
   "accentColor": "",
-  "cssTheme": "Red Graphite",
+  "cssTheme": "Shimmering Focus",
   "theme": "obsidian",
   "enabledCssSnippets": [
     "MCL Multi Column",
     "Clean Embed",
-    "coloredHeaders"
+    "MCL Gallery Cards",
+    "MCL Wide Views",
+    "coloredHeaders",
+    "ColorScheme"
   ],
-  "baseFontSize": 16,
+  "baseFontSize": 15,
   "translucency": false
 }

@@ -1,3 +1,7 @@
+---
+tags:
+  - tutorial
+---
 > [!warning] This is very much a work in progress 
 ### Introduction
 

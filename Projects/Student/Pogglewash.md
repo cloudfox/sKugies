@@ -1,4 +1,7 @@
-#project 
+---
+tags:
+  - project
+---
 
 ---
 

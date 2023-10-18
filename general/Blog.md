@@ -22,7 +22,7 @@ Nothing here yet.
 
 > [!multi-column]
 >
->> [!note] 16Oct22
+>> [!note] 16-Oct-22
 >> ![[Oct22 - Spinning Things#Spinning Things]]
 >
 >> [!note] 7
