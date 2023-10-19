@@ -467,7 +467,7 @@ Memory corruption,
 ---
 multiplayer lag compensation in a shooter game (go watch that famous Overwatch GDC video again).
 
-
+https://www.youtube.com/watch?v=zrIY0eIyqmI
 
 
 ---
