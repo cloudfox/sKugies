@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -82,7 +81,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 275.5
+    "width": 200
   },
   "right": {
     "id": "e4e063c85c4b0ab3",
@@ -91,14 +90,25 @@
       {
         "id": "ee7a977fd1dc146e",
         "type": "tabs",
+        "dimension": 55.61056105610561,
         "children": [
+          {
+            "id": "b5669a554b91a37f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Resources/Interview Prep/Interview Prep Answers.md"
+              }
+            }
+          },
           {
             "id": "72fd164e60c6d8b8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Obsidian Resources.md",
+                "file": "Resources/Interview Prep/Interview Prep Answers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/Obsidian Resources.md",
+                "file": "Resources/Interview Prep/Interview Prep Answers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,24 +143,6 @@
             }
           },
           {
-            "id": "ac1271fde3d5259d",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
-            "id": "b5669a554b91a37f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Resources/Obsidian Resources.md"
-              }
-            }
-          },
-          {
             "id": "e400a018dfbae44d",
             "type": "leaf",
             "state": {
@@ -159,23 +151,44 @@
                 "sortOrder": "frequency"
               }
             }
-          },
+          }
+        ]
+      },
+      {
+        "id": "065ba69c18100667",
+        "type": "tabs",
+        "dimension": 16.5016501650165,
+        "children": [
           {
             "id": "7e74689298eef9bd",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Resources/Obsidian Resources.md"
+                "file": "Resources/Interview Prep/Interview Prep Answers.md"
               }
             }
           }
-        ],
-        "currentTab": 4
+        ]
+      },
+      {
+        "id": "3273b6c563d1bd04",
+        "type": "tabs",
+        "dimension": 27.887788778877887,
+        "children": [
+          {
+            "id": "ac1271fde3d5259d",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 373.5
+    "width": 260.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,16 +202,18 @@
       "canvas:Create new canvas": false
     }
   },
-  "active": "c18d538c333b7d7d",
+  "active": "871e359d3ff21461",
   "lastOpenFiles": [
-    "Resources/icon 1.jpg.md",
+    "Stuff/Pictures/Pets.md",
     "Resources/Obsidian Resources.md",
-    "General/Blog.md",
+    "Home.md",
     "Resources/Interview Prep/Interview Prep Answers.md",
+    "Resources/Templates",
+    "Resources/icon 1.jpg.md",
+    "General/Blog.md",
     "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/Tutorials.md",
-    "Home.md",
     "Resources/Interview Prep/Untitled.md",
     "Resources/Interview Prep/Interview Prep.md",
     "Resources/Programming Resources.md",
@@ -217,10 +232,9 @@
     "Tutorials/Programming/02 - Intermediate/pointers and references.md",
     "Tutorials/Programming/02 - Intermediate/Structs and Classes.md",
     "Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
-    "Tutorials/Programming/01 - Foundation/Documentation.md",
     "Resources/Interview Prep/big-o-cheat-sheet-poster.png",
-    "Images/PoggleLogo.png",
-    "Images",
+    "Stuff/Images/PoggleLogo.png",
+    "Stuff/Images",
     "Resources/Interview Prep/BIGO.png",
     "Stuff/Pictures/Animals/Duke02.jpg",
     "Stuff/Pictures/Animals/Duke01.jpg",
@@ -236,7 +250,6 @@
     "Projects/Personal",
     "theme.css",
     "publish.css",
-    "Blog Posts/other",
-    "Tutorials/Programming/01 - Foundation/Examples"
+    "Blog Posts/other"
   ]
 }

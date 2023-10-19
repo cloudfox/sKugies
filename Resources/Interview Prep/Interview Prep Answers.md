@@ -459,8 +459,7 @@ MySingleton * GetInstance()
 
 
 ---
-Memory corruption, 
-
+**Memory corruption**
 - using uninitialized memory
 - using non-owned memory(memory from outside the program)
 - using memory beyond what was allocated(buffer overflow)
@@ -471,17 +470,62 @@ multiplayer lag compensation in a shooter game (go watch that famous Overwatch G
 
 https://www.youtube.com/watch?v=zrIY0eIyqmI
 
-
 ---
-**Optimization questions**
-
+#### Optimization Questions
 **always ask for more information**
+How can we use a Bounding Volume Hierarchy(or an octree, or something similar) to speed up a ray tracer?
+
+Ray tracing needs to know when the ray will collide and bounce off of another object. 
+bounding hierarchies or octrees can be used for spatial organization. 
+You can more efficiently determine what objects the ray may collide with.
+
+ 
+Explain about Cache Memory(L1 and L2 caches, and so on)
+- memory on cpu to store frequently used instructions and data
+- lower levels are faster but smaller
+- the more effectively you can get data onto the cache the faster(usually) the program will run
+
+What is [Data Oriented Design?](https://en.wikipedia.org/wiki/Data-oriented_design)
+- Focuses on optimal transformations of data
+- Transforms are abstractions of code that solely focus on the mapping of inputs to outputs
+- optimize data layouts for these transforms
+- separating and sorting [fields](https://en.wikipedia.org/wiki/Field_(computing) "Field (computing)") according to when they are needed
+- Minimizing data movement, Maximizing data reuse, Optimizing for the cache
+
+How it works
+- Storing data in contiguous blocks
+- Grouping related data together
+- Using simple data structures:
+
+Explain how view frustum culling can be optimized using multithreading and SIMD(see e.g. the blog post by [Andreas Asplund](http://bitsquid.blogspot.se/2016/10/the-implementation-of-frustum-culling.html))
 
 
- like “in a big map full of items, how would you find the items that the player can interact with” (the answer included quadtrees)
 
 
-You're searching for bottlenecks in your game, but nothing you're changing is making the game any faster, be it anything in the GPU pipeline or the CPU. Nothing is spiking, and the slowness appears to be distributed across everywhere. What do you do next?
+
+Do you have experience with using performance profiling tools for the GPU?
+
+
+
+Game companies seem to expect you to have experience with profiling and optimizing your code using tools such as NVIDIA Nsight, so do get familiar with them. Also, [this](http://pages.tacc.utexas.edu/~eijkhout/Articles/EijkhoutIntroToHPC.pdf) is a good book for brushing up on computer architecture topics such as cache memory.
+
+
+#### Debugging and optimization 
+You'll be given strange scenarios and have to come up with all the possible things that could be wrong and how you might fix it. 
+
+Think about things like how to reproduce the issue, whether it only happens on certain computers, how you can debug it if you can't reproduce it on your computer, **what tools are available in a debugger** (line break points, memory break points, stack traces, core dumps, etc). 
+
+**Have at least 5 answers for "why is the screen black?"** 
+
+When optimizing, make sure you ask for as much relevant information about your hypothetical data as possible. 
+
+**Consider the differences between optimizing for speed vs memory.** You will most likely be asked about how to allocate memory in order to take advantage of the CPU cache size. Be familiar with static and runtime analysis tools like VTune. Experience with libraries like TBB is a plus.
+
+
+**“in a big map full of items, how would you find the items that the player can interact with” (the answer included quadtrees)**
+
+
+**You're searching for bottlenecks in your game, but nothing you're changing is making the game any faster, be it anything in the GPU pipeline or the CPU. Nothing is spiking, and the slowness appears to be distributed across everywhere. What do you do next?**
 
 What do you mean by slowness specifically?
 - lag
@@ -548,35 +592,6 @@ The speed hierarchy of operations is:
 To be faster, code should reduce the number of array writes, and more generally, writes through pointers.
 
 Is the code optimized for one thing to the detriment of another (memory, speed, etc..)
-
-
----
-#### Optimization Questions
- How can we use a Bounding Volume Hierarchy(or an octree, or something similar) to speed up a ray tracer?
- 
-- Explain about Cache Memory(L1 and L2 caches, and so on)
-- 
-- What is [Data Oriented Design?](https://en.wikipedia.org/wiki/Data-oriented_design)
-- 
-- Explain how view frustum culling can be optimized using multithreading and SIMD(see e.g. the blog post by [Andreas Asplund](http://bitsquid.blogspot.se/2016/10/the-implementation-of-frustum-culling.html))
-- 
-- Do you have experience with using performance profiling tools for the GPU?
-Game companies seem to expect you to have experience with profiling and optimizing your code using tools such as NVIDIA Nsight, so do get familiar with them. Also, [this](http://pages.tacc.utexas.edu/~eijkhout/Articles/EijkhoutIntroToHPC.pdf) is a good book for brushing up on computer architecture topics such as cache memory.
-
-
-
-
-
-#### Debugging and optimization 
-You'll be given strange scenarios and have to come up with all the possible things that could be wrong and how you might fix it. 
-
-Think about things like how to reproduce the issue, whether it only happens on certain computers, how you can debug it if you can't reproduce it on your computer, what tools are available in a debugger (line break points, memory break points, stack traces, core dumps, etc). 
-
-Have at least 5 answers for "why is the screen black?" 
-
-When optimizing, make sure you ask for as much relevant information about your hypothetical data as possible. 
-
-Consider the differences between optimizing for speed vs memory. You will most likely be asked about how to allocate memory in order to take advantage of the CPU cache size. Be familiar with static and runtime analysis tools like VTune. Experience with libraries like TBB is a plus.
 
 
 ---

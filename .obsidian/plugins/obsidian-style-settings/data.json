@@ -4,7 +4,7 @@
   "encore-settings@@encore-coloured-tooltip": true,
   "encore-settings@@encore-bright-accent": true,
   "encore-settings@@colors": "encore-colors-colorful",
-  "modular-css-layout-gc@@image-zoom": true,
+  "modular-css-layout-gc@@image-zoom": false,
   "folder-styles@@file-explorer-flat": true,
   "shimmering-focus@@show-sidebar-header-buttons": true,
   "shimmering-focus@@show-ribbon": true,

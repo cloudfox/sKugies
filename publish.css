@@ -375,10 +375,10 @@ body{
 	/* set the defaults */
 	body{
 		--img-border-radius: 15px;
-		--img-max-height: 300px;
-		--img-max-width: 350px;
-		--img-max-height-list: 270px;
-		--img-max-width-list: 300px;
+		--img-max-height: 600px;
+		--img-max-width: 650px;
+		--img-max-height-list: 670px;
+		--img-max-width-list: 600px;
 		--callout-gallery-gap: 5px;
 		--gallery-snw-display: none;
 	}
@@ -513,12 +513,13 @@ body{
 
 
 
+
 /* === Image Zoom === */
 /* must check "Enable Image Zoom via CSS" via Style Settings */
 
 	/* set scale to 100% for images */
 	.image-zoom .view-content :is(.cm-editor, .markdown-preview-view) img { max-width: 100%; cursor: zoom-in; }
-
+  
 	/* css zoom for images */
 	body.image-zoom:not(.is-mobile) .view-content :is(.cm-editor,.markdown-preview-view) img:active,
 	body.image-zoom:not(.is-mobile) .view-content .image-embed:active,
@@ -2845,13 +2846,6 @@ Fixed width, floats right, and strips "flair" from ![[embedded]] files */
   /* Obsidian Custom Variables */
   --callout-icon: lucide-truck;
 }
-
-
-
-
-
-
-
 
 
 

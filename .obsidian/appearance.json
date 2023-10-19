@@ -9,7 +9,8 @@
     "MCL Wide Views",
     "coloredHeaders",
     "ColorScheme",
-    "CustomCallouts"
+    "CustomCallouts",
+    "imagezoom"
   ],
   "baseFontSize": 15,
   "translucency": false

@@ -1,3 +1,6 @@
+---
+publish: false
+---
 
 
 https://github.com/Dmytro-Shulha/obsidian-css-snippets/tree/master/Snippets
