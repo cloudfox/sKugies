@@ -20,7 +20,8 @@ Nothing here yet.
 
 ## Posts:
 
-> [!multi-column]
+
+> [!multi-column|center-fixed]
 >
 >> [!note] 16-Oct-22
 >> ![[Oct22 - Spinning Things#Spinning Things]]
@@ -43,7 +44,7 @@ Nothing here yet.
 >> [!note] 2
 >> ![[Test Post 1#Test Post 1]]
 >
->> [!note] 8
+>> [!note] 1
 >> ![[Test Post 2#Test Post 2]]
 >
 

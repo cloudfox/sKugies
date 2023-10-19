@@ -6,5 +6,5 @@
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "./",
-  "showInlineTitle": false
+  "showInlineTitle": true
 }
