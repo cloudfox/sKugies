@@ -12,7 +12,7 @@ I'm currently finishing up my final year at Digipen Institute of Technology. Mak
 
 [[Favorite Games]] - [[What I'm Playing]]
 <br><br>
-[![[PoggleLogo.png|200]]](Pogglewash)
+[![[PoggleLogo.png|200]]](https://store.steampowered.com/app/2417620/Pogglewash/)
 
 
 

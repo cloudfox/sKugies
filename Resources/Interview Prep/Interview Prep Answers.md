@@ -499,13 +499,15 @@ How it works
 
 Explain how view frustum culling can be optimized using multithreading and SIMD(see e.g. the blog post by [Andreas Asplund](http://bitsquid.blogspot.se/2016/10/the-implementation-of-frustum-culling.html))
 
-
-
+- Kick jobs to do frustum vs sphere culling
+    - For each frustum plane, test plane vs sphere
+- Wait for sphere culling to finish
+- For objects that pass sphere test, kick jobs to do frustum vs object-oriented bounding box (OOBB) culling
+    - For each frustum plane, test plane vs OOBB
+- Wait for OOBB culling to finished 
 
 
 Do you have experience with using performance profiling tools for the GPU?
-
-
 
 Game companies seem to expect you to have experience with profiling and optimizing your code using tools such as NVIDIA Nsight, so do get familiar with them. Also, [this](http://pages.tacc.utexas.edu/~eijkhout/Articles/EijkhoutIntroToHPC.pdf) is a good book for brushing up on computer architecture topics such as cache memory.
 
@@ -516,6 +518,7 @@ You'll be given strange scenarios and have to come up with all the possible thin
 Think about things like how to reproduce the issue, whether it only happens on certain computers, how you can debug it if you can't reproduce it on your computer, **what tools are available in a debugger** (line break points, memory break points, stack traces, core dumps, etc). 
 
 **Have at least 5 answers for "why is the screen black?"** 
+drivers, shaders, camera issues, is anything loading in, something blocking camera, lights missing, lights to dark, hardware, loose cables
 
 When optimizing, make sure you ask for as much relevant information about your hypothetical data as possible. 
 
@@ -523,6 +526,9 @@ When optimizing, make sure you ask for as much relevant information about your h
 
 
 **“in a big map full of items, how would you find the items that the player can interact with” (the answer included quadtrees)**
+
+https://thatgamesguy.co.uk/cpp-game-dev-16/
+
 
 
 **You're searching for bottlenecks in your game, but nothing you're changing is making the game any faster, be it anything in the GPU pipeline or the CPU. Nothing is spiking, and the slowness appears to be distributed across everywhere. What do you do next?**

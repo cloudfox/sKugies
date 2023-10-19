@@ -32,15 +32,15 @@ Team Size: 22 people (5 programmers, 4 designers, 10 artists, 3 audio)
 Role: AI programmer
 Misc: 3d platformer. Primarily focused on designing and implementing the behaviors of the friendly creature. Created and managed bug tracking form and spreadsheet.
 
-**VECT** (Spring 2020)
-Team Size: 5 people
-Role: Particle and physics programmer
-Misc: 2d top down dungeon crawler.
-
 **Escape From Outerworld** (Fall 2020-Spring 2021)
 Team Size: 11 people (5 programmers, 3 designers, 3 artists)
 Role: Engine, Physics, and Tools Programmer
 Misc: 2d physics based puzzle platformer. Multidisciplinary project. Researched and designed the core engine functionality as an ECS. Made simple tools using IMGUI for level creation and debugging.
+
+**VECT** (Spring 2020)
+Team Size: 5 people
+Role: Particle and physics programmer
+Misc: 2d top down dungeon crawler.
 
 **Solaris** Fall 2019
 Team Size: 3 people
