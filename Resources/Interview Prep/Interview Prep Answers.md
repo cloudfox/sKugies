@@ -461,8 +461,10 @@ MySingleton * GetInstance()
 ---
 Memory corruption, 
 
-
-
+- using uninitialized memory
+- using non-owned memory(memory from outside the program)
+- using memory beyond what was allocated(buffer overflow)
+- faulty heap memory management(memory leaks, freeing non-heap or unallocated memory)
 
 ---
 multiplayer lag compensation in a shooter game (go watch that famous Overwatch GDC video again).
@@ -471,17 +473,93 @@ https://www.youtube.com/watch?v=zrIY0eIyqmI
 
 
 ---
-Optimization questions like “in a big map full of items, how would you find the items that the player can interact with” (the answer included quadtrees)
+**Optimization questions**
+
+**always ask for more information**
 
 
+ like “in a big map full of items, how would you find the items that the player can interact with” (the answer included quadtrees)
+
+
+You're searching for bottlenecks in your game, but nothing you're changing is making the game any faster, be it anything in the GPU pipeline or the CPU. Nothing is spiking, and the slowness appears to be distributed across everywhere. What do you do next?
+
+What do you mean by slowness specifically?
+- lag
+- input responsiveness
+- network lag
+Is this happening in a specific area of the game?
+Are there any other process running?
+Is there an issue with this specific machine it is being tested on? 
+		drivers, antivirus, other software, hardware issues
+
+run a profiler
+check for memory leaks
+maybe a problem with an API or library
+maybe the fixed physics update is too low
+Has any optimization been done?
+
+ask for help/another pair of eyes/pair programming/code review
+
+https://wiki.c2.com/?UniformlySlowCode
+
+- use of inline/#define functions
+- pass parameters by reference instead of value
+- move functionality into database stored procedures
+- change error handling to using exceptions
+- change to a different API set (for example, move from ADO to ODBC)
+- change from one third party module to another, from third party code to in-house code, or vice-versa
+- move to a different OS
+
+- passing vectors by reference can be bad, passing by value can mean the vectors data will already be in registers for use instead flushing the pointers first. Know what your data and functions need to do in order to make such a decision. 
+
+Are you using a lot of factory or virtual functions?
+
+Would caching/reusing some data help?
+
+Are there interrelated functions? Id the slowness of one function causing another function to also slow down? Is the slowness distributed across a set of functions?
+
+
+Try testing things with extreme parameters. Create thousands of objects or particles, have a large number of continuous physics collisions, etc...
+
+
+- Prefer static linking and position-dependent code (as opposed to PIC, position-independent code).
+- Prefer 64-bit code and 32-bit data.
+- Prefer array indexing to pointers (this one seems to reverse every ten years).
+- Prefer regular memory access patterns.
+- Minimize control flow.
+- Avoid data dependencies.
+
+https://www.facebook.com/notes/10158791579037200/
+**Reduce strength**
+The first tip is simple: When implementing an algorithm, use operations of the minimum strength possible. The poster child of strength reduction is replacing x / 2 with x >> 1 in source code. In 1985, that was a good thing to do; nowadays, you're just making your compiler yawn.
+
+The speed hierarchy of operations is:
+
+- comparisons
+- (u)int add, subtract, bitops, shift
+- floating point add, sub (separate unit!)
+- indexed array access (caveat: cache effects)
+- (u)int32 mul
+- FP mul
+- FP division, remainder
+- (u)int division, remainder
+
+**Minimize array writes**
+To be faster, code should reduce the number of array writes, and more generally, writes through pointers.
+
+Is the code optimized for one thing to the detriment of another (memory, speed, etc..)
 
 
 ---
 #### Optimization Questions
- How can we use a Bounding Volume Hierarchy(or an octree, or something similar) to speed up a raytracer?
+ How can we use a Bounding Volume Hierarchy(or an octree, or something similar) to speed up a ray tracer?
+ 
 - Explain about Cache Memory(L1 and L2 caches, and so on)
+- 
 - What is [Data Oriented Design?](https://en.wikipedia.org/wiki/Data-oriented_design)
+- 
 - Explain how view frustum culling can be optimized using multithreading and SIMD(see e.g. the blog post by [Andreas Asplund](http://bitsquid.blogspot.se/2016/10/the-implementation-of-frustum-culling.html))
+- 
 - Do you have experience with using performance profiling tools for the GPU?
 Game companies seem to expect you to have experience with profiling and optimizing your code using tools such as NVIDIA Nsight, so do get familiar with them. Also, [this](http://pages.tacc.utexas.edu/~eijkhout/Articles/EijkhoutIntroToHPC.pdf) is a good book for brushing up on computer architecture topics such as cache memory.
 
