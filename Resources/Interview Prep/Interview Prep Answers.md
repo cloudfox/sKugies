@@ -603,11 +603,13 @@ Is the code optimized for one thing to the detriment of another (memory, speed, 
 ---
 ## Math Questions 
 
- - What is a dot product?
+****
+
+**What is a dot product?**
 	measures how close two vectors align
 	the angle between two vectors
 
-- What is a cross product?
+**What is a cross product?**
 	determines the vector that is normal to two vectors
 
 ---
