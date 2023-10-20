@@ -604,26 +604,83 @@ Is the code optimized for one thing to the detriment of another (memory, speed, 
 ## Math Questions 
 
  - What is a dot product?
+	measures how close two vectors align
+	the angle between two vectors
 
 - What is a cross product?
-
-- What do they represent?
+	determines the vector that is normal to two vectors
 
 ---
-- Why should you use quaternions over euler angles?
-- How do you use matrices to apply transformations to an object? For instance, how do you scale, translate and rotate an object with matrices?
-- How do you calculate the intersection between a ray and a plane/sphere/triangle?
-- Explain concepts like world space, object space and camera space.
-- ray/sphere intersection
-- reflecting vectors against walls
--  what the magnitude of both the dot and cross product mean
-- now when you need to normalize a vector and when you don't
--  how to calculate a normal
-- how to calculate the distance between two vectors
-- what each value in a 4x4 matrix 
-- how would you find the angle between two vectors, distance between two lines ethic 
+**Why should you use quaternions over euler angles?**
+	They don't suffer from singularities(Gimbal Lock)
+
+**How do you use matrices to apply transformations to an object? For instance, how do you scale, translate and rotate an object with matrices?**
+
+$$
+Translate = 
+\begin{pmatrix}
+0 & 0 & 0 & x \\
+0 & 0 & 0 & y \\
+0 & 0 & 0 & z \\
+0 & 0 & 0 &  1
+\end{pmatrix}
+
+Scale = 
+\begin{pmatrix}
+Sx & 0 & 0 & 0 \\
+0 & Sy & 0 & 0 \\
+0 & 0 & Sz & 0 \\
+0 & 0 & 0 &  1
+\end{pmatrix}
+
+Rotation = 
+\begin{pmatrix}
+1 & 0 & 0 & 0 \\
+0 & cos\theta & -sin\theta & 0 \\
+0 & sin\theta & cos\theta  & 0 \\
+0 & 0 & 0 &  1
+\end{pmatrix}
 
 
+
+$$
+
+scale first, then Rotate, last Translate
+//order is right to left:  T * R * S
+
+
+
+	
+**How do you calculate the intersection between a ray and a plane/sphere/triangle?**
+
+
+**Explain concepts like world space, object space and camera space.**
+
+
+**ray/sphere intersection**
+
+
+**reflecting vectors against walls**
+
+
+**what the magnitude of both the dot and cross product mean**
+	
+	
+**now when you need to normalize a vector and when you don't**
+	
+	
+ how to calculate a normal
+	
+	
+**how to calculate the distance between two vectors**
+	
+	
+**what each value in a 4x4 matrix** 
+	
+	
+**how would you find the angle between two vectors, distance between two lines ethic** 
+	
+	
 
 
 
