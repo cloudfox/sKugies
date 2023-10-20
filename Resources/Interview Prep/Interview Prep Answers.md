@@ -3,9 +3,7 @@ publish: false
 cssclasses: []
 ---
 
-
-<div class="separator">Next section</div>
-
+https://docs.google.com/document/d/1ph1JRdXltYedvpKexz0Az7XtQohyI5sTGpOT8KJyL5o/edit
 
 ## Programming
 #### C++
@@ -604,13 +602,24 @@ Is the code optimized for one thing to the detriment of another (memory, speed, 
 ## Math Questions 
 
 ****
-
 **What is a dot product?**
-	measures how close two vectors align
-	the angle between two vectors
-
+- Yields a scalar.
+- a · b = ax * bx + ay * by + az * bz
+- a · b = ||a|| ||b|| cosθ
+- measures the length of the projection of b onto a, multiplied by the length of a.
+- The dot product can be used to measure displacement in a particular direction.
+- can measures how close two vectors align, angle between two vectors
+- Can use with a unit-vector to get the distance of another vector in that direction.
+	
 **What is a cross product?**
-	determines the vector that is normal to two vectors
+- Yields a vector.
+- a × b = (ay * bz - az * by,   az * bx - ax * bz,   ax * by - ay * bx)
+- ||a × b|| = ||a|| ||b|| sinθ
+		magnitude of cross product = area of the parallelogram(with sides a and b)
+- when parallel, **a × b = 0**
+- calculates vector normal to plane formed from a and b 
+		direction of that normal depends on left or right hand rule
+ 
 
 ---
 **Why should you use quaternions over euler angles?**
@@ -651,41 +660,60 @@ scale first, then Rotate, last Translate
 //order is right to left:  T * R * S
 
 
-
-	
 **How do you calculate the intersection between a ray and a plane/sphere/triangle?**
+- Ray-Sphere
+https://www.scratchapixel.com/lessons/3d-basic-rendering/minimal-ray-tracer-rendering-simple-shapes/ray-sphere-intersection.html
+	often simplest intersection test
+	find distance from center point to line, if less than radius then it intersects
 
+Ray = Ray Origin point + t * Direction // R = O + tD
+L=C-O
+edges L, t_ca, and d form a right triangle
+dot product corresponds to projecting point onto line
+dot of L and D gives t_ca the closest point to the circle
+negative values mean they are pointing away from each other
+d = sqrt(L^2 -t_ca^2)
+if(d<0) no intersection
+
+```c++
+	Vec3f L = orig - center;
+	float a = dir.dotProduct(dir);
+	float b = 2 * dir.dotProduct(L);
+	float c = L.dotProduct(L) - radius2;
+	if (!solveQuadratic(a, b, c, t0, t1)) return false;
+	
+	if (t0 > t1) std::swap(t0, t1);
+	
+	if (t0 < 0) 
+	{
+			t0 = t1; // if t0 is negative, let's use t1 instead
+			if (t0 < 0) return false; // both t0 and t1 are negative
+	}
+
+	t = t0;
+
+	return true;
+```
+
+simplified
+project center point of sphere onto line
+projection = SphereCenter * dot(SphereCenter, Ray)/ Magnitude(SphereCenter)^2
+look at distance between projection and sphere center
 
 **Explain concepts like world space, object space and camera space.**
-
-
-**ray/sphere intersection**
-
+world space: coordinates used to compare different objects in more absolute terms
+Object space: coordinates relative to an object, used for vertex placement
+Camera Space: Coordinates relative to the camera view
 
 **reflecting vectors against walls**
+vector: v
+line(wall): l
+line normal: n
+reflection: r
+r = d - (2n * dot(d, n))
 
-
-**what the magnitude of both the dot and cross product mean**
-	
-	
-**now when you need to normalize a vector and when you don't**
-	
-	
- how to calculate a normal
-	
-	
 **how to calculate the distance between two vectors**
-	
-	
-**what each value in a 4x4 matrix** 
-	
-	
-**how would you find the angle between two vectors, distance between two lines ethic** 
-	
-	
-
-
-
+sqrt((x1-x2)^2+(y1-y2)^2+(z1-z2)^2)
 
 ## Computer Graphics Questions
 
@@ -704,22 +732,7 @@ scale first, then Rotate, last Translate
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 ---
-
-
 
 
 ## The Structure of an Interview
@@ -754,16 +767,16 @@ Nearly all interviews will be conducted assuming you have advanced knowledge of 
 - C++ trivia: What are the differences between a struct and a class? Should destructors be virtual? Etc.
 - Find distance between point and line segment
 
-leet [[Code Style]] 
+leet Code
 - mostly easy side
 - maybe one medium
 -  solved one with two-pointers approach and 1-D dynamic programming
- - focus more on just getting solid & efficient implementations for easy/medium problems in C++
+- focus more on just getting solid & efficient implementations for easy/medium problems in C++
 read Scott Meyer’s books, starting from “Effective C++”
 
 
 ####  Whiteboard questions:
-	 Usually these are in the form of leetcode-style questions, on the easy side. They don’t expect a compiling and running code
+Usually these are in the form of leetcode-style questions, on the easy side. They don’t expect a compiling and running code
 - outline the pseudocode that covers the solution.
 - be vocal about your thought process,
 

@@ -16,6 +16,8 @@ https://github.com/Dmytro-Shulha/obsidian-css-snippets/tree/master/Snippets
 https://efemkay.github.io/obsidian-modular-css-layout/multi-column/02-multi-column-callout/
 
 
+<div class="separator">Next section</div>
+
 
 >[!info] Custom Callouts
 >infobox
