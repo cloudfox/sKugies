@@ -10,5 +10,7 @@
   "highlightr-plugin",
   "various-complements",
   "better-word-count",
-  "obsidian-style-settings"
+  "obsidian-style-settings",
+  "templater-obsidian",
+  "dataview"
 ]

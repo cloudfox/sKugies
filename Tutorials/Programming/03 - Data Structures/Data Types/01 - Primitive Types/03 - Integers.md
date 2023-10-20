@@ -1,3 +1,6 @@
+---
+publish: true
+---
 
 Integers come in many flavors
 

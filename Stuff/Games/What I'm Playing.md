@@ -1,3 +1,6 @@
+---
+publish: true
+---
 
 **Currently**
 Baldur's Gate 3

@@ -1,3 +1,6 @@
+---
+publish: true
+---
 [[Learn programming (C++)#Section 1 Foundation]]  previous: [[Scope Lifetime]]   #tutorial
 
 ---

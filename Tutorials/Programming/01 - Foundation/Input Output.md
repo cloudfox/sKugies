@@ -4,6 +4,7 @@ tags:
   - programming
 previous: "[[Iteration - Loops]]"
 next: "[[Code Style]]"
+publish: true
 ---
 [[Learn programming (C++)#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Iteration - Loops]]   #tutorial
 

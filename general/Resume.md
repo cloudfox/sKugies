@@ -1,8 +1,10 @@
 ---
 cssclasses:
   - clean-embeds
+publish:
 ---
 ![[TitleBar]] 
+
 
 ---
 #### Education

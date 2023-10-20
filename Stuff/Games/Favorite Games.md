@@ -1,3 +1,6 @@
+---
+publish: true
+---
 
 Chrono Trigger
 Megaman Legends (1 and 2)

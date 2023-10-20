@@ -1,3 +1,6 @@
+---
+publish:
+---
 
 euler
 verlet integration

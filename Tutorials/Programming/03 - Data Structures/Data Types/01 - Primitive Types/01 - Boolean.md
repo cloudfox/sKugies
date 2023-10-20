@@ -1,3 +1,6 @@
+---
+publish: true
+---
 
 bool 
 can have values of true or false

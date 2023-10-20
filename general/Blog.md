@@ -5,6 +5,7 @@ cssclasses:
   - cards-align-bottom
   - "#mcl"
   - clean-embeds
+publish:
 ---
 ![[TitleBar]] 
  
@@ -13,8 +14,6 @@ This area is largely a low priority until I finish making my programming tutoria
 
 ## Featured:
 Nothing here yet.
-
-<br>
 
 <br>
 

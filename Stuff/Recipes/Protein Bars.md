@@ -1,3 +1,6 @@
+---
+publish: true
+---
 
 unorganized mess of thoughts at the moment
 

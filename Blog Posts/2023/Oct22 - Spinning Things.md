@@ -1,3 +1,6 @@
+---
+publish: true
+---
 
 ### Spinning Things
 <br>

@@ -1,6 +1,7 @@
 ---
 tags:
   - project
+publish: true
 ---
 
 

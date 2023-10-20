@@ -1,6 +1,7 @@
 ---
 tags:
   - tutorial
+publish: true
 ---
 > [!warning] This is very much a work in progress 
 ### Introduction
@@ -25,7 +26,6 @@ some output
 
 I will try to include programming exercises with drivers and 
 output files to compare to.
-
 
 ### ***Getting Started***
 If you are completely new to programming then you will need something to program and later compile your code.

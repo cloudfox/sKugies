@@ -1,6 +1,7 @@
 ---
 cssclasses:
   - clean-embeds
+publish: true
 ---
 ![[TitleBar]] 
 

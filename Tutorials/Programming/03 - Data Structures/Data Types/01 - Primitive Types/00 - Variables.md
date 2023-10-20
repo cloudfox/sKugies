@@ -1,3 +1,6 @@
+---
+publish: true
+---
 
 bool
 integer - int, char, enums
