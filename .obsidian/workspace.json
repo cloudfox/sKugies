@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Tutorials/Programming/01 - Foundation/Variables.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md"
+                "file": "Tutorials/Programming/01 - Foundation/Variables.md"
               }
             }
           },
@@ -121,7 +120,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md",
+                "file": "Tutorials/Programming/01 - Foundation/Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +137,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md",
+                "file": "Tutorials/Programming/01 - Foundation/Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +177,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md"
+                "file": "Tutorials/Programming/01 - Foundation/Variables.md"
               }
             }
           }
@@ -216,20 +215,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9a0aed7ebab0442e",
+  "active": "e191780e3bfc1e19",
   "lastOpenFiles": [
-    "Resources/Obsidian Resources.md",
-    "Resources/Interview Prep/Interview Prep Answers.md",
-    "Tutorials/Programming/01 - Foundation/Code Style.md",
+    "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/Tutorials.md",
     "Home.md",
+    "Resources/Interview Prep/Interview Prep Answers.md",
+    "Resources/Obsidian Resources.md",
+    "Tutorials/Programming/01 - Foundation/Code Style.md",
     "Templates/Update Publish Files.md",
     "General/Recent New Files.md",
     "General/Recently Edited.md",
     "General/Blog.md",
     "General/Contact.md",
     "General/Resume.md",
-    "Tutorials/Programming/Learn programming (C++).md",
     "Blog Posts/2023/Oct22 - Spinning Things.md",
     "Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
     "Tutorials/Programming/Patterns/On Randomness.md",
