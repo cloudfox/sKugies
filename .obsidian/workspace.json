@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md",
+                "file": "Projects/Project Ideas.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Expressions and Operators.md"
+                "file": "Projects/Project Ideas.md"
               }
             }
           },
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
+                "file": "Projects/Project Ideas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
+                "file": "Projects/Project Ideas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +178,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Expressions and Operators.md"
+                "file": "Projects/Project Ideas.md"
               }
             }
           }
@@ -215,13 +216,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e191780e3bfc1e19",
+  "active": "9a0aed7ebab0442e",
   "lastOpenFiles": [
+    "Resources/Interview Prep/Interview Prep Answers.md",
+    "Resources/Programming Resources.md",
+    "Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
     "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/Programming/01 - Foundation/Variables.md",
     "Tutorials/Tutorials.md",
     "Home.md",
-    "Resources/Interview Prep/Interview Prep Answers.md",
     "Resources/Obsidian Resources.md",
     "Tutorials/Programming/01 - Foundation/Code Style.md",
     "Templates/Update Publish Files.md",
@@ -241,8 +244,6 @@
     "Tutorials/Programming/03 - Data Structures/Data Types/01 - Primitive Types/05 - Enumerated type.md",
     "Tutorials/Programming/03 - Data Structures/Data Types/01 - Primitive Types/04 - Floating Point.md",
     "Tutorials/Programming/03 - Data Structures/Data Types/01 - Primitive Types/03 - Integers.md",
-    "Tutorials/Programming/03 - Data Structures/Data Types/01 - Primitive Types/02 - Char.md",
-    "Tutorials/Programming/03 - Data Structures/Data Types/01 - Primitive Types/01 - Boolean.md",
     "Templates/General",
     "Templates",
     "publish.js",
