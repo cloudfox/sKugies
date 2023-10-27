@@ -36,6 +36,8 @@ For simplicity you could alternatively use an IDE like: [vsCode](https://code.vi
 
 To quickly get started https://www.onlinegdb.com/ works just as well.
 
+TODO: Add review questions to each tut and at the end of each section
+
 ## Section 1: Foundation 
 (~80% done)
 01 [[Hello World|Hello World]] 
