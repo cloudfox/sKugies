@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/Programming Resources.md",
+                "file": "Resources/Horror Game Design.md",
                 "mode": "source",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Programming Resources.md"
+                "file": "Resources/Horror Game Design.md"
               }
             }
           },
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Programming Resources.md",
+                "file": "Resources/Horror Game Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/Programming Resources.md",
+                "file": "Resources/Horror Game Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Resources/Programming Resources.md"
+                "file": "Resources/Horror Game Design.md"
               }
             }
           }
@@ -229,11 +229,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c18d538c333b7d7d",
+  "active": "46414157bd8b2e22",
   "lastOpenFiles": [
+    "Resources/Programming Resources.md",
+    "Resources/Horror Game Design.md",
     "Resources/Obsidian Resources.md",
     "Projects/Project Ideas.md",
-    "Resources/Programming Resources.md",
     "Tutorials/Programming/01 - Foundation/Arrays.md",
     "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/Tutorials.md",
