@@ -3,11 +3,6 @@ publish: false
 cssclasses: []
 ---
 
-
-
-
-
-
 https://docs.google.com/document/d/1ph1JRdXltYedvpKexz0Az7XtQohyI5sTGpOT8KJyL5o/edit
 
 ## Programming
