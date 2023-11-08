@@ -12,5 +12,6 @@
   "better-word-count",
   "obsidian-style-settings",
   "templater-obsidian",
-  "dataview"
+  "dataview",
+  "obsidian-scroll-offset"
 ]

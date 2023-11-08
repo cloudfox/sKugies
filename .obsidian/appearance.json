@@ -9,8 +9,11 @@
     "MCL Wide Views",
     "coloredHeaders",
     "ColorScheme",
-    "CustomCallouts"
+    "CustomCallouts",
+    "Particles"
   ],
   "baseFontSize": 15,
-  "translucency": false
+  "translucency": false,
+  "textFontFamily": "",
+  "interfaceFontFamily": ""
 }

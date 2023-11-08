@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "0799f9738d5bacfc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md"
+                "file": "Home.md"
               }
             }
           },
@@ -121,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md"
+                "file": "Home.md"
               }
             }
           }
@@ -217,15 +229,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ecc236a5f524dbb1",
+  "active": "0799f9738d5bacfc",
   "lastOpenFiles": [
+    "Projects/Project Ideas.md",
+    "Tutorials/Programming/01 - Foundation/Arrays.md",
+    "Resources/Interview Prep/Interview Prep Answers.md",
     "Blog Posts/2023/Random dice.md",
     "Tutorials/Tutorials.md",
     "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/other/math.md",
-    "Tutorials/Programming/01 - Foundation/Arrays.md",
-    "Projects/Project Ideas.md",
-    "Resources/Interview Prep/Interview Prep Answers.md",
     "Resources/Programming Resources.md",
     "Resources/Horror Game Design.md",
     "Resources/Obsidian Resources.md",
