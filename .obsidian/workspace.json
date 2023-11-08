@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Arrays.md"
+                "file": "Resources/Interview Prep/Interview Prep Answers.md"
               }
             }
           },
@@ -120,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Arrays.md",
+                "file": "Resources/Interview Prep/Interview Prep Answers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -137,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Arrays.md",
+                "file": "Resources/Interview Prep/Interview Prep Answers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +178,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Arrays.md"
+                "file": "Resources/Interview Prep/Interview Prep Answers.md"
               }
             }
           }
@@ -216,16 +217,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e191780e3bfc1e19",
+  "active": "ecc236a5f524dbb1",
   "lastOpenFiles": [
-    "Projects/Project Ideas.md",
+    "Blog Posts/2023/Random dice.md",
+    "Tutorials/Tutorials.md",
+    "Tutorials/Programming/Learn programming (C++).md",
+    "Tutorials/other/math.md",
     "Tutorials/Programming/01 - Foundation/Arrays.md",
+    "Projects/Project Ideas.md",
     "Resources/Interview Prep/Interview Prep Answers.md",
     "Resources/Programming Resources.md",
     "Resources/Horror Game Design.md",
     "Resources/Obsidian Resources.md",
-    "Tutorials/Programming/Learn programming (C++).md",
-    "Tutorials/Tutorials.md",
     "Home.md",
     "Templates/Update Publish Files.md",
     "Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
@@ -243,8 +246,6 @@
     "Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
     "Tutorials/Programming/Patterns/On Randomness.md",
     "Tutorials/Programming/03 - Data Structures/types/Data Structures.md",
-    "Tutorials/Programming/03 - Data Structures/Data Types/Variable Table.md",
-    "Tutorials/Programming/03 - Data Structures/Data Types/02 - Composite Types/String.md",
     "Templates/General",
     "Templates",
     "publish.js",
