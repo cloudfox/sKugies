@@ -29,12 +29,3 @@ been a passion of mine and my main areas of interest are in engines, AI, and gra
 
 
 
-
-
-
-<div>
-#stars
-#stars2
-#stars3
-</div>
-

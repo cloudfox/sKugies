@@ -1,46 +1,22 @@
-/* Falling snow! (If it bothers you, remove everything below this comment) */
-body:before,
-body:after,
-html:before,
-html:after 
-{
-  content: "";
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  background-image: url(https://freepngimg.com/download/winter_snow/6-2-clear-snow-png.png);
-  opacity: 0.5;
-  animation: MOVE-BG 500s linear infinite;
-  z-index: 100;
-  pointer-events: none;
-}
-body:after {
-  top: -3000%;
-}
-body:before {
-  top: -2500%;
-  filter: blur(1px);
-  background-size: 75%;
-}
-html:after {
-  filter: blur(2px);
-  top: -2000%;
-  background-size: 50%;
+* {
+	box-sizing: border-box;
 }
 
-html:before {
-  filter: blur(3px);
-  top: -1500%;
-  background-size: 25%;
+html,
+body {
+	margin: 0;
+	height: 100%;
+	overflow: hidden;
 }
 
-@keyframes MOVE-BG {
-  from {
-    transform: translateY(0);
-  }
-  to {
-    transform: translateY(100%);
-  }
+main {
+	width: 100%;
+	height: 100%;
+	background-color: #1d1e22;
 }
-/* end falling snow */
+
+div {
+	background-color: #878787;
+	width: 2px;
+	height: 2px;
+}

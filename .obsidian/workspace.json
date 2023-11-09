@@ -44,11 +44,15 @@
             }
           },
           {
-            "id": "0799f9738d5bacfc",
+            "id": "3e9651e5664b95fa",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ],
@@ -118,7 +122,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Home.md"
+              }
             }
           },
           {
@@ -127,6 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -143,6 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -160,7 +168,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Home.md"
+              }
             }
           },
           {
@@ -219,16 +229,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0799f9738d5bacfc",
+  "active": "3e9651e5664b95fa",
   "lastOpenFiles": [
     "Home.md",
     "General/Blog.md",
+    "Stuff/Pictures/Pets.md",
+    "Resources/Interview Prep/Interview Prep Answers.md",
     "Tutorials/Tutorials.md",
     "Projects/Projects.md",
     "Stuff/Games/What I'm Playing.md",
     "Projects/Project Ideas.md",
     "Tutorials/Programming/01 - Foundation/Arrays.md",
-    "Resources/Interview Prep/Interview Prep Answers.md",
     "Blog Posts/2023/Random dice.md",
     "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/other/math.md",
@@ -247,7 +258,6 @@
     "GeneratedDataView/Recently Edited.md",
     "General/Contact.md",
     "General/Resume.md",
-    "Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
     "Templates/General",
     "Templates",
     "publish.js",
