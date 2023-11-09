@@ -8,7 +8,9 @@ cssclasses:
 publish:
 ---
 ![[TitleBar]] 
- 
+ <div id='stars'></div>
+<div id='stars2'></div>
+
 Mostly stream of thought stuff here. So expect a somewhat chaotic mess.
 This area is largely a low priority until I finish making my programming tutorial thing.
 

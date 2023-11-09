@@ -50,7 +50,7 @@
               "type": "markdown",
               "state": {
                 "file": "Home.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -231,11 +231,12 @@
   },
   "active": "3e9651e5664b95fa",
   "lastOpenFiles": [
+    "Tutorials/Tutorials.md",
     "Home.md",
+    "Stuff/Games/Favorite Games.md",
     "General/Blog.md",
     "Stuff/Pictures/Pets.md",
     "Resources/Interview Prep/Interview Prep Answers.md",
-    "Tutorials/Tutorials.md",
     "Projects/Projects.md",
     "Stuff/Games/What I'm Playing.md",
     "Projects/Project Ideas.md",
@@ -257,7 +258,6 @@
     "Tutorials/Programming/01 - Foundation/Code Style.md",
     "GeneratedDataView/Recently Edited.md",
     "General/Contact.md",
-    "General/Resume.md",
     "Templates/General",
     "Templates",
     "publish.js",
