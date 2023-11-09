@@ -2,16 +2,12 @@
   "cm-editor-syntax-highlight-obsidian",
   "code-block-plugin",
   "table-editor-obsidian",
-  "obsidian-kanban",
   "calendar",
   "obsidian-git",
   "url-into-selection",
-  "obsidian-linter",
   "highlightr-plugin",
   "better-word-count",
   "obsidian-style-settings",
   "templater-obsidian",
-  "dataview",
-  "obsidian-scroll-offset",
-  "various-complements"
+  "dataview"
 ]

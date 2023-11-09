@@ -1,9 +1,16 @@
 ---
 publish: true
 ---
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+
+[[Blog]]  - [[Tutorials]]  -  [[Projects]]  -  [[Resume]]    - [[Contact]]
+
 
 **Currently**
 Baldur's Gate 3
+guild wars 1
 
 
 **Probably will play:**

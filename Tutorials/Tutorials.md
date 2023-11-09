@@ -1,8 +1,13 @@
 ---
 cssclasses:
   - clean-embeds
+  - grad
 publish: true
 ---
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+
 ![[TitleBar]] 
 
 Largely writing these as a way to improve my own understanding.

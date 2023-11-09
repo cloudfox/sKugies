@@ -2,7 +2,16 @@
 tags:
   - tutorial
 publish: true
+cssclasses:
+  - grad
 ---
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+
+[[Blog]]  - [[Tutorials]]  -  [[Projects]]  -  [[Resume]]    - [[Contact]]
+
+
 > [!warning] This is very much a work in progress 
 ### Introduction
 

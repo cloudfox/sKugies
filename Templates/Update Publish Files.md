@@ -2,6 +2,7 @@
 publish: false
 ---
 
+  
 <%*
 const dv = app.plugins.plugins["dataview"].api;
 const openPublishPanel = app.commands.commands["publish:view-changes"].callback;
@@ -47,6 +48,4 @@ await fileAndQuery.forEach(async (query, filename) => {
 });
 openPublishPanel();
 %>
-
-
 

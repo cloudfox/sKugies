@@ -5,12 +5,15 @@ cssclasses:
   - cards-align-bottom
   - "#mcl"
   - clean-embeds
+  - grad
 publish:
 ---
-![[TitleBar]] 
- <div id='stars'></div>
+<div id='stars'></div>
 <div id='stars2'></div>
+<div id='stars3'></div>
 
+![[TitleBar]] 
+ 
 Mostly stream of thought stuff here. So expect a somewhat chaotic mess.
 This area is largely a low priority until I finish making my programming tutorial thing.
 

@@ -1,12 +1,15 @@
 ---
 cssclasses:
+  - grad
+  - clean-embeds
 ---
-[[Blog]]  - [[Tutorials]]  -  [[Projects]]  -  [[Resume]]    - [[Contact]]
-
-<div id='stars'></div>
 <div id='stars'></div>
 <div id='stars2'></div>
 <div id='stars3'></div>
+
+[[Blog]]  - [[Tutorials]]  -  [[Projects]]  -  [[Resume]]    - [[Contact]]
+
+
 
 Hello there, I'm Steven Kugies. 
 I'm a Game Developer based in the Greater Seattle area. 
@@ -32,7 +35,12 @@ been a passion of mine and my main areas of interest are in engines, AI, and gra
 
 
 
+<br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
 
 
 
+
+
+---
