@@ -21,5 +21,7 @@
   "shimmering-focus@@bg-hue-dark": 230,
   "shimmering-focus@@bg-hue-light": 230,
   "shimmering-focus@@inactive-pane-opacity": 75,
-  "shimmering-focus@@mac-os-native": false
+  "shimmering-focus@@mac-os-native": false,
+  "sanctum@@light-mode-contrast-mode": "sanctum-default-light",
+  "sanctum@@color-accent-rgb-l": "246, 141, 69"
 }
