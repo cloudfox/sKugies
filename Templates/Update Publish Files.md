@@ -2,7 +2,6 @@
 publish: false
 ---
 
-  
 <%*
 const dv = app.plugins.plugins["dataview"].api;
 const openPublishPanel = app.commands.commands["publish:view-changes"].callback;
@@ -11,24 +10,12 @@ const openPublishPanel = app.commands.commands["publish:view-changes"].callback;
 const fileAndQuery = new Map([
   [
     "Recently Edited",
-    'TABLE WITHOUT ID file.link AS Note, dateformat(file.mtime, "ff") AS Modified FROM "General" OR "Tutorials" OR "Blog Posts" OR "Stuff" OR "Resources" OR "Projects" WHERE publish SORT file.mtime desc LIMIT 7 ',---
-publish: false
----
-
-
-
-
-
-
+    'TABLE WITHOUT ID file.link AS Note, dateformat(file.mtime, "DD") AS Modified FROM "General" OR "Tutorials" OR "Blog Posts" OR "Stuff" OR "Resources" WHERE publish SORT file.mtime desc LIMIT 7 ',
   ],
   [
     "Recent New Files",
-    'TABLE WITHOUT ID file.link AS Note, dateformat(file.ctime, "DD") AS Added FROM "General" OR "Tutorials" OR "Blog Posts" OR "Stuff" OR "Resources" OR "Projects" WHERE publish SORT file.ctime desc LIMIT 7',
+    'TABLE WITHOUT ID file.link AS Note, dateformat(file.ctime, "DD") AS Added FROM "General" OR "Tutorials" OR "Blog Posts" OR "Stuff" OR "Resources" WHERE publish SORT file.ctime desc LIMIT 7',
   ],
-
-
-
-
 ]);
 
 await fileAndQuery.forEach(async (query, filename) => {
@@ -48,4 +35,3 @@ await fileAndQuery.forEach(async (query, filename) => {
 });
 openPublishPanel();
 %>
-

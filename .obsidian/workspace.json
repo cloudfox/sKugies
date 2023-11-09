@@ -42,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "3e9651e5664b95fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Update Publish Files.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Templates/Update Publish Files.md"
+                "file": "Resources/Interview Prep/Interview Prep Answers.md"
               }
             }
           },
@@ -133,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Templates/Update Publish Files.md",
+                "file": "Resources/Interview Prep/Interview Prep Answers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Templates/Update Publish Files.md",
+                "file": "Resources/Interview Prep/Interview Prep Answers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +157,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Templates/Update Publish Files.md"
+                "file": "Resources/Interview Prep/Interview Prep Answers.md"
               }
             }
           },
@@ -229,11 +217,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3e9651e5664b95fa",
+  "active": "ecc236a5f524dbb1",
   "lastOpenFiles": [
-    "Tutorials/Tutorials.md",
     "Home.md",
     "Templates/Update Publish Files.md",
+    "GeneratedDataView/Recently Edited.md",
+    "Tutorials/Tutorials.md",
+    "GeneratedDataView/Recent New Files.md",
+    "Templates/Update Publish.md",
     "Tutorials/Programming/Learn programming (C++).md",
     "Stuff/Games/What I'm Playing.md",
     "Stuff/Games/Favorite Games.md",
@@ -253,11 +244,8 @@
     "Resources/Obsidian Resources.md",
     "Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
     "Blog Posts/2023/Oct22 - Spinning Things.md",
-    "GeneratedDataView/Recent New Files.md",
     "GeneratedDataView",
     "Stuff/Books/Fiction.md",
-    "Stuff/Books/Non-Fiction.md",
-    "Tutorials/Programming/01 - Foundation/Variables.md",
     "Templates/General",
     "Templates",
     "publish.js",
