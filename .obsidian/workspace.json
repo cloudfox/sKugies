@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md"
+                "file": "Home.md"
               }
             }
           },
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Resources/Interview Prep/Interview Prep Answers.md"
+                "file": "Home.md"
               }
             }
           },
@@ -228,12 +228,12 @@
   },
   "active": "ecc236a5f524dbb1",
   "lastOpenFiles": [
+    "Resources/Interview Prep/Interview Prep Answers.md",
     "Home.md",
     "Tutorials/Tutorials.md",
     "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Projects/Project Ideas.md",
-    "Resources/Interview Prep/Interview Prep Answers.md",
     "Tutorials/Programming/01 - Foundation/Variables.md",
     "Stuff/Games/Favorite Games.md",
     "Blog Posts/2023/Oct22 - Spinning Things.md",

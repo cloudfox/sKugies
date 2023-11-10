@@ -9,7 +9,7 @@ cssclasses:
 <div id='stars2'></div>
 <div id='stars3'></div>
 <div id='stars4'></div>
-<div id='stars4'></div>
+
 
 
 [[Blog]]  - [[Tutorials]]  -  [[Projects]]  -  [[Resume]]    - [[Contact]]
@@ -36,6 +36,8 @@ Feel free to look around. This site is where I throw my random thoughts, what I'
 >> [!info|wide-2]+  Recent Changes
 >> ![[Recently Edited]] 
 >
+
+
 
 
 \
