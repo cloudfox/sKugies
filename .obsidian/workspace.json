@@ -42,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "b3b6307faa633881",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Resources/Interview Prep/Interview Prep Answers.md"
               }
             }
           },
@@ -133,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Resources/Interview Prep/Interview Prep Answers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Resources/Interview Prep/Interview Prep Answers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "Resources/Interview Prep/Interview Prep Answers.md"
               }
             }
           },
@@ -238,12 +226,12 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "b3b6307faa633881",
+  "active": "ecc236a5f524dbb1",
   "lastOpenFiles": [
+    "Home.md",
     "Tutorials/Tutorials.md",
     "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/Programming/01 - Foundation/Hello World.md",
-    "Home.md",
     "Projects/Project Ideas.md",
     "Resources/Interview Prep/Interview Prep Answers.md",
     "Tutorials/Programming/01 - Foundation/Variables.md",
