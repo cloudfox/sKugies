@@ -1,7 +1,13 @@
+
+.theme-dark {
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 50%);
+}
+.theme-light {
+    background: radial-gradient(ellipse at bottom, #f2f2f2 0%, #fff2e6 50%);
+}
+
 .theme-light.theme-light {
-    --bg-hue: 222;
-    --bg-sat: 16%;
-    --bg-val: 218%
+
 
     --color-accent: hsl(220, 91%, 54%);
     --color-accent-hsl: 220 91% 54%;
@@ -9,7 +15,7 @@
 
     --alt-heading-color: hsl(232 34% 50%);
     --secondary-accent: hsl(22, 99%, 52%);
-    --hover-accent: hsl(316, 73%, 69%);
+    --hover-accent: hsl(356, 72%, 46%);
     --link-unresolved-color: hsl(101 42% 51%);
 }
 
@@ -30,11 +36,4 @@
 
 
 
-
-.theme-dark {
-    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 50%);
-}
-.theme-light {
-   
-}
 

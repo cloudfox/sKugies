@@ -44,12 +44,12 @@
             }
           },
           {
-            "id": "e76d6a65b2b456ac",
+            "id": "f0d1cc6b9d6a5f5b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md",
                 "mode": "preview",
                 "source": false
               }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md"
               }
             }
           },
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md"
               }
             }
           },
@@ -238,13 +238,26 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "e76d6a65b2b456ac",
+  "active": "f0d1cc6b9d6a5f5b",
   "lastOpenFiles": [
     "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Tutorials/Tutorials.md",
     "Home.md",
+    "Tutorials/Programming/01 - Foundation/Variables.md",
     "Resources/Interview Prep/Interview Prep Answers.md",
+    "Stuff/Games/Favorite Games.md",
+    "Blog Posts/2023/Oct22 - Spinning Things.md",
+    "Blog Posts/2023/Random dice.md",
+    "Blog Posts/2023/Test Post 2.md",
+    "Blog Posts/2023/Test Post 1.md",
+    "Projects/Projects.md",
+    "General/Contact.md",
+    "General/Resume.md",
+    "Tutorials/Programming/02 - Intermediate/Variables Casting and Conversion.md",
+    "Tutorials/Programming/02 - Intermediate/The Compiler.md",
+    "Stuff/Pictures/Pets.md",
+    "General/Blog.md",
     "Projects/Project Ideas.md",
     "Tutorials/Programming/01 - Foundation/Arrays.md",
     "Templates/Update Publish Files.md",
@@ -252,20 +265,7 @@
     "GeneratedDataView/Recent New Files.md",
     "Templates/Update Publish.md",
     "Stuff/Games/What I'm Playing.md",
-    "Stuff/Games/Favorite Games.md",
-    "General/Blog.md",
-    "Projects/Projects.md",
-    "General/Resume.md",
-    "General/Contact.md",
     "General/TitleBar.md",
-    "Stuff/Pictures/Pets.md",
-    "Blog Posts/2023/Random dice.md",
-    "Tutorials/other/math.md",
-    "Resources/Programming Resources.md",
-    "Resources/Horror Game Design.md",
-    "Resources/Obsidian Resources.md",
-    "Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
-    "Blog Posts/2023/Oct22 - Spinning Things.md",
     "GeneratedDataView",
     "Templates/General",
     "Templates",

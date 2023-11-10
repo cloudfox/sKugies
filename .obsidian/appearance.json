@@ -3,13 +3,14 @@
   "cssTheme": "Shimmering Focus",
   "theme": "obsidian",
   "enabledCssSnippets": [
-    "MCL Multi Column",
-    "Clean Embed",
-    "MCL Gallery Cards",
+    "Particles",
     "MCL Wide Views",
-    "coloredHeaders",
+    "MCL Multi Column",
+    "MCL Gallery Cards",
+    "CustomCallouts",
     "ColorScheme",
-    "CustomCallouts"
+    "coloredHeaders",
+    "Clean Embed"
   ],
   "baseFontSize": 15,
   "translucency": false,
