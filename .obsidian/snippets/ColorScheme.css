@@ -37,3 +37,18 @@
 
 
 
+body {
+    --hr-line-offset: 30%;
+    --hr-color: #6B7DB4;
+}
+
+:root hr {
+    border-image-slice: 1;
+    border-image-source: linear-gradient(
+        to right,
+        transparent,
+        var(--hr-color) calc(50% - var(--hr-line-offset)),
+        var(--hr-color) calc(50% + var(--hr-line-offset)),
+        transparent
+    );
+}
