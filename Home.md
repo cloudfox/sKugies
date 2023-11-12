@@ -39,7 +39,6 @@ Feel free to look around. This site is where I throw my random thoughts, what I'
 
 
 
-
 \
 \
 \
