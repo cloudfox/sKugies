@@ -1,4 +1,24 @@
 
+pre[class*=language-].code-block-pre__has-linenum {
+  display: block;
+  counter-increment: line-num;
+  pointer-events: none;
+  padding-left: 3.5em;
+}
+
+.code-block-pre__has-linenum::before {
+  content: counter(listing) ". ";
+  display: inline-block;
+  width: 8em;         /* now works */
+  padding-left: auto; /* now works */
+  margin-left: auto;  /* now works */
+  text-align: right;  /* now works */
+}
+
+
+
+
+
 .theme-dark {
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090A0F 50%);
 }
@@ -35,8 +55,6 @@
 }
 
 
-
-
 body {
     --hr-line-offset: 30%;
     --hr-color: #6B7DB4;
@@ -52,3 +70,17 @@ body {
         transparent
     );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+

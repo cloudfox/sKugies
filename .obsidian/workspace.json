@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md",
                 "mode": "preview",
                 "source": false
               }
@@ -111,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md"
               }
             }
           },
@@ -121,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md"
               }
             }
           },
@@ -228,12 +228,12 @@
   },
   "active": "ecc236a5f524dbb1",
   "lastOpenFiles": [
+    "Tutorials/Programming/01 - Foundation/Hello World.md",
+    "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/Tutorials.md",
     "Home.md",
     "Resources/Programming Resources.md",
     "Resources/Interview Prep/Interview Prep Answers.md",
-    "Tutorials/Programming/Learn programming (C++).md",
-    "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Projects/Project Ideas.md",
     "Tutorials/Programming/01 - Foundation/Variables.md",
     "Stuff/Games/Favorite Games.md",

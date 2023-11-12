@@ -1,0 +1,24 @@
+{
+  "languages": [
+    "c",
+    "cpp",
+    "csharp",
+    "css",
+    "markdown",
+    "diff",
+    "go",
+    "javascript",
+    "kotlin",
+    "lua",
+    "perl",
+    "objectivec",
+    "php-template",
+    "python",
+    "python-repl",
+    "r",
+    "shell",
+    "sql",
+    "yaml",
+    "vbnet"
+  ]
+}
