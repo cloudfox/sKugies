@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "Blog Posts/2023/Test Gallery.md",
                 "mode": "source",
                 "source": false
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Blog Posts/2023/Test Gallery.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Blog Posts/2023/Test Gallery.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Blog Posts/2023/Test Gallery.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "Blog Posts/2023/Test Gallery.md"
               }
             }
           },
@@ -252,6 +252,7 @@
   },
   "active": "131e216c631ffd03",
   "lastOpenFiles": [
+    "Home.md",
     "Blog Posts/2023/Test Post 2.md",
     "Blog Posts/2023/Test Post 1.md",
     "Blog Posts/2023/Test Gallery.md",
@@ -259,7 +260,6 @@
     "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/Programming/01 - Foundation/Code Style.md",
     "Tutorials/Programming/01 - Foundation/Arrays.md",
-    "Home.md",
     "Stuff/Games/Favorite Games.md",
     "General/TitleBar.md",
     "Stuff/Games/What I'm Playing.md",
