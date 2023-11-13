@@ -49,8 +49,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General/TitleBar.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -123,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General/TitleBar.md"
+                "file": "Home.md"
               }
             }
           },
@@ -133,7 +133,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General/TitleBar.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +150,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General/TitleBar.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +178,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "General/TitleBar.md"
+                "file": "Home.md"
               }
             }
           },
@@ -240,8 +240,8 @@
   },
   "active": "07235c9386cf3ab9",
   "lastOpenFiles": [
-    "Home.md",
     "General/TitleBar.md",
+    "Home.md",
     "General/Blog.md",
     "Tutorials/Tutorials.md",
     "Tutorials/Programming/Learn programming (C++).md",
