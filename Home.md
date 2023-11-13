@@ -11,8 +11,8 @@ cssclasses:
 <div id='stars4'></div>
 
 
+  [<button class="ui-btn">      Blog   </button>](Blog.md) [<button class="ui-btn">      Tutorial   </button>](Tutorials.md) [<button class="ui-btn">      Project   </button>](Projects.md) [<button class="ui-btn"> Resume   </button>](Resume.md) [<button class="ui-btn"> Contact   </button>](Contact.md)
 
-[[Blog]]  - [[Tutorials]]  -  [[Projects]]  -  [[Resume]]    - [[Contact]]
 
 
 
@@ -22,6 +22,7 @@ I'm currently finishing up my final year at Digipen Institute of Technology. Mak
 been a passion of mine.
 
 Feel free to look around. This site is where I throw my random thoughts, what I'm working on, various tutorials, and whatever else I feel like. 
+
 
 [[Favorite Games]] - [[What I'm Playing]]
 
@@ -36,6 +37,33 @@ Feel free to look around. This site is where I throw my random thoughts, what I'
 >> [!info|wide-2]+  Recent Changes
 >> ![[Recently Edited]] 
 >
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

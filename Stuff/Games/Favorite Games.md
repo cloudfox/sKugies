@@ -5,8 +5,6 @@ publish: true
 <div id='stars2'></div>
 <div id='stars3'></div>
 
-[[Blog]]  - [[Tutorials]]  -  [[Projects]]  -  [[Resume]]    - [[Contact]]
-
 
 
 Chrono Trigger

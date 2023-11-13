@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Tutorials/Tutorials.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "131e216c631ffd03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Home.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -238,34 +250,34 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "07235c9386cf3ab9",
+  "active": "131e216c631ffd03",
   "lastOpenFiles": [
-    "General/TitleBar.md",
-    "Home.md",
-    "General/Blog.md",
-    "Tutorials/Tutorials.md",
-    "Tutorials/Programming/Learn programming (C++).md",
+    "Blog Posts/2023/Test Post 2.md",
+    "Blog Posts/2023/Test Post 1.md",
+    "Blog Posts/2023/Test Gallery.md",
     "Tutorials/Programming/01 - Foundation/Hello World.md",
+    "Tutorials/Programming/Learn programming (C++).md",
+    "Tutorials/Programming/01 - Foundation/Code Style.md",
+    "Tutorials/Programming/01 - Foundation/Arrays.md",
+    "Home.md",
+    "Stuff/Games/Favorite Games.md",
+    "General/TitleBar.md",
+    "Stuff/Games/What I'm Playing.md",
+    "Projects/Projects.md",
+    "Tutorials/Tutorials.md",
+    "General/Blog.md",
+    "General/Resume.md",
+    "General/Contact.md",
     "Resources/Programming Resources.md",
     "Resources/Interview Prep/Interview Prep Answers.md",
     "Projects/Project Ideas.md",
     "Tutorials/Programming/01 - Foundation/Variables.md",
-    "Stuff/Games/Favorite Games.md",
     "Blog Posts/2023/Oct22 - Spinning Things.md",
     "Blog Posts/2023/Random dice.md",
-    "Blog Posts/2023/Test Post 2.md",
-    "Blog Posts/2023/Test Post 1.md",
-    "Projects/Projects.md",
-    "General/Contact.md",
-    "General/Resume.md",
     "Tutorials/Programming/02 - Intermediate/Variables Casting and Conversion.md",
     "Tutorials/Programming/02 - Intermediate/The Compiler.md",
     "Stuff/Pictures/Pets.md",
-    "Tutorials/Programming/01 - Foundation/Arrays.md",
     "Templates/Update Publish Files.md",
-    "GeneratedDataView/Recently Edited.md",
-    "GeneratedDataView/Recent New Files.md",
-    "Templates/Update Publish.md",
     "GeneratedDataView",
     "Templates/General",
     "Templates",

@@ -4,9 +4,6 @@
   "theme": "obsidian",
   "enabledCssSnippets": [
     "Particles",
-    "MCL Wide Views",
-    "MCL Multi Column",
-    "MCL Gallery Cards",
     "CustomCallouts",
     "ColorScheme",
     "coloredHeaders",
