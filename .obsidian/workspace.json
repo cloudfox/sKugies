@@ -61,8 +61,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Blog Posts/2023/Test Gallery.md",
-                "mode": "source",
+                "file": "Tutorials/Tutorials.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Blog Posts/2023/Test Gallery.md"
+                "file": "Tutorials/Tutorials.md"
               }
             }
           },
@@ -145,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Blog Posts/2023/Test Gallery.md",
+                "file": "Tutorials/Tutorials.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Blog Posts/2023/Test Gallery.md",
+                "file": "Tutorials/Tutorials.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Blog Posts/2023/Test Gallery.md"
+                "file": "Tutorials/Tutorials.md"
               }
             }
           },
@@ -252,19 +252,19 @@
   },
   "active": "131e216c631ffd03",
   "lastOpenFiles": [
+    "Tutorials/Programming/Learn programming (C++).md",
+    "Tutorials/Tutorials.md",
     "Home.md",
+    "Blog Posts/2023/Test Gallery.md",
     "Blog Posts/2023/Test Post 2.md",
     "Blog Posts/2023/Test Post 1.md",
-    "Blog Posts/2023/Test Gallery.md",
     "Tutorials/Programming/01 - Foundation/Hello World.md",
-    "Tutorials/Programming/Learn programming (C++).md",
     "Tutorials/Programming/01 - Foundation/Code Style.md",
     "Tutorials/Programming/01 - Foundation/Arrays.md",
     "Stuff/Games/Favorite Games.md",
     "General/TitleBar.md",
     "Stuff/Games/What I'm Playing.md",
     "Projects/Projects.md",
-    "Tutorials/Tutorials.md",
     "General/Blog.md",
     "General/Resume.md",
     "General/Contact.md",
