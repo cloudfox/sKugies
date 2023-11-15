@@ -11,7 +11,7 @@ cssclasses:
 <div id='stars4'></div>
 
 
-  [<button class="ui-btn">      Blog   </button>](Blog.md) [<button class="ui-btn">      Tutorial   </button>](Tutorials.md) [<button class="ui-btn">      Project   </button>](Projects.md) [<button class="ui-btn"> Resume   </button>](Resume.md) [<button class="ui-btn"> Contact   </button>](Contact.md)
+[<button class="ui-btn">      Blog   </button>](Blog.md) [<button class="ui-btn">      Tutorial   </button>](Tutorials.md) [<button class="ui-btn">      Project   </button>](Projects.md) [<button class="ui-btn"> Resume   </button>](Resume.md) [<button class="ui-btn"> Contact   </button>](Contact.md)
 
 
 
