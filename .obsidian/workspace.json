@@ -42,9 +42,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "efa16d884cd1dd13",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "General/Blog.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "cb0b029b1326ec19",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -111,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Arrays.md"
+                "file": "Home.md"
               }
             }
           },
@@ -121,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Arrays.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Arrays.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Arrays.md"
+                "file": "Home.md"
               }
             }
           },
@@ -226,17 +250,18 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "131e216c631ffd03",
+  "active": "cb0b029b1326ec19",
   "lastOpenFiles": [
+    "General/TitleBar.md",
+    "General/Blog.md",
     "Home.md",
-    "Resources/Computer Setup.md",
     "Tutorials/Programming/01 - Foundation/Arrays.md",
+    "Resources/Computer Setup.md",
     "Tutorials/Programming/Learn programming (C++).md",
     "Projects/Projects.md",
     "Tutorials/Tutorials.md",
     "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Projects/Project Ideas.md",
-    "General/Blog.md",
     "Blog Posts/2023/Test Gallery.md",
     "Resources/Horror Game Design.md",
     "Resources/Obsidian Resources.md",
@@ -245,7 +270,6 @@
     "Blog Posts/2023/Test Post 1.md",
     "Tutorials/Programming/01 - Foundation/Code Style.md",
     "Stuff/Games/Favorite Games.md",
-    "General/TitleBar.md",
     "Stuff/Games/What I'm Playing.md",
     "General/Resume.md",
     "General/Contact.md",
