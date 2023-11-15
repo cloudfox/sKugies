@@ -23,10 +23,10 @@ I won't be covering absolutely everything but enough that this series can serve 
 If you notice any mistakes feel free to [contact me](Contact.md) 
 
 example code will be labeled as such
-``` c++
+```cpp 
 int someFunction(){
 cout << "some output";
-}
+} 
 ```
 and output when relevant will be
 ```

@@ -27,7 +27,9 @@ item
 animal 
 vehicle 
 
->[!infobox ]
+
+
+>[!infobox]
 >test
 
 >[!monster]
