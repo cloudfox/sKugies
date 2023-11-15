@@ -42,21 +42,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "6d7caa4e9b9b40ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +111,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Tutorials/Programming/01 - Foundation/Arrays.md"
               }
             }
           },
@@ -133,7 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Tutorials/Programming/01 - Foundation/Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -150,7 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Tutorials/Programming/01 - Foundation/Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -178,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "Tutorials/Programming/01 - Foundation/Arrays.md"
               }
             }
           },
@@ -238,13 +226,14 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "6d7caa4e9b9b40ec",
+  "active": "131e216c631ffd03",
   "lastOpenFiles": [
+    "Home.md",
+    "Resources/Computer Setup.md",
     "Tutorials/Programming/01 - Foundation/Arrays.md",
     "Tutorials/Programming/Learn programming (C++).md",
     "Projects/Projects.md",
     "Tutorials/Tutorials.md",
-    "Home.md",
     "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Projects/Project Ideas.md",
     "General/Blog.md",
@@ -265,7 +254,6 @@
     "Blog Posts/2023/Oct22 - Spinning Things.md",
     "Blog Posts/2023/Random dice.md",
     "Tutorials/Programming/02 - Intermediate/Variables Casting and Conversion.md",
-    "Tutorials/Programming/02 - Intermediate/The Compiler.md",
     "GeneratedDataView",
     "Templates/General",
     "Templates",
