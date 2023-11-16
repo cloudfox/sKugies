@@ -61,8 +61,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "source",
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
       {
         "id": "065ba69c18100667",
         "type": "tabs",
-        "dimension": 24.537037037037038,
+        "dimension": 24.537037037037035,
         "children": [
           {
             "id": "b5669a554b91a37f",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "Tutorials/Programming/01 - Foundation/Hello World.md"
               }
             }
           },
@@ -221,7 +221,7 @@
       {
         "id": "3273b6c563d1bd04",
         "type": "tabs",
-        "dimension": 25.868055555555557,
+        "dimension": 25.868055555555554,
         "children": [
           {
             "id": "ac1271fde3d5259d",
@@ -253,13 +253,13 @@
   },
   "active": "c4cee3b917ddf039",
   "lastOpenFiles": [
-    "Resources/Programming Resources.md",
-    "Resources/Obsidian Resources.md",
-    "Home.md",
     "Tutorials/Programming/01 - Foundation/Arrays.md",
+    "Resources/Obsidian Resources.md",
+    "Tutorials/Programming/01 - Foundation/Hello World.md",
+    "Home.md",
+    "Resources/Programming Resources.md",
     "Tutorials/Tutorials.md",
     "Tutorials/Programming/Learn programming (C++).md",
-    "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Tutorials/Programming/01 - Foundation/Variables.md",
     "Blog Posts/2023/Oct22 - Spinning Things.md",
     "General/Blog.md",
