@@ -1,6 +1,5 @@
 ---
 cssclasses:
-  - grad
   - clean-embeds
 ---
 

@@ -61,8 +61,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "General/Blog.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -130,22 +130,12 @@
         "dimension": 49.91066110780226,
         "children": [
           {
-            "id": "b5669a554b91a37f",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Home.md"
-              }
-            }
-          },
-          {
             "id": "72fd164e60c6d8b8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "General/Blog.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -162,14 +152,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "General/Blog.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "0583c540e5c993cc",
+            "id": "f8be87bd8647a308",
             "type": "leaf",
             "state": {
               "type": "side-panel-control-view",
@@ -177,7 +167,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "065ba69c18100667",
@@ -185,12 +175,22 @@
         "dimension": 24.240619416319237,
         "children": [
           {
+            "id": "b5669a554b91a37f",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "General/Blog.md"
+              }
+            }
+          },
+          {
             "id": "7e74689298eef9bd",
             "type": "leaf",
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "General/Blog.md"
               }
             }
           },
@@ -252,9 +252,11 @@
   },
   "active": "cb0b029b1326ec19",
   "lastOpenFiles": [
+    "Home.md",
+    "GeneratedDataView/Recently Edited.md",
+    "GeneratedDataView/Recent New Files.md",
     "General/TitleBar.md",
     "General/Blog.md",
-    "Home.md",
     "Tutorials/Programming/01 - Foundation/Arrays.md",
     "Resources/Computer Setup.md",
     "Tutorials/Programming/Learn programming (C++).md",
@@ -276,8 +278,6 @@
     "Resources/Interview Prep/Interview Prep Answers.md",
     "Tutorials/Programming/01 - Foundation/Variables.md",
     "Blog Posts/2023/Oct22 - Spinning Things.md",
-    "Blog Posts/2023/Random dice.md",
-    "Tutorials/Programming/02 - Intermediate/Variables Casting and Conversion.md",
     "GeneratedDataView",
     "Templates/General",
     "Templates",
