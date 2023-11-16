@@ -1,6 +1,6 @@
 {
   "accentColor": "",
-  "cssTheme": "Shimmering Focus",
+  "cssTheme": "",
   "theme": "obsidian",
   "enabledCssSnippets": [
     "Particles",
@@ -8,7 +8,10 @@
     "ColorScheme",
     "coloredHeaders",
     "Clean Embed",
-    "MCL Multi Column"
+    "MCL Multi Column",
+    "MCL",
+    "style",
+    "codeblock"
   ],
   "baseFontSize": 15,
   "translucency": false,

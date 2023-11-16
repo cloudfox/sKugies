@@ -8,7 +8,17 @@ publish: true
 
 
 
+```cpp
 
+int test;
+
+void foo(int k, float y)
+{
+		return;
+}
+
+
+```
 
 
 

@@ -44,24 +44,24 @@
             }
           },
           {
-            "id": "efa16d884cd1dd13",
+            "id": "39af329c2a2c3cd3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General/Blog.md",
+                "file": "Resources/Obsidian Resources.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cb0b029b1326ec19",
+            "id": "c4cee3b917ddf039",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "General/Blog.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 236.5
   },
   "right": {
     "id": "e4e063c85c4b0ab3",
@@ -127,7 +127,7 @@
       {
         "id": "ee7a977fd1dc146e",
         "type": "tabs",
-        "dimension": 49.91066110780226,
+        "dimension": 49.594907407407405,
         "children": [
           {
             "id": "72fd164e60c6d8b8",
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "General/Blog.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "General/Blog.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
       {
         "id": "065ba69c18100667",
         "type": "tabs",
-        "dimension": 24.240619416319237,
+        "dimension": 24.537037037037038,
         "children": [
           {
             "id": "b5669a554b91a37f",
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "General/Blog.md"
+                "file": "Home.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "General/Blog.md"
+                "file": "Home.md"
               }
             }
           },
@@ -215,12 +215,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "3273b6c563d1bd04",
         "type": "tabs",
-        "dimension": 25.8487194758785,
+        "dimension": 25.868055555555557,
         "children": [
           {
             "id": "ac1271fde3d5259d",
@@ -250,24 +251,26 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "cb0b029b1326ec19",
+  "active": "c4cee3b917ddf039",
   "lastOpenFiles": [
+    "Resources/Programming Resources.md",
+    "Resources/Obsidian Resources.md",
     "Home.md",
+    "Tutorials/Programming/01 - Foundation/Arrays.md",
+    "Tutorials/Tutorials.md",
+    "Tutorials/Programming/Learn programming (C++).md",
+    "Tutorials/Programming/01 - Foundation/Hello World.md",
+    "Tutorials/Programming/01 - Foundation/Variables.md",
+    "Blog Posts/2023/Oct22 - Spinning Things.md",
+    "General/Blog.md",
     "GeneratedDataView/Recently Edited.md",
     "GeneratedDataView/Recent New Files.md",
     "General/TitleBar.md",
-    "General/Blog.md",
-    "Tutorials/Programming/01 - Foundation/Arrays.md",
     "Resources/Computer Setup.md",
-    "Tutorials/Programming/Learn programming (C++).md",
     "Projects/Projects.md",
-    "Tutorials/Tutorials.md",
-    "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Projects/Project Ideas.md",
     "Blog Posts/2023/Test Gallery.md",
     "Resources/Horror Game Design.md",
-    "Resources/Obsidian Resources.md",
-    "Resources/Programming Resources.md",
     "Blog Posts/2023/Test Post 2.md",
     "Blog Posts/2023/Test Post 1.md",
     "Tutorials/Programming/01 - Foundation/Code Style.md",
@@ -276,8 +279,6 @@
     "General/Resume.md",
     "General/Contact.md",
     "Resources/Interview Prep/Interview Prep Answers.md",
-    "Tutorials/Programming/01 - Foundation/Variables.md",
-    "Blog Posts/2023/Oct22 - Spinning Things.md",
     "GeneratedDataView",
     "Templates/General",
     "Templates",

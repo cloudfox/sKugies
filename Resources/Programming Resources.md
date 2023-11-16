@@ -53,4 +53,4 @@ https://www.reddit.com/r/gamedev/
 
 
 
-
+https://johnnydecimal.com/10-19-concepts/11-core/11.02-areas-and-categories/

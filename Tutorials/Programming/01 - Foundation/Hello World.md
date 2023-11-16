@@ -109,7 +109,7 @@ endl - end line
 
 Looking inside the body of out main function:
 ```Cpp
-	std::cout << "Hello, World!" << std::endl;
+std::cout << "Hello, World!" << std::endl;
 ```
 Here we are using cout to display the text "Hello, World!" onto the screen.
 
@@ -118,7 +118,7 @@ To read data into a stream we follow cout by "<<" and then the data or other com
 endl is a special command that inserts a new line and then calls the [flush](https://en.cppreference.com/w/cpp/io/manip/flush) command. 
 You can also directly insert a newline into strings with '\\n'
 ```cpp
-	std::cout << "Hello, World!\n"; 
+std::cout << "Hello, World!\n"; 
 ```
 
 Without a new line whatever we output would all appear on one line.

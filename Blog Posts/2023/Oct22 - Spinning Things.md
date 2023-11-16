@@ -1,5 +1,6 @@
 ---
 publish: true
+cssclasses: []
 ---
 
 ### Spinning Things
