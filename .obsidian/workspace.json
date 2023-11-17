@@ -61,8 +61,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Hello World.md",
-                "mode": "preview",
+                "file": "Home.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Hello World.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Hello World.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Hello World.md"
+                "file": "Home.md"
               }
             }
           },
@@ -190,7 +190,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Hello World.md"
+                "file": "Home.md"
               }
             }
           },
@@ -253,9 +253,9 @@
   },
   "active": "c4cee3b917ddf039",
   "lastOpenFiles": [
+    "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Tutorials/Programming/01 - Foundation/Arrays.md",
     "Resources/Obsidian Resources.md",
-    "Tutorials/Programming/01 - Foundation/Hello World.md",
     "Home.md",
     "Resources/Programming Resources.md",
     "Tutorials/Tutorials.md",
