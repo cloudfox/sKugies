@@ -245,12 +245,7 @@ text-decoration:var(--checklist-done-decoration)}body .document-search-container
 --code-size:calc(var(--font-small)*var(--code-block-scaling));
 
 --heading-scaling:1;
---h1-size:calc(1.7em*var(--heading-scaling));
---h2-size:calc(1.5em*var(--heading-scaling));
---h3-size:calc(1.35em*var(--heading-scaling));
---h4-size:calc(1.2em*var(--heading-scaling));
---h5-size:calc(1.1em*var(--heading-scaling));
---h6-size:calc(1em*var(--heading-scaling));
+
 --inline-title-color:var(--text-gray);
 --inline-title-style:normal;
 --inline-title-margin-bottom:.75em;
@@ -666,6 +661,13 @@ body {
     --hr-line-offset: 30%;
     --hr-color: #6B7DB4;
     tab-size: 2;
+    
+  --h1-size: 1.6em;
+  --h2-size: 1.4em;
+  --h3-size: 1.3em;
+  --h4-size: 1.2em;
+  --h5-size: 1.1em;
+  --h6-size: 1em;
 }
 
 :root hr {
