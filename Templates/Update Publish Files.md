@@ -10,11 +10,11 @@ const openPublishPanel = app.commands.commands["publish:view-changes"].callback;
 const fileAndQuery = new Map([
   [
     "Recently Edited",
-    'TABLE WITHOUT ID file.link AS Note, dateformat(file.mtime, "DD") AS Modified FROM "General" OR "Tutorials" OR "Blog Posts" OR "Stuff" OR "Resources" WHERE publish SORT file.mtime desc LIMIT 7 ',
+    'TABLE WITHOUT ID file.link AS Note, dateformat(file.mtime, "DD") AS Modified FROM "00 - Index" OR "10 - Projects" OR "20 - Blog" OR "30 - Tutorial" OR "80 - Miscellaneous" OR "90 - Resources" WHERE publish SORT file.mtime desc LIMIT 7 ',
   ],
   [
     "Recent New Files",
-    'TABLE WITHOUT ID file.link AS Note, dateformat(file.ctime, "DD") AS Added FROM "General" OR "Tutorials" OR "Blog Posts" OR "Stuff" OR "Resources" WHERE publish SORT file.ctime desc LIMIT 7',
+    'TABLE WITHOUT ID file.link AS Note, dateformat(file.ctime, "DD") AS Added FROM "00 - Index" OR "10 - Projects" OR "20 - Blog" OR "30 - Tutorial" OR "80 - Miscellaneous" OR "90 - Resources" WHERE publish SORT file.ctime desc LIMIT 7',
   ],
 ]);
 

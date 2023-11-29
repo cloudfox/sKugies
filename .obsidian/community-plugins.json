@@ -2,7 +2,6 @@
   "cm-editor-syntax-highlight-obsidian",
   "table-editor-obsidian",
   "calendar",
-  "obsidian-git",
   "url-into-selection",
   "highlightr-plugin",
   "better-word-count",
@@ -10,5 +9,7 @@
   "templater-obsidian",
   "dataview",
   "obsidian-markdown-formatting-assistant-plugin",
-  "obsidian-dynamic-background"
+  "obsidian-dynamic-background",
+  "obsidian-javascript-init",
+  "customjs"
 ]

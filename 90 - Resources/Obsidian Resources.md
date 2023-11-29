@@ -185,3 +185,16 @@ https://blog.dev0.sh/2022/03/14/obsidian-css.html#lean-links
 
 
 
+## testing header-bars not collapsing under headers
+
+the first bar will collapse
+### 
+___
+
+second bar wont because it has the same header level 
+##
+---
+
+
+
+

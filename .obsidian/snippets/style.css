@@ -1,3 +1,40 @@
+/*  LOGO CSS
+.site-body-left-column-site-name {
+  text-align: center;
+  margin: 0 auto;
+}
+.site-body-left-column-site-name::before {
+    background: none;
+    display: block;
+    content: url(path-to-your-logo.png);
+    width: 60%;
+    margin: 0 auto;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .theme-dark {
     --a-row:#00000026;
   --b-row:#0000004d;
@@ -8,6 +45,80 @@
   --b-row:#00000013;
   --search-match-color:var(--color-orange)
 }
+
+
+/* 
+Hide and resize header styles when there's a hr divider line immediately after.
+*/
+
+.HyperMD-header-1:has(+ .hr) {
+    opacity: 0;
+    font-size: 1px;
+}
+
+.cm-active.HyperMD-header-1:has(+ .hr) {
+    opacity: 100;
+    font-size: var(--h1-size);
+}
+
+.HyperMD-header-2:has(+ .hr) {
+    opacity: 0;
+    font-size: 1px;
+}
+
+.cm-active.HyperMD-header-2:has(+ .hr) {
+    opacity: 100;
+    font-size: var(--h2-size);
+}
+
+.HyperMD-header-3:has(+ .hr) {
+    opacity: 0;
+    font-size: 1px;
+}
+
+.cm-active.HyperMD-header-3:has(+ .hr) {
+    opacity: 100;
+    font-size: var(--h3-size);
+}
+
+.HyperMD-header-4:has(+ .hr) {
+    opacity: 0;
+    font-size: 1px;
+}
+
+.cm-active.HyperMD-header-4:has(+ .hr) {
+    opacity: 100;
+    font-size: var(--h4-size);
+}
+
+.HyperMD-header-5:has(+ .hr) {
+    opacity: 0;
+    font-size: 1px;
+}
+
+.cm-active.HyperMD-header-5:has(+ .hr) {
+    opacity: 100;
+    font-size: var(--h5-size);
+}
+
+.HyperMD-header-6:has(+ .hr) {
+    opacity: 0;
+    font-size: 1px;
+}
+
+.cm-active.HyperMD-header-6:has(+ .hr) {
+    opacity: 100;
+    font-size: var(--h6-size);
+}
+
+
+
+
+
+
+
+
+
 
 
 @font-face{font-family:iA Writer Quattro S;

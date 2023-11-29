@@ -10,7 +10,7 @@ cssclasses:
 <div id='stars4'></div>
 
 
- [[Home]] - [[Blog]] -   [[Tutorials]]  -  [[Projects]]  -  [[Resume]]    - [[Contact]]
+[[Blog]] -   [[Tutorials]]  -  [[Projects]]  -  [[Resume]]    - [[Contact]]
 
 
 
@@ -36,26 +36,6 @@ Feel free to look around. This site is where I throw my random thoughts, what I'
 >> [!info|wide-2]+  Recent Changes
 >> ![[Recently Edited]] 
 >
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -298,3 +278,13 @@ Feel free to look around. This site is where I throw my random thoughts, what I'
 \
 <tab>
 What are you doing down here?
+
+
+
+
+
+
+
+
+
+

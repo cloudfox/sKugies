@@ -1,6 +1,10 @@
 /* Custom Callout Box for "Wiki" style infoboxes.
 Fixed width, floats right, and strips "flair" from ![[embedded]] files */
 
+
+/*TODO: Caution, Idea, Package, Note, Tag, Experimental, Like, Creative, Money, Archive  */
+
+
 /* Fix Width, float right, boarder, color */
 .callout[data-callout="infobox"],
 .callout[data-callout="person"],

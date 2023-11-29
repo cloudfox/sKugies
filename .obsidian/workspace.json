@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Arrays.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projects/Project Ideas.md",
+                "file": "10 - Projects/Project Ideas.md",
                 "mode": "preview",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tutorials/Programming/01 - Foundation/Arrays.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
                 "mode": "preview",
                 "source": false
               }
@@ -49,20 +49,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Resources/Obsidian Resources.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e950c00ce116f65a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
+                "file": "90 - Resources/scratch2.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -135,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Resources/Obsidian Resources.md",
+                "file": "90 - Resources/scratch2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Resources/Obsidian Resources.md",
+                "file": "90 - Resources/scratch2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Resources/Obsidian Resources.md"
+                "file": "90 - Resources/scratch2.md"
               }
             }
           },
@@ -190,7 +178,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Resources/Obsidian Resources.md"
+                "file": "90 - Resources/scratch2.md"
               }
             }
           },
@@ -239,66 +227,68 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-javascript-init:Run Init JavaScript": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "publish:Publish changes...": false,
       "canvas:Create new canvas": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false,
       "templater-obsidian:Templater": false,
-      "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
+      "publish:Publish changes...": false
     }
   },
   "active": "39af329c2a2c3cd3",
   "lastOpenFiles": [
-    "Tutorials/Programming/Learn programming (C++).md",
-    "Home.md",
-    "Tutorials/Programming/01 - Foundation/Hello World.md",
-    "Tutorials/Tutorials.md",
-    "General/Blog.md",
-    "Tutorials/Programming/01 - Foundation/Arrays.md",
-    "Resources/Obsidian Resources.md",
-    "Resources/Programming Resources.md",
-    "Tutorials/Programming/01 - Foundation/Variables.md",
-    "Blog Posts/2023/Oct22 - Spinning Things.md",
-    "GeneratedDataView/Recently Edited.md",
-    "GeneratedDataView/Recent New Files.md",
-    "General/TitleBar.md",
-    "Resources/Computer Setup.md",
-    "Projects/Projects.md",
-    "Projects/Project Ideas.md",
-    "Blog Posts/2023/Test Gallery.md",
-    "Resources/Horror Game Design.md",
-    "Blog Posts/2023/Test Post 2.md",
-    "Blog Posts/2023/Test Post 1.md",
-    "Tutorials/Programming/01 - Foundation/Code Style.md",
-    "Stuff/Games/Favorite Games.md",
-    "Stuff/Games/What I'm Playing.md",
-    "General/Resume.md",
-    "General/Contact.md",
-    "Resources/Interview Prep/Interview Prep Answers.md",
-    "GeneratedDataView",
-    "Templates/General",
-    "Templates",
-    "publish.js",
-    "Resources/Interview Prep/big-o-cheat-sheet-poster.png",
-    "Stuff/Images/PoggleLogo.png",
-    "Stuff/Images",
-    "Resources/Interview Prep/BIGO.png",
-    "Stuff/Pictures/Animals/Duke02.jpg",
-    "Stuff/Pictures/Animals/Duke01.jpg",
+    "general/TitleBar.md",
+    "general/Contact.md",
+    "general/Resume.md",
+    "general/Blog.md",
+    "general",
+    "Tutorials/Programming/03 - Data Structures/types/03 - advanced/Free List.md",
+    "Tutorials/Programming/03 - Data Structures/types/03 - advanced/Pool.md",
+    "Tutorials/Programming/03 - Data Structures/Data Types/01 - Primitive Types/06 - Reference - Pointer.md",
+    "Tutorials/Programming/03 - Data Structures/Data Types/01 - Primitive Types/05 - Enumerated type.md",
+    "Tutorials/Programming/03 - Data Structures/Data Types/01 - Primitive Types/04 - Floating Point.md",
+    "Tutorials/Programming/03 - Data Structures/Data Types/01 - Primitive Types/02 - Char.md",
+    "Tutorials/Programming/03 - Data Structures/Data Types/01 - Primitive Types/03 - Integers.md",
+    "Tutorials/Programming/03 - Data Structures/Data Types/01 - Primitive Types/01 - Boolean.md",
+    "Tutorials/Programming/03 - Data Structures/Data Types/01 - Primitive Types/00 - Variables.md",
+    "Tutorials/Programming/03 - Data Structures/types/02 - non-linear/Trees.md",
+    "Tutorials/Programming/03 - Data Structures/types/02 - non-linear/Trees 1.md",
+    "Tutorials/Programming/03 - Data Structures/types/02 - non-linear/Heap.md",
+    "Tutorials/Programming/03 - Data Structures/types/02 - non-linear/Graph.md",
+    "Tutorials/Programming/03 - Data Structures/Data Types/02 - Composite Types/Structs - Classes.md",
+    "Tutorials/Programming/03 - Data Structures/Data Types/02 - Composite Types/Union.md",
+    "Tutorials/Programming/03 - Data Structures/Data Types/02 - Composite Types/String.md",
+    "Tutorials/Programming/03 - Data Structures/Data Types/02 - Composite Types/Array.md",
+    "Tutorials/Programming/03 - Data Structures/types/01 - linear/Map.md",
+    "Tutorials/Programming/03 - Data Structures/types/01 - linear/05 Hash Table.md",
+    "Tutorials/Programming/03 - Data Structures/types/01 - linear/Deque (Priority Queue).md",
+    "Tutorials/Programming/03 - Data Structures/types/01 - linear/02 Linked List.md",
+    "Tutorials/Programming/03 - Data Structures/types/01 - linear/03 Queue.md",
+    "Tutorials/Programming/Patterns/01. RNG/05. fake coin flip distribution",
+    "Tutorials/Programming/Patterns/01. RNG/04. tiny procedural content",
+    "Tutorials/Programming/Patterns/01. RNG/03. distribution",
+    "Tutorials/Programming/Patterns/01. RNG/02. shuffle",
+    "Tutorials/Programming/Patterns/01. RNG/0. concepts",
+    "Tutorials/Programming/Patterns/01. RNG/01. random roll",
+    "Tutorials/Programming/03 - Data Structures/types/03 - advanced",
+    "Tutorials/Programming/03 - Data Structures/Data Types/01 - Primitive Types",
+    "Tutorials/Programming/03 - Data Structures/types/02 - non-linear",
+    "Tutorials/Programming/Overview.canvas",
     "Stuff/Pictures/Animals/bunbun03.jpg",
     "Stuff/Pictures/Animals/bunbun02.jpg",
+    "Stuff/Pictures/Animals/Duke02.jpg",
+    "Stuff/Pictures/Animals/Duke01.jpg",
     "Stuff/Pictures/Animals/BunBun01.jpg",
-    "Stuff/Pictures/Animals",
-    "Stuff/Pictures",
-    "BIGO.png",
+    "Stuff/Images/PoggleLogo.png",
     "Resources/Interview Prep/Container Flowchart.png",
-    "Resources/Interview Prep",
-    "Tutorials/Programming/Overview.canvas",
-    "Projects/Personal",
-    "theme.css"
+    "Resources/Interview Prep/BIGO.png",
+    "Resources/Interview Prep/big-o-cheat-sheet-poster.png",
+    "90 - Resources/Interview Prep/big-o-cheat-sheet-poster.png",
+    "30 - Tutorials/Programming/Overview.canvas"
   ]
 }

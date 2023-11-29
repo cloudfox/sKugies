@@ -4,16 +4,12 @@
   "theme": "obsidian",
   "enabledCssSnippets": [
     "Particles",
-    "CustomCallouts",
     "ColorScheme",
     "coloredHeaders",
-    "Clean Embed",
     "MCL Multi Column",
-    "MCL",
-    "style",
-    "codeblock"
+    "solar"
   ],
-  "baseFontSize": 15,
+  "baseFontSize": 14,
   "translucency": false,
   "textFontFamily": "",
   "interfaceFontFamily": ""

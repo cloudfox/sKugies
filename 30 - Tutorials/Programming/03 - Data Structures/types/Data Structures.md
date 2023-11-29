@@ -14,9 +14,9 @@ Linear:
 [[05 Hash Table]] 
 
 Non-linear 
-[[Tutorials/Programming/03 - Data Structures/types/02 - non-linear/Graph|Graph]] 
+[[Graph|Graph]] 
 [[Heap]] 
-[[Tutorials/Programming/03 - Data Structures/types/02 - non-linear/Trees|Trees]] 
+[[Trees|Trees]] 
 
 Advanced:
 [[Free List]] 

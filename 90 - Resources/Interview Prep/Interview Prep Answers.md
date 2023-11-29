@@ -135,7 +135,7 @@ depends on architecture 32bit or 64bit  i.e. 4bytes or 8 bytes
 
 ---
 **The big O runtime of ALL containers**,
-![[Resources/Interview Prep/BIGO.png]]
+![[BIGO.png]]
 ![[big-o-cheat-sheet-poster.png]]
 
 https://www.bigocheatsheet.com/

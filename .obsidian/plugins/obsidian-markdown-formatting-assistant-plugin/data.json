@@ -41,7 +41,7 @@
     },
     {
       "name": "colors",
-      "active": true,
+      "active": false,
       "visible": false
     },
     {
