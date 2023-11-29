@@ -7,7 +7,13 @@
     "ColorScheme",
     "coloredHeaders",
     "MCL Multi Column",
-    "solar"
+    "solar",
+    "cards",
+    "Clean Embed",
+    "MCL",
+    "CustomCallouts",
+    "codeblock",
+    "style"
   ],
   "baseFontSize": 14,
   "translucency": false,
