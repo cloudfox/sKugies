@@ -1,15 +1,10 @@
 [
-  "cm-editor-syntax-highlight-obsidian",
-  "table-editor-obsidian",
-  "calendar",
-  "url-into-selection",
-  "highlightr-plugin",
   "better-word-count",
-  "obsidian-style-settings",
-  "templater-obsidian",
   "dataview",
-  "obsidian-markdown-formatting-assistant-plugin",
   "obsidian-dynamic-background",
-  "obsidian-javascript-init",
-  "customjs"
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-markdown-formatting-assistant-plugin",
+  "obsidian-git",
+  "templater-obsidian",
+  "editing-toolbar"
 ]

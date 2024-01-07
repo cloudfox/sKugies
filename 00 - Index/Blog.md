@@ -6,7 +6,7 @@ cssclasses:
   - "#mcl"
   - clean-embeds
   - grad
-publish:
+publish: true
 ---
 <div id='stars'></div>
 <div id='stars2'></div>
@@ -18,39 +18,19 @@ Mostly stream of thought stuff here. So expect a somewhat chaotic mess.
 This area is largely a low priority until I finish making my programming tutorial thing.
 
 ## Featured:
-Nothing here yet.
-
-<br>
-
-## Posts:
-
 
 > [!multi-column|center-fixed]
 >
->> [!note] 16-Oct-22
->> ![[Oct22 - Spinning Things#Spinning Things]]
+>> [!note] 30-Dec-23
+>> ![[2023-12-30 - Stat Modifiers#Stat Modifiers]]
 >
->> [!note] 7
->> ![[Test Post 2#Test Post 2]]
->
->> [!note] 6
->> ![[Test Post 1#Test Post 1]]
->
->> [!note] 5
->> ![[Test Post 2#Test Post 2]]
->
->> [!note] 4
->> ![[Test Post 1#Test Post 1]]
->
->> [!note] 3
->> ![[Test Post 2#Test Post 2]]
->
->> [!note] 2
->> ![[Test Post 1#Test Post 1]]
->
->> [!note] 1
->> ![[Test Post 2#Test Post 2]]
+>> [!note] 16-Oct-23
+>> ![[2023-10-13 - Spinning Things#Spinning Things]]
 >
 
+## Posts:
 
-
+[[Boids]]
+[[Marching Squares]]
+[[2023-12-30 - Stat Modifiers]]
+[[2023-10-13 - Spinning Things]]

@@ -1,3 +1,0 @@
-{
-  "code": "async invoke() {\n \n window.onload = function(){ \n    \n\t\t\n\tdocument.getElementById(\"cards\").onmousemove = e => {\n\t  for(const card of document.getElementsByClassName(\"card\")) {\n\t\tconst rect = card.getBoundingClientRect(),\n\t\t\t  x = e.clientX - rect.left,\n\t\t\t  y = e.clientY - rect.top;\n\n\t\tcard.style.setProperty(\"--mouse-x\", `${x}px`);\n\t\tcard.style.setProperty(\"--mouse-y\", `${y}px`);\n\t  };\n\t}\n\t\t\n\t};\n\t \n}\n"
-}

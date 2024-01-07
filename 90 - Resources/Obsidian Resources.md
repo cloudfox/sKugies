@@ -1,6 +1,15 @@
 ---
 publish: false
 ---
+
+
+<div id='stars'></div>
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='stars4'></div>
+
+
+
 kinda finicky dataview
 ```dataview 
 TABLE DOTO FROM -"Templates" WHERE TODO 
@@ -197,4 +206,4 @@ second bar wont because it has the same header level
 
 
 
-
+https://embyte.davidewiest.com/

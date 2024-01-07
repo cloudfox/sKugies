@@ -1,38 +1,5 @@
 
-@keyframes arc-rotation {
-  from {    transform: translate3d(-50%, -50%, 0px) rotate(0deg);  }
-    to {    transform: translate3d(-50%, -50%, 0px) rotate(360deg);  }
-}
- 
- 
-#arcs {
-  animation: arc-rotation 100s linear infinite;
-  height: 222%;
-  width: 222%;
-  top: 0px;
-  left: 0px;  
-  position: absolute;
-  will-change: transform;
-  overflow: visible
-  z-index: -2;
-}
-
-.arc {
-  fill: none;
-  stroke: rgba(255, 255, 255, 0.5);
-  stroke-dasharray: 2,10;
-  stroke-width: 1;
-  z-index: -22;
-}
-
-
-:root {
-  --background-dark: rgb(20, 20, 20);
-  background-color: var(--background-dark);
-}
-
-
-body  {
+body > .menu-links  {
   pointer-events: all; 
 }
 
@@ -47,10 +14,10 @@ body > .menu-links > .solarlink {
   display: flex;
   flex-direction: column;
   gap: 30px;
-  
+  inset: 0px;
   justify-content: center;
-  position: relative;
-  z-index: 0;
+  position: absolute;
+  z-index: 4;
 }
 
  .solarlink {
@@ -59,7 +26,7 @@ body > .menu-links > .solarlink {
   display: flex;
   font-family: "Rubik", sans-serif;
   gap: 10px;
-  opacity: 1;
+  opacity: 0;
   position: relative;
   text-decoration: none;
   transition: opacity 250ms ease-in;
@@ -71,12 +38,12 @@ body > .menu-links > .solarlink {
 }
 
  .solarlink:hover > .index {
-  transform: translate3d(0%, 0px, 0px);
+  transform: translate3d(20%, 0px, 0px);
 }
 
  .solarlink:hover > .anchor:before {
   opacity: 0.15;
-  transform: translate3d(0%, 0%, 0px) scale(1.5);
+  transform: translate3d(-50%, -50%, 0px) scale(1.5);
 }
 
  .solarlink:hover > .anchor:after {
@@ -128,11 +95,12 @@ body > .menu-links > .solarlink {
   transition: transform 250ms;
 }
 
+.cm-hmd-internal-link[data-link-data-href*="QUE"],
+.markdown-preview-view a[href*="QUE"] {
+  color: teal !important;
+}
 
-
-
-
-
-
-
-
+.cm-hmd-internal-link[data-link-data-href*="QUE"]::before,
+.markdown-preview-view a[href*="QUE"]::before {
+  content: "🔎 ";
+}

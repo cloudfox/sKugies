@@ -1,8 +1,9 @@
 ---
 cssclasses:
   - clean-embeds
+  - wide-page
+  - dashboard
 ---
-
 
 <div id='stars'></div>
 <div id='stars2'></div>
@@ -10,43 +11,57 @@ cssclasses:
 <div id='stars4'></div>
 
 
-[[Blog]] -   [[Tutorials]]  -  [[Projects]]  -  [[Resume]]    - [[Contact]]
+
+---
 
 
 
-
-Hello there, I'm Steven Kugies. 
-I'm a Game Developer based in the Greater Seattle area. 
-I'm currently finishing up my final year at Digipen Institute of Technology. Making games has always 
-been a passion of mine.
-
-Feel free to look around. This site is where I throw my random thoughts, what I'm working on, various tutorials, and whatever else I feel like. 
-
-
-[[Favorite Games]] - [[What I'm Playing]]
-
-
->[!multi-column|no-wrap]
-
-> [!multi-column|center-fixed-medium]
->
->> [!info|wide-3]+  New Files
->> ![[Recent New Files]] 
->
->> [!info|wide-2]+  Recent Changes
->> ![[Recently Edited]] 
->
+> [!multi-column|medium]
+>> [!Welcome]
+>  ![[Welcome]]
+>  
+>>[!New Files]+ New Files
+> ![[Recent New Files]] 
+> 
+> >[!Recent Changes]+ Recent Changes
+> ![[Recently Edited]] 
 
 
+---
+
+# 🖥️Dev
+- 
+  - 📙[[Blog]]
+  - [[Resume]]
+
+- ⚙️Projects
+  - [[Pogglewash]]
+  - [[EFO]]
+  - [[Vect]]
+  - [[Solaria]]
+  
+- 👾MiniProjects
+    - [[Marching Squares]]
+    - [[Boids]]
 
 
+# 📖 Tutorials
+- Programming
+    - [[Learn programming (C++)]]
+    - Graphics Programming
+    - AI
+    - 
 
+- 📦Resources
+    - Programming
+    - Game Dev
+# 🪁Misc
+- Cooking
+  - [[Cookies]]
+  - [[Protein Bars]]
 
+- [[Pets]]
 
-
-
-
-\
 \
 \
 \

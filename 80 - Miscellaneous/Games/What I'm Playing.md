@@ -7,13 +7,12 @@ publish: true
 
 
 **Currently**
-Baldur's Gate 3
 guild wars 1
+Lethal Company
 
 
 **Probably will play:**
 ARMORED CORE™ VI FIRES OF RUBICON
-Cocoon
 LoZ: Tears of the Kingdom
 S.T.A.L.K.E.R. 2  Heart of Chornobyl
 Frostpunk 2

@@ -29,6 +29,11 @@ $1/2$ teaspoon salt
 
 Bake at 350 FOR 10-12 minutes
 
+##### Molasses Cookies
+https://www.gimmesomeoven.com/chewy-ginger-molasses-cookies/
+These are a delight. 
+
+
 ## Recipes I want to try
 
 ##### Crispy Oatmeal Cookies
@@ -44,3 +49,5 @@ Bake at 350 FOR 10-12 minutes
 
 chill dough
 bake at 350 10-12 minutes
+
+##### Sugar Cookies
