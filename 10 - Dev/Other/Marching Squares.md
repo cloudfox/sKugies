@@ -1,3 +1,6 @@
+---
+publish: true
+---
 
 I quickly threw this together as an exercise.
 

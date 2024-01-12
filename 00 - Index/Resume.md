@@ -8,10 +8,7 @@ publish:
 <div id='stars2'></div>
 <div id='stars3'></div>
 
-![[TitleBar]] 
 
-
----
 #### Education
 Digipen Institute of Technology 2019-2024 
 BSCS in Realtime Interactive Simulation 

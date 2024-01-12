@@ -40,7 +40,7 @@ https://github.com/ChrisTitusTech/winutil
 # Audio
 https://vb-audio.com/Voicemeeter/
 https://eartrumpet.app/
-
+https://github.com/HSpear/virtual-audio-wire
 
 # Video
 https://www.elgato.com/us/en/s/downloads

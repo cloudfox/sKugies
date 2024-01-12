@@ -1,7 +1,9 @@
 ---
-publish: false
+publish: true
 ---
 
+Boids are a relatively easy behavior to implement.
+The first time I implemented boids was back in 2019 in C when my programming knowledge was still at a more apprentice level. 
 
 
 ### General Idea
@@ -58,3 +60,31 @@ Reaching the right balance of forces for these can be tricky.
 
 
 Not all boids need to have the same settings. You can offset the alignment force on some Boids to cause them to fly more along the edges of the flock.
+
+
+## Implementation
+This is some rough pseudo code.
+### Seperation
+
+### Alignment
+
+### Cohesion
+
+```c++
+vec3 avgeragePosition;
+int count = 0;
+for each (otherBoid.distance() < CohesionDistance)
+{
+  avgeragePosition += otherBoid.position;
+  count += 1;
+}  
+
+averagePosition /= count;
+
+vec3 SeekDirection = normalize(averagePosition - boid.position);
+SeekDirection = Lerp(boid.rotation, seekDirection, cohesionStrength);
+```
+
+
+
+

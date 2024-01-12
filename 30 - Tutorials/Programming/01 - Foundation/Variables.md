@@ -174,7 +174,7 @@ typedef if a way to create an alias for another type. This can be done to add ex
 typedef int potatoes; //created alias for int called potatoes
 typedef float fluff; //created alias for float called fluff
 typedef int a; //created alias for int called a
-typedef int color // created alias for int called color
+typedef int color; // created alias for int called color
 
 potatoes count; //creates a variable of type potatoes(int)
 color red; // creates a variable of type color(int)
@@ -194,7 +194,7 @@ Not technically a variable but can be used in a similar way.
 #define PI 3.14159f
 
 float CircleCircumference(float radius){
-	return 2.0f * PI * radius;*
+	return 2.0f * PI * radius;
 }
 ```
 the above  code after the preprocessor step in compilation will look more like 

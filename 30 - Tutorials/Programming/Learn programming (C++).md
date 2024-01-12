@@ -9,9 +9,6 @@ cssclasses:
 <div id='stars2'></div>
 <div id='stars3'></div>
 
-[[Blog]]  - [[Tutorials]]  -  [[Projects]]  -  [[Resume]]    - [[Contact]]
-
-
 > [!warning] This is very much a work in progress 
 ### Introduction
 
@@ -48,7 +45,7 @@ To quickly get started https://www.onlinegdb.com/ works just as well.
 TODO: Add review questions to each tut and at the end of each section
 
 ## Section 1: Foundation 
-(~80% done)
+(~85% done)
 01 [[Hello World|Hello World]] 
 02 [[Variables]] 
 03 [[Expressions and Operators]] 
@@ -57,10 +54,10 @@ TODO: Add review questions to each tut and at the end of each section
 06 [[Scope Lifetime]] 
 07 [[Iteration - Loops]] 
 08 [[Input Output]]
-09 [[Arrays]]  (0%)
+09 [[Arrays]]  (50%)
 10 [[Code Style]]
 11 [[Documentation]]
- **[[Section 1 Exercises]]** (10%)
+ **[[Section 1 Exercises]]** (1%)
 ## Section 2: Intermediate
 (~7% done)
  01 [[Structs and Classes]]
@@ -73,7 +70,7 @@ TODO: Add review questions to each tut and at the end of each section
  08 [[File IO]] 
  09 [[Random Numbers]]
  10 [[The Compiler]]
-[[Section 2 Exercises]] (2%)
+[[Section 2 Exercises]] (1%)
 
 ## Section 3: Advanced
 (2% planning)

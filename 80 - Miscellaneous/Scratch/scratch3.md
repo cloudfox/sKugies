@@ -3,7 +3,6 @@ cssclasses:
   - clean-embeds
   - wide-page
   - dashboard
-  - "#mcl"
 ---
 
 <div id='stars'></div>
@@ -25,25 +24,24 @@ cssclasses:
 
 ---
 
-
 # 🖥️Dev
 - 
-  - 📙[[Blog]]
-  - 📄[[Resume]]
+   📙[[Blog]]
+   [[Resume]]
 
-- 👾Projects
+- ⚙️Projects
   - [[Pogglewash]]
   - [[EFO]]
   - [[Vect]]
   - [[Solaria]]
   
-- ⚙️MiniProjects
+- 👾MiniProjects
     - [[Marching Squares]]
     - [[Boids]]
 
 
 # 📖 Tutorials
-- Programming
+- 🖥️Programming
     - [[Learn programming (C++)]]
     - [[Graphics Programming]]
     - [[AI]]
@@ -53,11 +51,14 @@ cssclasses:
     - [[Programming]]
     - [[Game Dev]]
 # 🪁Misc
-- Cooking
-  - [[Cookies]]
+- 🥣Cooking
+  - 🍪[[Cookies]]
   - [[Protein Bars]]
 
-- [[Pets]]
+- 🦖[[Pets]]
+
+
+
 
 \
 \
