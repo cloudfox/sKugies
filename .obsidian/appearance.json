@@ -7,17 +7,15 @@
     "ColorScheme",
     "coloredHeaders",
     "MCL Multi Column",
-    "cards",
-    "menu",
-    "Clean Embed",
-    "codeblock",
-    "CustomCallouts",
-    "MCL",
     "style",
-    "dashboard"
+    "dashboard",
+    "MCL",
+    "Clean Embed",
+    "CustomCallouts"
   ],
   "baseFontSize": 14,
   "translucency": false,
   "textFontFamily": "",
-  "interfaceFontFamily": ""
+  "interfaceFontFamily": "",
+  "nativeMenus": false
 }

@@ -7,6 +7,7 @@ publish: true
 
 
 **Currently**
+Pal World
 guild wars 1
 Lethal Company
 
@@ -18,6 +19,8 @@ S.T.A.L.K.E.R. 2  Heart of Chornobyl
 Frostpunk 2
 The Invincible
 The Alters
+Judas
+Bloodlines 2
 
 
 **Previously**

@@ -7,7 +7,7 @@ publish: true
 ## What are Functions
 All programs are made up of collections of functions. You could possibly do everything in main but why make things harder for no reason.
 
-#### Function Format
+### Function Format
 ```cpp
 return_type function_name( parameters ); //declaration/prototype
 
@@ -90,7 +90,7 @@ int main
 }
 ```
 
-##### Return 
+#### Return 
 void is used when a function does not return anything.
 ```cpp
 void foo()
@@ -131,7 +131,7 @@ void bar()
 ```
 
 
-##### Example
+### Example
 Functions help divide work into more manageable bites. It also allows you to easily reuse code.
 
 Lets say we want to check for the collision of 2 moving spheres. We will want a function to update the position over time and a function to check for collision.

@@ -4,7 +4,7 @@ publish: true
 [[Learn programming (C++)#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Variables]]  #tutorial 
 
 ---
-#### What are Expressions?
+## What are Expressions?
 The simplest expressions are our literal constants and variables. 
 They can also be formulas or the combined results from several functions.
 examples:
@@ -22,11 +22,11 @@ x+7
 ```
 
 ---
-### What are operators?
+## What are operators?
 Like their name states they perform an operation like those used in the above the above examples. 
 These include everything from math operations, to functions calls, and more. Most operators do not modify the value of the operands.
 
-##### Assignment Operators
+### Assignment Operators
 The most common operator. Modifies the value of the operand.
 	Anytime an operation modifies the value of something it is called a side effect.
 
@@ -71,7 +71,7 @@ x += 10; //compound version of x = x + 10
 y \*= 5; //compound version of y = y * 5
 ```
 
-##### Increment Decrement
+#### Increment Decrement
 there are also the increment/decrement  ++ and --
 
 | operators | type |
@@ -98,7 +98,7 @@ Output:
 while the post increment is evaluated earlier it takes place after the variable was output.
 This can be a bit confusing.
 
-##### Arithmetic
+#### Arithmetic
 These are your common math operations plus some ops to modify the underlying bits.
 
 | operators | type                   |
@@ -130,7 +130,7 @@ Modulo is just the value left over from division.
 More on [[Bitwise]] operators later.
 
 
-##### Logical
+#### Logical
 These operators are all about booleans (true or false) operations.
 
 | operators | type   |
@@ -143,7 +143,7 @@ Negate take a boolean expressions and returns the opposite. (true becomes false,
 Logical AND returns true if both a and b are true. If either is false then it returns false.
 Logical OR returns true if either a or b is true. It only returns false if both are false.
 
-##### Comparison 
+#### Comparison 
 These operators make a comparison and return either true or false.
 
 | operators | type                |
@@ -163,7 +163,7 @@ Most of these should be fairly apparent. If the condition is met returns true el
 > [!tip]
 > Avoid directly comparing floats due to issues with precision. If you want to know more this is a great blog post covering it https://randomascii.wordpress.com/2012/02/25/comparing-floating-point-numbers-2012-edition/
 
-##### Member Access
+#### Member Access
 
 | operators | type              |
 | --------- | ----------------- |
@@ -174,7 +174,7 @@ Most of these should be fairly apparent. If the condition is met returns true el
 | a.b       | member of object |
 
 
-##### Special
+#### Special
 
 **Casting**
 static_cast

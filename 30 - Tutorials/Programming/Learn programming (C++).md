@@ -33,19 +33,11 @@ some output
 I will try to include programming exercises with drivers and 
 output files to compare to.
 
-### ***Getting Started***
-If you are completely new to programming then you will need something to program and later compile your code.
 
-You could use notepad if you like pain and suffering but I'd at least use [notepad++](https://notepad-plus-plus.org/). You'd then need to separately compile the code.
-
-For simplicity you could alternatively use an IDE like: [vsCode](https://code.visualstudio.com/), [Visual Studio](https://visualstudio.microsoft.com/), [Code::Blocks](https://www.codeblocks.org/)or any of the thousand others.
-
-To quickly get started https://www.onlinegdb.com/ works just as well.
-
-TODO: Add review questions to each tut and at the end of each section
 
 ## Section 1: Foundation 
 (~85% done)
+00 [[Getting Started]]
 01 [[Hello World|Hello World]] 
 02 [[Variables]] 
 03 [[Expressions and Operators]] 

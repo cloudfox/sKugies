@@ -4,12 +4,12 @@
     "type": "split",
     "children": [
       {
-        "id": "b4359364a29a2b9f",
+        "id": "b20fe983485a490d",
         "type": "tabs",
-        "dimension": 53.5024154589372,
+        "dimension": 58.167330677290835,
         "children": [
           {
-            "id": "423b0839cecb8a69",
+            "id": "6e48a325eabaae32",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,51 +21,37 @@
             }
           },
           {
-            "id": "a706f2a5229cf712",
+            "id": "95fd2cdf4fe959bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Dev/Other/Boids.md",
-                "mode": "preview",
-                "source": true
+                "file": "30 - Tutorials/Programming/Learn programming (C++).md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
-        "id": "4f6e9561e2f28c26",
+        "id": "b4359364a29a2b9f",
         "type": "tabs",
-        "dimension": 46.4975845410628,
+        "dimension": 41.832669322709165,
         "children": [
           {
-            "id": "6efb37a77c020d56",
+            "id": "da4b866a9db41116",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Home.md",
                 "mode": "preview",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "67cb49c2762ddb1c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Variables.md",
-                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -132,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Variables.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Variables.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -177,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Variables.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
               }
             }
           },
@@ -187,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Variables.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
               }
             }
           },
@@ -214,12 +200,12 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 308.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -234,40 +220,40 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "67cb49c2762ddb1c",
+  "active": "6e48a325eabaae32",
   "lastOpenFiles": [
-    "30 - Tutorials/Programming/Learn programming (C++).md",
-    "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "Home.md",
-    "Graphics Programming.md",
-    "10 - Dev/Other/Boids.md",
-    "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
-    "Templates/Update Publish Files.md",
-    "GeneratedDataView/Recent New Files.md",
-    "00 - Index/Resume.md",
-    "00 - Index/Blog.md",
-    "10 - Dev/Other/Marching Squares.md",
-    "80 - Miscellaneous/Scratch/scratch3.md",
+    "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
+    "30 - Tutorials/Programming/Learn programming (C++).md",
     "80 - Miscellaneous/Scratch/scratch.md",
-    "80 - Miscellaneous/Scratch",
-    "90 - Resources/Computer Setup.md",
-    "GeneratedDataView/Recently Edited.md",
+    "80 - Miscellaneous/Scratch/scratch3.md",
+    "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+    "30 - Tutorials/Programming/01 - Foundation/Input Output.md",
+    "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
+    "30 - Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
+    "30 - Tutorials/Programming/01 - Foundation/Functions.md",
+    "30 - Tutorials/Programming/01 - Foundation/Conditions.md",
+    "30 - Tutorials/Tutorials.md",
+    "30 - Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
+    "30 - Tutorials/Programming/01 - Foundation/Variables.md",
+    "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
+    "00 - Index/Welcome.md",
     "90 - Resources/Obsidian Resources.md",
-    "80 - Miscellaneous/Recipes/Cookies.md",
     "00 - Index/TitleBar.md",
-    "30 - Tutorials/Programming/Overview.canvas",
+    "00 - Index/Resume.md",
+    "20 - Blog/2023-12-30 - Stat Modifiers.md",
     "80 - Miscellaneous/Scratch/scratch2.md",
+    "80 - Miscellaneous/Games/What I'm Playing.md",
+    "80 - Miscellaneous/Scratch/scratch4.md",
+    "10 - Dev/Other/Boids.md",
+    "Graphics Programming.md",
+    "Templates/Update Publish Files.md",
+    "80 - Miscellaneous/Scratch",
+    "30 - Tutorials/Programming/Overview.canvas",
     "80 - Miscellaneous/Images/MarchingSquareTest.png",
     "90 - Resources/Interview Prep/big-o-cheat-sheet-poster.png",
-    "10 - Dev/Student/Pogglewash.md",
-    "20 - Blog/2023-10-13 - Spinning Things.md",
-    "20 - Blog/Random dice.md",
-    "30 - Tutorials/Tutorials.md",
-    "10 - Dev/Projects.md",
     "90 - Resources/Interview Prep/BIGO.png",
     "90 - Resources/Interview Prep/Container Flowchart.png",
-    "90 - Resources/Programming Resources.md",
-    "00 - Index/Welcome.md",
     "80 - Miscellaneous/Pictures/other",
     "80 - Miscellaneous/Images/VectMenu.png",
     "80 - Miscellaneous/Images/SolariaMenu.png",

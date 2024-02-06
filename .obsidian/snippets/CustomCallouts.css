@@ -13,17 +13,43 @@ Fixed width, floats right, and strips "flair" from ![[embedded]] files */
 .callout[data-callout="animal"],
 .callout[data-callout="vehicle"] {
   width: 250px; /* Adjust the width of the callout box */
-  float: right; /* Floats the callout box to the right */
+  float: left; /* Floats the callout box to the right */
   margin-left: 10px; /* Adds space between the callout box and the text OUTSIDE the box */
-  border: 3px solid #ccc;
-  padding: 10px; /* Adds space between the callout box and the text INSIDE the box */
+  border: 1px solid #CCD;
+  padding: 5px; /* Adds space between the callout box and the text INSIDE the box */
   border-radius: 10px;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  
 
   /* Obsidian Custom Variables */
   --callout-icon: lucide-info;
   --callout-color: 126, 154, 170; /* Sets color "theme" for box (header text and background) */
 }
+
+
+
+.callout[data-callout="welcome"]{
+  
+
+  /* Obsidian Custom Variables */
+  --callout-icon: lucide-info;
+  
+  --callout-title-padding: 8px;
+    --callout-radius: 3px;
+  
+  --callout-border-opacity:.25;
+  --callout-border-width:1.5px;
+
+}
+.callout[data-callout="welcome"] .callout-title{
+    
+}
+
+.callout[data-callout=welcome] .callout-content{
+  
+}
+
+
 
 
 /* Remove border and padding for embedded files */
@@ -33,13 +59,13 @@ Fixed width, floats right, and strips "flair" from ![[embedded]] files */
 .callout[data-callout="item"] .markdown-embed,
 .callout[data-callout="animal"] .markdown-embed,
 .callout[data-callout="vehicle"] .markdown-embed,
-
 .callout[data-callout="infobox"] .file-embed,
 .callout[data-callout="person"] .file-embed,
 .callout[data-callout="place"] .file-embed,
 .callout[data-callout="item"] .file-embed,
 .callout[data-callout="animal"] .file-embed,
-.callout[data-callout="vehicle"] .file-embed{
+.callout[data-callout="vehicle"] .file-embed,
+.callout[data-callout="welcome"] .file-embed{
   border: none !important;
   padding: 0 !important;
   margin: 0 !important;
@@ -73,13 +99,20 @@ Fixed width, floats right, and strips "flair" from ![[embedded]] files */
 .callout[data-callout="place"] .obsidian-metatable,
 .callout[data-callout="item"] .obsidian-metatable,
 .callout[data-callout="animal"] .obsidian-metatable,
-.callout[data-callout="vehicle"] .obsidian-metatable {
+.callout[data-callout="vehicle"] .obsidian-metatable
+.callout[data-callout="welcome"] .obsidian-metatable {
   display: none;
 }
 
 
 
 /* Child Infoboxes */
+
+.callout[data-callout="welcome"] {
+  /* Obsidian Custom Variables */
+  --callout-icon: lucide-person-standing;
+}
+
 
 .callout[data-callout="person"] {
   /* Obsidian Custom Variables */
@@ -105,3 +138,10 @@ Fixed width, floats right, and strips "flair" from ![[embedded]] files */
   /* Obsidian Custom Variables */
   --callout-icon: lucide-truck;
 }
+
+
+
+
+
+
+

@@ -4,7 +4,7 @@ publish: true
 [[Learn programming (C++)#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Hello World|Hello World]]   #tutorial
 
 ---
-### **What is a variable?**
+##  What is a variable?
 A variable is an abstract storage location for some sort of data. 
 This data will most often be inside the computers RAM and when needed sent to the CPU[^1].
 The data is stored in binary format 1s and 0s.  
@@ -34,9 +34,8 @@ e = 1;
 > [!attention] Warning
 > You always want to initialize your variables before using them.  Uninitialized variables can potentially have any value in them and are this can lead to [undefined behavior](https://en.wikipedia.org/wiki/Undefined_behavior).
 
-
-____
-### **What are the types?**
+---
+### What are the types?
 There are many different types varying from built in types to ones you can define yourself.
 
 Primitives are your most common types as they are built in.
@@ -100,11 +99,11 @@ Depending on the size of the specific integral type determines what range of val
 >  When you hit the max or min value it will wrap around. If you add 1 to a max value u-char then all of a sudden it is back to 0; This can be hard to troubleshoot when operating with larger numbers.
 
 ---------------------
-#### **Floating points**
+#### Floating points
 Floating points are our fractional or decimal values. These values are not always completely accurate due to the conversion from binary. You can use the larger types to increase precision but it will never be perfect unless you are dealing with values that cleanly divide by 2, i.e. 0.5, 0.25, 0.125, 0.375(0.25 + 0.125), etc..  Even then you will eventually run into problems with smaller and smaller values.
 
 > [!note]
-> If you want to know more about it I'd recommend looking at some videos showing the conversion. The main takeaway I want you to get from this is that they don't have perfect precision and for comparison you should often look to see if they are close to each other rather than exact matches.
+> If you want to know more about it I'd recommend looking at some videos showing the conversion. [Computerphile Vid](https://www.youtube.com/watch?v=PZRI1IfStY0)The main takeaway I want you to get from this is that they don't have perfect precision and for comparison you should often look to see if they are close to each other rather than exact matches.
 
 | Type        | Size | Range                            | Precision |
 | ----------- | ---- | -------------------------------- | --------- |
@@ -118,7 +117,7 @@ Floating points are our fractional or decimal values. These values are not alway
 > [!info]  floating points are signed only
 
 ________________________ 
-#### **Logical** 
+#### Logical 
 Booleans are all about true or false expressions.
 
 | type | Size | Range |
@@ -143,7 +142,7 @@ You only need a bit to hold a true/false value but memory is aligned to 1 byte b
 >  There are ways to store more in a byte through methods like bitsets and struct packing
 
 ________________________ 
-#### **literal constants**
+#### literal constants
 
 These are more values you hardcode that go into a variable or other expression. 
 ``` cpp
@@ -167,7 +166,7 @@ Hex literals are written with a leading 0x
 >[!info] octal and hex are unsigned only
 
 ----
-#### **Typedef**  
+#### Typedef  
 typedef if a way to create an alias for another type. This can be done to add extra clarity to a variable or make the name simpler. It can also help keep you from accidentally mixing values of the same type but different purposes together.
 
 ``` cpp
@@ -183,7 +182,7 @@ color blue; // creates a variable of type color(int)
 ```
 
 ---
-#### **\#Define**
+#### \#Define
 
 Not technically a variable but can be used in a similar way.
 \#define is a macro that replaces the text with whatever follows it during compilation(prepocessor phase) of the program.

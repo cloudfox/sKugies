@@ -119,9 +119,6 @@ document.addEventListener('mousemove', e => { saveCursorPosition(e.clientX, e.cl
 >
 
 
-
-
-
 \
 \
 \

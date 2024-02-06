@@ -1,9 +1,7 @@
 ---
 cssclasses:
-  - clean-embeds
-  - wide-page
   - dashboard
-  - "#mcl"
+  - embed-strict
 ---
 
 <div id='stars'></div>
@@ -14,7 +12,7 @@ cssclasses:
 ---
 
 > [!multi-column|medium]
->> [!Welcome]
+>> [!Welcome] 
 >  ![[Welcome]]
 >  
 >>[!New Files]+ New Files
@@ -32,6 +30,7 @@ cssclasses:
   - 📄[[Resume]]
 
 - 👾Projects
+  - [[KiloNova]]
   - [[Pogglewash]]
   - [[EFO]]
   - [[Vect]]
@@ -58,6 +57,11 @@ cssclasses:
   - [[Protein Bars]]
 
 - [[Pets]]
+
+
+
+
+
 
 \
 \
