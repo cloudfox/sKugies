@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "90 - Resources/Obsidian Resources.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "90 - Resources/Obsidian Resources.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "90 - Resources/Obsidian Resources.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "90 - Resources/Obsidian Resources.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "90 - Resources/Obsidian Resources.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
               }
             }
           },
@@ -222,6 +222,7 @@
   },
   "active": "6e48a325eabaae32",
   "lastOpenFiles": [
+    "90 - Resources/Obsidian Resources.md",
     "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
     "Home.md",
     "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
@@ -238,7 +239,6 @@
     "30 - Tutorials/Programming/01 - Foundation/Variables.md",
     "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "00 - Index/Welcome.md",
-    "90 - Resources/Obsidian Resources.md",
     "00 - Index/TitleBar.md",
     "00 - Index/Resume.md",
     "20 - Blog/2023-12-30 - Stat Modifiers.md",
