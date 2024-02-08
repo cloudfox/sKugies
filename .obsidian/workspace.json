@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+                "file": "90 - Resources/Obsidian Resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+                "file": "90 - Resources/Obsidian Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+                "file": "90 - Resources/Obsidian Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
+                "file": "90 - Resources/Obsidian Resources.md"
               }
             }
           },
@@ -173,7 +173,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
+                "file": "90 - Resources/Obsidian Resources.md"
               }
             }
           },
@@ -222,12 +222,12 @@
   },
   "active": "6e48a325eabaae32",
   "lastOpenFiles": [
+    "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
     "Home.md",
     "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
     "30 - Tutorials/Programming/Learn programming (C++).md",
     "80 - Miscellaneous/Scratch/scratch.md",
     "80 - Miscellaneous/Scratch/scratch3.md",
-    "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
     "30 - Tutorials/Programming/01 - Foundation/Input Output.md",
     "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
     "30 - Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
