@@ -2,7 +2,7 @@
   "alwaysUpdateLinks": true,
   "tabSize": 2,
   "showLineNumber": true,
-  "readableLineLength": true,
+  "readableLineLength": false,
   "newFileLocation": "current",
   "showUnsupportedFiles": true,
   "attachmentFolderPath": "./",
