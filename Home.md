@@ -36,6 +36,7 @@ cssclasses:
   - [[EFO]]
   - [[Vect]]
   - [[Solaria]]
+  - KiloNova
   
 - ⚙️MiniProjects
     - [[Marching Squares]]
