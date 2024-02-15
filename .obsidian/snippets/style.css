@@ -93,6 +93,11 @@ body {
 .theme-light {
   background: radial-gradient(ellipse at bottom, #f2f2f2 0%, #fff2e6 50%);
         
+                
+  --bg-hue: 15;
+  --bg-sat: 100%;
+  --bg-val: 20%; 
+        
   --link-color:blue;
   --link-color-hover:navy;
   --link-external-color:var(--text-accent);
@@ -292,17 +297,37 @@ source: https://discord.com/channels/686053708261228577/702656734631821413/11203
 /* ║ Custom CSS               ║ General                                                                                 ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-.tree-item-inner::after {
-  position: absolute;
+.tree-item-inner:after {
+   display: block;
+  position: relative;
   font-size: 10px;
-  bottom: 4px;
-  left: 25px;
-  opacity: 40%;
-}
-
-.tree-item .nav-folder:not(.is-collapsed) .tree-item-inner::after {
+  top: 0px;
+  left: 0px;
+  
   color: orange;
   opacity: 100;
+}
+
+
+.tree-item:is(.is-collapsed) .tree-item-inner::after {
+  opacity: 40%;
+  color: var(--nav-item-color);
+}
+
+body:not(.is-grabbing) .nav-file-title:hover .nav-folder-collapse-indicator,
+body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator,
+body:not(.is-grabbing) .nav-file-title:hover,
+body:not(.is-grabbing) .nav-folder-title:hover {
+  background:transparent;
+}
+
+.nav-file-title,
+.tree-item-self,
+.nav-folder-title,
+.is-collapsed .search-result-file-title,
+.tag-pane-tag {
+
+  color:var(--orange);
 }
 
 /* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
@@ -322,7 +347,7 @@ source: https://discord.com/channels/686053708261228577/702656734631821413/11203
   height: var(--folder-comments-height);
 }
 
-[data-path="00 - Index"] .tree-item-inner::after {
+[data-path="00 - Index"] .tree-item-inner:after {
   content: "Site Top Level";
 }
 
@@ -331,7 +356,7 @@ source: https://discord.com/channels/686053708261228577/702656734631821413/11203
   height: var(--folder-comments-height);
 }
 
-[data-path="10 - Dev"] .tree-item-inner::after {
+[data-path="10 - Dev"] .tree-item-inner:after {
   content: "Projects and other work";
 }
 
@@ -340,53 +365,32 @@ source: https://discord.com/channels/686053708261228577/702656734631821413/11203
   height: var(--folder-comments-height);
 }
 
-[data-path="20 - Blog"] .tree-item-inner::after {
+[data-path="20 - Blog"] .tree-item-inner:after {
   content: "My Ramblings";
 }
 
-/* Bookmarks */
-[data-path="4 Bookmarks"] .tree-item-inner {
+[data-path="30 - Tutorials"] .tree-item-inner {
   height: var(--folder-comments-height);
 }
 
-[data-path="4 Bookmarks"] .tree-item-inner::after {
-  content: "Saved web links";
+[data-path="30 - Tutorials"] .tree-item-inner:after {
+  content: "Your brain is a sponge";
 }
 
-/* Documents */
-[data-path="5 Documents"] .tree-item-inner {
+[data-path="80 - Miscellaneous"] .tree-item-inner {
   height: var(--folder-comments-height);
 }
 
-[data-path="5 Documents"] .tree-item-inner::after {
-  content: "Important files";
+[data-path="80 - Miscellaneous"] .tree-item-inner:after {
+  content: "The Drawer of Random Things";
 }
 
-/* Research */
-[data-path="6 Research"] .tree-item-inner {
+[data-path="90 - Resources"] .tree-item-inner {
   height: var(--folder-comments-height);
 }
 
-[data-path="6 Research"] .tree-item-inner::after {
-  content: "Knowledge Hub";
-}
-
-/* Resources */
-[data-path="8 Resources"] .tree-item-inner {
-  height: var(--folder-comments-height);
-}
-
-[data-path="8 Resources"] .tree-item-inner::after {
-  content: "Files & Resources";
-}
-
-/* Templates */
-[data-path="9 Templates"] .tree-item-inner {
-  height: var(--folder-comments-height);
-}
-
-[data-path="9 Templates"] .tree-item-inner::after {
-  content: "My Custom Tempaltes";
+[data-path="90 - Resources"] .tree-item-inner:after {
+  content: "Some useful things";
 }
 
 

@@ -25,26 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "90 - Resources/Obsidian Resources.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "da4b866a9db41116",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
+                "file": "90 - Resources/Programming Resources.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "90 - Resources/Programming Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "90 - Resources/Programming Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "90 - Resources/Programming Resources.md"
               }
             }
           },
@@ -166,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "90 - Resources/Programming Resources.md"
               }
             }
           },
@@ -213,34 +201,34 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "da4b866a9db41116",
+  "active": "95fd2cdf4fe959bc",
   "lastOpenFiles": [
-    "90 - Resources/Obsidian Resources.md",
-    "30 - Tutorials/Programming/Learn programming (C++).md",
-    "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
     "Home.md",
-    "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
-    "80 - Miscellaneous/Scratch/scratch.md",
-    "80 - Miscellaneous/Scratch/scratch3.md",
+    "90 - Resources/Obsidian Resources.md",
+    "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+    "30 - Tutorials/Programming/Learn programming (C++).md",
+    "90 - Resources/Programming Resources.md",
+    "90 - Resources/Game Dev Resources.md",
+    "20 - Blog/Random dice.md",
+    "30 - Tutorials/Programming/02 - Intermediate/Section 2 Exercises.md",
+    "30 - Tutorials/Programming/02 - Intermediate/The Compiler.md",
+    "30 - Tutorials/Programming/02 - Intermediate/Random Numbers.md",
+    "30 - Tutorials/Programming/01 - Foundation/File IO.md",
+    "30 - Tutorials/Programming/02 - Intermediate/Memory.md",
+    "30 - Tutorials/Programming/02 - Intermediate/Strings.md",
+    "30 - Tutorials/Programming/02 - Intermediate/2d Array.md",
+    "30 - Tutorials/Programming/02 - Intermediate/Command Line Arguments.md",
+    "30 - Tutorials/Programming/02 - Intermediate/Variables Casting and Conversion.md",
+    "30 - Tutorials/Programming/02 - Intermediate/pointers and references.md",
+    "30 - Tutorials/Programming/02 - Intermediate/Structs and Classes.md",
+    "30 - Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
+    "30 - Tutorials/Programming/01 - Foundation/Documentation.md",
+    "30 - Tutorials/Programming/01 - Foundation/Code Style.md",
     "30 - Tutorials/Programming/01 - Foundation/Input Output.md",
-    "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
-    "30 - Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
-    "30 - Tutorials/Programming/01 - Foundation/Functions.md",
-    "30 - Tutorials/Programming/01 - Foundation/Conditions.md",
-    "30 - Tutorials/Tutorials.md",
-    "30 - Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
-    "30 - Tutorials/Programming/01 - Foundation/Variables.md",
-    "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
-    "00 - Index/Welcome.md",
-    "00 - Index/TitleBar.md",
-    "00 - Index/Resume.md",
-    "20 - Blog/2023-12-30 - Stat Modifiers.md",
-    "80 - Miscellaneous/Scratch/scratch2.md",
-    "80 - Miscellaneous/Games/What I'm Playing.md",
-    "80 - Miscellaneous/Scratch/scratch4.md",
-    "10 - Dev/Other/Boids.md",
-    "Graphics Programming.md",
-    "Templates/Update Publish Files.md",
+    "30 - Tutorials/other/math.md",
+    "30 - Tutorials/other/marching cubes.md",
+    "30 - Tutorials/other/Interpolation.md",
+    "30 - Tutorials/other/ECS.md",
     "80 - Miscellaneous/Scratch",
     "30 - Tutorials/Programming/Overview.canvas",
     "80 - Miscellaneous/Images/MarchingSquareTest.png",

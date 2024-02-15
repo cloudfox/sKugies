@@ -9,7 +9,7 @@ publish: true
 [[Learn programming (C++)#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Iteration - Loops]]   #tutorial
 
 ---
-#### Writing to Console
+## Writing to Console
 
 We've already been using [printf](https://cplusplus.com/reference/cstdio/printf/) and cout a fair bit. 
 
@@ -30,7 +30,7 @@ cout << "There are " << potatoes << " and " << turnips <<"!\n";
 ```
 You can  achieve the same result with both. It is mostly just less work to use printf.
 
-##### Printf  Format Specifier
+### Printf  Format Specifier
 Used to insert variables into the string. The first format specifier used above is '%i' specifically it is saying to replace it with an integer(in this case potatoes). The second format specifier '%f' is to be replaced by a float(our second variable turnips).
 
 | flag | description |
@@ -69,7 +69,7 @@ printf("%c", 97) //prints 'a'
 >You can convert between lower/uppercase ascii characters by adding/subtracting 32
 
 printf returns the number of characters output.
-#### Reading Input
+## Reading Input
 Just as there is a cout for output there is a cin for input.
 ```cpp
 int potatoes;
@@ -103,7 +103,7 @@ It uses similar format specifiers and whitespace rules. https://cplusplus.com/re
 
 scanf returns the number of characters input
 
-#### StringStream
+### StringStream
 You can treat strings as streams for the use in both input and output.
 ```cpp
 std::string aString;

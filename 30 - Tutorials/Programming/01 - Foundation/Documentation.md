@@ -9,7 +9,7 @@ While this is technically part of code style it is important enough to talk abou
 
 Larger companies and studio might use something like doxygen which generates documentation from specifically formatted comments. While all the requirements can be a bit much for smaller projects I find that the Header and Function comments are particularly good.
 
-##### Header Comment Example
+### Header Comment Example
 ```cpp
 /*!****************************************************
  \file   filename.cpp
@@ -27,7 +27,7 @@ Larger companies and studio might use something like doxygen which generates doc
 The header comment also will often include the copywrite information and other metadata as needed.
 It will sometimes include a list of all functions in the file.
 
-##### Function Comment Example
+### Function Comment Example
 ```cpp
 /*!*****************************************************
 \brief
@@ -51,7 +51,7 @@ Description of the function
 void function( ... ) { ... }
 ```
 
-#### Commenting your code
+### Commenting your code
 Comments are there to help!
 
 - Good comments are clear and concise. You don't need to comment on everything.

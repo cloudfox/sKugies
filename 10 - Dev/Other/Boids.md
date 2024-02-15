@@ -2,6 +2,11 @@
 publish: true
 ---
 
+
+> [!warning]  Been a bit busy so I'll return to finish this post when things calm down a bit
+
+
+
 Boids are a relatively easy behavior to implement.
 The first time I implemented boids was back in 2019 in C when my programming knowledge was still at a more apprentice level. 
 
