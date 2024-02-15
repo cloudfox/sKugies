@@ -73,6 +73,7 @@ body {
   --link-external-color-hover:orange;
   --link-unresolved-color: hsl(345, 100%, 36%);
   --link-unresolved-hover-accent: hsl(345, 100%, 36%);
+    --color-accent-1: yellow;
 }
 
 .theme-dark{
@@ -94,8 +95,8 @@ body {
   background: radial-gradient(ellipse at bottom, #f2f2f2 0%, #fff2e6 50%);
         
                 
-  --bg-hue: 15;
-  --bg-sat: 100%;
+  --bg-hue: 190;
+  --bg-sat: 40%;
   --bg-val: 20%; 
         
   --link-color:blue;
@@ -104,10 +105,11 @@ body {
   --link-external-color-hover:var(--text-accent-hover);
   --link-unresolved-color: hsl(345, 100%, 36%);
   --link-unresolved-hover-accent: hsl(345, 100%, 36%);
+    --color-accent: red;
 }
 
 .theme-light{
-  --color-base-00:hsl(var(--bg-hue)calc(var(--bg-sat)*1.5)99%);
+  --color-base-00:hsl(var(--bg-hue)calc(var(--bg-sat))90%);
   --color-base-10:hsl(var(--bg-hue)var(--bg-sat)97%);
   --color-base-20:hsl(var(--bg-hue)var(--bg-sat)95%);
   --color-base-25:hsl(var(--bg-hue)var(--bg-sat)92%);

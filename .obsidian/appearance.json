@@ -1,7 +1,7 @@
 {
-  "accentColor": "",
+  "accentColor": "#8ba0c1",
   "cssTheme": "",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "enabledCssSnippets": [
     "Particles",
     "ColorScheme",

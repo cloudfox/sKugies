@@ -31,7 +31,10 @@ body {
   --h6-size: 1.1em;
   --p-spacing: 0.8rem;
   --heading-spacing: calc(var(--p-spacing) * 2);
+
 }
+
+
 
 
 :root hr {
@@ -73,6 +76,8 @@ body {
   --link-external-color-hover:orange;
   --link-unresolved-color: hsl(345, 100%, 36%);
   --link-unresolved-hover-accent: hsl(345, 100%, 36%);
+  --custom-nav-item-color-active: yellow;
+  --color-accent-1: yellow;
 }
 
 .theme-dark{
@@ -91,11 +96,11 @@ body {
 }
 
 .theme-light {
-  background: radial-gradient(ellipse at bottom, #f2f2f2 0%, #fff2e6 50%);
+  background: var(--color-base-00);
         
         
-  --bg-hue: 15;
-  --bg-sat: 100%;
+  --bg-hue: 190;
+  --bg-sat: 40%;
   --bg-val: 20%; 
         
   --link-color:blue;
@@ -104,10 +109,11 @@ body {
   --link-external-color-hover:var(--text-accent-hover);
   --link-unresolved-color: hsl(345, 100%, 36%);
   --link-unresolved-hover-accent: hsl(345, 100%, 36%);
+  --color-accent: blue;
 }
 
 .theme-light{
-  --color-base-00:hsl(var(--bg-hue)calc(var(--bg-sat)*1.5)99%);
+  --color-base-00:hsl(var(--bg-hue)calc(var(--bg-sat))90%);
   --color-base-10:hsl(var(--bg-hue)var(--bg-sat)97%);
   --color-base-20:hsl(var(--bg-hue)var(--bg-sat)95%);
   --color-base-25:hsl(var(--bg-hue)var(--bg-sat)92%);
@@ -126,6 +132,9 @@ body {
   background-color: var(--color-base-20);
   border-right: none !important;
 }
+
+
+
 
 
 .markdown-rendered :is(h1, h2, h3, h4, h5, h6) {
@@ -1509,5 +1518,3 @@ source: https://discord.com/channels/686053708261228577/702656734631821413/11203
   content: "Some useful things";
 }
 
-
-    

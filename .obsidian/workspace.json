@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "90 - Resources/Programming Resources.md",
-                "mode": "source",
+                "file": "90 - Resources/Game Dev Resources.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "90 - Resources/Programming Resources.md",
+                "file": "90 - Resources/Game Dev Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "90 - Resources/Programming Resources.md",
+                "file": "90 - Resources/Game Dev Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "90 - Resources/Programming Resources.md"
+                "file": "90 - Resources/Game Dev Resources.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "90 - Resources/Programming Resources.md"
+                "file": "90 - Resources/Game Dev Resources.md"
               }
             }
           },
@@ -203,12 +203,13 @@
   },
   "active": "95fd2cdf4fe959bc",
   "lastOpenFiles": [
-    "Home.md",
+    "90 - Resources/Computer Setup.md",
+    "90 - Resources/Game Dev Resources.md",
     "90 - Resources/Obsidian Resources.md",
+    "90 - Resources/Programming Resources.md",
+    "Home.md",
     "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
     "30 - Tutorials/Programming/Learn programming (C++).md",
-    "90 - Resources/Programming Resources.md",
-    "90 - Resources/Game Dev Resources.md",
     "20 - Blog/Random dice.md",
     "30 - Tutorials/Programming/02 - Intermediate/Section 2 Exercises.md",
     "30 - Tutorials/Programming/02 - Intermediate/The Compiler.md",
@@ -228,7 +229,6 @@
     "30 - Tutorials/other/math.md",
     "30 - Tutorials/other/marching cubes.md",
     "30 - Tutorials/other/Interpolation.md",
-    "30 - Tutorials/other/ECS.md",
     "80 - Miscellaneous/Scratch",
     "30 - Tutorials/Programming/Overview.canvas",
     "80 - Miscellaneous/Images/MarchingSquareTest.png",
