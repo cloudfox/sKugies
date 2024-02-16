@@ -7,11 +7,12 @@
     "ColorScheme",
     "coloredHeaders",
     "MCL Multi Column",
-    "style",
+    "cards",
+    "Clean Embed",
+    "CustomCallouts",
     "dashboard",
     "MCL",
-    "Clean Embed",
-    "CustomCallouts"
+    "style"
   ],
   "baseFontSize": 14,
   "translucency": false,
