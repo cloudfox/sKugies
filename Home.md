@@ -34,7 +34,6 @@ cssclasses:
   - [[EFO]]
   - [[Vect]]
   - [[Solaria]]
-  - KiloNova
   
 - ⚙️MiniProjects
     - [[Marching Squares]]
@@ -49,8 +48,8 @@ cssclasses:
     - 
 
 - 📦Resources
-    - [[Programming]]
-    - [[Game Dev]]
+    - [Programming](Programming%20Resources.md)
+    - [Game Dev](Game%20Dev%20Resources.md)
 # 🪁Misc
 - Cooking
   - [[Cookies]]

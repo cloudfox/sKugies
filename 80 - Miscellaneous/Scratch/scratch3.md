@@ -3,6 +3,7 @@ cssclasses:
   - clean-embeds
   - wide-page
   - dashboard
+publish: false
 ---
 
 <div id='stars'></div>

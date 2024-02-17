@@ -1,6 +1,5 @@
 ---
 cssclasses:
 ---
-![[SolariaMenu.png|1000]]
 
-
+![](https://www.youtube.com/watch?v=wM3hRoneoVg)
