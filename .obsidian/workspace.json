@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch3.md",
+                "file": "90 - Resources/Programming Resources.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch3.md",
+                "file": "90 - Resources/Programming Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch3.md",
+                "file": "90 - Resources/Programming Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch3.md"
+                "file": "90 - Resources/Programming Resources.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch3.md"
+                "file": "90 - Resources/Programming Resources.md"
               }
             }
           },
@@ -190,6 +190,7 @@
   },
   "active": "6e48a325eabaae32",
   "lastOpenFiles": [
+    "80 - Miscellaneous/Scratch/scratch3.md",
     "80 - Miscellaneous/Scratch/scratch2.md",
     "80 - Miscellaneous/Scratch/scratch.md",
     "80 - Miscellaneous/Pictures/Animals/BunBun01.jpg",
@@ -201,7 +202,6 @@
     "90 - Resources/Programming Resources.md",
     "Programming.md",
     "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
-    "80 - Miscellaneous/Scratch/scratch3.md",
     "80 - Miscellaneous/Pets.md",
     "90 - Resources/Computer Setup.md",
     "90 - Resources/Obsidian Resources.md",
