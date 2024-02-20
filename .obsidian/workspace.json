@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
-                "mode": "preview",
+                "file": "80 - Miscellaneous/Code Snippets/Snippets.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
+                "file": "80 - Miscellaneous/Code Snippets/Snippets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
+                "file": "80 - Miscellaneous/Code Snippets/Snippets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "80 - Miscellaneous/Code Snippets/WavetableSynth.md"
+                "file": "80 - Miscellaneous/Code Snippets/Snippets.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "80 - Miscellaneous/Code Snippets/WavetableSynth.md"
+                "file": "80 - Miscellaneous/Code Snippets/Snippets.md"
               }
             }
           },
@@ -190,9 +190,9 @@
   },
   "active": "6e48a325eabaae32",
   "lastOpenFiles": [
-    "80 - Miscellaneous/Code Snippets/Snippets.md",
-    "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
     "00 - Index/Resume.md",
+    "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
+    "80 - Miscellaneous/Code Snippets/Snippets.md",
     "80 - Miscellaneous/Code Snippets/GameEngine snippets.md",
     "00 - Index/Blog.md",
     "00 - Index/TitleBar.md",
