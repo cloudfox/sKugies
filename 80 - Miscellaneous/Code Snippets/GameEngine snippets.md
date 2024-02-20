@@ -865,3 +865,294 @@ namespace Engine
 <div id='stars3'></div>
 <div id='stars4'></div>
 
+
+
+## ECS.cpp
+```cpp
+//-----------------------------------------------------------------------------
+//
+// File Name:	EntityComponentSystem.cpp
+// Author(s):	Steven Kugies
+// Team:		Apricat Games
+// Course:		Game200
+//
+// Copyright © 2020 DigiPen (USA) Corporation.
+//
+// Partially based on this: https://austinmorlan.com/posts/entity_component_system/
+//-----------------------------------------------------------------------------
+
+//TODO: add safety checks to spawning objects
+
+//------------------------------------------------------------------------------
+// Includes:
+//------------------------------------------------------------------------------
+#include "EntityComponentSystem.h"
+#include "GameObject.h"
+#include "BaseComponentSystem.h"
+
+#include "SpriteSystem.h"
+#include "CollisionSystem.h"
+#include "PhysicsSystem.h"
+#include "BehaviorSystems.h"
+#include "SpineAnimationSystem.h"
+#include "AnimationSystem.h"
+#include "ParticleSystem.h"
+#include "SoundSystem.h"
+#include "TOSystem.h"
+#include "RenderSystem.h"
+
+#include "../Core/Trace.h"
+
+namespace ECS
+{
+  //----------------------------------------------------------------------------
+  // Private Function Declarations:
+  //----------------------------------------------------------------------------
+
+
+  //----------------------------------------------------------------------------
+  // Public Functions:
+  //----------------------------------------------------------------------------
+
+
+  /*!****************************************************************************
+  \brief
+      CONSTRUCTOR of the Entity Component System
+  ******************************************************************************/
+  ECSystem::ECSystem()
+  {
+    Systems_.push_back(new RenderSystem);
+    //Systems_.push_back(new SpriteSystem);
+    Systems_.push_back(new BehaviorSystem);
+    Systems_.push_back(new PhysicsSystem);
+    Systems_.push_back(new CollisionSystem);
+    Systems_.push_back(new AnimationSystem);
+    //Systems_.push_back(new SpineAnimationSystem);
+    Systems_.push_back(new ParticleSystem);
+    Systems_.push_back(new SoundSystem);
+    Systems_.push_back(new TOSystem);
+    //Systems_.push_back(new RenderSystem);
+  }
+
+  /*!****************************************************************************
+  \brief
+      DESTRUCTOR of the Entity Component System
+  ******************************************************************************/
+  ECSystem::~ECSystem()
+  {
+    while (!Systems_.empty())
+    {
+      delete Systems_.back();
+      Systems_.pop_back();
+    }
+  }
+
+
+  /*!****************************************************************************
+  \brief
+      Updates the various systems
+  \param dt
+      time since last update
+  ******************************************************************************/
+  void ECSystem::Update(float dt)
+  {
+    ComponentManager_.Update(dt);
+
+    for (BaseComponentSystem* sys : Systems_)
+    {
+      if (*sys->Enabled())
+        sys->Update(dt);
+    }
+    CleanupGameObjects();
+  }
+
+  /*!****************************************************************************
+  \brief
+      calls the various systems to draw to the screen
+  \return
+      percentage of time until the next Update call.
+      Used to interpolate position between current and previous frame.
+  ******************************************************************************/
+  void ECSystem::Draw(float dt)
+  {
+    for (BaseComponentSystem* sys : Systems_)
+    {
+      if (sys->Enabled())
+        sys->Draw(dt);
+    }
+  }
+
+  /*!****************************************************************************
+  \brief
+      Calls GameObject manager to spawn a new GameObject
+  \return
+      id of the new gameobject
+  ******************************************************************************/
+  ObjectId ECSystem::CreateGameObject()
+  {
+    return GameObjectManager_.Spawn();
+  }
+
+  /*!****************************************************************************
+  \brief
+      Calls GameObject manager to destroy gameobject at end of Update
+  \param id
+      id of object to be destroyed
+  ******************************************************************************/
+  void ECSystem::DestroyGameObject(ObjectId id)
+  {
+    GameObjectManager_.DestroyGameObject(id);
+  }
+
+  void ECSystem::ClearGameObjects()
+  {
+    GameObjectManager_.ClearGameObjects();
+  }
+
+  /*!****************************************************************************
+  \brief
+      Calls Component Manager to spawn a new component
+      Then calls GameObject Manager to set it has that type of component.
+  \param id
+      id of object to be destroyed
+  \param type
+      the type of component to spawn
+  \return
+      pointer to the created component
+  ******************************************************************************/
+  Component* ECSystem::AddComponent(ObjectId id, cType type)
+  {
+    if (GameObjectManager_.GetGameObject(id)->Has(type))
+    {
+      traceMessage("------");
+      traceMessage(Engine::Application::instance().ECS_->GameObjectManager_.GetGameObject(id)->GetName());
+      traceMessage("Object already has type");
+      traceMessageEnum(type);
+      traceMessage("------");
+      return nullptr;
+    }
+
+    Component* C = ComponentManager_.Spawn(id, type);
+    GameObjectManager_.SetComponentBit(id, int(type), true);
+    RegisterComponent(id);
+    return C;
+  }
+
+
+  /*!****************************************************************************
+  \brief
+      Calls ComponentManager to despawn a component from gameobject
+  \param id
+      id of the gameobject
+  \param type
+      the type of component to despawn
+  ******************************************************************************/
+  void ECSystem::RemoveComponent(ObjectId id, cType type)
+  {
+    ComponentManager_.Despawn(id, type);
+    Engine::Application::instance().ECS_->GameObjectManager_.SetComponentBit(id, int(type), false);
+  }
+
+  /*!****************************************************************************
+  \brief
+      Calls ComponentManager to despawn all component from gameobject
+  \param id
+      id of the gameobject
+  ******************************************************************************/
+  void ECSystem::RemoveComponent(ObjectId id)
+  {
+    ComponentManager_.Despawn(id);
+    Engine::Application::instance().ECS_->GameObjectManager_.ClearComponentBits(id);
+  }
+
+  /*!****************************************************************************
+  \brief
+      Gets the objects name from the gameobject manager
+  \param id
+      id of the gameobject
+  ******************************************************************************/
+  const std::string& ECSystem::GetObjectName(ObjectId id)
+  {
+    return GameObjectManager_.GetGameObject(id)->GetName();
+  }
+
+
+  //----------------------------------------------------------------------------
+  // Private Functions:
+  //----------------------------------------------------------------------------
+
+
+  /*!****************************************************************************
+  \brief
+      despawns all active objects and components
+  ******************************************************************************/
+  void ECSystem::CleanupGameObjects()
+  {
+    const unsigned int size = (unsigned int)GameObjectManager_.GameObjects_.size();
+    for (unsigned int i = 1; i < size; i++)
+    {
+      GameObject& obj = GameObjectManager_.GameObjects_[i];
+      if (obj.isDestroyed())
+      {
+        GameObjectManager_.DeSpawn(obj.GetId());
+        ComponentManager_.Despawn(obj.GetId());
+        DeRegisterComponent(obj.GetId());
+      }
+    }
+  }
+
+  /*!****************************************************************************
+  \brief
+      Checks all systems to see if objects components should be registered with it
+  \param id
+      id of the gameobject
+  ******************************************************************************/
+  void ECSystem::RegisterComponent(ObjectId id)
+  {
+    for (BaseComponentSystem* sys : Systems_)
+    {
+      sys->OnEntityCreated(id);
+    }
+  }
+
+
+  void ECSystem::CleanupPauseObjects()
+  {
+    GameObjectManager_.ClearPauseObjects();
+  }
+
+  void ECSystem::CleanupActiveObjects()
+  {
+      GameObjectManager_.ClearActiveObjects();
+  }
+
+  /*!****************************************************************************
+  \brief
+      Removes the Object from all systems
+  \param id
+      id of the gameobject
+  ******************************************************************************/
+  void ECSystem::DeRegisterComponent(ObjectId id)
+  {
+    //TODO: might not be needed but might need to add a check inside systems for when a component is only removed
+    for (BaseComponentSystem* sys : Systems_)
+    {
+      sys->OnEntityDestroyed(id);
+    }
+  }
+
+  /*!****************************************************************************
+  \brief
+      Gets the list of Systems
+  \return
+      reference to the vector of systems
+  ******************************************************************************/
+  std::vector<BaseComponentSystem*>& ECSystem::GetSystem()
+  {
+    return Systems_;
+  }
+}
+
+```
+
+

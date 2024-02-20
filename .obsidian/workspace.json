@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30 - Tutorials/Programming/Learn programming (C++).md",
+                "file": "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
                 "mode": "preview",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30 - Tutorials/Programming/Learn programming (C++).md",
+                "file": "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30 - Tutorials/Programming/Learn programming (C++).md",
+                "file": "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30 - Tutorials/Programming/Learn programming (C++).md"
+                "file": "80 - Miscellaneous/Code Snippets/WavetableSynth.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "30 - Tutorials/Programming/Learn programming (C++).md"
+                "file": "80 - Miscellaneous/Code Snippets/WavetableSynth.md"
               }
             }
           },
@@ -188,12 +188,18 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "46414157bd8b2e22",
+  "active": "6e48a325eabaae32",
   "lastOpenFiles": [
-    "00 - Index/Contact.md",
-    "Home.md",
+    "80 - Miscellaneous/Code Snippets/Snippets.md",
+    "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
+    "00 - Index/Resume.md",
+    "80 - Miscellaneous/Code Snippets/GameEngine snippets.md",
+    "00 - Index/Blog.md",
+    "00 - Index/TitleBar.md",
     "00 - Index/Welcome.md",
+    "Home.md",
     "30 - Tutorials/Programming/Learn programming (C++).md",
+    "00 - Index/Contact.md",
     "30 - Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
     "30 - Tutorials/Programming/01 - Foundation/Documentation.md",
     "30 - Tutorials/Programming/01 - Foundation/Code Style.md",
@@ -210,12 +216,6 @@
     "80 - Miscellaneous/Recipes/Protein Bars.md",
     "80 - Miscellaneous/Recipes/Cookies.md",
     "90 - Resources/Game Dev Resources.md",
-    "90 - Resources/Programming Resources.md",
-    "10 - Dev/Other/Boids.md",
-    "10 - Dev/Other/Marching Squares.md",
-    "10 - Dev/Student/Solaria.md",
-    "10 - Dev/Student/Vect.md",
-    "10 - Dev/Student/EFO.md",
     "publish.js",
     "publish - Copy.css",
     "80 - Miscellaneous/Code Snippets",
