@@ -4,6 +4,11 @@ tags:
 publish: true
 cssclasses: []
 ---
+
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='stars4'></div>
+
 [[Learn programming (C++)#Section 1 Foundation|Learn Programming Section 1]]  
 
 ---

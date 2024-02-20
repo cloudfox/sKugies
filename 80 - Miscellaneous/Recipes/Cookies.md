@@ -1,6 +1,11 @@
 ---
 publish: true
 ---
+
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='stars4'></div>
+
 Tools: 
 cookie scoop
 https://www.pamperedchef.com/shop/Kitchen+Tools/Baking+Accessories/Medium+Scoop/2540

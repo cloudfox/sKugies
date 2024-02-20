@@ -1,6 +1,10 @@
 
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='stars4'></div>
 
-```c++
+
+```cpp
 
 float distance_to_closest_wall(int row, int col)
 {

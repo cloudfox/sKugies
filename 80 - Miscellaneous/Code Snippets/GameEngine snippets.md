@@ -2,6 +2,10 @@
 publish: true
 ---
 
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='stars4'></div>
+
 From Sophomore game project. That year we had to make a game engine from scratch.
 
 
@@ -11,7 +15,7 @@ From Sophomore game project. That year we had to make a game engine from scratch
 
 
 ## GameobjectManager.cpp
-```c++
+```cpp
 //-----------------------------------------------------------------------------
 //
 // File Name:	GameObjectManager.cpp
@@ -305,7 +309,7 @@ namespace ECS
 
 ## CollisionSat.cpp
 
-```
+```cpp
 //-----------------------------------------------------------------------------
 //
 // File Name:	CollisionSAT.cpp
@@ -487,9 +491,13 @@ bool ECS::CollisionSystem::CollisionSAT(Collider& col1, Collider& col2, glm::vec
 ```
 
 
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='stars4'></div>
+
 ## Application.h
 
-```c++
+```cpp
 //-----------------------------------------------------------------------------
 //
 // File Name:	Application.cpp
@@ -853,4 +861,7 @@ namespace Engine
 
 
 
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='stars4'></div>
 

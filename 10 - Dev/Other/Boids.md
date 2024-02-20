@@ -2,6 +2,10 @@
 publish: true
 ---
 
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='stars4'></div>
+
 
 > [!warning]  Been a bit busy so I'll return to finish this post when things calm down a bit
 

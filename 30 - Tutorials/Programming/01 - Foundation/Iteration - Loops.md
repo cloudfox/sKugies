@@ -1,6 +1,11 @@
 ---
 publish: true
 ---
+
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='stars4'></div>
+
 [[Learn programming (C++)#Section 1 Foundation]]  previous: [[Scope Lifetime]]   #tutorial
 
 ---

@@ -1,4 +1,8 @@
 
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='stars4'></div>
+
 
 https://github.com/notpresident35/awesome-learn-gamedev?tab=readme-ov-file#technical-art
 ## Programming

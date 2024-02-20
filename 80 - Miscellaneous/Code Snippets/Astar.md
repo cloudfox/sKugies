@@ -1,10 +1,16 @@
 ---
 publish: true
 ---
+
+<div id='stars2'></div>
+<div id='stars3'></div>
+<div id='stars4'></div>
+
+
 Pathfinding code from an AI class I took a few years ago.  There are definitely many improvements that I could have made but there is never enough time to test everything. Still it was enough to get me the 2nd fastest time in the class.
 
 
-```c++
+```cpp
 const float sqrtTwo = 1.41;
 float (AStarPather::* heuresticFunction)(Position) = NULL;
 
