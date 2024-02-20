@@ -10,15 +10,9 @@ cssclasses:
 
 ---
 
-> [!multi-column|medium]
->> [!Welcome] 
->  ![[Welcome]]
->  
->>[!New Files]+ New Files
-> ![[Recent New Files]] 
-> 
-> >[!Recent Changes]+ Recent Changes
-> ![[Recently Edited]] 
+
+> [!Welcome] 
+> ![[Welcome]]
 
 ---
 
@@ -57,11 +51,17 @@ cssclasses:
 
 - [[Pets]]
 
-
 ---
 
-
-### Todo
+> [!multi-column|medium]
+>>[!New Files]+ New Files
+> ![[Recent New Files]] 
+> 
+>>[!Recent Changes]+ Recent Changes
+> ![[Recently Edited]] 
+> [!NOTE]
+>
+>>[!note]+ TODO 
 <input type="checkbox">Finish BOIDS post 
 <input type="checkbox">Review Programming Tutorial for consistent formatting
 <input type="checkbox">Rework blog page formatting/organization
@@ -73,7 +73,15 @@ cssclasses:
 
 ---
 
+
+
+---
+
 <div id='stars1'></div>
+
+
+
+
 
 \
 \
