@@ -6,7 +6,7 @@ publish: true
 <div id='stars3'></div>
 <div id='stars4'></div>
 
-From Sophomore game project. That year we had to make a game engine from scratch.
+From Sophomore game project where we had to make a game engine from scratch.
 
 
 1. [[GameEngine snippets#GameobjectManager.cpp]]

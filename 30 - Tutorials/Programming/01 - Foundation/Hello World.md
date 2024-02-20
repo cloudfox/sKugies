@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 ```
 
 If we run it we get the output:
-``` 
+``` output
 Hello World!
 ```
 
@@ -32,7 +32,7 @@ Hello World!
 
 Here is a general format of a main file
 
-```
+```file header
 file header - technically optional but good practice
 
 includes
@@ -84,7 +84,7 @@ The two parts we are using from iostream being cout and endl.E
 #### Comments
 
 To the right of \#include \<iostream\>  you will see a comment
-```
+```output
 //std::cout, std::endl   
 ```
 Comments are there to help explain or add context to a program. They are optional but good practice. Comments next to includes are typically there to tell you what parts of the file are being used. 
@@ -141,7 +141,7 @@ std::cout << "4" << "5" << "6";
 std::cout << "7" << "8" << "9";
 ```
 Output:
-```
+```output
 123456789
 ```
 vs.
@@ -151,7 +151,7 @@ std::cout << "4" << "5" << "6" << std::endl;
 std::cout << "7" << "8" << "9" << std::endl;
 ```
 Output:
-``` 
+```output
 123
 456
 789

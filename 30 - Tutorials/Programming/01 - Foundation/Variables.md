@@ -160,11 +160,11 @@ These are more values you hardcode that go into a variable or other expression.
 Most of our literal integers are written in base 10 but you can use octal(base 8) or hexadecimal (base 16) if needed.
 
 Octal literals are written with a leading 0
-```
+```note
 01 00 01 142 145 145 160
 ```
 Hex literals are written with a leading 0x
-```
+```note
 0x68 0x65 0x6C 0x6C 0x6F
 ```
 
@@ -191,8 +191,10 @@ color blue; // creates a variable of type color(int)
 
 Not technically a variable but can be used in a similar way.
 \#define is a macro that replaces the text with whatever follows it during compilation(prepocessor phase) of the program.
+	
 
 	scope of the define is every function after the #define
+
 
 ``` cpp
 #define PI 3.14159f
