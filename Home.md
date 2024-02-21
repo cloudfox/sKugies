@@ -39,11 +39,11 @@ cssclasses:
     - [[Learn programming (C++)]]
     - [[Graphics Programming]]
     - [[AI]]
-    - 
 
 - 📦Resources
     - [Programming](Programming%20Resources.md)
     - [Game Dev](Game%20Dev%20Resources.md)
+    - [[Obsidian]]
 # 🪁Misc
 - Cooking
   - [[Cookies]]

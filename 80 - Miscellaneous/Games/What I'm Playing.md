@@ -6,13 +6,13 @@ publish: true
 <div id='stars3'></div>
 
 
-**Currently**
-Pal World
+## Currently
+Helldivers 2
 guild wars 1
-Lethal Company
 
 
-**Probably will play:**
+
+## Probably will play
 ARMORED CORE™ VI FIRES OF RUBICON
 LoZ: Tears of the Kingdom
 S.T.A.L.K.E.R. 2  Heart of Chornobyl
@@ -21,9 +21,11 @@ The Invincible
 The Alters
 Judas
 Bloodlines 2
+Warhammer 40,000: Rogue Trader
 
-
-**Previously**
+## Previously
+Lethal Company
+Pal World
 Cyberpunk 2077
 Dark and Darker
 Starfield
