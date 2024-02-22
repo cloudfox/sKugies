@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "30 - Tutorials/Programming/Learn programming (C++).md",
                 "mode": "preview",
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "30 - Tutorials/Programming/Learn programming (C++).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "30 - Tutorials/Programming/Learn programming (C++).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "30 - Tutorials/Programming/Learn programming (C++).md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "30 - Tutorials/Programming/Learn programming (C++).md"
               }
             }
           },
@@ -190,8 +190,8 @@
   },
   "active": "6e48a325eabaae32",
   "lastOpenFiles": [
-    "00 - Index/Welcome.md",
     "Home.md",
+    "00 - Index/Welcome.md",
     "80 - Miscellaneous/Games/What I'm Playing.md",
     "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
