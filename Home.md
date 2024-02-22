@@ -2,6 +2,8 @@
 cssclasses:
   - dashboard
   - embed-strict
+tags:
+  - comment
 ---
 
 <div id='stars2'></div>
