@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30 - Tutorials/Programming/Learn programming (C++).md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": true
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30 - Tutorials/Programming/Learn programming (C++).md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30 - Tutorials/Programming/Learn programming (C++).md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30 - Tutorials/Programming/Learn programming (C++).md"
+                "file": "Home.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "30 - Tutorials/Programming/Learn programming (C++).md"
+                "file": "Home.md"
               }
             }
           },
@@ -190,19 +190,19 @@
   },
   "active": "6e48a325eabaae32",
   "lastOpenFiles": [
+    "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
+    "00 - Index/TitleBar.md",
+    "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
+    "30 - Tutorials/Programming/Learn programming (C++).md",
     "Home.md",
     "00 - Index/Welcome.md",
     "80 - Miscellaneous/Games/What I'm Playing.md",
-    "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
-    "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
-    "30 - Tutorials/Programming/Learn programming (C++).md",
     "80 - Miscellaneous/Code Snippets/GameEngine snippets.md",
     "30 - Tutorials/Programming/01 - Foundation/Variables.md",
     "80 - Miscellaneous/Code Snippets/Snippets.md",
     "00 - Index/Resume.md",
     "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
     "00 - Index/Blog.md",
-    "00 - Index/TitleBar.md",
     "00 - Index/Contact.md",
     "30 - Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
     "30 - Tutorials/Programming/01 - Foundation/Documentation.md",

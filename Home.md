@@ -2,8 +2,7 @@
 cssclasses:
   - dashboard
   - embed-strict
-tags:
-  - comment
+tags: []
 ---
 
 <div id='stars2'></div>
@@ -82,6 +81,21 @@ tags:
 <div id='stars1'></div>
 
 
+<script src="https://giscus.app/client.js"
+        data-repo="cloudfox/sKugies"
+        data-repo-id="R_kgDOKNHr1Q"
+        data-category-id="DIC_kwDOKNHr1c4Cdci9"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
 
 
 

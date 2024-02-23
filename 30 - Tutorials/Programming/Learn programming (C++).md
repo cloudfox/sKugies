@@ -143,20 +143,3 @@ Other Resources in [[Programming Resources]]
 
 ---
 
-<script src="https://giscus.app/client.js"
-        data-repo="cloudfox/sKugies"
-        data-repo-id="R_kgDOKNHr1Q"
-        data-category="Q&A"
-        data-category-id="DIC_kwDOKNHr1c4Cdci-"
-        data-mapping="pathname"
-        data-strict="1"
-        data-reactions-enabled="1"
-        data-emit-metadata="1"
-        data-input-position="top"
-        data-theme="dark"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
-

@@ -56,7 +56,7 @@ Other files will follow the same general format excluding the main function(as y
 ---
 #### Includes
 Looking at the first line we have
-```c++
+```cpp
 #include <iostream> 
 ```
 
@@ -65,7 +65,7 @@ Looking at the first line we have
 This lets us use that files functions and classes in our own files. You do want to try and limit your includes to only what you are using to keep the final size of your program down.
 
 There are two types of includes
-```c++
+```cpp
 #include <file>  //mainly used to include standard or system files
 #include "file" //mainly used to include user created files
 ```
@@ -121,7 +121,7 @@ Common uses for these two variables are to set the default settings such as to b
 
 ##### Function Body
 Looking inside the body of out main function:
-```Cpp
+```cpp
 std::cout << "Hello, World!" << std::endl;
 ```
 Here we are using cout to display the text "Hello, World!" onto the screen.
