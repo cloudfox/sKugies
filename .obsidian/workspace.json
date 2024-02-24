@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "b20fe983485a490d",
+        "id": "6d0598bee3945903",
         "type": "tabs",
         "children": [
           {
-            "id": "6e48a325eabaae32",
+            "id": "e47a55c5319e62e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
-                "source": true
+                "file": "80 - Miscellaneous/Scratch/codeblocks.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "80 - Miscellaneous/Scratch/codeblocks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "80 - Miscellaneous/Scratch/codeblocks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "80 - Miscellaneous/Scratch/codeblocks.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "80 - Miscellaneous/Scratch/codeblocks.md"
               }
             }
           },
@@ -188,19 +188,25 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "6e48a325eabaae32",
+  "active": "e47a55c5319e62e8",
   "lastOpenFiles": [
+    "80 - Miscellaneous/Code Snippets/Astar.md",
+    "80 - Miscellaneous/Scratch/codeblocks.md",
+    "00 - Index/Resume.md",
+    "80 - Miscellaneous/Code Snippets/GameEngine snippets.md",
+    "00 - Index/lu199124y4ozj.tmp",
+    "10 - Dev/Student/Solaria.md",
+    "10 - Dev/Student/EFO.md",
+    "Home.md",
+    "00 - Index/Resume.docx",
     "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "00 - Index/TitleBar.md",
     "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
     "30 - Tutorials/Programming/Learn programming (C++).md",
-    "Home.md",
     "00 - Index/Welcome.md",
     "80 - Miscellaneous/Games/What I'm Playing.md",
-    "80 - Miscellaneous/Code Snippets/GameEngine snippets.md",
     "30 - Tutorials/Programming/01 - Foundation/Variables.md",
     "80 - Miscellaneous/Code Snippets/Snippets.md",
-    "00 - Index/Resume.md",
     "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
     "00 - Index/Blog.md",
     "00 - Index/Contact.md",
@@ -212,10 +218,6 @@
     "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
     "30 - Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
     "30 - Tutorials/Programming/01 - Foundation/Conditions.md",
-    "30 - Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
-    "80 - Miscellaneous/Pets.md",
-    "80 - Miscellaneous/Recipes/Protein Bars.md",
-    "80 - Miscellaneous/Recipes/Cookies.md",
     "publish.js",
     "publish - Copy.css",
     "80 - Miscellaneous/Code Snippets",
@@ -232,8 +234,6 @@
     "20 - Blog/2024",
     "10 - Dev/Other",
     "general",
-    "Tutorials/Programming/Patterns/01. RNG/05. fake coin flip distribution",
-    "Tutorials/Programming/Patterns/01. RNG/04. tiny procedural content",
     "Tutorials/Programming/Overview.canvas",
     "Stuff/Pictures/Animals/bunbun03.jpg",
     "Stuff/Pictures/Animals/bunbun02.jpg",

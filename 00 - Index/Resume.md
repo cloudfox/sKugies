@@ -9,6 +9,10 @@ publish:
 <div id='stars3'></div>
 
 
+[Resume GoogleDrive](https://docs.google.com/document/d/1lV-ajOMpi5SQdgusdfP5BxxSZrF4mzYpDs4BVnCAMIk/edit?usp=sharing)
+
+---
+
 ## Education
 Digipen Institute of Technology 2019-2024 
 BSCS in Realtime Interactive Simulation 
@@ -30,24 +34,24 @@ Artificial Intelligence (AI)
 Nintendo Switch Native Development
 
 ---
-## [[Projects]]
-**KiloNova**
+## Projects
+[[KiloNova]]
 Role: AI programmer
 Misc: 3d platformer: Designed and implemented AI Director to better coordinate enemies
 
-**Pogglewash** 
+[[Pogglewash ]]
 Role: AI programmer
 Misc: 3d platformer. Primarily focused on designing and implementing the behaviors of the friendly creature. Created and managed bug tracking form and spreadsheet.
 
-**Escape From Outerworld** 
+[[EFO| Escape From Outerworlds]]
 Role: Engine, Physics, and Tools Programmer
 Misc: 2d physics based puzzle platformer. Multidisciplinary project. Researched and designed the core engine functionality as an ECS. Made simple tools using IMGUI for level creation and debugging.
 
-**VECT** 
+[[VECT ]]
 Role: Particle and physics programmer
 Misc: 2d top down dungeon crawler.
 
-**Solaris** 
+[[Solaria]]
 Role: AI Programmer, Level Designer
 Misc: SCHMUP based in space. Made a simple level design tool in excel. A dozen simple enemy behaviors including BOIDS
 
