@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "10 - Dev/Student/Pogglewash.md",
                 "mode": "preview",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "10 - Dev/Student/Pogglewash.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "10 - Dev/Student/Pogglewash.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "10 - Dev/Student/Pogglewash.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "10 - Dev/Student/Pogglewash.md"
               }
             }
           },
@@ -190,6 +190,8 @@
   },
   "active": "e47a55c5319e62e8",
   "lastOpenFiles": [
+    "80 - Miscellaneous/Images/poggle_finalist.webp",
+    "Home.md",
     "80 - Miscellaneous/Code Snippets/Astar.md",
     "80 - Miscellaneous/Scratch/codeblocks.md",
     "00 - Index/Resume.md",
@@ -197,7 +199,6 @@
     "00 - Index/lu199124y4ozj.tmp",
     "10 - Dev/Student/Solaria.md",
     "10 - Dev/Student/EFO.md",
-    "Home.md",
     "00 - Index/Resume.docx",
     "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "00 - Index/TitleBar.md",
@@ -217,7 +218,6 @@
     "30 - Tutorials/Programming/01 - Foundation/Input Output.md",
     "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
     "30 - Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
-    "30 - Tutorials/Programming/01 - Foundation/Conditions.md",
     "publish.js",
     "publish - Copy.css",
     "80 - Miscellaneous/Code Snippets",
