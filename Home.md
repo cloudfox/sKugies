@@ -60,7 +60,6 @@ tags: []
 > 
 >>[!Recent Changes]+ Recent Changes
 > ![[Recently Edited]] 
-> [!NOTE]
 >
 >>[!note]+ TODO 
 <input type="checkbox">Finish BOIDS post 

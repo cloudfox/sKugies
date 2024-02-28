@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Dev/Student/Pogglewash.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10 - Dev/Student/Pogglewash.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10 - Dev/Student/Pogglewash.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10 - Dev/Student/Pogglewash.md"
+                "file": "Home.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "10 - Dev/Student/Pogglewash.md"
+                "file": "Home.md"
               }
             }
           },
@@ -190,6 +190,7 @@
   },
   "active": "e47a55c5319e62e8",
   "lastOpenFiles": [
+    "10 - Dev/Student/Pogglewash.md",
     "80 - Miscellaneous/Images/poggle_finalist.webp",
     "Home.md",
     "80 - Miscellaneous/Code Snippets/Astar.md",
@@ -236,7 +237,6 @@
     "general",
     "Tutorials/Programming/Overview.canvas",
     "Stuff/Pictures/Animals/bunbun03.jpg",
-    "Stuff/Pictures/Animals/bunbun02.jpg",
-    "Stuff/Pictures/Animals/Duke02.jpg"
+    "Stuff/Pictures/Animals/bunbun02.jpg"
   ]
 }
