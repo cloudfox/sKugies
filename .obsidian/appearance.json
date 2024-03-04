@@ -15,7 +15,8 @@
   ],
   "baseFontSize": 18,
   "translucency": false,
-  "textFontFamily": "",
-  "interfaceFontFamily": "",
-  "nativeMenus": false
+  "textFontFamily": "Roboto",
+  "interfaceFontFamily": "Roboto",
+  "nativeMenus": false,
+  "monospaceFontFamily": "Roboto"
 }
