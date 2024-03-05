@@ -71,6 +71,31 @@ Comments are there to help!
 - It can be good to include a links to references or source that the code came from.
 
 
+
+
+## Other
+- Be consistent; find a style guide you like
+
+- Write the comments first
+	1. Start with a description of the function
+	2. write out the individual steps
+	3. then fill in the code under each step
+	
+- Names should be be both descriptive and precise
+	- avoid uncommon acronyms or 1-2 letter names
+		a variable named p is ambiguous; it could be position, potatoes, power, etc.
+		It's more okay for iterators but for consistency try to stick to the more common names like x,y,z,i,j,k,n
+	- shorthand names can be okay but you should still have the full name it represents in the function header
+
+- Avoid repetition
+	comments should add context to code not repeat it
+
+- explain why
+	some functions can done in a less intuitive or normally inefficient way to accommodate a limitation or other requirement
+	documenting these can later help describe why it was done and avoid confusion
+
+- Have the style guide readily accessible
+
 # 
 ----
 next: [[Section 1 Exercises]] 
