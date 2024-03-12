@@ -96,9 +96,8 @@ body {
 }
 
 .theme-light {
-  background: radial-gradient(ellipse at bottom, #f2f2f2 0%, #fff2e6 50%);
-        
-                
+
+
   --bg-hue: 190;
   --bg-sat: 40%;
   --bg-val: 20%; 
@@ -127,6 +126,10 @@ body {
   --color-base-85s:hsl(var(--bg-hue)calc(var(--bg-sat)*2)24%);
   --color-base-100:hsl(var(--bg-hue)var(--bg-sat)13%)
 }
+
+
+
+
 
 :not(pre) > code[class*="language-"], pre[class*="language-"] {
     
