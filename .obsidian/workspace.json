@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch2.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch2.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch2.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch2.md"
+                "file": "Home.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch2.md"
+                "file": "Home.md"
               }
             }
           },
@@ -190,6 +190,7 @@
   },
   "active": "e47a55c5319e62e8",
   "lastOpenFiles": [
+    "80 - Miscellaneous/Scratch/scratch2.md",
     "80 - Miscellaneous/Scratch/scratch3.md",
     "80 - Miscellaneous/Scratch/scratch.md",
     "Home.md",
@@ -220,7 +221,6 @@
     "30 - Tutorials/Programming/01 - Foundation/Documentation.md",
     "30 - Tutorials/Programming/01 - Foundation/Code Style.md",
     "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
-    "30 - Tutorials/Programming/01 - Foundation/Input Output.md",
     "publish.js",
     "publish - Copy.css",
     "80 - Miscellaneous/Code Snippets",
