@@ -38,6 +38,7 @@ body {
 
 
 :root hr {
+  tab-size: 4;
     border-image-slice: 1;
     border-image-source: linear-gradient(
         to right,

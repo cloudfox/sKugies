@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Hello World.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Hello World.md"
               }
             }
           },
@@ -190,10 +190,12 @@
   },
   "active": "e47a55c5319e62e8",
   "lastOpenFiles": [
+    "30 - Tutorials/Programming/Learn programming (C++).md",
+    "30 - Tutorials/Programming/01 - Foundation/Variables.md",
+    "Home.md",
     "80 - Miscellaneous/Scratch/scratch2.md",
     "80 - Miscellaneous/Scratch/scratch3.md",
     "80 - Miscellaneous/Scratch/scratch.md",
-    "Home.md",
     "80 - Miscellaneous/Images/webb.png",
     "80 - Miscellaneous/Images/checkerboard-cross.webp",
     "10 - Dev/Student/Pogglewash.md",
@@ -209,10 +211,8 @@
     "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "00 - Index/TitleBar.md",
     "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
-    "30 - Tutorials/Programming/Learn programming (C++).md",
     "00 - Index/Welcome.md",
     "80 - Miscellaneous/Games/What I'm Playing.md",
-    "30 - Tutorials/Programming/01 - Foundation/Variables.md",
     "80 - Miscellaneous/Code Snippets/Snippets.md",
     "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
     "00 - Index/Blog.md",
