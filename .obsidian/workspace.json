@@ -14,19 +14,8 @@
               "type": "graph",
               "state": {}
             }
-          },
-          {
-            "id": "d0f7249200c789f5",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.5.11"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -189,7 +178,7 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "d0f7249200c789f5",
+  "active": "e47a55c5319e62e8",
   "lastOpenFiles": [
     "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "30 - Tutorials/Programming/Learn programming (C++).md",
