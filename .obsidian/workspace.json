@@ -11,8 +11,12 @@
             "id": "e47a55c5319e62e8",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "preview",
+                "source": false
+              }
             }
           }
         ]
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Home.md"
+              }
             }
           },
           {
@@ -132,7 +140,9 @@
             "type": "leaf",
             "state": {
               "type": "file-properties",
-              "state": {}
+              "state": {
+                "file": "Home.md"
+              }
             }
           },
           {
@@ -179,6 +189,9 @@
   },
   "active": "e47a55c5319e62e8",
   "lastOpenFiles": [
+    "00 - Index/Welcome.md",
+    "00 - Index/Blog.md",
+    "20 - Blog/2023-12-30 - Stat Modifiers.md",
     "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "30 - Tutorials/Programming/Learn programming (C++).md",
     "30 - Tutorials/Programming/01 - Foundation/Variables.md",
@@ -200,16 +213,13 @@
     "00 - Index/Resume.docx",
     "00 - Index/TitleBar.md",
     "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
-    "00 - Index/Welcome.md",
     "80 - Miscellaneous/Games/What I'm Playing.md",
     "80 - Miscellaneous/Code Snippets/Snippets.md",
     "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
-    "00 - Index/Blog.md",
     "00 - Index/Contact.md",
     "30 - Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
     "30 - Tutorials/Programming/01 - Foundation/Documentation.md",
     "30 - Tutorials/Programming/01 - Foundation/Code Style.md",
-    "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
     "publish.js",
     "publish - Copy.css",
     "80 - Miscellaneous/Code Snippets",
