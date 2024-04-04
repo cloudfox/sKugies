@@ -12,9 +12,12 @@ tags: []
 
 ---
 
-
-> [!Welcome] 
+> [!multi-column|medium]
+> >[!Welcome]
 > ![[Welcome]]
+> 
+>>[!Kilonova Trailer]
+>![[Trailer_400_Final.mp4]]
 
 ---
 

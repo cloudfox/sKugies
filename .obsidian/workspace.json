@@ -4,6 +4,24 @@
     "type": "split",
     "children": [
       {
+        "id": "e10ecb8eaf4d7654",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "673f3c42ba2e7cce",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "80 - Miscellaneous/Scratch/scratch3.md",
+                "mode": "source",
+                "source": true
+              }
+            }
+          }
+        ]
+      },
+      {
         "id": "6d0598bee3945903",
         "type": "tabs",
         "children": [
@@ -13,8 +31,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "90 - Resources/Programming Resources.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -86,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "90 - Resources/Programming Resources.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "90 - Resources/Programming Resources.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "90 - Resources/Programming Resources.md"
+                "file": "Home.md"
               }
             }
           },
@@ -141,7 +159,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "90 - Resources/Programming Resources.md"
+                "file": "Home.md"
               }
             }
           },
@@ -189,18 +207,21 @@
   },
   "active": "e47a55c5319e62e8",
   "lastOpenFiles": [
-    "30 - Tutorials/Programming/Learn programming (C++).md",
-    "90 - Resources/Programming Resources.md",
-    "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
+    "80 - Miscellaneous/Scratch/scratch3.md",
     "Home.md",
+    "90 - Resources/Programming Resources.md",
+    "80 - Miscellaneous/Scratch/scratch.md",
+    "80 - Miscellaneous/Scratch/scratch2.md",
+    "80 - Miscellaneous/Videos/Trailer_400_Final.mp4",
+    "80 - Miscellaneous/Videos/Trailer_400_Final.mp4.crdownload",
+    "80 - Miscellaneous/Videos",
+    "30 - Tutorials/Programming/Learn programming (C++).md",
+    "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
     "00 - Index/Welcome.md",
     "00 - Index/Blog.md",
     "20 - Blog/2023-12-30 - Stat Modifiers.md",
     "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "30 - Tutorials/Programming/01 - Foundation/Variables.md",
-    "80 - Miscellaneous/Scratch/scratch2.md",
-    "80 - Miscellaneous/Scratch/scratch3.md",
-    "80 - Miscellaneous/Scratch/scratch.md",
     "80 - Miscellaneous/Images/webb.png",
     "80 - Miscellaneous/Images/checkerboard-cross.webp",
     "10 - Dev/Student/Pogglewash.md",
@@ -219,7 +240,6 @@
     "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
     "00 - Index/Contact.md",
     "30 - Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
-    "30 - Tutorials/Programming/01 - Foundation/Documentation.md",
     "publish.js",
     "publish - Copy.css",
     "80 - Miscellaneous/Code Snippets",
@@ -233,9 +253,6 @@
     "80 - Miscellaneous/Pictures/other",
     "80 - Miscellaneous/Images/VectMenu.png",
     "80 - Miscellaneous/Images/SolariaMenu.png",
-    "20 - Blog/2024",
-    "10 - Dev/Other",
-    "general",
     "Tutorials/Programming/Overview.canvas"
   ]
 }
