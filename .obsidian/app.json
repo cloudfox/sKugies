@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "tabSize": 2,
+  "showLineNumber": true,
+  "readableLineLength": false,
+  "newFileLocation": "current",
+  "showUnsupportedFiles": true,
+  "attachmentFolderPath": "./",
+  "showInlineTitle": true
+}
