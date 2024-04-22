@@ -31,8 +31,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "10 - Dev/Projects.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "10 - Dev/Projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "10 - Dev/Projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "10 - Dev/Projects.md"
               }
             }
           },
@@ -159,7 +159,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "10 - Dev/Projects.md"
               }
             }
           },
@@ -207,8 +207,12 @@
   },
   "active": "e47a55c5319e62e8",
   "lastOpenFiles": [
-    "80 - Miscellaneous/Scratch/scratch3.md",
+    "10 - Dev/Student/EFO.md",
+    "10 - Dev/Projects.md",
+    "10 - Dev/Student/Pogglewash.md",
+    "10 - Dev/Student/Solaria.md",
     "Home.md",
+    "80 - Miscellaneous/Scratch/scratch3.md",
     "90 - Resources/Programming Resources.md",
     "80 - Miscellaneous/Scratch/scratch.md",
     "80 - Miscellaneous/Scratch/scratch2.md",
@@ -224,15 +228,12 @@
     "30 - Tutorials/Programming/01 - Foundation/Variables.md",
     "80 - Miscellaneous/Images/webb.png",
     "80 - Miscellaneous/Images/checkerboard-cross.webp",
-    "10 - Dev/Student/Pogglewash.md",
     "80 - Miscellaneous/Images/poggle_finalist.webp",
     "80 - Miscellaneous/Code Snippets/Astar.md",
     "80 - Miscellaneous/Scratch/codeblocks.md",
     "00 - Index/Resume.md",
     "80 - Miscellaneous/Code Snippets/GameEngine snippets.md",
     "00 - Index/lu199124y4ozj.tmp",
-    "10 - Dev/Student/Solaria.md",
-    "10 - Dev/Student/EFO.md",
     "00 - Index/Resume.docx",
     "00 - Index/TitleBar.md",
     "80 - Miscellaneous/Games/What I'm Playing.md",
