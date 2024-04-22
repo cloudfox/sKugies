@@ -4,24 +4,6 @@
     "type": "split",
     "children": [
       {
-        "id": "e10ecb8eaf4d7654",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "673f3c42ba2e7cce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch3.md",
-                "mode": "source",
-                "source": true
-              }
-            }
-          }
-        ]
-      },
-      {
         "id": "6d0598bee3945903",
         "type": "tabs",
         "children": [
@@ -31,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Dev/Projects.md",
+                "file": "20 - Blog/2024/2024-04-22  Jumping.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10 - Dev/Projects.md",
+                "file": "20 - Blog/2024/2024-04-22  Jumping.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10 - Dev/Projects.md",
+                "file": "20 - Blog/2024/2024-04-22  Jumping.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10 - Dev/Projects.md"
+                "file": "20 - Blog/2024/2024-04-22  Jumping.md"
               }
             }
           },
@@ -159,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "10 - Dev/Projects.md"
+                "file": "20 - Blog/2024/2024-04-22  Jumping.md"
               }
             }
           },
@@ -207,8 +189,12 @@
   },
   "active": "e47a55c5319e62e8",
   "lastOpenFiles": [
-    "10 - Dev/Student/EFO.md",
+    "20 - Blog/2024/Untitled.md",
+    "20 - Blog/2024/2024-04-22  Jumping.md",
+    "00 - Index/Blog.md",
+    "20 - Blog/2024",
     "10 - Dev/Projects.md",
+    "10 - Dev/Student/EFO.md",
     "10 - Dev/Student/Pogglewash.md",
     "10 - Dev/Student/Solaria.md",
     "Home.md",
@@ -222,7 +208,6 @@
     "30 - Tutorials/Programming/Learn programming (C++).md",
     "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
     "00 - Index/Welcome.md",
-    "00 - Index/Blog.md",
     "20 - Blog/2023-12-30 - Stat Modifiers.md",
     "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "30 - Tutorials/Programming/01 - Foundation/Variables.md",
@@ -239,8 +224,6 @@
     "80 - Miscellaneous/Games/What I'm Playing.md",
     "80 - Miscellaneous/Code Snippets/Snippets.md",
     "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
-    "00 - Index/Contact.md",
-    "30 - Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
     "publish.js",
     "publish - Copy.css",
     "80 - Miscellaneous/Code Snippets",
@@ -251,7 +234,6 @@
     "90 - Resources/Interview Prep/big-o-cheat-sheet-poster.png",
     "90 - Resources/Interview Prep/BIGO.png",
     "90 - Resources/Interview Prep/Container Flowchart.png",
-    "80 - Miscellaneous/Pictures/other",
     "80 - Miscellaneous/Images/VectMenu.png",
     "80 - Miscellaneous/Images/SolariaMenu.png",
     "Tutorials/Programming/Overview.canvas"
