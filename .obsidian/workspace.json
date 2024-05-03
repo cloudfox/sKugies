@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "fe6c3ba507252303",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "90 - Resources/Game Dev Resources.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "20 - Blog/2024/2024-04-22  Jumping.md",
+                "file": "90 - Resources/Game Dev Resources.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "20 - Blog/2024/2024-04-22  Jumping.md",
+                "file": "90 - Resources/Game Dev Resources.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "20 - Blog/2024/2024-04-22  Jumping.md"
+                "file": "90 - Resources/Game Dev Resources.md"
               }
             }
           },
@@ -141,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "20 - Blog/2024/2024-04-22  Jumping.md"
+                "file": "90 - Resources/Game Dev Resources.md"
               }
             }
           },
@@ -187,10 +200,11 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "e47a55c5319e62e8",
+  "active": "fe6c3ba507252303",
   "lastOpenFiles": [
-    "20 - Blog/2024/Untitled.md",
+    "90 - Resources/Programming Resources.md",
     "20 - Blog/2024/2024-04-22  Jumping.md",
+    "20 - Blog/2024/Untitled.md",
     "00 - Index/Blog.md",
     "20 - Blog/2024",
     "10 - Dev/Projects.md",
@@ -199,7 +213,6 @@
     "10 - Dev/Student/Solaria.md",
     "Home.md",
     "80 - Miscellaneous/Scratch/scratch3.md",
-    "90 - Resources/Programming Resources.md",
     "80 - Miscellaneous/Scratch/scratch.md",
     "80 - Miscellaneous/Scratch/scratch2.md",
     "80 - Miscellaneous/Videos/Trailer_400_Final.mp4",
