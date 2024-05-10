@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "90 - Resources/Game Dev Resources.md",
+                "file": "20 - Blog/2024/It's okay for gameplay to not be balanced.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "90 - Resources/Game Dev Resources.md",
+                "file": "20 - Blog/2024/It's okay for gameplay to not be balanced.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "90 - Resources/Game Dev Resources.md",
+                "file": "20 - Blog/2024/It's okay for gameplay to not be balanced.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "90 - Resources/Game Dev Resources.md"
+                "file": "20 - Blog/2024/It's okay for gameplay to not be balanced.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "90 - Resources/Game Dev Resources.md"
+                "file": "20 - Blog/2024/It's okay for gameplay to not be balanced.md"
               }
             }
           },
@@ -202,9 +202,11 @@
   },
   "active": "fe6c3ba507252303",
   "lastOpenFiles": [
+    "20 - Blog/2024/Untitled 1.md",
+    "90 - Resources/Game Dev Resources.md",
     "90 - Resources/Programming Resources.md",
     "20 - Blog/2024/2024-04-22  Jumping.md",
-    "20 - Blog/2024/Untitled.md",
+    "20 - Blog/2024/It's okay for gameplay to not be balanced.md",
     "00 - Index/Blog.md",
     "20 - Blog/2024",
     "10 - Dev/Projects.md",
@@ -235,8 +237,6 @@
     "00 - Index/Resume.docx",
     "00 - Index/TitleBar.md",
     "80 - Miscellaneous/Games/What I'm Playing.md",
-    "80 - Miscellaneous/Code Snippets/Snippets.md",
-    "80 - Miscellaneous/Code Snippets/WavetableSynth.md",
     "publish.js",
     "publish - Copy.css",
     "80 - Miscellaneous/Code Snippets",
