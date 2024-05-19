@@ -25,8 +25,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10 - Dev/Projects.md",
-                "mode": "source",
+                "file": "Home.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "10 - Dev/Projects.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "10 - Dev/Projects.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "10 - Dev/Projects.md"
+                "file": "Home.md"
               }
             }
           },
@@ -154,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "10 - Dev/Projects.md"
+                "file": "Home.md"
               }
             }
           },
@@ -202,8 +202,11 @@
   },
   "active": "fe6c3ba507252303",
   "lastOpenFiles": [
-    "10 - Dev/Student/Solaria.md",
+    "00 - Index/codesandbox (1).svg",
+    "00 - Index/Welcome.md",
+    "Home.md",
     "10 - Dev/Projects.md",
+    "10 - Dev/Student/Solaria.md",
     "20 - Blog/2024/It's okay for gameplay to not be balanced.md",
     "20 - Blog/2024/Untitled 1.md",
     "90 - Resources/Game Dev Resources.md",
@@ -213,7 +216,6 @@
     "20 - Blog/2024",
     "10 - Dev/Student/EFO.md",
     "10 - Dev/Student/Pogglewash.md",
-    "Home.md",
     "80 - Miscellaneous/Scratch/scratch3.md",
     "80 - Miscellaneous/Scratch/scratch.md",
     "80 - Miscellaneous/Scratch/scratch2.md",
@@ -222,7 +224,6 @@
     "80 - Miscellaneous/Videos",
     "30 - Tutorials/Programming/Learn programming (C++).md",
     "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
-    "00 - Index/Welcome.md",
     "20 - Blog/2023-12-30 - Stat Modifiers.md",
     "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "30 - Tutorials/Programming/01 - Foundation/Variables.md",
@@ -236,7 +237,6 @@
     "00 - Index/lu199124y4ozj.tmp",
     "00 - Index/Resume.docx",
     "00 - Index/TitleBar.md",
-    "80 - Miscellaneous/Games/What I'm Playing.md",
     "publish.js",
     "publish - Copy.css",
     "80 - Miscellaneous/Code Snippets",
