@@ -16,7 +16,7 @@ https://sheetmusic-free.com/
 
 
 
-## Video Game Arrangements
+## Video Game
 https://www.popmusicplus.com/browse/by/genre/Video%20Game
 https://gamesheetmusic.com/
 https://www.vgleadsheets.com/
