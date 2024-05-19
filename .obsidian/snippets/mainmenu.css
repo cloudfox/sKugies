@@ -1,0 +1,109 @@
+
+
+.theme-dark {
+  --label-color: white;
+  --index-color: rgb(255,255,255,0.25);
+}
+
+.theme-light {
+  --label-color: black;
+  --index-color: rgb(0,55,55,0.55);
+}
+
+
+body > .mainmenu > .mainmenu {  
+  opacity: 1;
+  transform: none;
+  transition: opacity 600ms ease-in;  
+}
+
+
+.mainmenu {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  inset: 0px;
+  justify-content: center;
+  position: absolute;
+  z-index: 4;  
+}
+
+.menulink{
+    align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-family: "R", sans-serif;
+  gap: 10px;
+  opacity: 1;
+  position: relative;
+  text-decoration: none;
+  transition: opacity 250ms ease-in;
+  width: 200px;
+   --link-decoration: none;
+  --link-decoration-hover: none;
+}
+
+
+ .menulink:hover > .label {
+  transform: translate3d(6%, 0px, 0px);
+}
+
+ .menulink:hover > .index {
+  transform: translate3d(0%, 0px, 0px);
+}
+
+ .menulink:hover > .anchor:before {
+  opacity: 0.15;
+  transform: translate3d(0%, 0%, 0px) scale(1.5);
+}
+
+ .menulink:hover > .anchor:after {
+  border-color: red;
+  transform: translate3d(-50%, -50%, 0px) scale(1.1);
+}
+
+ .menulink > .anchor {
+  background-color: white;
+  height: clamp(4px, 0.4vmax, 12px);
+  left: 0px;
+  position: absolute;
+  top: 50%;
+  transform: translate3d(-500%, -100%, 0px) rotate(45deg);
+  transition: transform 250ms;
+  width: clamp(4px, 0.4vmax, 12px);
+}
+
+ .menulink > .anchor:before,
+ .menulink > .anchor:after {
+  content: "";
+  height: 300%;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0px);
+  transition: transform 250ms, border-color 250ms;
+  width: 300%;
+}
+
+ .menulink > .anchor:before {
+  border: 1px solid red;  
+  opacity: 0;
+}
+
+ .menulink > .anchor:after {
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+ .menulink > .index {
+  color: var(--index-color);
+  font-size: 0.8em;
+  transition: transform 250ms;
+}
+
+ .menulink > .label {
+  color: var(--label-color);
+  font-size: 2em;
+  transition: transform 250ms;
+}
+

@@ -1,0 +1,122 @@
+
+/*
+author: Corellan
+source: https://discord.com/channels/686053708261228577/702656734631821413/1120300422565994516
+*/
+
+/* ╔════════════════════════════════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Obsidian Add-On                                                                                                    ║ */
+/* ╠══════════════════════════╦═════════════════════════════════════════════════════════════════════════════════════════╣ */
+/* ║ Name:                    ║ CreArts Folder-Description                                                              ║ */
+/* ║ Version:                 ║ 1.0.0                                                                                   ║ */
+/* ║ Author:                  ║ Corellan                                                                                ║ */
+/* ║ License:                 ║ MIT                                                                                     ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Vars                                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+:root {
+  --folder-comments-height: 30px;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ General                                                                                 ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.tree-item-inner:after {
+   display: block;
+  position: relative;
+  font-size: 10px;
+  top: 0px;
+  left: 0px;
+  
+  color: orange;
+  opacity: 100;
+}
+
+
+.tree-item:is(.is-collapsed) .tree-item-inner::after {
+  opacity: 60%;
+  color: teal;
+}
+
+body:not(.is-grabbing) .nav-file-title:hover .nav-folder-collapse-indicator,
+body:not(.is-grabbing) .nav-folder-title:hover .nav-folder-collapse-indicator,
+body:not(.is-grabbing) .nav-file-title:hover,
+body:not(.is-grabbing) .nav-folder-title:hover {
+  background:transparent;
+}
+
+.nav-file-title,
+.tree-item-self,
+.nav-folder-title,
+.is-collapsed .search-result-file-title,
+.tag-pane-tag {
+
+  color:var(--orange);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Plugins                                                                                    ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.nav-folder-title[data-count]::after {
+  align-self: start;
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Custom CSS               ║ Pseudo                                                                                  ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+
+[data-path="00-Index"] .tree-item-inner {
+  height: var(--folder-comments-height);
+}
+
+[data-path="00-Index"] .tree-item-inner:after {
+  content: "Site Top Level";
+}
+
+
+[data-path="10-Dev"] .tree-item-inner {
+  height: var(--folder-comments-height);
+}
+
+[data-path="10-Dev"] .tree-item-inner:after {
+  content: "Projects and other work";
+}
+
+
+[data-path="20-Blog"] .tree-item-inner {
+  height: var(--folder-comments-height);
+}
+
+[data-path="20-Blog"] .tree-item-inner:after {
+  content: "My Ramblings";
+}
+
+[data-path="30-Tutorials"] .tree-item-inner {
+  height: var(--folder-comments-height);
+}
+
+[data-path="30-Tutorials"] .tree-item-inner:after {
+  content: "Better than School";
+}
+
+[data-path="80-Miscellaneous"] .tree-item-inner {
+  height: var(--folder-comments-height);
+}
+
+[data-path="80-Miscellaneous"] .tree-item-inner:after {
+  content: "The Drawer of Random Things";
+}
+
+[data-path="90-Resources"] .tree-item-inner {
+  height: var(--folder-comments-height);
+}
+
+[data-path="90-Resources"] .tree-item-inner:after {
+  content: "Some useful things";
+}

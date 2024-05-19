@@ -1,0 +1,135 @@
+/*
+author: kepano
+source: https://gist.github.com/kepano/cde61ac7db1afd3f173a16157c627f93
+*/
+
+body {
+  
+  --callout-border-opacity: 1;
+  --callout-radius: 0;
+  --callout-padding: 0;
+  --callout-title-padding: var(--size-4-4) var(--size-4-4);
+  --callout-content-padding: var(--size-4-2) var(--size-4-4);
+}
+.callout-title-inner {
+  color: var(--text-normal);
+}
+.callout-content {
+  background-color: var(--background-primary-alt);
+}
+
+/* Strict embeds (naked) */
+.embed-strict {
+  --embed-background: transparent;
+  --embed-border-left: 0;
+  --embed-padding: 0; }
+  .embed-strict .markdown-embed-content {
+    --folding-offset: 0px; }
+  .embed-strict .internal-embed .markdown-embed,
+  .embed-strict .markdown-preview-view .markdown-embed, .embed-strict.markdown-preview-view .markdown-embed {
+    padding: 0; }
+  .embed-strict .markdown-embed-title,
+  .embed-strict .internal-embed .markdown-embed .markdown-embed-title {
+    display: none; }
+  .embed-strict .internal-embed:not([src*="#^"]) .markdown-embed-link {
+    width: 24px;
+    opacity: 0; }
+
+.embed-underline .internal-embed:not(.pdf-embed) {
+  text-decoration-line: underline;
+  text-decoration-style: var(--embed-decoration-style);
+  text-decoration-color: var(--embed-decoration-color); }
+
+.embed-hide-title .markdown-embed-title {
+  display: none; }
+
+.embed-strict.contextual-typography .internal-embed .markdown-preview-view .markdown-preview-sizer > div,
+.contextual-typography .embed-strict .internal-embed .markdown-preview-view .markdown-preview-sizer > div {
+  margin: 0;
+  width: 100%; }
+
+.markdown-embed .markdown-preview-view .markdown-preview-sizer {
+  padding-bottom: 0 !important; }
+
+.markdown-preview-view.markdown-embed .markdown-preview-sizer,
+.markdown-preview-view.is-readable-line-width .markdown-embed .markdown-preview-sizer {
+  max-width: 100%;
+  width: 100%;
+  min-height: 0 !important;
+  padding-bottom: 0 !important; }
+
+.markdown-embed .markdown-preview-section div:last-child p,
+.markdown-embed .markdown-preview-section div:last-child ul {
+  margin-block-end: 2px; }
+
+.markdown-preview-view .markdown-embed {
+  margin-top: var(--nested-padding);
+  padding: 0 calc(var(--nested-padding) / 2) 0 var(--nested-padding); }
+
+.internal-embed:not([src*="#^"]) .markdown-embed-link {
+  right: 0;
+  width: 100%; }
+
+.markdown-embed-link,
+.file-embed-link {
+  top: 0px;
+  right: 0;
+  text-align: right;
+  justify-content: flex-end; }
+
+.file-embed-link svg,
+.markdown-embed-link svg {
+  width: 16px;
+  height: 16px; }
+
+.markdown-embed .file-embed-link,
+.markdown-embed .markdown-embed-link {
+  opacity: 0.6;
+  transition: opacity 0.1s linear; }
+
+.markdown-embed .file-embed-link:hover,
+.markdown-embed .markdown-embed-link:hover {
+  opacity: 1; }
+  .markdown-embed .file-embed-link:hover:hover,
+  .markdown-embed .markdown-embed-link:hover:hover {
+    background-color: transparent;
+    --icon-color: var(--text-accent); }
+
+.markdown-embed-link:hover, .file-embed-link:hover {
+  color: var(--text-muted); }
+
+.markdown-embed .markdown-preview-view {
+  padding: 0; }
+
+.internal-embed .markdown-embed {
+  border: 0;
+  border-left: 1px solid var(--quote-opening-modifier);
+  border-radius: 0; }
+  
+  
+.callout{
+ border: 1px solid var(--callout-content-background);
+   --callout-title-padding: 8px;
+  border-radius: 3px;
+  --callout-radius: 3px;
+  --callout-border-opacity:.25;
+  --callout-border-width:1.5px;
+}
+
+
+
+
+
+.callout:hover {
+--callout-border-opacity:1;
+--callout-border-width:15px;
+--callout-radius: 10px;
+--callout-content-background: teal;
+}
+
+
+
+
+
+
+

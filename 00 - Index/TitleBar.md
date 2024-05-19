@@ -1,4 +1,4 @@
 ---
 publish:
 ---
- [[Home]] - [[Blog]] -   [[Tutorials]]  -  [[Projects]]  -  [[Resume]] 
+ [[Dashboard]] - [[Blog]] -   [[Tutorials]]  -  [[Projects]]  -  [[Resume]] 

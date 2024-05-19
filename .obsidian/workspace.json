@@ -20,19 +20,31 @@
             }
           },
           {
-            "id": "fe6c3ba507252303",
+            "id": "129fc72ebfac0835",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch.md",
+                "file": "00 - Index/Dashboard.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "55febf0cfbe29560",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00 - Index/Dashboard.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -82,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 236.5
+    "width": 224.5
   },
   "right": {
     "id": "e4e063c85c4b0ab3",
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch.md",
+                "file": "00 - Index/Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch.md",
+                "file": "00 - Index/Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch.md"
+                "file": "00 - Index/Dashboard.md"
               }
             }
           },
@@ -154,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/scratch.md"
+                "file": "00 - Index/Dashboard.md"
               }
             }
           },
@@ -185,7 +197,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 308.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -200,29 +213,36 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "fe6c3ba507252303",
+  "active": "55febf0cfbe29560",
   "lastOpenFiles": [
+    "Home.md",
+    "00 - Index/Dashboard.md",
+    "20 - Blog/2024/2024-04-22  Jumping.md",
+    "10 - Dev/Projects.md",
+    "00 - Index/Welcome.md",
+    "00 - Index/style - Copy.css",
+    "00 - Index/sticky-notes.css",
+    "00 - Index/solar.css",
+    "00 - Index/menu.css",
+    "00 - Index/MCL.css",
+    "00 - Index/image-background.css",
+    "00 - Index/dashboard.css",
+    "00 - Index/CustomCallouts.css",
+    "00 - Index/codeblock.css",
+    "00 - Index/Clean Embed.css",
     "80 - Miscellaneous/Scratch/scratch2.md",
     "80 - Miscellaneous/Scratch/scratch.md",
     "80 - Miscellaneous/Scratch/scratch3.md",
     "00 - Index/Blog.md",
     "00 - Index/TitleBar.md",
-    "Home.md",
     "00 - Index/codesandbox (1).svg",
-    "00 - Index/Welcome.md",
-    "10 - Dev/Projects.md",
     "10 - Dev/Student/Solaria.md",
     "20 - Blog/2024/It's okay for gameplay to not be balanced.md",
     "20 - Blog/2024/Untitled 1.md",
     "90 - Resources/Game Dev Resources.md",
     "90 - Resources/Programming Resources.md",
-    "20 - Blog/2024/2024-04-22  Jumping.md",
-    "20 - Blog/2024",
     "10 - Dev/Student/EFO.md",
     "10 - Dev/Student/Pogglewash.md",
-    "80 - Miscellaneous/Videos/Trailer_400_Final.mp4",
-    "80 - Miscellaneous/Videos/Trailer_400_Final.mp4.crdownload",
-    "80 - Miscellaneous/Videos",
     "30 - Tutorials/Programming/Learn programming (C++).md",
     "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
     "20 - Blog/2023-12-30 - Stat Modifiers.md",
@@ -234,14 +254,7 @@
     "80 - Miscellaneous/Code Snippets/Astar.md",
     "80 - Miscellaneous/Scratch/codeblocks.md",
     "00 - Index/Resume.md",
-    "80 - Miscellaneous/Code Snippets/GameEngine snippets.md",
-    "00 - Index/lu199124y4ozj.tmp",
-    "00 - Index/Resume.docx",
-    "publish.js",
-    "publish - Copy.css",
-    "80 - Miscellaneous/Code Snippets",
     "80 - Miscellaneous/Pictures/Animals/BunBun01.jpg",
-    "80 - Miscellaneous/Scratch",
     "30 - Tutorials/Programming/Overview.canvas",
     "80 - Miscellaneous/Images/MarchingSquareTest.png",
     "90 - Resources/Interview Prep/big-o-cheat-sheet-poster.png",

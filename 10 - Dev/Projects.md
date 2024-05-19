@@ -9,9 +9,6 @@ cssclasses:
 <div id='stars3'></div>
 
 
-![[TitleBar]] 
-
-
 ---
 
 <h2> Student Projects</h2>

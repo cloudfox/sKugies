@@ -1,5 +1,5 @@
 {
-  "accentColor": "#8ba0c1",
+  "accentColor": "",
   "cssTheme": "",
   "theme": "obsidian",
   "enabledCssSnippets": [
@@ -11,8 +11,19 @@
     "dashboard",
     "cards",
     "Clean Embed",
-    "style",
-    "caro"
+    "caro",
+    "folders",
+    "links",
+    "mainmenu",
+    "PubWrap",
+    "stars",
+    "image-background",
+    "CustomCallouts",
+    "Title",
+    "sticky-notes",
+    "callouts",
+    "codeblock",
+    "style"
   ],
   "baseFontSize": 18,
   "translucency": false,

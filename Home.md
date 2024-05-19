@@ -1,343 +1,45 @@
 ---
 cssclasses:
-  - dashboard
-  - embed-strict
-tags: []
+  - hideTitle
 ---
+
+  
+
+
+
 
 <div id='stars2'></div>
 <div id='stars3'></div>
 <div id='stars4'></div>
 
 
----
-
-> [!multi-column|medium]
-> >[!Welcome]
-> ![[Welcome]]
-> 
->>[!Kilonova Trailer]
->![[Trailer_400_Final.mp4]]
-
----
-
-# 🖥️Dev
-- 
-  - 📙[[Blog]]
-  - 📄[[Resume]]
-
-- 👾Projects
-  - [[KiloNova]]
-  - [[Pogglewash]]
-  - [[EFO]]
-  - [[Vect]]
-  - [[Solaria]]
-  
-- ⚙️MiniProjects
-    - [[Marching Squares]]
-    - [[Boids]]
-
-
-# 📖 Tutorials
-- Programming
-    - [[Learn programming (C++)]]
-    - [[Graphics Programming]]
-    - [[AI]]
-
-- 📦Resources
-    - [Programming](Programming%20Resources.md)
-    - [Game Dev](Game%20Dev%20Resources.md)
-    - [[Obsidian]]
-# 🪁Misc
-- Cooking
-  - [[Cookies]]
-  - [[Protein Bars]]
-
-- [[Pets]]
-
----
-
-> [!multi-column|medium]
->>[!New Files]+ New Files
-> ![[Recent New Files]] 
-> 
->>[!Recent Changes]+ Recent Changes
-> ![[Recently Edited]] 
->
->>[!note]+ TODO 
-<input type="checkbox">Finish BOIDS post 
-<input type="checkbox">Review Programming Tutorial for consistent formatting
-<input type="checkbox">Rework blog page formatting/organization
-<input type="checkbox">Finish Arrays 
-<input type="checkbox">Writeups on previous projects
-<input type="checkbox">Section 1 Exercises
-<input type="checkbox">Endless css tinkering
-
-
----
 
 
 
----
-
-<div id='stars1'></div>
-
-
-<script src="https://giscus.app/client.js"
-        data-repo="cloudfox/sKugies"
-        data-repo-id="R_kgDOKNHr1Q"
-        data-category-id="DIC_kwDOKNHr1c4Cdci9"
-        data-mapping="pathname"
-        data-strict="0"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-input-position="top"
-        data-theme="preferred_color_scheme"
-        data-lang="en"
-        data-loading="lazy"
-        crossorigin="anonymous"
-        async>
-</script>
-
-
-
-
-
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-\
-<tab>
-What are you doing down here?
-
-
-
-
-
-
-
+ <div class="mainmenu">
+  <a class="internal-link menulink" href="Dashboard.md">
+      <span class="anchor"></span>  
+      <span class="index">01</span>  
+      <span class="label">Dashboard</span>  
+    </a>
+    <a class="internal-link menulink" href="Projects.md">
+      <span class="anchor"></span>  
+      <span class="index">02</span>  
+      <span class="label">Projects</span>  
+    </a>
+    <a class="internal-link menulink" href="Blog.md">
+      <span class="anchor"></span>  
+      <span class="index">03</span>  
+      <span class="label">Blog</span>  
+    </a>
+    <a class="internal-link menulink" href="Tutorials.md">
+      <span class="anchor"></span>  
+      <span class="index">04</span>  
+      <span class="label">Tutorials</span>  
+    </a>
+    <a class="internal-link menulink" href="Resume.md">
+      <span class="anchor"></span>  
+      <span class="index">05</span>  
+      <span class="label">Resume</span>  
+    </a>
+  </div>
