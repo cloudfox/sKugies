@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Index/Dashboard.md",
-                "mode": "preview",
+                "file": "90 - Resources/Sheet Music.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "00 - Index/Dashboard.md",
+                "file": "90 - Resources/Sheet Music.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "00 - Index/Dashboard.md",
+                "file": "90 - Resources/Sheet Music.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "00 - Index/Dashboard.md"
+                "file": "90 - Resources/Sheet Music.md"
               }
             }
           },
@@ -166,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "00 - Index/Dashboard.md"
+                "file": "90 - Resources/Sheet Music.md"
               }
             }
           },
@@ -215,12 +215,13 @@
   },
   "active": "55febf0cfbe29560",
   "lastOpenFiles": [
+    "00 - Index/Dashboard.md",
+    "90 - Resources/Sheet Music.md",
     "30 - Tutorials/Programming/Learn programming (C++).md",
     "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
     "30 - Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
     "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
     "30 - Tutorials/Programming/01 - Foundation/Input Output.md",
-    "00 - Index/Dashboard.md",
     "Home.md",
     "30 - Tutorials/Tutorials.md",
     "00 - Index/Blog.md",
@@ -251,7 +252,6 @@
     "10 - Dev/Student/Pogglewash.md",
     "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
     "20 - Blog/2023-12-30 - Stat Modifiers.md",
-    "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "80 - Miscellaneous/Images/webb.png",
     "80 - Miscellaneous/Images/checkerboard-cross.webp",
     "80 - Miscellaneous/Images/poggle_finalist.webp",
