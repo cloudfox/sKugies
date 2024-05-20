@@ -38,13 +38,13 @@
               "type": "markdown",
               "state": {
                 "file": "90 - Resources/Sheet Music.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
           },
           {
-            "id": "97233d163bc2b74b",
+            "id": "d0a053d44e73f7e1",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/tabs.md",
+                "file": "00 - Index/Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/tabs.md",
+                "file": "00 - Index/Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/tabs.md"
+                "file": "00 - Index/Dashboard.md"
               }
             }
           },
@@ -178,7 +178,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "80 - Miscellaneous/Scratch/tabs.md"
+                "file": "00 - Index/Dashboard.md"
               }
             }
           },
@@ -225,16 +225,16 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "97233d163bc2b74b",
+  "active": "129fc72ebfac0835",
   "lastOpenFiles": [
-    "90 - Resources/Sheet Music.md",
     "80 - Miscellaneous/Scratch/tabs.md",
-    "80 - Miscellaneous/Scratch/Useful ALT Codes.md",
+    "Home.md",
     "00 - Index/Dashboard.md",
+    "90 - Resources/Sheet Music.md",
+    "80 - Miscellaneous/Scratch/Useful ALT Codes.md",
     "80 - Miscellaneous/Scratch/scratch.md",
     "80 - Miscellaneous/Scratch/scratch3.md",
     "80 - Miscellaneous/Scratch/scratch2.md",
-    "Home.md",
     "10 - Dev/Projects.md",
     "30 - Tutorials/Programming/Learn programming (C++).md",
     "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
