@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00 - Index/Dashboard.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": false
               }
@@ -44,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "90 - Resources/Sheet Music.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "90 - Resources/Sheet Music.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "90 - Resources/Sheet Music.md"
+                "file": "Home.md"
               }
             }
           },
@@ -166,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "90 - Resources/Sheet Music.md"
+                "file": "Home.md"
               }
             }
           },
@@ -213,8 +213,10 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "55febf0cfbe29560",
+  "active": "129fc72ebfac0835",
   "lastOpenFiles": [
+    "10 - Dev/Projects.md",
+    "Home.md",
     "00 - Index/Dashboard.md",
     "90 - Resources/Sheet Music.md",
     "30 - Tutorials/Programming/Learn programming (C++).md",
@@ -222,10 +224,8 @@
     "30 - Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
     "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
     "30 - Tutorials/Programming/01 - Foundation/Input Output.md",
-    "Home.md",
     "30 - Tutorials/Tutorials.md",
     "00 - Index/Blog.md",
-    "10 - Dev/Projects.md",
     "20 - Blog/2024/2024-04-22  Jumping.md",
     "00 - Index/Welcome.md",
     "00 - Index/style - Copy.css",
