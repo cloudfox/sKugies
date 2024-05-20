@@ -1,0 +1,12 @@
+
+
+  .table-cards .metadata-container .internal-link, .markdown-rendered .internal-link {
+    text-decoration-line: none;
+  }
+  
+  
+ 
+  /* Fix Bug with CSS from Publish side */
+  .markdown-rendered tr{
+    height: inherit;
+  }

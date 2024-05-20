@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "00 - Index/Dashboard.md",
                 "mode": "preview",
                 "source": false
               }
@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "97233d163bc2b74b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "80 - Miscellaneous/Scratch/tabs.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -111,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "80 - Miscellaneous/Scratch/tabs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "80 - Miscellaneous/Scratch/tabs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "80 - Miscellaneous/Scratch/tabs.md"
               }
             }
           },
@@ -166,7 +178,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "80 - Miscellaneous/Scratch/tabs.md"
               }
             }
           },
@@ -213,12 +225,17 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "129fc72ebfac0835",
+  "active": "97233d163bc2b74b",
   "lastOpenFiles": [
-    "10 - Dev/Projects.md",
-    "Home.md",
-    "00 - Index/Dashboard.md",
     "90 - Resources/Sheet Music.md",
+    "80 - Miscellaneous/Scratch/tabs.md",
+    "80 - Miscellaneous/Scratch/Useful ALT Codes.md",
+    "00 - Index/Dashboard.md",
+    "80 - Miscellaneous/Scratch/scratch.md",
+    "80 - Miscellaneous/Scratch/scratch3.md",
+    "80 - Miscellaneous/Scratch/scratch2.md",
+    "Home.md",
+    "10 - Dev/Projects.md",
     "30 - Tutorials/Programming/Learn programming (C++).md",
     "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
     "30 - Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
@@ -238,9 +255,6 @@
     "00 - Index/CustomCallouts.css",
     "00 - Index/codeblock.css",
     "00 - Index/Clean Embed.css",
-    "80 - Miscellaneous/Scratch/scratch2.md",
-    "80 - Miscellaneous/Scratch/scratch.md",
-    "80 - Miscellaneous/Scratch/scratch3.md",
     "00 - Index/TitleBar.md",
     "00 - Index/codesandbox (1).svg",
     "10 - Dev/Student/Solaria.md",
@@ -250,8 +264,6 @@
     "90 - Resources/Programming Resources.md",
     "10 - Dev/Student/EFO.md",
     "10 - Dev/Student/Pogglewash.md",
-    "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
-    "20 - Blog/2023-12-30 - Stat Modifiers.md",
     "80 - Miscellaneous/Images/webb.png",
     "80 - Miscellaneous/Images/checkerboard-cross.webp",
     "80 - Miscellaneous/Images/poggle_finalist.webp",

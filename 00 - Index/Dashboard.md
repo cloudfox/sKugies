@@ -2,7 +2,7 @@
 cssclasses:
   - dashboard
   - embed-strict
-tags: []
+tags:
 ---
 
 <div id='stars2'></div>
@@ -79,8 +79,6 @@ tags: []
 
 
 <div id='stars1'></div>
-
-
 
 
 
