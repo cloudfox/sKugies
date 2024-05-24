@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Variables.md",
+                "file": "Home.md",
                 "mode": "preview",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Variables.md",
+                "file": "Home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Variables.md",
+                "file": "Home.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Variables.md"
+                "file": "Home.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Variables.md"
+                "file": "Home.md"
               }
             }
           },
@@ -188,14 +188,14 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "46414157bd8b2e22",
+  "active": "129fc72ebfac0835",
   "lastOpenFiles": [
+    "30 - Tutorials/Programming/01 - Foundation/Variables.md",
     "80 - Miscellaneous/Images/hexagon.svg",
     "Home.md",
     "00 - Index/Blog.md",
     "10 - Dev/Projects.md",
     "00 - Index/Dashboard.md",
-    "30 - Tutorials/Programming/01 - Foundation/Variables.md",
     "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
     "30 - Tutorials/Programming/Learn programming (C++).md",
@@ -236,7 +236,6 @@
     "90 - Resources/Interview Prep/big-o-cheat-sheet-poster.png",
     "90 - Resources/Interview Prep/BIGO.png",
     "90 - Resources/Interview Prep/Container Flowchart.png",
-    "80 - Miscellaneous/Images/VectMenu.png",
     "Tutorials/Programming/Overview.canvas"
   ]
 }
