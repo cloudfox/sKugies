@@ -1,7 +1,7 @@
 {
   "accentColor": "",
   "cssTheme": "",
-  "theme": "obsidian",
+  "theme": "moonstone",
   "enabledCssSnippets": [
     "Particles",
     "ColorScheme",
@@ -13,18 +13,18 @@
     "Clean Embed",
     "codeblock",
     "CustomCallouts",
-    "dashboard",
     "folders",
     "image-background",
     "links",
-    "mainmenu",
     "MCL",
     "PubWrap",
     "stars",
     "sticky-notes",
     "style",
     "Title",
-    "tabs"
+    "tabs",
+    "dashboard",
+    "mainmenu"
   ],
   "baseFontSize": 18,
   "translucency": false,

@@ -3,11 +3,17 @@
 .theme-dark {
   --label-color: white;
   --index-color: rgb(255,255,255,0.25);
+  --anchor-color: red;
+  --anchor-color2: rgba(255,0,0, 0.5);
+  --anchor-color3: white;
 }
 
 .theme-light {
   --label-color: black;
   --index-color: rgb(0,55,55,0.55);
+  --anchor-color: blue;
+  --anchor-color2: rgba(0,0,255, 0.5);
+  --anchor-color3: rgba(50,50,200, 0.75);
 }
 
 
@@ -30,7 +36,7 @@ body > .mainmenu > .mainmenu {
 }
 
 .menulink{
-    align-items: center;
+  align-items: center;
   cursor: pointer;
   display: flex;
   font-family: "R", sans-serif;
@@ -54,17 +60,17 @@ body > .mainmenu > .mainmenu {
 }
 
  .menulink:hover > .anchor:before {
-  opacity: 0.15;
-  transform: translate3d(0%, 0%, 0px) scale(1.5);
+  opacity: 0.2;
+  transform: translate3d(-20%, -20%, 0px) scale(1.5);
 }
 
  .menulink:hover > .anchor:after {
-  border-color: red;
+  border-color: var(--anchor-color);
   transform: translate3d(-50%, -50%, 0px) scale(1.1);
 }
 
  .menulink > .anchor {
-  background-color: white;
+  background-color: var(--anchor-color3);
   height: clamp(4px, 0.4vmax, 12px);
   left: 0px;
   position: absolute;
@@ -87,12 +93,12 @@ body > .mainmenu > .mainmenu {
 }
 
  .menulink > .anchor:before {
-  border: 1px solid red;  
+  border: 1px solid var(--anchor-color);  
   opacity: 0;
 }
 
  .menulink > .anchor:after {
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1px solid var(--anchor-color2);
 }
 
  .menulink > .index {
