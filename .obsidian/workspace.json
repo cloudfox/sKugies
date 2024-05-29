@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
-                "mode": "preview",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
               }
             }
           },
@@ -190,17 +190,18 @@
   },
   "active": "129fc72ebfac0835",
   "lastOpenFiles": [
+    "30 - Tutorials/Programming/Learn programming (C++).md",
+    "30 - Tutorials/Programming/Overview.canvas",
+    "90 - Resources/Game Dev Resources.md",
+    "90 - Resources/Programming Resources.md",
+    "00 - Index/Dashboard.md",
     "Home.md",
+    "10 - Dev/Projects.md",
     "30 - Tutorials/Programming/01 - Foundation/Variables.md",
     "80 - Miscellaneous/Images/hexagon.svg",
     "00 - Index/Blog.md",
-    "10 - Dev/Projects.md",
-    "00 - Index/Dashboard.md",
     "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
-    "30 - Tutorials/Programming/Learn programming (C++).md",
-    "90 - Resources/Programming Resources.md",
-    "90 - Resources/Game Dev Resources.md",
     "80 - Miscellaneous/Scratch/tabs.md",
     "90 - Resources/Sheet Music.md",
     "80 - Miscellaneous/Scratch/Useful ALT Codes.md",
@@ -231,7 +232,6 @@
     "80 - Miscellaneous/Images/checkerboard-cross.webp",
     "80 - Miscellaneous/Images/poggle_finalist.webp",
     "80 - Miscellaneous/Pictures/Animals/BunBun01.jpg",
-    "30 - Tutorials/Programming/Overview.canvas",
     "80 - Miscellaneous/Images/MarchingSquareTest.png",
     "90 - Resources/Interview Prep/big-o-cheat-sheet-poster.png",
     "90 - Resources/Interview Prep/BIGO.png",
