@@ -1,7 +1,7 @@
 ---
 publish: true
 ---
-[[Learn programming (C++)#Section 2 Intermediate|Learn Programming Section 2]]  previous: [[Random Numbers]] 
+[[Programming#Section 2 Intermediate|Learn Programming Section 2]]  previous: [[Random Numbers]] 
 
 ---
 

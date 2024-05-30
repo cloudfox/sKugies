@@ -1,7 +1,7 @@
 ---
 publish: true
 ---
-[[Learn programming (C++)]]  previous: [[Documentation]]   #tutorial
+[[Programming]]  previous: [[Documentation]]   #tutorial
 
 ---
 

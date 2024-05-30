@@ -30,7 +30,7 @@ tags:
 
 # 📖 Tutorials
 - Programming
-    - [[Learn programming (C++)]]
+    - [[Programming]]
     - [[Graphics Programming]]
     - [[AI]]
 

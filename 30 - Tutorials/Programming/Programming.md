@@ -1,6 +1,7 @@
 ---
 tags:
   - tutorial
+  - programming
 publish: true
 cssclasses:
   - grad
@@ -9,19 +10,20 @@ cssclasses:
 <div id='stars2'></div>
 <div id='stars3'></div>
 
-> [!warning] This is very much a work in progress 
-### Introduction
-
-I'm writing this series with the assumption that you know little if anything about programming. 
-
-I try to go more in depth with good practices and things to watch out for.
-I won't be covering absolutely everything but enough that this series can serve as a good reference.
-
 If you notice any mistakes feel free to [contact me](Contact.md) 
+
+### Introduction
+I'm writing this series to improve my own understanding and skills.
+
+I've tried writing this with the assumption you have no prior knowledge while also being detailed enough to serve as a reference or guide. 
+
+**Goal for how things are structured:** Give general picture/overview of all the information then go into greater detail on each individual piece.
+
+
 
 example code will be labeled as such
 ```cpp
-int someFunction(){
+int someFunction() {
 cout << "some output";
 } 
 ```
@@ -29,10 +31,6 @@ and output when relevant will be
 ```
 some output
 ```
-
-I will try to include programming exercises with drivers and 
-output files to compare to.
-
 
 
 ## Section 1: Foundation 

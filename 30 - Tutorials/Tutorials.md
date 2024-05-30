@@ -14,7 +14,7 @@ publish: true
 Largely writing these as a way to improve my own understanding.
 
 \[In Progress\]
-[[Learn programming (C++)]] 
+[[Programming]] 
 
 
 \[To Do\]

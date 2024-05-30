@@ -1,9 +1,14 @@
+---
+tags:
+  - tutorial
+  - programming
+---
 
 <div id='stars2'></div>
 <div id='stars3'></div>
 <div id='stars4'></div>
 
-[[Learn programming (C++)#Section 1 Foundation|Learn Programming Section 1]]  
+[[Programming#Section 1 Foundation|Learn Programming Section 1]]  
 
 ---
 
@@ -12,9 +17,13 @@ If you are completely new to programming then you will need something to program
 
 You could use notepad if you like pain and suffering but I'd at least use [notepad++](https://notepad-plus-plus.org/). You'd then need to separately compile the code.
 
-For simplicity you could alternatively use an IDE like: [vsCode](https://code.visualstudio.com/), [Visual Studio](https://visualstudio.microsoft.com/), [Code::Blocks](https://www.codeblocks.org/)or any of the others.
+For simplicity you could alternatively use an IDE like: [vsCode](https://code.visualstudio.com/), [Visual Studio](https://visualstudio.microsoft.com/), [Code:\:Blocks](https://www.codeblocks.org/)or any of the others.
 
 To quickly get started https://www.onlinegdb.com/ works just as well.
+
+
+I will also at times use game engines/frameworks like the [Godot](https://godotengine.org/) or [Raylib](https://www.raylib.com/)
+
 
 ---
 ## Breaking it Down
@@ -30,7 +39,7 @@ We can break a program down into four categories.
 Few programs are ever fully self contained. We want to be able to interact and insert new data into our program. There are also many other parts like functions and classes that take input in the form of parameters.
 
 Inputs can come from a number of different sources
-- input device(keyboard, mouse, controller, snesors etc)
+- input device(keyboard, mouse, controller, sensors etc)
 - files(binary, text, csv, obj, etc)
 - networked(talking to servers, peers, and other devices)
 - other(command line, randomly generated, other programs)

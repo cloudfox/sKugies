@@ -1,7 +1,7 @@
 ---
 publish: true
 ---
-[[Learn programming (C++)]]  previous: [[]]   
+[[Programming]]  previous: [[]]   
 
 ---
 memory vs speed

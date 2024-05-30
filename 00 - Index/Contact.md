@@ -1,4 +1,4 @@
 
-contact@stevenkugies.com    
+skugies.dev@gmail.com    
 www.linkedin.com/in/StevenKugies
 

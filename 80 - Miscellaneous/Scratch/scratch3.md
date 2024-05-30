@@ -43,7 +43,7 @@ publish: false
 
 # 📖 Tutorials
 - 🖥️Programming
-    - [[Learn programming (C++)]]
+    - [[Programming]]
     - [[Graphics Programming]]
     - [[AI]]
     - 

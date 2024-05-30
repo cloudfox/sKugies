@@ -1,7 +1,7 @@
 ---
 publish: true
 ---
-[[Learn programming (C++)#Section 2 Intermediate|Learn Programming Section 2]]  previous: [[pointers and references]]   
+[[Programming#Section 2 Intermediate|Learn Programming Section 2]]  previous: [[pointers and references]]   
 
 ---
 Sometimes you need to change the type of variable.

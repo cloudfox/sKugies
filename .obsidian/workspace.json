@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+                "file": "30 - Tutorials/Programming/Programming.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "813b25056393d241",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30 - Tutorials/Programming/01 - Foundation/Variables.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Variables.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Variables.md"
               }
             }
           },
@@ -141,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Variables.md"
               }
             }
           },
@@ -172,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5,
-    "collapsed": true
+    "width": 308.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,27 +200,28 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "129fc72ebfac0835",
+  "active": "813b25056393d241",
   "lastOpenFiles": [
-    "30 - Tutorials/Programming/Learn programming (C++).md",
+    "30 - Tutorials/Programming/Programming.md",
+    "30 - Tutorials/Programming/01 - Foundation/Variables.md",
+    "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
+    "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
+    "00 - Index/Contact.md",
+    "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
     "30 - Tutorials/Programming/Overview.canvas",
     "90 - Resources/Game Dev Resources.md",
     "90 - Resources/Programming Resources.md",
     "00 - Index/Dashboard.md",
     "Home.md",
     "10 - Dev/Projects.md",
-    "30 - Tutorials/Programming/01 - Foundation/Variables.md",
     "80 - Miscellaneous/Images/hexagon.svg",
     "00 - Index/Blog.md",
-    "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
-    "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
     "80 - Miscellaneous/Scratch/tabs.md",
     "90 - Resources/Sheet Music.md",
     "80 - Miscellaneous/Scratch/Useful ALT Codes.md",
     "80 - Miscellaneous/Scratch/scratch.md",
     "80 - Miscellaneous/Scratch/scratch3.md",
     "80 - Miscellaneous/Scratch/scratch2.md",
-    "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
     "30 - Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
     "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
     "30 - Tutorials/Programming/01 - Foundation/Input Output.md",

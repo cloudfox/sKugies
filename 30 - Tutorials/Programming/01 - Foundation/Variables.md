@@ -1,20 +1,22 @@
 ---
 publish: true
+tags:
+  - tutorial
+  - programming
 ---
 
 <div id='stars2'></div>
 <div id='stars3'></div>
 <div id='stars4'></div>
 
-[[Learn programming (C++)#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Hello World|Hello World]]   #tutorial
+[[Programming#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Hello World|Hello World]]   
 
 ---
 ##  What is a variable?
 A variable is an abstract storage location for some sort of data. 
-This data will most often be inside the computers RAM and when needed sent to the CPU[^1].
-The data is stored in binary format 1s and 0s.  
+This data is generally stored in binary format that is then interpreted based on the type.
 
-When you create a variable you are effectively asking the processor for enough memory to hold that type. You then have a link from your variables name to some place in memory. 
+When you create a variable you are effectively asking the processor for enough memory to hold that type. You then have a link from your variables name to some place in memory.
 
 With C++ being a [strongly typed](https://en.wikipedia.org/wiki/Strong_and_weak_typing) language we have to declare what kind of data the variable holds before we can use it. There are ways to change a variables type through casting and conversion but we will worry about those later.
 
@@ -70,7 +72,7 @@ x = 3.0f; //ERROR
 const float y; //ERROR const must be initialized
 ```
 
-**static**:  is for when you need to keep a variable around for the entire life of a program. Most other variables when you leave the section they are in are tossed back into the pile of unused memory. More in depth in  [Scope and LifeTime]
+**static**:  is for when you need to keep a variable around for the entire life of a program. Most other variables when you leave the section they are in are tossed back into the pile of unused memory. More details later in [[Scope Lifetime]] 
 
 ---
 
@@ -78,16 +80,16 @@ const float y; //ERROR const must be initialized
 These are your whole numbers. They can be positive / negative and have different possible ranges of values. 
 Depending on the size of the specific integral type determines what range of values they can store. You can also use these numbers to represent letters and other characters like with ASCII
 
-| type               | alias*         | size in bytes | range (binary)   | (range decimal)                 |
-| ------------------ | -------------- | ------------- | ---------------- | ------------------------------- |
-| unsigned char      | char           | 1             | 0 to 2^8 -1      | 0 to 255                        |
-| signed char        | signed char    | 1             | -2^7 to 2^7 -1   | -128 to 127                     |
-| unsigned short int | unsigned short | 2             | 0 to 2^16 -1     | 0 to 65535                      |
-| signed short int   | short          | 2             | -2^15 to 2^15 -1 | -32768 to 32767                 |
-| unsigned int       | unsigned       | 4             | 0 to 2^32 -1     | 0 to   4,294,967,295            |
-| signed int         | int            | 4             | -2^31 to 2^31 -1 | -2,147,483,648 to 2,147,483,647 |
-| unsinged long  int | unsigned long  | 8             | 0 to 2^64 - 1                 |0 to 18,446,744,073,709,551,615                                 |
-| signed long int    | long           | 8             | -2^63 to 2^63 - 1                 | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807                                |
+| type               | alias*         | size in bytes | range (binary)    | (range decimal)                                         |
+| ------------------ | -------------- | ------------- | ----------------- | ------------------------------------------------------- |
+| unsigned char      | char           | 1             | 0 to 2^8 -1       | 0 to 255                                                |
+| signed char        | signed char    | 1             | -2^7 to 2^7 -1    | -128 to 127                                             |
+| unsigned short int | unsigned short | 2             | 0 to 2^16 -1      | 0 to 65535                                              |
+| signed short int   | short          | 2             | -2^15 to 2^15 -1  | -32768 to 32767                                         |
+| unsigned int       | unsigned       | 4             | 0 to 2^32 -1      | 0 to   4,294,967,295                                    |
+| signed int         | int            | 4             | -2^31 to 2^31 -1  | -2,147,483,648 to 2,147,483,647                         |
+| unsinged long  int | unsigned long  | 8             | 0 to 2^64 - 1     | 0 to 18,446,744,073,709,551,615                         |
+| signed long int    | long           | 8             | -2^63 to 2^63 - 1 | -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807 |
 
  >[!info] some aliases can vary depending on the compiler
 

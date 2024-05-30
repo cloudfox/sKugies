@@ -1,7 +1,7 @@
 ---
 publish: true
 ---
-[[Learn programming (C++)#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Conditions]]  #tutorial 
+[[Programming#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Conditions]]  #tutorial 
 
 ---
 ## What are Functions
