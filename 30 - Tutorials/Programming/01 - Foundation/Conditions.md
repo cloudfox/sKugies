@@ -32,6 +32,13 @@ if( expression )
 }
 ```
 
+Sometimes you want to check the inverse of a condition with the not Operator '!'
+```cpp
+//this is often done to return from a function early.
+if(!condition)
+	statement;
+```
+
 #### If Else Statement
 When you need to run different code depending on if it is true or false. (again you can add curly brackets when you need multiple statements in any section.)
 ```cpp
@@ -53,7 +60,6 @@ else if( expression3 )
 else
 	statement4; //runs only when 1,2, and 3 are false;
 ```
-
 
 ### Nesting Statements
 ```cpp
@@ -85,6 +91,27 @@ if( expression1 && expresion2 && expression3 && expresion4 )
 	statement;
 ```
 
+
+> [!NOTE] Note
+> The expressions are evaluated in series. Once on is evaluated as false further expressions are not evaluated. This can be important if you are using the increment operator in an expression. This is referred to as short circuit evaluation.
+
+
+Another example with multiple conditions
+```cpp
+//if you want multipe expresions to trigger the same statement
+if(expresion1)
+	statement1;
+if(expresion2)
+	statement1
+
+// a better way is to use the logical OR operator
+if(expresion1 || expresion2)
+	statement1;
+```
+
+> [!NOTE] Note
+> The OR operator will stop evaluating further expressions once it finds a true expression. This is also a short circuit.
+
 ### Switch Statement
 An alternative to using a chain of else if is the switch statement. 
 ```cpp
@@ -103,6 +130,15 @@ default:
 Taking you value of your expression you match it with a case value. If you find a match run all statements below it until you hit a break. This means you can run the statements in other cases. This is known as fall-through. Once a break is hit no more code in the switch is run.
 
 If you don't find a matching case value then the default case is run (if you included one).
+
+#### Switch Vs if else
+
+Basically for longer lists switches are more efficient as they will use a jump table.
+
+There are ways you can make you can make if else more efficient depending on how things are ordered and nested. If you know certain conditions are more likely you want to check those first.
+
+Most of the time the best way is going to be whichever is the easiest to read and maintain.
+
 
 ---
 

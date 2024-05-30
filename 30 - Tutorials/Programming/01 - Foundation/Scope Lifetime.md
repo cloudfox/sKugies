@@ -1,12 +1,15 @@
 ---
 publish: true
+tags:
+  - tutorial
+  - programming
 ---
 
 <div id='stars2'></div>
 <div id='stars3'></div>
 <div id='stars4'></div>
 
-[[Programming#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Functions]]  #tutorial 
+[[Programming#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Functions]] 
 
 ---
 ## What is Scope?
@@ -19,14 +22,14 @@ int main()
 	
 	{//entering a new scope
 		int y = 5;	//y's scope starts here / y is local to this scope
-		x = y;  //x is still in scope
+		x = y;  //x is still in scope, x is now 5
 	}// leaving scope, y's scope ends here
 
 	y = 10 // error y does not exist in this scope
 	x *= 5; // x is now 25
 	
 	{//entering a new scope
-		int y = 5; // y's scope starts here / y is local to this scope
+		int y = 5; // y's scope starts here / y is local to this scope /  this y is completely different from the first y
 	}// leaving scope, y's scope ends here
 }
 ```
@@ -62,5 +65,6 @@ int main()
 My recommendation is within the scope of a function to use different names to avoid confusion.
 
 
+---
 
 next: [[Iteration - Loops]] 

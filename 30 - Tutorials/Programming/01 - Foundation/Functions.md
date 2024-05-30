@@ -1,7 +1,10 @@
 ---
 publish: true
+tags:
+  - tutorial
+  - programming
 ---
-[[Programming#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Conditions]]  #tutorial 
+[[Programming#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Conditions]]  
 
 ---
 ## What are Functions
@@ -51,6 +54,10 @@ You can however define default arguments. The only rule to that being the defaul
 int sum(int a, int b = 0)
 {  return a + b;  }
 
+//this is also fine
+int sum(int a = 0, int b=0)
+{  return a + b;  }
+
 //this is not
 int sum(int a = 0, int b)
 {  return a + b;  }
@@ -59,15 +66,15 @@ int sum(int a = 0, int b)
 #### Passing Arguments 
 When you call a function and pass in the parameters it makes a copy of those values to use. This is called pass by value.
 ```cpp
-void foo(int x)  //declaring and implementing in place
+int foo(int x)  //declaring and implementing in place
 {
-  x += 1;
+  return x + 10;
 }
 
 int main
 {
   int y = 5; // y is 5
-  foo(y);// value of y is passed in, y remains unchanged
+  int z = foo(y);// value of y is passed in, y remains unchanged, z is assigned a value of 15
 }
 ```
 
@@ -75,13 +82,13 @@ Instead if we want our function to change our value we can use pass by reference
 ```cpp
 void foo(int& x)  //& means a reference 
 {
-  x += 1;
+  x += 10;
 }
 
 int main
 {
   int y = 5; // y is 5
-  foo(y);// y is passed in, y becomes 6
+  foo(y);// y is passed in, y becomes 15
 
   //One limitation to pass by ref is you cannot pass in straight values.
   foo(5); // error
@@ -103,9 +110,10 @@ void foo()
 A function can have multiple return statements so long as all paths return. 
 ```cpp
 int foo(int x){
-	if (x < 10)
+	//note the order of the conditions matters for the returned value;
+	if (expression1)
 		return 1;
-	if (x < 20)
+	if (expression2)
 		return 2;
 	
 	return 0; //if this return was missing you could run into errors
@@ -196,5 +204,5 @@ int main()
 These functions are simplified a lot. If the spheres are fast enough here they could potentially teleport past each other. You also might want the collision check to tell you at what point the spheres meet. That point could then be used by the collision handling function.
 
 
-
+---
 next: [[Scope Lifetime]] 

@@ -1,12 +1,14 @@
 ---
 publish: true
+tags:
+  - tutorial
+  - programming
 ---
-
 <div id='stars2'></div>
 <div id='stars3'></div>
 <div id='stars4'></div>
 
-[[Programming#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Variables]]  #tutorial 
+[[Programming#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Variables]]  
 
 ---
 ## What are Expressions?
@@ -70,7 +72,6 @@ Assignments take R values and assign them to L values. Simply L values are your 
 
 **compound assignment**
 Modify a value relative to itself.
-
 ```cpp
 x += 10; //compound version of x = x + 10
 y \*= 5; //compound version of y = y * 5
@@ -79,12 +80,12 @@ y \*= 5; //compound version of y = y * 5
 #### Increment Decrement
 there are also the increment/decrement  ++ and --
 
-| operators | type |
-| --------- | ---- |
-| ++a       | pre increment adds 1     |
-| a++       |  post increment adds 1    |
-| --a       | pre decrement subtracts 1     |
-| a--          | post decrement subtracts 1     |
+| operators | type                       |
+| --------- | -------------------------- |
+| ++a       | pre increment adds 1       |
+| a++       | post increment adds 1      |
+| --a       | pre decrement subtracts 1  |
+| a--       | post decrement subtracts 1 |
 
 The pre/post versions determines when the operation completes
 ```cpp

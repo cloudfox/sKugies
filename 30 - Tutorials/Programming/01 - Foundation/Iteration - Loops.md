@@ -1,5 +1,8 @@
 ---
 publish: true
+tags:
+  - tutorial
+  - programming
 ---
 
 <div id='stars2'></div>
