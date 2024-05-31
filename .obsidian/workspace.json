@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "813b25056393d241",
+            "id": "fb71723d69804905",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "813b25056393d241",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Input Output.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Input Output.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Input Output.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
               }
             }
           },
@@ -154,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Input Output.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
               }
             }
           },
@@ -202,10 +214,19 @@
   },
   "active": "813b25056393d241",
   "lastOpenFiles": [
-    "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
-    "30 - Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
-    "30 - Tutorials/Tutorials.md",
+    "30 - Tutorials/Programming/01 - Foundation/Input Output.md",
+    "30 - Tutorials/Programming/02 - Intermediate/File IO.md",
     "30 - Tutorials/Programming/Programming.md",
+    "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+    "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
+    "30 - Tutorials/Tutorials.md",
+    "30 - Tutorials/Programming/03 - Data Structures/Data Types/02 - Composite Types/Array.md",
+    "30 - Tutorials/Godot/Godot.md",
+    "Home.md",
+    "10 - Dev/Projects.md",
+    "00 - Index/Resume.md",
+    "10 - Dev/Student/KiloNova.md",
+    "30 - Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
     "30 - Tutorials/Game-AI/Influence Maps.md",
     "30 - Tutorials/Game-AI/Game-AI.md",
     "00 - Index/Dashboard.md",
@@ -214,10 +235,6 @@
     "30 - Tutorials/other/math.md",
     "30 - Tutorials/other/ECS.md",
     "30 - Tutorials/Game-AI",
-    "Home.md",
-    "00 - Index/Resume.md",
-    "10 - Dev/Projects.md",
-    "30 - Tutorials/Godot/Godot.md",
     "90 - Resources/Computer Setup.md",
     "30 - Tutorials/Godot/UI.md",
     "30 - Tutorials/Godot/Character.md",
@@ -225,12 +242,7 @@
     "30 - Tutorials/Godot/Collision.md",
     "30 - Tutorials/Godot/images",
     "30 - Tutorials/Godot/Level Transition.md",
-    "30 - Tutorials/Godot/Shaders.md",
-    "30 - Tutorials/Godot/Spawn-Despawn.md",
     "30 - Tutorials/Godot",
-    "30 - Tutorials/Programming/01 - Foundation/Functions.md",
-    "30 - Tutorials/Programming/01 - Foundation/Conditions.md",
-    "30 - Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
     "30 - Tutorials/Programming/Overview.canvas",
     "80 - Miscellaneous/Images/hexagon.svg",
     "00 - Index/style - Copy.css",

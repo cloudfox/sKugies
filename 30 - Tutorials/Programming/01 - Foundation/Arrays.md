@@ -1,17 +1,13 @@
 ---
 publish: true
 ---
-
 <div id='stars2'></div>
 <div id='stars3'></div>
 <div id='stars4'></div>
-
-[[Programming#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Input Output]]   
+[[Programming#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Iteration - Loops]]   
 
 ---
-
 Arrays are for storing multiple values of a single type in a variable. 
-
 ## Declaration
 basic array declaration format
 ```c++
@@ -27,7 +23,6 @@ The other requirement is to specify the size of the array. This defines how many
 
 > [!note]
 > The above example is creating a static array. An array whose size does not change. It is possible to create dynamic arrays - ones whose size can change.
-
 
 ### Initializing
 By default the values of an array are uninitialized. 
@@ -55,8 +50,6 @@ You might notice that the for loop above is in the range from 0 to <u>less than<
 > 
 > Using an index that doesn't exist will usually give you a Access Violation Error.
 > 
-
-
 
 
 ```cpp

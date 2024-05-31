@@ -2,8 +2,6 @@
 tags:
   - tutorial
   - programming
-previous: "[[Iteration - Loops]]"
-next: "[[Code Style]]"
 publish: true
 ---
 <div id='stars2'></div>

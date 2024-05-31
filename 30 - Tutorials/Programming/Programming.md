@@ -43,10 +43,9 @@ some output
 05 [[Functions]]
 06 [[Scope Lifetime]] 
 07 [[Iteration - Loops]] 
-08 [[Input Output]]
-09 [[Arrays]]  (50%)
-10 [[Code Style]]
-11 [[Documentation]]
+08 [[Arrays]]  (50%)
+09 [[Code Style]]
+10 [[Documentation]]
  **[[Section 1 Exercises]]** (1%)
 ## Section 2: Intermediate
 (~7% done)
