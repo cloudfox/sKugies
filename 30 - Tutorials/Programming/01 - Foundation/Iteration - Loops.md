@@ -4,16 +4,17 @@ tags:
   - tutorial
   - programming
 ---
-
 <div id='stars2'></div>
 <div id='stars3'></div>
 <div id='stars4'></div>
 
-[[Programming#Section 1 Foundation]]  previous: [[Scope Lifetime]]   #tutorial
+[[Programming#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Scope Lifetime]]   
 
 ---
 
 They go by a few different names but when you need to do something multiple times loops/Iterators are your friend.
+
+## While Loops
 
 The most basic being the **while loop**
 ```cpp
@@ -37,8 +38,8 @@ In a normal while loop the expression is checked first. If true the statements a
 Do-while loops are the reverse. The statements are run first then the expression is checked if it should continue the loop. This means that the statements will run at least once even if the expression is false.
 
 ---
+## For Loops
 
-**For Loops**
 ```cpp
 for( expression1 ; expression2 ; expression3 )
 {
@@ -92,9 +93,29 @@ for(;;)
 { statements; }
 ```
  Though you might need to provide a different way to exit the loop.
- 
+
+
+### Range based Loops
+
+```cpp
+for ( range_declaration : range_expression )** 
+{
+	statements   
+}
+```
+
+```cpp
+std::vector<int> vec;
+for(int& i : vec)
+{
+	statements
+}
+```
+
+
+
 ---
-#### Continue and Break
+## Continue and Break
 
 Sometimes you want to skip certain iterations of a loop or even end the loop entirely. 
 
@@ -114,7 +135,7 @@ for(int n = 0; n < 5; ++n)
 Output:
 ```
 loop 0
-loop 1
+loop 2
 ```
 
 As you can see when n equals 1 or 3 the printf command is not run.
@@ -123,10 +144,10 @@ Normally the loop would run 5 times but is broken out of at 3.
 You can use continue/break in any kind of loop.
 
 ----
-#### Nested Loops
+## Other Stuff
+### Nested Loops
 
 Sometimes you want loops in your loops 
-
 ```cpp
 while( expression1 )
 {
@@ -138,11 +159,10 @@ while( expression1 )
 ```
 
 You can nest as many loops as you want but it's generally wise to try and avoid going more than 2 or 3 levels deep. 
-This is generally true for any nesting be it loops, if statements or whatever. The more nesting you have the more challenging it is to keep the code clear and concise. This is mainly a concern in larger programs.
+This is generally true for any nesting be it loops, if statements or whatever. The more nesting you have the more challenging it is to keep the code clear and concise.
 
----
-##### Other
-Like if statements you can also skip the braces for singular statements 
+### Syntax
+Similar to if statements you can also skip the braces for singular statements 
 
 ```cpp
 for( ... )
@@ -174,24 +194,4 @@ for(int x = 0, y = 0; x < 10 && y < 10; x+=1, y+=2)
 
 
 ---
-%%note move to iteration part 2%%
-### Range based Loops
-
-```cpp
-for ( range_declaration : range_expression )** 
-{
-	statements   
-}
-```
-
-```cpp
-std::vector<int> vec;
-for(int& i : vec)
-{
-	statements
-}
-```
-
-
-
 next: [[Input Output]] 
