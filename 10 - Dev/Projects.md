@@ -8,9 +8,14 @@ cssclasses:
 <div id='stars2'></div>
 <div id='stars3'></div>
 
+---
+## Weekly Projects
+
+
+
+
 
 ---
-
 <h2> Student Projects</h2>
 
 

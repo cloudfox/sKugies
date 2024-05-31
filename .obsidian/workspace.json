@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30 - Tutorials/Programming/Programming.md",
+                "file": "30 - Tutorials/Godot/Godot.md",
                 "mode": "source",
                 "source": false
               }
@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1ecb97d04c7ea8cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30 - Tutorials/Game-AI/Influence Maps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
+                "file": "30 - Tutorials/Game-AI/Influence Maps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
+                "file": "30 - Tutorials/Game-AI/Influence Maps.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md"
+                "file": "30 - Tutorials/Game-AI/Influence Maps.md"
               }
             }
           },
@@ -154,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md"
+                "file": "30 - Tutorials/Game-AI/Influence Maps.md"
               }
             }
           },
@@ -200,36 +212,39 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "813b25056393d241",
+  "active": "1ecb97d04c7ea8cd",
   "lastOpenFiles": [
+    "30 - Tutorials/Game-AI/Game-AI.md",
+    "30 - Tutorials/Game-AI/Influence Maps.md",
+    "00 - Index/Dashboard.md",
+    "30 - Tutorials/other/Interpolation.md",
+    "30 - Tutorials/other/marching cubes.md",
+    "30 - Tutorials/other/math.md",
+    "30 - Tutorials/other/ECS.md",
+    "30 - Tutorials/Game-AI",
+    "Home.md",
+    "00 - Index/Resume.md",
+    "30 - Tutorials/Tutorials.md",
+    "10 - Dev/Projects.md",
+    "30 - Tutorials/Godot/Godot.md",
     "30 - Tutorials/Programming/Programming.md",
     "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
+    "90 - Resources/Computer Setup.md",
+    "30 - Tutorials/Godot/UI.md",
+    "30 - Tutorials/Godot/Character.md",
+    "30 - Tutorials/Godot/Input.md",
+    "30 - Tutorials/Godot/Collision.md",
+    "30 - Tutorials/Godot/images",
+    "30 - Tutorials/Godot/Level Transition.md",
+    "30 - Tutorials/Godot/Shaders.md",
+    "30 - Tutorials/Godot/Spawn-Despawn.md",
+    "30 - Tutorials/Godot",
     "30 - Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
     "30 - Tutorials/Programming/01 - Foundation/Functions.md",
     "30 - Tutorials/Programming/01 - Foundation/Conditions.md",
     "30 - Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
-    "30 - Tutorials/Programming/01 - Foundation/Variables.md",
-    "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
-    "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
-    "00 - Index/Contact.md",
-    "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
     "30 - Tutorials/Programming/Overview.canvas",
-    "90 - Resources/Game Dev Resources.md",
-    "90 - Resources/Programming Resources.md",
-    "00 - Index/Dashboard.md",
-    "Home.md",
-    "10 - Dev/Projects.md",
     "80 - Miscellaneous/Images/hexagon.svg",
-    "00 - Index/Blog.md",
-    "80 - Miscellaneous/Scratch/tabs.md",
-    "90 - Resources/Sheet Music.md",
-    "80 - Miscellaneous/Scratch/Useful ALT Codes.md",
-    "80 - Miscellaneous/Scratch/scratch.md",
-    "80 - Miscellaneous/Scratch/scratch3.md",
-    "80 - Miscellaneous/Scratch/scratch2.md",
-    "30 - Tutorials/Programming/01 - Foundation/Input Output.md",
-    "30 - Tutorials/Tutorials.md",
-    "20 - Blog/2024/2024-04-22  Jumping.md",
     "00 - Index/style - Copy.css",
     "00 - Index/sticky-notes.css",
     "00 - Index/solar.css",
@@ -237,9 +252,6 @@
     "00 - Index/MCL.css",
     "00 - Index/image-background.css",
     "00 - Index/dashboard.css",
-    "00 - Index/CustomCallouts.css",
-    "00 - Index/codeblock.css",
-    "00 - Index/Clean Embed.css",
     "00 - Index/codesandbox (1).svg",
     "80 - Miscellaneous/Images/webb.png",
     "80 - Miscellaneous/Images/checkerboard-cross.webp",

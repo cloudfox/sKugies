@@ -9,15 +9,13 @@ publish: true
 <div id='stars3'></div>
 <div id='stars4'></div>
 
-![[TitleBar]] 
+**\[In Progress\]**
+[[Programming]]  - Mostly C/C++ 
+[[Godot]] - Just a few basic things to get started
 
-Largely writing these as a way to improve my own understanding.
+<br><br>
 
-\[In Progress\]
-[[Programming]] 
-
-
-\[To Do\]
+**\[To Do\]**
 Graphics/Shading
 AI
 pathfinding

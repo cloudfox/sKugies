@@ -31,8 +31,8 @@ tags:
 # 📖 Tutorials
 - Programming
     - [[Programming]]
-    - [[Graphics Programming]]
-    - [[AI]]
+    - [[Godot]]
+    - [[Game-AI]]
 
 - 📦Resources
     - [Programming](Programming%20Resources.md)
