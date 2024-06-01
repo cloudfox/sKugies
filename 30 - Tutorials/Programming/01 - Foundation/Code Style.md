@@ -19,15 +19,16 @@ The key point is to be consistent!
 
 Some things to note.
 
-Variable names: 
-	Avoid overly short or overly long names. 
-	-exceptions for common practices like using common iterators like (i, j, m, n,...) or position variables like (x, y, z) etc. 
-	-take the context in account
-	-variables should generally describe what they are
+- Variable names: 
+	1. Avoid overly short or overly long names. (2 letter names are a pain)
+	2. exceptions for common practices like using common iterators like (i, j, m, n,...) or position variables like (x, y, z) etc. 
+	3. take the context in account
+	4. variables should generally describe what they are
 
-Document your code while you are writing it.
+- Write the function header before the function 
+- Document your code while you are writing it. 
 
-Code is often much easier to understand while you are writing it. Be kind to your future self and add comments and clear variable names.
+- Code is often much easier to understand while you are writing it. Be kind to your future self and add comments and clear variable names.
 
 
 Links to various style guides
@@ -35,5 +36,7 @@ Links to various style guides
 [Microsoft](https://learn.microsoft.com/en-us/windows/win32/stg/coding-style-conventions)
 [Epic Games](https://dev.epicgames.com/documentation/en-us/uefn/verse-code-style-guide-in-unreal-editor-for-fortnite)
 
+
+---
 
 next: [[Documentation]] 

@@ -2,18 +2,9 @@
 cssclasses:
   - hideTitle
 ---
-
-  
-
-
-
-
 <div id='stars2'></div>
 <div id='stars3'></div>
 <div id='stars4'></div>
-
-
-
 
 
  <div class="mainmenu">
@@ -43,3 +34,8 @@ cssclasses:
       <span class="label">Resume</span>  
     </a>
   </div>
+
+
+
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>

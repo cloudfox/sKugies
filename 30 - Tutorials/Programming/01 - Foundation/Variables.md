@@ -41,12 +41,12 @@ e = 1;
 > [!attention] Warning
 > You always want to initialize your variables before using them.  Uninitialized variables can potentially have any value in them and are this can lead to [undefined behavior](https://en.wikipedia.org/wiki/Undefined_behavior).
 
----
+
 ### What are the types?
 There are many different types varying from built in types to ones you can define yourself.
 
 Primitives are your most common types as they are built in.
-[**Primitive types**](https://en.wikipedia.org/wiki/Composite_data_type): integrals, floating point, logical, literal, strings, enumerations, null, etc..[^2]
+[**Primitive types**](https://en.wikipedia.org/wiki/Composite_data_type): integrals, floating point, logical, literal, strings, enumerations, null, etc..
 
 Composites are groupings of other variables. The grouped variables can be all the same type or different. These include a mix of built in and user defined types.
 [Composite types](https://en.wikipedia.org/wiki/Composite_data_type): arrays, lists, structs, classes, etc...
@@ -74,7 +74,7 @@ const float y; //ERROR const must be initialized
 
 **static**:  is for when you need to keep a variable around for the entire life of a program. Most other variables when you leave the section they are in are tossed back into the pile of unused memory. More details later in [[Scope Lifetime]] 
 
----
+
 
 #### Integrals
 These are your whole numbers. They can be positive / negative and have different possible ranges of values. 
@@ -105,7 +105,6 @@ Depending on the size of the specific integral type determines what range of val
 >  problems. For example if you all of a sudden you start looking at the age of trees then you will run into problems. 
 >  When you hit the max or min value it will wrap around. If you add 1 to a max value u-char then all of a sudden it is back to 0; This can be hard to troubleshoot when operating with larger numbers.
 
----------------------
 #### Floating points
 Floating points are our fractional or decimal values. These values are not always completely accurate due to the conversion from binary. You can use the larger types to increase precision but it will never be perfect unless you are dealing with values that cleanly divide by 2, i.e. 0.5, 0.25, 0.125, 0.375(0.25 + 0.125), etc..  Even then you will eventually run into problems with smaller and smaller values.
 
@@ -123,7 +122,7 @@ Floating points are our fractional or decimal values. These values are not alway
 
 > [!info]  floating points are signed only
 
-________________________ 
+
 #### Logical 
 Booleans are all about true or false expressions.
 
@@ -148,7 +147,7 @@ You only need a bit to hold a true/false value but memory is aligned to 1 byte b
 > [!tip]- tip
 >  There are ways to store more in a byte through methods like bitsets and struct packing
 
-________________________ 
+
 #### literal constants
 
 These are more values you hardcode that go into a variable or other expression. 
@@ -172,7 +171,7 @@ Hex literals are written with a leading 0x
 
 >[!info] octal and hex are unsigned only
 
-----
+
 #### Typedef  
 typedef if a way to create an alias for another type. This can be done to add extra clarity to a variable or make the name simpler. It can also help keep you from accidentally mixing values of the same type but different purposes together.
 
@@ -188,7 +187,7 @@ color green; // creates a variable of type color(int)
 color blue; // creates a variable of type color(int)
 ```
 
----
+
 #### \#Define
 
 Not technically a variable but can be used in a similar way.
@@ -232,7 +231,7 @@ std::cout << (5+4)
 Magic numbers are often seemingly random literal values sprinkled throughout your code.
 Even in the above example the 2.0f would technicaly be a magic number but for such a simple well known formula it's not as big of a deal. But as programs get more complex these things add up only making it more difficult to manage.
  
----
+
 ### Practice
 > [!Example ] Practice 1
 >  Create multiple defines then add them together in an new variable.
@@ -243,12 +242,8 @@ Even in the above example the 2.0f would technicaly be a magic number but for su
 > [!Example ] Practice 3
 > Create and initialize a float and assign it random values. Then output it using std::cout.  Try to get the console to display a number other than the one you assigned.
 
-___
+---
 
 next: [[Expressions and Operators]] 
-
-[^1]: More specifically data is sent to a cpu cache. CPUs have different levels of cache for priority. It can also be sent there when the cpu predicts it will need the data soon. This is done because access times to the cache are significantly faster than to RAM or other storage mediums.
-
-[^2]: Not a complete list of types
 
 

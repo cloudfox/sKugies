@@ -28,7 +28,6 @@ x+7
 4/3 * pi * r^2
 ```
 
----
 ## What are operators?
 Like their name states they perform an operation like those used in the above the above examples. 
 These include everything from math operations, to functions calls, and more. Most operators do not modify the value of the operands.
@@ -199,8 +198,6 @@ typeid
 noexcept
 alignof
 
-
----
 ### Operator Precedence
 Just like math has an order of operations so do operators in programming. For operations of the same precedence use the associativity.
 

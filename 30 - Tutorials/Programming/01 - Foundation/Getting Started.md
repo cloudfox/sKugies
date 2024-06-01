@@ -25,7 +25,6 @@ To quickly get started https://www.onlinegdb.com/ works just as well.
 I will also at times use game engines/frameworks like the [Godot](https://godotengine.org/) or [Raylib](https://www.raylib.com/)
 
 
----
 ## Breaking it Down
 
 One way to break down the fundamentals of programming is into 4 categories.

@@ -37,7 +37,7 @@ In a normal while loop the expression is checked first. If true the statements a
 
 Do-while loops are the reverse. The statements are run first then the expression is checked if it should continue the loop. This means that the statements will run at least once even if the expression is false.
 
----
+
 ## For Loops
 
 ```cpp
@@ -114,7 +114,6 @@ for(int& i : vec)
 
 
 
----
 ## Continue and Break
 
 Sometimes you want to skip certain iterations of a loop or even end the loop entirely. 
@@ -143,7 +142,6 @@ Normally the loop would run 5 times but is broken out of at 3.
 
 You can use continue/break in any kind of loop.
 
-----
 ## Other Stuff
 ### Nested Loops
 

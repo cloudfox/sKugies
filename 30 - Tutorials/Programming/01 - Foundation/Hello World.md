@@ -72,7 +72,7 @@ Other files will follow the same general format excluding the main function(as y
 > [!example]- 
 >![[SimpleMain Example]]
 
----
+
 
 #### File Header
 
@@ -129,7 +129,7 @@ The two parts we are using from iostream being cout and endl.
 
 The comment to the right of our include is just there to tell us what parts of the file we are using. This is more relevant when your files start getting longer and have multiple includes.
 
----
+
 #### Global Variables
 To keep things simple for now.
 Variables are used to store information but you are limited by where you can access them.
@@ -137,7 +137,7 @@ Global variables can be accessed from basically anywhere in the file(or other fi
 
 You generally want to avoid using them(error prone, weaker security, maintenance, etc..)
 
----
+
 #### Functions
 Functions are there to help us organize our code into reusable sections. We will eventually create our own functions but for now we are sticking to main().
 
