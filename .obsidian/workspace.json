@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30 - Tutorials/Godot/Godot.md",
+                "file": "30 - Tutorials/Godot/UI.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -111,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "30 - Tutorials/Godot/UI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Home.md",
+                "file": "30 - Tutorials/Godot/UI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Home.md"
+                "file": "30 - Tutorials/Godot/UI.md"
               }
             }
           },
@@ -166,7 +165,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "Home.md"
+                "file": "30 - Tutorials/Godot/UI.md"
               }
             }
           },
@@ -212,14 +211,14 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "b77458c1162fac55",
+  "active": "129fc72ebfac0835",
   "lastOpenFiles": [
-    "00 - Index/Blog.md",
+    "30 - Tutorials/Godot/Godot.md",
     "Home.md",
+    "00 - Index/Blog.md",
     "30 - Tutorials/Tutorials.md",
     "30 - Tutorials/Programming/Programming.md",
     "30 - Tutorials/Programming/01 - Foundation/Code Style.md",
-    "30 - Tutorials/Godot/Godot.md",
     "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
     "30 - Tutorials/Programming/01 - Foundation/Variables.md",
     "30 - Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
