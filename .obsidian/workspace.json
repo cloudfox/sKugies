@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Input Output.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Documentation.md",
                 "mode": "source",
                 "source": false
               }
@@ -43,7 +43,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -72,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#tutorial",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -89,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30 - Tutorials/Godot/UI.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Documentation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30 - Tutorials/Godot/UI.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Documentation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -155,7 +157,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30 - Tutorials/Godot/UI.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Documentation.md"
               }
             }
           },
@@ -165,7 +167,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "30 - Tutorials/Godot/UI.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Documentation.md"
               }
             }
           },
@@ -211,24 +213,27 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "129fc72ebfac0835",
+  "active": "fb71723d69804905",
   "lastOpenFiles": [
+    "30 - Tutorials/Programming/01 - Foundation/Code Style.md",
+    "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+    "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
+    "30 - Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
+    "30 - Tutorials/Programming/01 - Foundation/Functions.md",
+    "30 - Tutorials/Programming/01 - Foundation/Conditions.md",
+    "30 - Tutorials/Programming/Programming.md",
+    "30 - Tutorials/Programming/02 - Intermediate/File IO.md",
+    "30 - Tutorials/Programming/01 - Foundation/Input Output.md",
+    "30 - Tutorials/Godot/UI.md",
     "30 - Tutorials/Godot/Godot.md",
     "Home.md",
     "00 - Index/Blog.md",
     "30 - Tutorials/Tutorials.md",
-    "30 - Tutorials/Programming/Programming.md",
-    "30 - Tutorials/Programming/01 - Foundation/Code Style.md",
     "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
     "30 - Tutorials/Programming/01 - Foundation/Variables.md",
     "30 - Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
-    "30 - Tutorials/Programming/01 - Foundation/Conditions.md",
-    "30 - Tutorials/Programming/01 - Foundation/Functions.md",
-    "30 - Tutorials/Programming/01 - Foundation/Iteration - Loops.md",
-    "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
     "30 - Tutorials/Programming/01 - Foundation/Documentation.md",
     "30 - Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
-    "30 - Tutorials/Programming/01 - Foundation/Scope Lifetime.md",
     "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "00 - Index/Resume.md",
     "10 - Dev/Projects.md",
@@ -236,11 +241,8 @@
     "10 - Dev/Student/Vect.md",
     "10 - Dev/Student/KiloNova.md",
     "10 - Dev/Student/Solaria.md",
-    "10 - Dev/Student/EFO.md",
-    "30 - Tutorials/Programming/01 - Foundation/Input Output.md",
     "80 - Miscellaneous/Videos/TrailerCompressed.mp4",
     "80 - Miscellaneous/Videos/TrailerCompressed.mp4.crdownload",
-    "00 - Index/Dashboard.md",
     "30 - Tutorials/Game-AI",
     "30 - Tutorials/Godot/images",
     "30 - Tutorials/Godot",
