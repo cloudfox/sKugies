@@ -6,5 +6,6 @@
   "obsidian-git",
   "templater-obsidian",
   "editing-toolbar",
-  "customjs"
+  "customjs",
+  "obsidian-linter"
 ]

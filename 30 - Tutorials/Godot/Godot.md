@@ -1,3 +1,9 @@
+---
+tags: 
+publishurl:
+date created: 05/31/2024, 12:47:10 am
+updated: 06/03/2024, 8:24:05 am
+---
 
 Nothing is really filled out here yet. 
 
