@@ -172,7 +172,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 308.5
+    "width": 308.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,7 +188,7 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "129fc72ebfac0835",
+  "active": "78a15866a8f00557",
   "lastOpenFiles": [
     "30 - Tutorials/Godot/Godot.md",
     "30 - Tutorials/Godot/UI.md",
