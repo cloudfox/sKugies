@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "30 - Tutorials/Godot/UI.md",
-                "mode": "source",
+                "file": "30 - Tutorials/Godot/Character.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30 - Tutorials/Godot/UI.md",
+                "file": "30 - Tutorials/Godot/Character.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30 - Tutorials/Godot/UI.md",
+                "file": "30 - Tutorials/Godot/Character.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30 - Tutorials/Godot/UI.md"
+                "file": "30 - Tutorials/Godot/Character.md"
               }
             }
           },
@@ -141,7 +141,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "30 - Tutorials/Godot/UI.md"
+                "file": "30 - Tutorials/Godot/Character.md"
               }
             }
           },
@@ -188,7 +188,7 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "78a15866a8f00557",
+  "active": "129fc72ebfac0835",
   "lastOpenFiles": [
     "30 - Tutorials/Godot/Godot.md",
     "30 - Tutorials/Godot/UI.md",
