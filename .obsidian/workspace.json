@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a590e330b9ed205e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30 - Tutorials/Godot/Character.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30 - Tutorials/Godot/Character.md",
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30 - Tutorials/Godot/Character.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
               }
             }
           },
@@ -141,7 +154,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "30 - Tutorials/Godot/Character.md"
+                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
               }
             }
           },
@@ -188,15 +201,16 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "129fc72ebfac0835",
+  "active": "a590e330b9ed205e",
   "lastOpenFiles": [
-    "30 - Tutorials/Godot/Godot.md",
-    "30 - Tutorials/Godot/UI.md",
+    "30 - Tutorials/Programming/Programming.md",
     "30 - Tutorials/Tutorials.md",
     "Home.md",
+    "30 - Tutorials/Godot/Character.md",
+    "30 - Tutorials/Godot/Godot.md",
+    "30 - Tutorials/Godot/UI.md",
     "00 - Index/Blog.md",
     "00 - Index/Resume.md",
-    "30 - Tutorials/Programming/Programming.md",
     "30 - Tutorials/Godot/Untitled.md",
     "30 - Tutorials/Programming/01 - Foundation/Getting Started.md",
     "00 - Index/Dashboard.md",
@@ -215,7 +229,6 @@
     "30 - Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
     "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
     "10 - Dev/Projects.md",
-    "10 - Dev/Student/Pogglewash.md",
     "80 - Miscellaneous/Videos/TrailerCompressed.mp4",
     "80 - Miscellaneous/Videos/TrailerCompressed.mp4.crdownload",
     "30 - Tutorials/Game-AI",
