@@ -12,6 +12,50 @@ tags:
 [[Programming#Section 1 Foundation|Learn Programming Section 1]]  previous: [[Iteration - Loops]]   
 
 ---
+
+1. general definition
+2. static vs dynamic arrays
+3. access
+4. init
+	1. partial init
+5. passing arrays
+6. 1d vs 2d vs N-d arrays
+	1. memory layout 
+	2. access
+7.  Pointer Arithmetic
+	
+
+## What is an Array
+
+
+## Access part of an Array
+
+## Initialize Arrays
+
+## Static vs Dynamic Arrays
+### Static
+
+### Dynamic
+
+## 1d vs 2d vs N-d Arrays
+
+### Memory Layout
+
+### Access
+
+
+## Pointer Arithmetic
+
+
+
+
+
+
+
+
+
+
+
 Arrays are for storing multiple values of a single type in a variable. 
 ## Declaration
 basic array declaration format
