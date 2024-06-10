@@ -26,7 +26,14 @@ tags:
 	
 
 ## What is an Array
+An Arrays is a variable that can store multiple values of the specified type.
 
+## Declaration
+```cpp
+type name[size];
+int letters[26];
+float distance[50];
+```
 
 ## Access part of an Array
 
