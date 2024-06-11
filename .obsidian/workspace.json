@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "1916913f2d8357ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "80 - Miscellaneous/Scratch/scratch4.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -99,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+                "file": "80 - Miscellaneous/Scratch/scratch4.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+                "file": "80 - Miscellaneous/Scratch/scratch4.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
+                "file": "80 - Miscellaneous/Scratch/scratch4.md"
               }
             }
           },
@@ -154,7 +166,7 @@
             "state": {
               "type": "file-properties",
               "state": {
-                "file": "30 - Tutorials/Programming/01 - Foundation/Arrays.md"
+                "file": "80 - Miscellaneous/Scratch/scratch4.md"
               }
             }
           },
@@ -201,11 +213,15 @@
       "obsidian-markdown-formatting-assistant-plugin:Open Markdown Formatting Assistant": false
     }
   },
-  "active": "a590e330b9ed205e",
+  "active": "1916913f2d8357ee",
   "lastOpenFiles": [
-    "30 - Tutorials/Godot/Character.md",
     "30 - Tutorials/Programming/01 - Foundation/Arrays.md",
+    "80 - Miscellaneous/Scratch/scratch4.md",
+    "80 - Miscellaneous/Scratch/scratch.md",
+    "80 - Miscellaneous/Scratch/scratch2.md",
+    "80 - Miscellaneous/Scratch/scratch3.md",
     "30 - Tutorials/Programming/Programming.md",
+    "30 - Tutorials/Godot/Character.md",
     "30 - Tutorials/Tutorials.md",
     "Home.md",
     "30 - Tutorials/Godot/Godot.md",
@@ -225,10 +241,6 @@
     "30 - Tutorials/Programming/02 - Intermediate/File IO.md",
     "30 - Tutorials/Programming/01 - Foundation/Input Output.md",
     "30 - Tutorials/Programming/01 - Foundation/Variables.md",
-    "30 - Tutorials/Programming/01 - Foundation/Expressions and Operators.md",
-    "30 - Tutorials/Programming/01 - Foundation/Section 1 Exercises.md",
-    "30 - Tutorials/Programming/01 - Foundation/Hello World.md",
-    "10 - Dev/Projects.md",
     "80 - Miscellaneous/Videos/TrailerCompressed.mp4",
     "80 - Miscellaneous/Videos/TrailerCompressed.mp4.crdownload",
     "30 - Tutorials/Game-AI",
