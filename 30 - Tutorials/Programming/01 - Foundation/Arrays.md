@@ -28,16 +28,67 @@ tags:
 ## What is an Array
 An Arrays is a variable that can store multiple values of the specified type.
 
-## Declaration
+### Declaration
 ```cpp
 type name[size];
 int letters[26];
 float distance[50];
 ```
 
-## Access part of an Array
 
-## Initialize Arrays
+### Access
+Accessing elements of an array are done by using an offset.
+- The first element will have an offset of 0
+- The last element will be the total elements minus one
+```cpp
+// Here we have an array with 10 elements
+int numbers[15];
+
+// first element
+int FirstNumber = numbers[0];
+//last element
+int LastNumber = numbers[14];
+
+//This gives an error for being out of bounds
+int wrong = numbers[15];
+
+```
+
+> [!Warning] 
+> To reiterate there is no bounds checking when accessing arrays!
+
+
+Writing to the array works the same.
+```cpp
+numbers[5] = 123;
+numbers[0] = 54;
+numbers[14] = 12;
+```
+
+Using loops
+```cpp
+
+const int ArraySize = 10;
+int numbers[ArraySize];
+
+for(int i = 0; i < ArraySize; ++i)
+{ 	 
+	numbers[i] = i;  
+}
+```
+
+### Initialize Arrays
+
+```cpp
+int numbers[3] = {1,2,3}
+int 
+
+
+
+
+```
+
+
 
 ## Static vs Dynamic Arrays
 ### Static
@@ -50,8 +101,6 @@ float distance[50];
 
 ### Access
 
-
-## Pointer Arithmetic
 
 
 
